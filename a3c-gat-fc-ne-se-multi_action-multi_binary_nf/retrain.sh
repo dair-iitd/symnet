@@ -1,7 +1,7 @@
 #!/bin/zsh
 #PBS -P ee
 
-MAIN_MODULE=$(pwd)/../..
+MAIN_MODULE=$(pwd)/..
 
 export PYTHONPATH=$MAIN_MODULE:$PYTHONPATH
 export PYTHONPATH=$MAIN_MODULE/utils/gat:$PYTHONPATH
