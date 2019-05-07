@@ -14,4 +14,4 @@ NF=6
 NR=0
 LR=0.001
 
-python3 transfer_train.py --train_instance=$TI --num_features=$NF --neighbourhood=$NR --model_dir=./retrain/acad --domain=academic_advising --num_instances=0 --parallelism=4 --activation="lrelu" --lr=$LR --restore_dir=$JOB_DIR/acad/academic_advising1-2-lrelu-6-20-20-0-0.001
+python3 transfer_train.py --train_instance=$TI --num_features=$NF --neighbourhood=$NR --model_dir=./retrain/sys --domain=sysadmin --num_instances=0 --parallelism=4 --activation="lrelu" --lr=$LR --restore_dir=$JOB_DIR/sys/sysadmin1-2-lrelu-6-20-20-0-0.001

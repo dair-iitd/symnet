@@ -20,6 +20,6 @@ NF=6
 NR=0
 LR=0.001
 
-python3 train.py --train_instance=$TI --test_instance=$TS --num_features=$NF --neighbourhood=$NR --model_dir=./acad --domain=academic_advising --num_instances=0 --parallelism=4 --activation="lrelu" --lr=$LR
+python3 train.py --train_instance=$TI --test_instance=$TS --num_features=$NF --neighbourhood=$NR --model_dir=./sys --domain=sysadmin --num_instances=0 --parallelism=4 --activation="lrelu" --lr=$LR
 
 
