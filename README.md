@@ -14,7 +14,7 @@ the requirements to use the experiments are
 
 before starting the experiments run these commands from the main folder
 ```
-for i in {1..30}
+for i in {1..10}
 do
 cp ./gym/envs/rddl/rddl/lib/clibxx.so ./gym/envs/rddl/rddl/lib/clibxx$i.so
 cp ./rddl/lib/clibxx.so ./rddl/lib/clibxx$i.so

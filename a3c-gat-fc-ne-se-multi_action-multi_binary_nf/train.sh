@@ -6,7 +6,7 @@ export PYTHONPATH=$MAIN_MODULE:$PYTHONPATH
 export PYTHONPATH=$MAIN_MODULE/utils:$PYTHONPATH
 export PYTHONPATH=$MAIN_MODULE/utils/gat:$PYTHONPATH
 
-JOB_DIR=$MAIN_MODULE/multi_train/a3c-gat-fc-ne-se-multi_action-multi_binary_nf
+JOB_DIR=$MAIN_MODULE/a3c-gat-fc-ne-se-multi_action-multi_binary_nf
 cd $JOB_DIR
 
 TI=1
