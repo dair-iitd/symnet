@@ -12,10 +12,10 @@ import multiprocessing
 from pprint import pprint
 
 curr_dir_path = os.path.dirname(os.path.realpath(__file__))
-gym_path = os.path.abspath(os.path.join(curr_dir_path, "../.."))
+gym_path = os.path.abspath(os.path.join(curr_dir_path, ".."))
 if gym_path not in sys.path:
     sys.path = [gym_path] + sys.path
-parser_path = os.path.abspath(os.path.join(curr_dir_path, "../../utils"))
+parser_path = os.path.abspath(os.path.join(curr_dir_path, "../utils"))
 if parser_path not in sys.path:
     sys.path = [parser_path] + sys.path
 import gym

@@ -11,7 +11,7 @@ import time
 
 from inspect import getsourcefile
 current_path = os.path.dirname(os.path.abspath(getsourcefile(lambda: 0)))
-import_path = os.path.abspath(os.path.join(current_path, "../.."))
+import_path = os.path.abspath(os.path.join(current_path, ".."))
 
 if import_path not in sys.path:
     sys.path.append(import_path)
