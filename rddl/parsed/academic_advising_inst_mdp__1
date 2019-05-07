@@ -1,0 +1,1161 @@
+#####TASK##### Here
+## name
+academic_advising_inst_mdp__1
+## horizon
+40
+## discount factor
+1
+## number of action fluents
+10
+## number of det state fluents
+10
+## number of prob state fluents
+10
+## number of preconds
+0
+## number of actions
+11
+## number of hashing functions
+21
+## initial state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## 1 if task is deterministic
+0
+## 1 if state hashing possible
+1
+## 1 if kleene state hashing possible
+1
+
+
+#####ACTION FLUENTS#####
+## index
+0
+## name
+takeCourse(CS11)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+1
+## name
+takeCourse(CS12)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+2
+## name
+takeCourse(CS21)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+3
+## name
+takeCourse(CS22)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+4
+## name
+takeCourse(CS31)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+5
+## name
+takeCourse(CS32)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+6
+## name
+takeCourse(CS41)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+7
+## name
+takeCourse(CS42)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+8
+## name
+takeCourse(CS51)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+9
+## name
+takeCourse(CS52)
+## number of values
+2
+## values
+0 false
+1 true
+
+
+
+#####DET STATE FLUENTS AND CPFS#####
+## index
+0
+## name
+taken(CS11)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(0) $a(0))
+## hash index
+0
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 1
+
+## index
+1
+## name
+taken(CS12)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(1) $a(1))
+## hash index
+1
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 1
+10 0
+
+## index
+2
+## name
+taken(CS21)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(2) $a(2))
+## hash index
+2
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 1
+9 0
+10 0
+
+## index
+3
+## name
+taken(CS22)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(3) $a(3))
+## hash index
+3
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 1
+8 0
+9 0
+10 0
+
+## index
+4
+## name
+taken(CS31)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(4) $a(4))
+## hash index
+4
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 1
+7 0
+8 0
+9 0
+10 0
+
+## index
+5
+## name
+taken(CS32)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(5) $a(5))
+## hash index
+5
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 1
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+6
+## name
+taken(CS41)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(6) $a(6))
+## hash index
+6
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 1
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+7
+## name
+taken(CS42)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(7) $a(7))
+## hash index
+7
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+8
+## name
+taken(CS51)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(8) $a(8))
+## hash index
+8
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 1
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+9
+## name
+taken(CS52)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(9) $a(9))
+## hash index
+9
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+
+
+#####PROB STATE FLUENTS AND CPFS#####
+## index
+0
+## name
+passed(CS11)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(0) ~($s(10))) : Bernoulli($c(0.8))) ($c(1) : $s(10)) )
+## hash index
+10
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 1
+
+## index
+1
+## name
+passed(CS12)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(1) ~($s(11))) : Bernoulli($c(0.8))) ($c(1) : $s(11)) )
+## hash index
+11
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 1
+10 0
+
+## index
+2
+## name
+passed(CS21)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(2) ~($s(12))) : Bernoulli(+(*(/(+($s(10) $s(11)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(12)) )
+## hash index
+12
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 1
+9 0
+10 0
+
+## index
+3
+## name
+passed(CS22)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(3) ~($s(13))) : Bernoulli(+(*(/(+($s(11) $s(12)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(13)) )
+## hash index
+13
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 1
+8 0
+9 0
+10 0
+
+## index
+4
+## name
+passed(CS31)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(4) ~($s(14))) : Bernoulli(+(*(/(+($s(10) $s(12)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(14)) )
+## hash index
+14
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 1
+7 0
+8 0
+9 0
+10 0
+
+## index
+5
+## name
+passed(CS32)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(5) ~($s(15))) : Bernoulli(+(*(/(+($s(10) $s(13)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(15)) )
+## hash index
+15
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 1
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+6
+## name
+passed(CS41)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(6) ~($s(16))) : Bernoulli(+(*(/(+($s(10) $s(13)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(16)) )
+## hash index
+16
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 1
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+7
+## name
+passed(CS42)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(7) ~($s(17))) : Bernoulli(+(*(/(+($s(10) $s(14)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(17)) )
+## hash index
+17
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 1
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+8
+## name
+passed(CS51)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(8) ~($s(18))) : Bernoulli(+(*(/(+($s(11) $s(16)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(18)) )
+## hash index
+18
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 1
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+## index
+9
+## name
+passed(CS52)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(9) ~($s(19))) : Bernoulli(+(*(/(+($s(13) $s(14)) $c(3)) $c(0.8)) $c(0.2)))) ($c(1) : $s(19)) )
+## hash index
+19
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+
+
+
+#####REWARD#####
+## formula
++(*(and($a(0) ~($s(0))) $c(-1)) *(and($a(1) ~($s(1))) $c(-1)) *(and($a(2) ~($s(2))) $c(-1)) *(and($a(3) ~($s(3))) $c(-1)) *(and($a(4) ~($s(4))) $c(-1)) *(and($a(5) ~($s(5))) $c(-1)) *(and($a(6) ~($s(6))) $c(-1)) *(and($a(7) ~($s(7))) $c(-1)) *(and($a(8) ~($s(8))) $c(-1)) *(and($a(9) ~($s(9))) $c(-1)) *(and($a(0) $s(0)) $c(-2)) *(and($a(1) $s(1)) $c(-2)) *(and($a(2) $s(2)) $c(-2)) *(and($a(3) $s(3)) $c(-2)) *(and($a(4) $s(4)) $c(-2)) *(and($a(5) $s(5)) $c(-2)) *(and($a(6) $s(6)) $c(-2)) *(and($a(7) $s(7)) $c(-2)) *(and($a(8) $s(8)) $c(-2)) *(and($a(9) $s(9)) $c(-2)) *(~(and($s(12) $s(13) $s(16))) $c(-5)))
+## min
+-8
+## max
+-0
+## independent from actions
+0
+## hash index
+20
+## caching type
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+
+
+#####PRECONDITIONS#####
+
+
+#####ACTION STATES#####
+## index
+0
+## state
+0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+1
+## state
+0 0 0 0 0 0 0 0 0 1 
+## relevant preconditions
+0
+
+
+## index
+2
+## state
+0 0 0 0 0 0 0 0 1 0 
+## relevant preconditions
+0
+
+
+## index
+3
+## state
+0 0 0 0 0 0 0 1 0 0 
+## relevant preconditions
+0
+
+
+## index
+4
+## state
+0 0 0 0 0 0 1 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+5
+## state
+0 0 0 0 0 1 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+6
+## state
+0 0 0 0 1 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+7
+## state
+0 0 0 1 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+8
+## state
+0 0 1 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+9
+## state
+0 1 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+10
+## state
+1 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+
+#####HASH KEYS OF DETERMINISTIC STATE FLUENTS#####
+## index
+0
+## state hash key (for each value in the domain)
+0 1
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+0 2
+20 11
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+1
+## state hash key (for each value in the domain)
+0 2
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+1 2
+20 22
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+2
+## state hash key (for each value in the domain)
+0 4
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+2 2
+20 44
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+3
+## state hash key (for each value in the domain)
+0 8
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+3 2
+20 88
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+4
+## state hash key (for each value in the domain)
+0 16
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+4 2
+20 176
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+5
+## state hash key (for each value in the domain)
+0 32
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+5 2
+20 352
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+6
+## state hash key (for each value in the domain)
+0 64
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+6 2
+20 704
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+7
+## state hash key (for each value in the domain)
+0 128
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+7 2
+20 1408
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+8
+## state hash key (for each value in the domain)
+0 256
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+8 2
+20 2816
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+9
+## state hash key (for each value in the domain)
+0 512
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+2
+9 2
+20 5632
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+
+#####HASH KEYS OF PROBABILISTIC STATE FLUENTS#####
+## index
+0
+## state hash key (for each value in the domain)
+0 1024
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+6
+10 2
+12 2
+14 2
+15 2
+16 2
+17 2
+## kleene state fluent hash keys (first line is the number of keys)
+6
+-567686280 32190256
+12 2
+14 2
+15 2
+16 2
+17 2
+
+## index
+1
+## state hash key (for each value in the domain)
+0 2048
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+4
+11 2
+12 4
+13 2
+18 2
+## kleene state fluent hash keys (first line is the number of keys)
+4
+0 2
+12 6
+13 2
+18 2
+
+## index
+2
+## state hash key (for each value in the domain)
+0 4096
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+4
+12 8
+13 4
+14 4
+20 11264
+## kleene state fluent hash keys (first line is the number of keys)
+4
+32212288 18
+13 6
+14 6
+20 649539
+
+## index
+3
+## state hash key (for each value in the domain)
+0 8192
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+5
+13 8
+15 4
+16 4
+19 2
+20 22528
+## kleene state fluent hash keys (first line is the number of keys)
+5
+32216320 140084085640056
+15 6
+16 6
+19 2
+20 1948617
+
+## index
+4
+## state hash key (for each value in the domain)
+0 16384
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+3
+14 8
+17 4
+19 4
+## kleene state fluent hash keys (first line is the number of keys)
+3
+32213760 18
+17 6
+19 6
+
+## index
+5
+## state hash key (for each value in the domain)
+0 32768
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+1
+15 8
+## kleene state fluent hash keys (first line is the number of keys)
+1
+0 18
+
+## index
+6
+## state hash key (for each value in the domain)
+0 65536
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+3
+16 8
+18 4
+20 45056
+## kleene state fluent hash keys (first line is the number of keys)
+3
+32220304 18
+18 6
+20 5845851
+
+## index
+7
+## state hash key (for each value in the domain)
+0 131072
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+1
+17 8
+## kleene state fluent hash keys (first line is the number of keys)
+1
+32209536 18
+
+## index
+8
+## state hash key (for each value in the domain)
+0 262144
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+1
+18 8
+## kleene state fluent hash keys (first line is the number of keys)
+1
+32209168 18
+
+## index
+9
+## state hash key (for each value in the domain)
+0 524288
+## kleene state hash key base
+0
+## state fluent hash keys (first line is the number of keys)
+1
+19 8
+## kleene state fluent hash keys (first line is the number of keys)
+1
+32216288 18
+

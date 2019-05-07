@@ -1,0 +1,12699 @@
+#####TASK##### Here
+## name
+triangle_tireworld_inst_mdp__8
+## horizon
+40
+## discount factor
+1
+## number of action fluents
+108
+## number of det state fluents
+74
+## number of prob state fluents
+1
+## number of preconds
+0
+## number of actions
+109
+## number of hashing functions
+76
+## initial state
+0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+## 1 if task is deterministic
+0
+## 1 if state hashing possible
+0
+## 1 if kleene state hashing possible
+0
+
+
+#####ACTION FLUENTS#####
+## index
+0
+## name
+changetire
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+1
+## name
+loadtire(la2a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+2
+## name
+loadtire(la2a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+3
+## name
+loadtire(la2a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+4
+## name
+loadtire(la2a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+5
+## name
+loadtire(la2a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+6
+## name
+loadtire(la2a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+7
+## name
+loadtire(la2a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+8
+## name
+loadtire(la2a8)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+9
+## name
+loadtire(la3a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+10
+## name
+loadtire(la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+11
+## name
+loadtire(la4a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+12
+## name
+loadtire(la4a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+13
+## name
+loadtire(la4a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+14
+## name
+loadtire(la4a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+15
+## name
+loadtire(la4a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+16
+## name
+loadtire(la4a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+17
+## name
+loadtire(la5a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+18
+## name
+loadtire(la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+19
+## name
+loadtire(la6a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+20
+## name
+loadtire(la6a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+21
+## name
+loadtire(la6a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+22
+## name
+loadtire(la6a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+23
+## name
+loadtire(la7a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+24
+## name
+loadtire(la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+25
+## name
+loadtire(la8a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+26
+## name
+loadtire(la8a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+27
+## name
+loadtire(la9a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+28
+## name
+move-car(la1a1, la1a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+29
+## name
+move-car(la1a1, la2a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+30
+## name
+move-car(la1a2, la1a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+31
+## name
+move-car(la1a2, la2a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+32
+## name
+move-car(la1a3, la1a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+33
+## name
+move-car(la1a3, la2a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+34
+## name
+move-car(la1a4, la1a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+35
+## name
+move-car(la1a4, la2a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+36
+## name
+move-car(la1a5, la1a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+37
+## name
+move-car(la1a5, la2a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+38
+## name
+move-car(la1a6, la1a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+39
+## name
+move-car(la1a6, la2a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+40
+## name
+move-car(la1a7, la1a8)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+41
+## name
+move-car(la1a7, la2a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+42
+## name
+move-car(la1a8, la1a9)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+43
+## name
+move-car(la1a8, la2a8)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+44
+## name
+move-car(la2a1, la1a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+45
+## name
+move-car(la2a1, la3a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+46
+## name
+move-car(la2a2, la1a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+47
+## name
+move-car(la2a3, la1a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+48
+## name
+move-car(la2a3, la3a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+49
+## name
+move-car(la2a4, la1a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+50
+## name
+move-car(la2a5, la1a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+51
+## name
+move-car(la2a5, la3a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+52
+## name
+move-car(la2a6, la1a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+53
+## name
+move-car(la2a7, la1a8)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+54
+## name
+move-car(la2a7, la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+55
+## name
+move-car(la2a8, la1a9)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+56
+## name
+move-car(la3a1, la2a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+57
+## name
+move-car(la3a1, la3a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+58
+## name
+move-car(la3a1, la4a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+59
+## name
+move-car(la3a2, la3a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+60
+## name
+move-car(la3a2, la4a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+61
+## name
+move-car(la3a3, la2a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+62
+## name
+move-car(la3a3, la3a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+63
+## name
+move-car(la3a3, la4a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+64
+## name
+move-car(la3a4, la3a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+65
+## name
+move-car(la3a4, la4a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+66
+## name
+move-car(la3a5, la2a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+67
+## name
+move-car(la3a5, la3a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+68
+## name
+move-car(la3a5, la4a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+69
+## name
+move-car(la3a6, la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+70
+## name
+move-car(la3a6, la4a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+71
+## name
+move-car(la3a7, la2a8)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+72
+## name
+move-car(la4a1, la3a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+73
+## name
+move-car(la4a1, la5a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+74
+## name
+move-car(la4a2, la3a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+75
+## name
+move-car(la4a3, la3a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+76
+## name
+move-car(la4a3, la5a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+77
+## name
+move-car(la4a4, la3a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+78
+## name
+move-car(la4a5, la3a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+79
+## name
+move-car(la4a5, la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+80
+## name
+move-car(la4a6, la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+81
+## name
+move-car(la5a1, la4a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+82
+## name
+move-car(la5a1, la5a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+83
+## name
+move-car(la5a1, la6a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+84
+## name
+move-car(la5a2, la5a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+85
+## name
+move-car(la5a2, la6a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+86
+## name
+move-car(la5a3, la4a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+87
+## name
+move-car(la5a3, la5a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+88
+## name
+move-car(la5a3, la6a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+89
+## name
+move-car(la5a4, la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+90
+## name
+move-car(la5a4, la6a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+91
+## name
+move-car(la5a5, la4a6)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+92
+## name
+move-car(la6a1, la5a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+93
+## name
+move-car(la6a1, la7a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+94
+## name
+move-car(la6a2, la5a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+95
+## name
+move-car(la6a3, la5a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+96
+## name
+move-car(la6a3, la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+97
+## name
+move-car(la6a4, la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+98
+## name
+move-car(la7a1, la6a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+99
+## name
+move-car(la7a1, la7a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+100
+## name
+move-car(la7a1, la8a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+101
+## name
+move-car(la7a2, la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+102
+## name
+move-car(la7a2, la8a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+103
+## name
+move-car(la7a3, la6a4)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+104
+## name
+move-car(la8a1, la7a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+105
+## name
+move-car(la8a1, la9a1)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+106
+## name
+move-car(la8a2, la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+
+## index
+107
+## name
+move-car(la9a1, la8a2)
+## number of values
+2
+## values
+0 false
+1 true
+
+
+
+#####DET STATE FLUENTS AND CPFS#####
+## index
+0
+## name
+goal-reward-received
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+or($s(0) $s(37))
+## hash index
+0
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+1
+## name
+hasspare
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(0) $s(1)) : $c(0)) (or(and($a(1) $s(38) $s(2)) and($a(2) $s(39) $s(3)) and($a(3) $s(40) $s(4)) and($a(4) $s(41) $s(5)) and($a(5) $s(42) $s(6)) and($a(6) $s(43) $s(7)) and($a(7) $s(44) $s(8)) and($a(8) $s(45) $s(9)) and($a(9) $s(46) $s(10)) and($a(10) $s(52) $s(11)) and($a(11) $s(53) $s(12)) and($a(12) $s(54) $s(13)) and($a(13) $s(55) $s(14)) and($a(14) $s(56) $s(15)) and($a(15) $s(57) $s(16)) and($a(16) $s(58) $s(17)) and($a(17) $s(59) $s(18)) and($a(18) $s(63) $s(19)) and($a(19) $s(64) $s(20)) and($a(20) $s(65) $s(21)) and($a(21) $s(66) $s(22)) and($a(22) $s(67) $s(23)) and($a(23) $s(68) $s(24)) and($a(24) $s(70) $s(25)) and($a(25) $s(71) $s(26)) and($a(26) $s(72) $s(27)) and($a(27) $s(73) $s(28))) : $c(1)) ($c(1) : $s(1)) )
+## hash index
+1
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 1
+82 2
+83 3
+84 4
+85 5
+86 6
+87 7
+88 8
+89 9
+90 10
+91 11
+92 12
+93 13
+94 14
+95 15
+96 16
+97 17
+98 18
+99 19
+100 20
+101 21
+102 22
+103 23
+104 24
+105 25
+106 26
+107 27
+108 28
+
+## index
+2
+## name
+spare-in(la2a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(1) $s(38) $s(2)) : $c(0)) ($c(1) : $s(2)) )
+## hash index
+2
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 1
+108 0
+
+## index
+3
+## name
+spare-in(la2a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(2) $s(39) $s(3)) : $c(0)) ($c(1) : $s(3)) )
+## hash index
+3
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 1
+107 0
+108 0
+
+## index
+4
+## name
+spare-in(la2a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(3) $s(40) $s(4)) : $c(0)) ($c(1) : $s(4)) )
+## hash index
+4
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 1
+106 0
+107 0
+108 0
+
+## index
+5
+## name
+spare-in(la2a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(4) $s(41) $s(5)) : $c(0)) ($c(1) : $s(5)) )
+## hash index
+5
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 1
+105 0
+106 0
+107 0
+108 0
+
+## index
+6
+## name
+spare-in(la2a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(5) $s(42) $s(6)) : $c(0)) ($c(1) : $s(6)) )
+## hash index
+6
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 1
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+7
+## name
+spare-in(la2a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(6) $s(43) $s(7)) : $c(0)) ($c(1) : $s(7)) )
+## hash index
+7
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 1
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+8
+## name
+spare-in(la2a7)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(7) $s(44) $s(8)) : $c(0)) ($c(1) : $s(8)) )
+## hash index
+8
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 1
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+9
+## name
+spare-in(la2a8)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(8) $s(45) $s(9)) : $c(0)) ($c(1) : $s(9)) )
+## hash index
+9
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 1
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+10
+## name
+spare-in(la3a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(9) $s(46) $s(10)) : $c(0)) ($c(1) : $s(10)) )
+## hash index
+10
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 1
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+11
+## name
+spare-in(la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(10) $s(52) $s(11)) : $c(0)) ($c(1) : $s(11)) )
+## hash index
+11
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 1
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+12
+## name
+spare-in(la4a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(11) $s(53) $s(12)) : $c(0)) ($c(1) : $s(12)) )
+## hash index
+12
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 1
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+13
+## name
+spare-in(la4a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(12) $s(54) $s(13)) : $c(0)) ($c(1) : $s(13)) )
+## hash index
+13
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 1
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+14
+## name
+spare-in(la4a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(13) $s(55) $s(14)) : $c(0)) ($c(1) : $s(14)) )
+## hash index
+14
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 1
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+15
+## name
+spare-in(la4a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(14) $s(56) $s(15)) : $c(0)) ($c(1) : $s(15)) )
+## hash index
+15
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 1
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+16
+## name
+spare-in(la4a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(15) $s(57) $s(16)) : $c(0)) ($c(1) : $s(16)) )
+## hash index
+16
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 1
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+17
+## name
+spare-in(la4a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(16) $s(58) $s(17)) : $c(0)) ($c(1) : $s(17)) )
+## hash index
+17
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 1
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+18
+## name
+spare-in(la5a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(17) $s(59) $s(18)) : $c(0)) ($c(1) : $s(18)) )
+## hash index
+18
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 1
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+19
+## name
+spare-in(la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(18) $s(63) $s(19)) : $c(0)) ($c(1) : $s(19)) )
+## hash index
+19
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 1
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+20
+## name
+spare-in(la6a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(19) $s(64) $s(20)) : $c(0)) ($c(1) : $s(20)) )
+## hash index
+20
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 1
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+21
+## name
+spare-in(la6a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(20) $s(65) $s(21)) : $c(0)) ($c(1) : $s(21)) )
+## hash index
+21
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 1
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+22
+## name
+spare-in(la6a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(21) $s(66) $s(22)) : $c(0)) ($c(1) : $s(22)) )
+## hash index
+22
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 1
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+23
+## name
+spare-in(la6a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(22) $s(67) $s(23)) : $c(0)) ($c(1) : $s(23)) )
+## hash index
+23
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 1
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+24
+## name
+spare-in(la7a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(23) $s(68) $s(24)) : $c(0)) ($c(1) : $s(24)) )
+## hash index
+24
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 1
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+25
+## name
+spare-in(la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(24) $s(70) $s(25)) : $c(0)) ($c(1) : $s(25)) )
+## hash index
+25
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 1
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+26
+## name
+spare-in(la8a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(25) $s(71) $s(26)) : $c(0)) ($c(1) : $s(26)) )
+## hash index
+26
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 1
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+27
+## name
+spare-in(la8a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(26) $s(72) $s(27)) : $c(0)) ($c(1) : $s(27)) )
+## hash index
+27
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 1
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+28
+## name
+spare-in(la9a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(27) $s(73) $s(28)) : $c(0)) ($c(1) : $s(28)) )
+## hash index
+28
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 1
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+29
+## name
+vehicle-at(la1a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(28) $s(29) $s(74)) and($a(29) $s(29) $s(74))) : $c(0)) ($c(1) : $s(29)) )
+## hash index
+29
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 1
+80 2
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+30
+## name
+vehicle-at(la1a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(28) $s(29) $s(74)) and($a(44) $s(38) $s(74))) : $c(1)) (or(and($a(30) $s(30) $s(74)) and($a(31) $s(30) $s(74))) : $c(0)) ($c(1) : $s(30)) )
+## hash index
+30
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 1
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 2
+78 3
+79 0
+80 4
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+31
+## name
+vehicle-at(la1a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(30) $s(30) $s(74)) and($a(46) $s(39) $s(74))) : $c(1)) (or(and($a(32) $s(31) $s(74)) and($a(33) $s(31) $s(74))) : $c(0)) ($c(1) : $s(31)) )
+## hash index
+31
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 1
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 2
+76 3
+77 0
+78 4
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+32
+## name
+vehicle-at(la1a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(32) $s(31) $s(74)) and($a(47) $s(40) $s(74))) : $c(1)) (or(and($a(34) $s(32) $s(74)) and($a(35) $s(32) $s(74))) : $c(0)) ($c(1) : $s(32)) )
+## hash index
+32
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 1
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 2
+74 3
+75 0
+76 4
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+33
+## name
+vehicle-at(la1a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(34) $s(32) $s(74)) and($a(49) $s(41) $s(74))) : $c(1)) (or(and($a(36) $s(33) $s(74)) and($a(37) $s(33) $s(74))) : $c(0)) ($c(1) : $s(33)) )
+## hash index
+33
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 1
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 2
+72 3
+73 0
+74 4
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+34
+## name
+vehicle-at(la1a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(36) $s(33) $s(74)) and($a(50) $s(42) $s(74))) : $c(1)) (or(and($a(38) $s(34) $s(74)) and($a(39) $s(34) $s(74))) : $c(0)) ($c(1) : $s(34)) )
+## hash index
+34
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 1
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 2
+70 3
+71 0
+72 4
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+35
+## name
+vehicle-at(la1a7)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(38) $s(34) $s(74)) and($a(52) $s(43) $s(74))) : $c(1)) (or(and($a(40) $s(35) $s(74)) and($a(41) $s(35) $s(74))) : $c(0)) ($c(1) : $s(35)) )
+## hash index
+35
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 1
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 2
+68 3
+69 0
+70 4
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+36
+## name
+vehicle-at(la1a8)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(40) $s(35) $s(74)) and($a(53) $s(44) $s(74))) : $c(1)) (or(and($a(42) $s(36) $s(74)) and($a(43) $s(36) $s(74))) : $c(0)) ($c(1) : $s(36)) )
+## hash index
+36
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 1
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 2
+66 3
+67 0
+68 4
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+37
+## name
+vehicle-at(la1a9)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(42) $s(36) $s(74)) and($a(55) $s(45) $s(74))) : $c(1)) ($c(1) : $s(37)) )
+## hash index
+37
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 1
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 2
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+38
+## name
+vehicle-at(la2a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(29) $s(29) $s(74)) : $c(1)) (or(and($a(44) $s(38) $s(74)) and($a(45) $s(38) $s(74))) : $c(0)) ($c(1) : $s(38)) )
+## hash index
+38
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 1
+64 2
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 3
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+39
+## name
+vehicle-at(la2a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(31) $s(30) $s(74)) and($a(56) $s(46) $s(74))) : $c(1)) (and($a(46) $s(39) $s(74)) : $c(0)) ($c(1) : $s(39)) )
+## hash index
+39
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 1
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 2
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 3
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+40
+## name
+vehicle-at(la2a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(33) $s(31) $s(74)) : $c(1)) (or(and($a(47) $s(40) $s(74)) and($a(48) $s(40) $s(74))) : $c(0)) ($c(1) : $s(40)) )
+## hash index
+40
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 1
+61 2
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 3
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+41
+## name
+vehicle-at(la2a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(35) $s(32) $s(74)) and($a(61) $s(48) $s(74))) : $c(1)) (and($a(49) $s(41) $s(74)) : $c(0)) ($c(1) : $s(41)) )
+## hash index
+41
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 1
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 2
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 3
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+42
+## name
+vehicle-at(la2a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(37) $s(33) $s(74)) : $c(1)) (or(and($a(50) $s(42) $s(74)) and($a(51) $s(42) $s(74))) : $c(0)) ($c(1) : $s(42)) )
+## hash index
+42
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 1
+58 2
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 3
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+43
+## name
+vehicle-at(la2a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(39) $s(34) $s(74)) and($a(66) $s(50) $s(74))) : $c(1)) (and($a(52) $s(43) $s(74)) : $c(0)) ($c(1) : $s(43)) )
+## hash index
+43
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 1
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 2
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 3
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+44
+## name
+vehicle-at(la2a7)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(41) $s(35) $s(74)) : $c(1)) (or(and($a(53) $s(44) $s(74)) and($a(54) $s(44) $s(74))) : $c(0)) ($c(1) : $s(44)) )
+## hash index
+44
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 1
+55 2
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 3
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+45
+## name
+vehicle-at(la2a8)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(43) $s(36) $s(74)) and($a(71) $s(52) $s(74))) : $c(1)) (and($a(55) $s(45) $s(74)) : $c(0)) ($c(1) : $s(45)) )
+## hash index
+45
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 1
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 2
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 3
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+46
+## name
+vehicle-at(la3a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(45) $s(38) $s(74)) : $c(1)) (or(and($a(56) $s(46) $s(74)) and($a(57) $s(46) $s(74)) and($a(58) $s(46) $s(74))) : $c(0)) ($c(1) : $s(46)) )
+## hash index
+46
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 1
+51 2
+52 3
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 4
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+47
+## name
+vehicle-at(la3a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(57) $s(46) $s(74)) and($a(72) $s(53) $s(74))) : $c(1)) (or(and($a(59) $s(47) $s(74)) and($a(60) $s(47) $s(74))) : $c(0)) ($c(1) : $s(47)) )
+## hash index
+47
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 1
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 2
+49 3
+50 0
+51 4
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+48
+## name
+vehicle-at(la3a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(48) $s(40) $s(74)) and($a(59) $s(47) $s(74)) and($a(74) $s(54) $s(74))) : $c(1)) (or(and($a(61) $s(48) $s(74)) and($a(62) $s(48) $s(74)) and($a(63) $s(48) $s(74))) : $c(0)) ($c(1) : $s(48)) )
+## hash index
+48
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 1
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 2
+46 3
+47 4
+48 0
+49 5
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 6
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+49
+## name
+vehicle-at(la3a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(62) $s(48) $s(74)) and($a(75) $s(55) $s(74))) : $c(1)) (or(and($a(64) $s(49) $s(74)) and($a(65) $s(49) $s(74))) : $c(0)) ($c(1) : $s(49)) )
+## hash index
+49
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 1
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 2
+44 3
+45 0
+46 4
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+50
+## name
+vehicle-at(la3a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(51) $s(42) $s(74)) and($a(64) $s(49) $s(74)) and($a(77) $s(56) $s(74))) : $c(1)) (or(and($a(66) $s(50) $s(74)) and($a(67) $s(50) $s(74)) and($a(68) $s(50) $s(74))) : $c(0)) ($c(1) : $s(50)) )
+## hash index
+50
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 1
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 2
+41 3
+42 4
+43 0
+44 5
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 6
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+51
+## name
+vehicle-at(la3a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(67) $s(50) $s(74)) and($a(78) $s(57) $s(74))) : $c(1)) (or(and($a(69) $s(51) $s(74)) and($a(70) $s(51) $s(74))) : $c(0)) ($c(1) : $s(51)) )
+## hash index
+51
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 1
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 2
+39 3
+40 0
+41 4
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+52
+## name
+vehicle-at(la3a7)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(54) $s(44) $s(74)) and($a(69) $s(51) $s(74)) and($a(80) $s(58) $s(74))) : $c(1)) (and($a(71) $s(52) $s(74)) : $c(0)) ($c(1) : $s(52)) )
+## hash index
+52
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 1
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 2
+38 0
+39 3
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 4
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+53
+## name
+vehicle-at(la4a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(58) $s(46) $s(74)) : $c(1)) (or(and($a(72) $s(53) $s(74)) and($a(73) $s(53) $s(74))) : $c(0)) ($c(1) : $s(53)) )
+## hash index
+53
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 1
+36 2
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 3
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+54
+## name
+vehicle-at(la4a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(60) $s(47) $s(74)) and($a(81) $s(59) $s(74))) : $c(1)) (and($a(74) $s(54) $s(74)) : $c(0)) ($c(1) : $s(54)) )
+## hash index
+54
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 1
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 2
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 3
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+55
+## name
+vehicle-at(la4a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(63) $s(48) $s(74)) : $c(1)) (or(and($a(75) $s(55) $s(74)) and($a(76) $s(55) $s(74))) : $c(0)) ($c(1) : $s(55)) )
+## hash index
+55
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 1
+33 2
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 3
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+56
+## name
+vehicle-at(la4a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(65) $s(49) $s(74)) and($a(86) $s(61) $s(74))) : $c(1)) (and($a(77) $s(56) $s(74)) : $c(0)) ($c(1) : $s(56)) )
+## hash index
+56
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 1
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 2
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 3
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+57
+## name
+vehicle-at(la4a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(68) $s(50) $s(74)) : $c(1)) (or(and($a(78) $s(57) $s(74)) and($a(79) $s(57) $s(74))) : $c(0)) ($c(1) : $s(57)) )
+## hash index
+57
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 1
+30 2
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 3
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+58
+## name
+vehicle-at(la4a6)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(70) $s(51) $s(74)) and($a(91) $s(63) $s(74))) : $c(1)) (and($a(80) $s(58) $s(74)) : $c(0)) ($c(1) : $s(58)) )
+## hash index
+58
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 1
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 2
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 3
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+59
+## name
+vehicle-at(la5a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(73) $s(53) $s(74)) : $c(1)) (or(and($a(81) $s(59) $s(74)) and($a(82) $s(59) $s(74)) and($a(83) $s(59) $s(74))) : $c(0)) ($c(1) : $s(59)) )
+## hash index
+59
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 1
+26 2
+27 3
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 4
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+60
+## name
+vehicle-at(la5a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(82) $s(59) $s(74)) and($a(92) $s(64) $s(74))) : $c(1)) (or(and($a(84) $s(60) $s(74)) and($a(85) $s(60) $s(74))) : $c(0)) ($c(1) : $s(60)) )
+## hash index
+60
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 1
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 2
+24 3
+25 0
+26 4
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+61
+## name
+vehicle-at(la5a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(76) $s(55) $s(74)) and($a(84) $s(60) $s(74)) and($a(94) $s(65) $s(74))) : $c(1)) (or(and($a(86) $s(61) $s(74)) and($a(87) $s(61) $s(74)) and($a(88) $s(61) $s(74))) : $c(0)) ($c(1) : $s(61)) )
+## hash index
+61
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 1
+15 0
+16 0
+17 0
+18 0
+19 0
+20 2
+21 3
+22 4
+23 0
+24 5
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 6
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+62
+## name
+vehicle-at(la5a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(87) $s(61) $s(74)) and($a(95) $s(66) $s(74))) : $c(1)) (or(and($a(89) $s(62) $s(74)) and($a(90) $s(62) $s(74))) : $c(0)) ($c(1) : $s(62)) )
+## hash index
+62
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 1
+14 0
+15 0
+16 0
+17 0
+18 2
+19 3
+20 0
+21 4
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+63
+## name
+vehicle-at(la5a5)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(79) $s(57) $s(74)) and($a(89) $s(62) $s(74)) and($a(97) $s(67) $s(74))) : $c(1)) (and($a(91) $s(63) $s(74)) : $c(0)) ($c(1) : $s(63)) )
+## hash index
+63
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 1
+12 0
+13 0
+14 0
+15 0
+16 0
+17 2
+18 0
+19 3
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 4
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+64
+## name
+vehicle-at(la6a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(83) $s(59) $s(74)) : $c(1)) (or(and($a(92) $s(64) $s(74)) and($a(93) $s(64) $s(74))) : $c(0)) ($c(1) : $s(64)) )
+## hash index
+64
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 1
+16 2
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 3
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+65
+## name
+vehicle-at(la6a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(85) $s(60) $s(74)) and($a(98) $s(68) $s(74))) : $c(1)) (and($a(94) $s(65) $s(74)) : $c(0)) ($c(1) : $s(65)) )
+## hash index
+65
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 1
+11 0
+12 0
+13 0
+14 2
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 3
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+66
+## name
+vehicle-at(la6a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(88) $s(61) $s(74)) : $c(1)) (or(and($a(95) $s(66) $s(74)) and($a(96) $s(66) $s(74))) : $c(0)) ($c(1) : $s(66)) )
+## hash index
+66
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 1
+13 2
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 3
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+67
+## name
+vehicle-at(la6a4)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(90) $s(62) $s(74)) and($a(103) $s(70) $s(74))) : $c(1)) (and($a(97) $s(67) $s(74)) : $c(0)) ($c(1) : $s(67)) )
+## hash index
+67
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 1
+6 0
+7 0
+8 0
+9 0
+10 0
+11 2
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 3
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+68
+## name
+vehicle-at(la7a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(93) $s(64) $s(74)) : $c(1)) (or(and($a(98) $s(68) $s(74)) and($a(99) $s(68) $s(74)) and($a(100) $s(68) $s(74))) : $c(0)) ($c(1) : $s(68)) )
+## hash index
+68
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 1
+9 2
+10 3
+11 0
+12 0
+13 0
+14 0
+15 4
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+69
+## name
+vehicle-at(la7a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(99) $s(68) $s(74)) and($a(104) $s(71) $s(74))) : $c(1)) (or(and($a(101) $s(69) $s(74)) and($a(102) $s(69) $s(74))) : $c(0)) ($c(1) : $s(69)) )
+## hash index
+69
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 1
+5 0
+6 2
+7 3
+8 0
+9 4
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+70
+## name
+vehicle-at(la7a3)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(96) $s(66) $s(74)) and($a(101) $s(69) $s(74)) and($a(106) $s(72) $s(74))) : $c(1)) (and($a(103) $s(70) $s(74)) : $c(0)) ($c(1) : $s(70)) )
+## hash index
+70
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 1
+3 0
+4 0
+5 2
+6 0
+7 3
+8 0
+9 0
+10 0
+11 0
+12 4
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+71
+## name
+vehicle-at(la8a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(100) $s(68) $s(74)) : $c(1)) (or(and($a(104) $s(71) $s(74)) and($a(105) $s(71) $s(74))) : $c(0)) ($c(1) : $s(71)) )
+## hash index
+71
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 1
+4 2
+5 0
+6 0
+7 0
+8 3
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+72
+## name
+vehicle-at(la8a2)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(102) $s(69) $s(74)) and($a(107) $s(73) $s(74))) : $c(1)) (and($a(106) $s(72) $s(74)) : $c(0)) ($c(1) : $s(72)) )
+## hash index
+72
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 2
+3 0
+4 0
+5 0
+6 3
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+## index
+73
+## name
+vehicle-at(la9a1)
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (and($a(105) $s(71) $s(74)) : $c(1)) (and($a(107) $s(73) $s(74)) : $c(0)) ($c(1) : $s(73)) )
+## hash index
+73
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 0
+3 2
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+
+
+#####PROB STATE FLUENTS AND CPFS#####
+## index
+0
+## name
+not-flattire
+## number of values
+2
+## values
+0 false
+1 true
+## formula
+switch( (or(and($a(28) $s(29) $s(74)) and($a(29) $s(29) $s(74)) and($a(30) $s(30) $s(74)) and($a(31) $s(30) $s(74)) and($a(32) $s(31) $s(74)) and($a(33) $s(31) $s(74)) and($a(34) $s(32) $s(74)) and($a(35) $s(32) $s(74)) and($a(36) $s(33) $s(74)) and($a(37) $s(33) $s(74)) and($a(38) $s(34) $s(74)) and($a(39) $s(34) $s(74)) and($a(40) $s(35) $s(74)) and($a(41) $s(35) $s(74)) and($a(42) $s(36) $s(74)) and($a(43) $s(36) $s(74)) and($a(44) $s(38) $s(74)) and($a(45) $s(38) $s(74)) and($a(46) $s(39) $s(74)) and($a(47) $s(40) $s(74)) and($a(48) $s(40) $s(74)) and($a(49) $s(41) $s(74)) and($a(50) $s(42) $s(74)) and($a(51) $s(42) $s(74)) and($a(52) $s(43) $s(74)) and($a(53) $s(44) $s(74)) and($a(54) $s(44) $s(74)) and($a(55) $s(45) $s(74)) and($a(56) $s(46) $s(74)) and($a(57) $s(46) $s(74)) and($a(58) $s(46) $s(74)) and($a(59) $s(47) $s(74)) and($a(60) $s(47) $s(74)) and($a(61) $s(48) $s(74)) and($a(62) $s(48) $s(74)) and($a(63) $s(48) $s(74)) and($a(64) $s(49) $s(74)) and($a(65) $s(49) $s(74)) and($a(66) $s(50) $s(74)) and($a(67) $s(50) $s(74)) and($a(68) $s(50) $s(74)) and($a(69) $s(51) $s(74)) and($a(70) $s(51) $s(74)) and($a(71) $s(52) $s(74)) and($a(72) $s(53) $s(74)) and($a(73) $s(53) $s(74)) and($a(74) $s(54) $s(74)) and($a(75) $s(55) $s(74)) and($a(76) $s(55) $s(74)) and($a(77) $s(56) $s(74)) and($a(78) $s(57) $s(74)) and($a(79) $s(57) $s(74)) and($a(80) $s(58) $s(74)) and($a(81) $s(59) $s(74)) and($a(82) $s(59) $s(74)) and($a(83) $s(59) $s(74)) and($a(84) $s(60) $s(74)) and($a(85) $s(60) $s(74)) and($a(86) $s(61) $s(74)) and($a(87) $s(61) $s(74)) and($a(88) $s(61) $s(74)) and($a(89) $s(62) $s(74)) and($a(90) $s(62) $s(74)) and($a(91) $s(63) $s(74)) and($a(92) $s(64) $s(74)) and($a(93) $s(64) $s(74)) and($a(94) $s(65) $s(74)) and($a(95) $s(66) $s(74)) and($a(96) $s(66) $s(74)) and($a(97) $s(67) $s(74)) and($a(98) $s(68) $s(74)) and($a(99) $s(68) $s(74)) and($a(100) $s(68) $s(74)) and($a(101) $s(69) $s(74)) and($a(102) $s(69) $s(74)) and($a(103) $s(70) $s(74)) and($a(104) $s(71) $s(74)) and($a(105) $s(71) $s(74)) and($a(106) $s(72) $s(74)) and($a(107) $s(73) $s(74))) : Bernoulli($c(0.35))) (and($a(0) $s(1)) : $c(1)) ($c(1) : $s(74)) )
+## hash index
+74
+## caching type 
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+74 74
+75 75
+76 76
+77 77
+78 78
+79 79
+80 80
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 81
+
+
+
+#####REWARD#####
+## formula
+switch( (and(~($s(0)) $s(37)) : $c(100)) ($s(0) : $c(0)) ($c(1) : $c(-1)) )
+## min
+-1
+## max
+100
+## independent from actions
+1
+## hash index
+75
+## caching type
+NONE
+## kleene caching type
+NONE
+## action hash keys
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+
+
+#####PRECONDITIONS#####
+
+
+#####ACTION STATES#####
+## index
+0
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+1
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+## relevant preconditions
+0
+
+
+## index
+2
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+## relevant preconditions
+0
+
+
+## index
+3
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+## relevant preconditions
+0
+
+
+## index
+4
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+5
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+6
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+7
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+8
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+9
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+10
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+11
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+12
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+13
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+14
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+15
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+16
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+17
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+18
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+19
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+20
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+21
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+22
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+23
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+24
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+25
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+26
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+27
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+28
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+29
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+30
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+31
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+32
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+33
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+34
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+35
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+36
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+37
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+38
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+39
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+40
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+41
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+42
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+43
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+44
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+45
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+46
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+47
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+48
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+49
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+50
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+51
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+52
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+53
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+54
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+55
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+56
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+57
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+58
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+59
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+60
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+61
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+62
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+63
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+64
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+65
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+66
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+67
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+68
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+69
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+70
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+71
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+72
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+73
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+74
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+75
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+76
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+77
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+78
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+79
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+80
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+81
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+82
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+83
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+84
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+85
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+86
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+87
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+88
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+89
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+90
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+91
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+92
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+93
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+94
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+95
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+96
+## state
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+97
+## state
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+98
+## state
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+99
+## state
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+100
+## state
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+101
+## state
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+102
+## state
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+103
+## state
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+104
+## state
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+105
+## state
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+106
+## state
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+107
+## state
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+## index
+108
+## state
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+## relevant preconditions
+0
+
+
+
+#####HASH KEYS OF DETERMINISTIC STATE FLUENTS#####
+## index
+0
+
+## state fluent hash keys (first line is the number of keys)
+2
+0 1
+75 1
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+1
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 29
+74 82
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+2
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 58
+2 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+3
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 116
+3 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+4
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 232
+4 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+5
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 464
+5 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+6
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 928
+6 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+7
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 1856
+7 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+8
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 3712
+8 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+9
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 7424
+9 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+10
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 14848
+10 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+11
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 29696
+11 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+12
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 59392
+12 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+13
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 118784
+13 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+14
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 237568
+14 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+15
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 475136
+15 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+16
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 950272
+16 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+17
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 1900544
+17 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+18
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 3801088
+18 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+19
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 7602176
+19 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+20
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 15204352
+20 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+21
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 30408704
+21 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+22
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 60817408
+22 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+23
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 121634816
+23 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+24
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 243269632
+24 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+25
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 486539264
+25 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+26
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 973078528
+26 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+27
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 1946157056
+27 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+28
+
+## state fluent hash keys (first line is the number of keys)
+2
+1 3892314112
+28 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+29
+
+## state fluent hash keys (first line is the number of keys)
+4
+29 3
+30 5
+38 4
+74 164
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+30
+
+## state fluent hash keys (first line is the number of keys)
+4
+30 10
+31 5
+39 4
+74 328
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+31
+
+## state fluent hash keys (first line is the number of keys)
+4
+31 10
+32 5
+40 4
+74 656
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+32
+
+## state fluent hash keys (first line is the number of keys)
+4
+32 10
+33 5
+41 4
+74 1312
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+33
+
+## state fluent hash keys (first line is the number of keys)
+4
+33 10
+34 5
+42 4
+74 2624
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+34
+
+## state fluent hash keys (first line is the number of keys)
+4
+34 10
+35 5
+43 4
+74 5248
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+35
+
+## state fluent hash keys (first line is the number of keys)
+4
+35 10
+36 5
+44 4
+74 10496
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+36
+
+## state fluent hash keys (first line is the number of keys)
+4
+36 10
+37 3
+45 4
+74 20992
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+37
+
+## state fluent hash keys (first line is the number of keys)
+3
+0 2
+37 6
+75 2
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+38
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 7784628224
+2 4
+30 20
+38 8
+46 5
+74 41984
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+39
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 15569256448
+3 4
+31 20
+39 8
+74 83968
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+40
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 31138512896
+4 4
+32 20
+40 8
+48 7
+74 167936
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+41
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 62277025792
+5 4
+33 20
+41 8
+74 335872
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+42
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 124554051584
+6 4
+34 20
+42 8
+50 7
+74 671744
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+43
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 249108103168
+7 4
+35 20
+43 8
+74 1343488
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+44
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 498216206336
+8 4
+36 20
+44 8
+52 5
+74 2686976
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+45
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 996432412672
+9 4
+37 12
+45 8
+74 5373952
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+46
+
+## state fluent hash keys (first line is the number of keys)
+7
+1 1992864825344
+10 4
+39 16
+46 10
+47 5
+53 4
+74 10747904
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+47
+
+## state fluent hash keys (first line is the number of keys)
+4
+47 10
+48 14
+54 4
+74 21495808
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+48
+
+## state fluent hash keys (first line is the number of keys)
+5
+41 16
+48 28
+49 5
+55 4
+74 42991616
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+49
+
+## state fluent hash keys (first line is the number of keys)
+4
+49 10
+50 14
+56 4
+74 85983232
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+50
+
+## state fluent hash keys (first line is the number of keys)
+5
+43 16
+50 28
+51 5
+57 4
+74 171966464
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+51
+
+## state fluent hash keys (first line is the number of keys)
+4
+51 10
+52 10
+58 4
+74 343932928
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+52
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 3985729650688
+11 4
+45 16
+52 20
+74 687865856
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+53
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 7971459301376
+12 4
+47 20
+53 8
+59 5
+74 1375731712
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+54
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 15942918602752
+13 4
+48 56
+54 8
+74 2751463424
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+55
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 31885837205504
+14 4
+49 20
+55 8
+61 7
+74 5502926848
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+56
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 63771674411008
+15 4
+50 56
+56 8
+74 11005853696
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+57
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 127543348822016
+16 4
+51 20
+57 8
+63 5
+74 22011707392
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+58
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 255086697644032
+17 4
+52 40
+58 8
+74 44023414784
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+59
+
+## state fluent hash keys (first line is the number of keys)
+7
+1 510173395288064
+18 4
+54 16
+59 10
+60 5
+64 4
+74 88046829568
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+60
+
+## state fluent hash keys (first line is the number of keys)
+4
+60 10
+61 14
+65 4
+74 176093659136
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+61
+
+## state fluent hash keys (first line is the number of keys)
+5
+56 16
+61 28
+62 5
+66 4
+74 352187318272
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+62
+
+## state fluent hash keys (first line is the number of keys)
+4
+62 10
+63 10
+67 4
+74 704374636544
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+63
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 1020346790576128
+19 4
+58 16
+63 20
+74 1408749273088
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+64
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 2040693581152256
+20 4
+60 20
+64 8
+68 5
+74 2817498546176
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+65
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 4081387162304512
+21 4
+61 56
+65 8
+74 5634997092352
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+66
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 8162774324609024
+22 4
+62 20
+66 8
+70 5
+74 11269994184704
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+67
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 16325548649218048
+23 4
+63 40
+67 8
+74 22539988369408
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+68
+
+## state fluent hash keys (first line is the number of keys)
+7
+1 32651097298436096
+24 4
+65 16
+68 10
+69 5
+71 4
+74 45079976738816
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+69
+
+## state fluent hash keys (first line is the number of keys)
+4
+69 10
+70 10
+72 4
+74 90159953477632
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+70
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 65302194596872192
+25 4
+67 16
+70 20
+74 180319906955264
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+71
+
+## state fluent hash keys (first line is the number of keys)
+6
+1 130604389193744384
+26 4
+69 20
+71 8
+73 3
+74 360639813910528
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+72
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 261208778387488768
+27 4
+70 40
+72 8
+74 721279627821056
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+## index
+73
+
+## state fluent hash keys (first line is the number of keys)
+5
+1 522417556774977536
+28 4
+72 16
+73 6
+74 1442559255642112
+## kleene state fluent hash keys (first line is the number of keys)
+0
+
+
+#####HASH KEYS OF PROBABILISTIC STATE FLUENTS#####
+## index
+0
+
+## state fluent hash keys (first line is the number of keys)
+46
+29 6
+30 40
+31 40
+32 40
+33 40
+34 40
+35 40
+36 40
+37 24
+38 16
+39 32
+40 16
+41 32
+42 16
+43 32
+44 16
+45 32
+46 20
+47 40
+48 112
+49 40
+50 112
+51 40
+52 80
+53 16
+54 32
+55 16
+56 32
+57 16
+58 32
+59 20
+60 40
+61 112
+62 40
+63 80
+64 16
+65 32
+66 16
+67 32
+68 20
+69 40
+70 80
+71 16
+72 32
+73 12
+74 2885118511284224
+## kleene state fluent hash keys (first line is the number of keys)
+45
+16358176 140367703804792
+0 0
+31 135
+32 135
+33 135
+34 135
+35 135
+36 135
+37 81
+38 36
+39 108
+40 36
+41 108
+42 36
+43 108
+44 36
+45 108
+46 45
+47 135
+48 567
+49 135
+50 567
+51 135
+52 405
+53 36
+54 108
+55 36
+56 108
+57 36
+58 108
+59 45
+60 135
+61 567
+62 135
+63 405
+64 36
+65 108
+66 36
+67 108
+68 45
+69 135
+70 405
+71 36
+72 108
+73 27
+

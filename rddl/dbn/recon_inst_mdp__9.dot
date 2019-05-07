@@ -1,0 +1,2703 @@
+digraph G {
+	graph [bb="0,0,631.35,5378.4",
+		fontname=Helvetica,
+		fontsize=16,
+		rankdir=LR,
+		ranksep=2.00,
+		ratio=auto,
+		size=600
+	];
+	node [fontsize=16,
+		label="\N"
+	];
+	{
+		graph [rank=same];
+		"agentAt($a1, $x2, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4215.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x3, $y0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2636.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"waterChecked($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,507.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"down($a1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,4377.4",
+			shape=box,
+			style=filled,
+			width=1.1944];
+		"damaged($w1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1597.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"waterDetected($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3178.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"pictureTaken($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2306.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"lifeChecked($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,5306.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"lifeChecked2($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,5198.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"useToolOn($a1, $w1, $o0)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,1924.4",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"agentAt($a1, $x0, $y0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4760.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeDetected($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1159.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"agentAt($a1, $x2, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3720.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"useToolOn($a1, $p1, $o0)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2798.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"waterDetected($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,5035.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"pictureTaken($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2251.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"waterChecked($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1489.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"lifeChecked($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1051.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $w1, $o1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,398.38",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"lifeChecked2($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3341.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"right($a1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,4323.4",
+			shape=box,
+			style=filled,
+			width=1.125];
+		"agentAt($a1, $x2, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4595.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeDetected($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,725.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $p1, $o5)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2744.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"useToolOn($a1, $l1, $o5)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,779.38",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"waterDetected($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1815.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"Current State and Actions"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="116.67,5360.4",
+			shape=plaintext,
+			style=bold,
+			width=2.5139];
+		"agentAt($a1, $x3, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2526.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeChecked($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1652.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $w1, $o2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3287.4",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"pictureTaken($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2196.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"agentAt($a1, $x1, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4540.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeChecked2($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,289.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"agentAt($a1, $x2, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4650.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x3, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2906.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"waterChecked($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,943.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"useToolOn($a1, $p1, $o6)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2852.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"lifeDetected($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2033.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $l1, $o6)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,72.385",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"waterDetected($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,344.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"pictureTaken($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2141.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"lifeChecked($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,181.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $w1, $o3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,5144.4",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"lifeChecked($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3504.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"pictureTaken($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2471.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"agentAt($a1, $x4, $y0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4980.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeChecked2($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1760.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"agentAt($a1, $x1, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3830.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"useToolOn($a1, $p1, $o3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3014.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"lifeDetected($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3775.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"waterChecked($o1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,452.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"agentAt($a1, $x3, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3940.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"useToolOn($a1, $w1, $o4)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,1543.4",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"waterDetected($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,888.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"repair($a1, $w1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3612.4",
+			shape=box,
+			style=filled,
+			width=1.6944];
+		"useToolOn($a1, $l1, $o2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3395.4",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"agentAt($a1, $x1, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4815.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x4, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4485.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x0, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3885.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"up($a1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,4269.4",
+			shape=box,
+			style=filled,
+			width=0.93056];
+		"lifeDetected($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3123.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $p1, $o4)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2087.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"useToolOn($a1, $l1, $o4)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,1105.4",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"waterChecked($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1870.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"agentAt($a1, $x2, $y0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2581.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x3, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4050.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"pictureTaken($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2416.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"useToolOn($a1, $l1, $o3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,5252.4",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"useToolOn($a1, $w1, $o5)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,561.38",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"agentAt($a1, $x4, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1978.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x0, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4105.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x1, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4705.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"left($a1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,4431.4",
+			shape=box,
+			style=filled,
+			width=0.98611];
+		"lifeDetected($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1214.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $p1, $o1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2690.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"repair($a1, $l1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3558.4",
+			shape=box,
+			style=filled,
+			width=1.6111];
+		"lifeChecked2($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,126.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"pictureTaken($o0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,2361.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"damaged($l1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1379.4",
+			shape=ellipse,
+			style=filled,
+			width=2.082];
+		"waterChecked($o3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,5090.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"damaged($p1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3068.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"lifeChecked($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,615.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"useToolOn($a1, $l1, $o0)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,1706.4",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"useToolOn($a1, $w1, $o6)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,997.38",
+			shape=box,
+			style=filled,
+			width=2.625];
+		"agentAt($a1, $x4, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4160.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"waterDetected($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1324.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"lifeChecked2($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,833.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"agentAt($a1, $x0, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4925.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"repair($a1, $p1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,3666.4",
+			shape=box,
+			style=filled,
+			width=1.6528];
+		"useToolOn($a1, $p1, $o2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,2960.4",
+			shape=box,
+			style=filled,
+			width=2.5833];
+		"lifeDetected($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1434.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"waterChecked($o2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3233.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"useToolOn($a1, $l1, $o1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="116.67,235.38",
+			shape=box,
+			style=filled,
+			width=2.5278];
+		"waterDetected($o5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,670.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7891];
+		"lifeChecked($o6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,18.385",
+			shape=ellipse,
+			style=filled,
+			width=2.5142];
+		"agentAt($a1, $x4, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3995.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"lifeChecked2($o4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,1269.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6909];
+		"agentAt($a1, $x1, $y0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,3449.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+		"agentAt($a1, $x0, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="116.67,4870.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2409];
+	}
+	{
+		graph [rank=same];
+		"lifeDetected'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,887.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"pictureTaken'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,2689.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x0, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4870.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x3, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4265.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked2'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1216.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"waterChecked'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1925.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"waterDetected'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,997.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"Next State and Reward"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="504.35,5360.4",
+			shape=plaintext,
+			style=bold,
+			width=2.25];
+		"lifeChecked'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1107.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"agentAt'($a1, $x2, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3660.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"pictureTaken'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,2799.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"lifeDetected'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,942.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"agentAt'($a1, $x0, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4540.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x3, $y0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3935.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked2'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,5200.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"lifeChecked'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,5255.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"lifeChecked2'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,126.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"pictureTaken'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3095.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x0, $y0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4760.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterChecked'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1052.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"waterDetected'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1870.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"lifeChecked'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,71.385",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"agentAt'($a1, $x1, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4815.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x1, $y0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4485.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked2'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,832.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"pictureTaken'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3040.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x0, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4980.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x4, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4155.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"damaged'($w1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3550.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2785];
+		"waterChecked'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,561.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"waterDetected'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,438.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"lifeChecked'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,777.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"lifeChecked'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1705.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"damaged'($l1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3495.4",
+			shape=ellipse,
+			style=filled,
+			width=2.141];
+		"pictureTaken'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,2744.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x2, $y0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3990.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"damaged'($p1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3605.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"lifeChecked2'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1760.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"agentAt'($a1, $x4, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3770.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterChecked'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1571.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"waterDetected'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3199.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"Reward Function"		 [color=black,
+			fillcolor=firebrick1,
+			height=0.72222,
+			pos="504.35,2526.4",
+			shape=diamond,
+			style=filled,
+			width=3.5278];
+		"agentAt'($a1, $x1, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4430.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeDetected'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,357.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"pictureTaken'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,2087.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x2, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4650.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterDetected'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,5035.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x3, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3715.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x4, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4210.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterChecked'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,5145.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x1, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4925.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeDetected'($o0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1815.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"agentAt'($a1, $x0, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4045.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeDetected'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1351.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"lifeChecked2'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3385.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"waterDetected'($o4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,1516.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x4, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4375.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"agentAt'($a1, $x3, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3825.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterChecked'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3309.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x2, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4595.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3440.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"lifeDetected'($o3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,5090.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"pictureTaken'($o6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,2906.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"agentAt'($a1, $x3, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3880.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked2'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,289.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7499];
+		"waterChecked'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,493.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x4, $y0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4705.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"waterDetected'($o5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,670.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"agentAt'($a1, $x2, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4320.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeChecked'($o1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,234.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+		"agentAt'($a1, $x1, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,4100.4",
+			shape=ellipse,
+			style=filled,
+			width=3.2998];
+		"lifeDetected'($o2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="504.35,3254.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5731];
+	}
+	"agentAt($a1, $x2, $y3)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,405.75,3670.7 207.91,4203.8 217.28,4199.7 226.03,4194.4 233.35,4187.4 400.07,4027.7 209.12,3846.4 377.35,3688.4 383.09,3683 389.63,\
+3678.5 396.64,3674.9",
+		style=solid];
+	"agentAt($a1, $x2, $y3)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,415.29,4418.2 200.65,4228.2 212.08,4231.8 223.31,4236.5 233.35,4242.4 315.71,4291 294.72,4354.2 377.35,4402.4 386.14,4407.5 395.79,\
+4411.7 405.71,4415.1",
+		style=solid];
+	"agentAt($a1, $x2, $y3)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,407.93,3836.2 205.61,4203.5 215.67,4199.5 225.21,4194.2 233.35,4187.4 356.92,4083.2 252.79,3956.4 377.35,3853.4 383.73,3848.1 \
+390.89,3843.8 398.49,3840.2",
+		style=solid];
+	"agentAt($a1, $x2, $y3)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,408,4584.4 206.99,4227.2 216.52,4231 225.56,4235.9 233.35,4242.4 355.04,4343.1 255.12,4467.3 377.35,4567.4 383.75,4572.6 390.94,\
+4577 398.54,4580.5",
+		style=solid];
+	"agentAt($a1, $x2, $y3)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,431.02,4305.8 186.49,4230.2 201.98,4233.9 218.29,4238 233.35,4242.4 298.42,4261.2 312.17,4273.9 377.35,4292.4 391.36,4296.4 406.38,\
+4300.1 420.99,4303.5",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,402.74,4255.8 211.74,2647 219.89,2651.1 227.32,2656.5 233.35,2663.4 463.98,2928.3 145.3,3973.7 377.35,4237.4 382.07,4242.8 387.57,\
+4247.2 393.59,4250.9",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "waterChecked'($o0)"	 [color=black,
+		pos="e,480.65,1943.4 208.36,2624.8 217.6,2620.8 226.19,2615.4 233.35,2608.4 413.14,2432.1 255.74,2280.9 377.35,2060.4 401.83,2016 444.14,\
+1974.9 472.91,1950",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "pictureTaken'($o0)"	 [color=black,
+		pos="e,427.35,2788 195.7,2649.9 208.59,2653.5 221.57,2657.9 233.35,2663.4 305.85,2697.2 304.66,2738 377.35,2771.4 389.88,2777.1 403.67,\
+2781.8 417.39,2785.4",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,402.93,3925.7 211.57,2647.2 219.76,2651.3 227.24,2656.5 233.35,2663.4 603.83,3078.7 4.6526,3494 377.35,3907.4 382.13,3912.7 387.69,\
+3917.1 393.74,3920.8",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "waterDetected'($o0)"	 [color=black,
+		pos="e,410.47,1878 209.04,2625.1 218.1,2621 226.46,2615.5 233.35,2608.4 456.72,2376.5 151.79,2128.2 377.35,1898.4 384.16,1891.4 392.29,\
+1886 401.09,1881.9",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "lifeChecked'($o0)"	 [color=black,
+		pos="e,415.59,1710.8 209.59,2625.2 218.49,2621.1 226.67,2615.6 233.35,2608.4 501.47,2319.5 106.51,2019.7 377.35,1733.4 385.33,1724.9 \
+395.24,1718.8 405.97,1714.3",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,402.89,3980.7 211.6,2647.2 219.78,2651.2 227.25,2656.5 233.35,2663.4 618.95,3097.8 -10.567,3530 377.35,3962.4 382.12,3967.7 387.66,\
+3972.1 393.71,3975.8",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "lifeChecked2'($o0)"	 [color=black,
+		pos="e,411.84,1767.2 209.51,2625.2 218.42,2621 226.63,2615.5 233.35,2608.4 486.53,2338.5 121.63,2055.8 377.35,1788.4 384.43,1781 393.01,\
+1775.3 402.32,1771",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "Reward Function"	 [pos="e,454.32,2542.2 183.3,2621.2 199.69,2617.2 217.2,2612.8 233.35,2608.4 306.54,2588.4 389.98,2562.6 444.49,2545.3"];
+	"agentAt($a1, $x3, $y0)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,415.79,1821 209.43,2625.1 218.35,2620.9 226.59,2615.5 233.35,2608.4 471.61,2357.5 136.73,2092 377.35,1843.4 385.42,1835 395.39,\
+1828.9 406.16,1824.5",
+		style=solid];
+	"agentAt($a1, $x3, $y0)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,402.28,4695.8 212.15,2647.1 220.17,2651.2 227.46,2656.5 233.35,2663.4 524.61,3004.7 84.273,4337.6 377.35,4677.4 381.97,4682.7 \
+387.37,4687.2 393.28,4690.9",
+		style=solid];
+	"waterChecked($o5)" -> "waterChecked'($o5)"	 [color=black,
+		pos="e,423.01,550.14 197.12,518.51 259.81,527.29 347.29,539.53 412.71,548.69",
+		style=solid];
+	"waterChecked($o5)" -> "waterDetected'($o5)"	 [color=black,
+		pos="e,474.02,652.68 186.66,520.66 202.22,524.43 218.51,529.01 233.35,534.38 319.69,565.7 414.15,617.75 465.29,647.56",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,406.34,4859.9 159.78,4377.4 184.05,4379.6 213.57,4386.3 233.35,4404.4 384.5,4542.7 225.46,4704.8 377.35,4842.4 383.24,4847.7 389.93,\
+4852.1 397.07,4855.7",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,429.54,4279.7 159.84,4369.1 181.94,4364.4 209.33,4357.9 233.35,4350.4 299.04,4329.8 311.54,4313.6 377.35,4293.4 390.92,4289.2 \
+405.5,4285.4 419.75,4282",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,404.62,3670.4 159.92,4378.1 184.54,4376.2 214.39,4369.6 233.35,4350.4 444.64,4135.9 164.91,3901.8 377.35,3688.4 382.67,3683 388.78,\
+3678.6 395.37,3675",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,420.69,4527.3 159.73,4382.9 182.31,4386.9 210.17,4393.6 233.35,4404.4 305.85,4438.2 304.66,4479 377.35,4512.4 387.92,4517.2 399.4,\
+4521.3 410.97,4524.6",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,406.93,3946.1 159.81,4377 183.94,4374.7 213.3,4368 233.35,4350.4 371.08,4229.1 238.97,4083.9 377.35,3963.4 383.4,3958.1 390.24,\
+3953.8 397.51,3950.2",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,407.98,4749.5 159.72,4378.2 183.67,4380.7 212.88,4387.4 233.35,4404.4 355.81,4506.1 254.34,4631.3 377.35,4732.4 383.75,4737.6 \
+390.92,4742 398.52,4745.5",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,406.96,4804.7 159.79,4377.7 183.91,4380.1 213.27,4386.8 233.35,4404.4 370.04,4524.3 240.02,4668.2 377.35,4787.4 383.41,4792.7 \
+390.25,4797 397.53,4800.6",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,430.63,4471 159.76,4385.9 181.84,4390.7 209.24,4397.2 233.35,4404.4 298.68,4424 311.91,4438.2 377.35,4457.4 391.23,4461.5 406.13,\
+4465.3 420.65,4468.7",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,405.26,4970.1 159.91,4377 184.37,4379 214.05,4385.6 233.35,4404.4 413.86,4580 195.9,4777.8 377.35,4952.4 382.84,4957.7 389.1,4962 \
+395.83,4965.7",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,414.5,4167.6 159.94,4373.9 182.97,4370.5 211.2,4363.8 233.35,4350.4 317.19,4299.6 293.23,4233.7 377.35,4183.4 385.86,4178.3 395.19,\
+4174.1 404.81,4170.7",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,407.95,4001.3 159.75,4376.6 183.71,4374.2 212.92,4367.4 233.35,4350.4 356.83,4247.3 253.31,4120.8 377.35,4018.4 383.73,4013.1 \
+390.9,4008.8 398.5,4005.2",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,405.24,3780.6 159.92,4377.8 184.39,4375.8 214.07,4369.2 233.35,4350.4 414.93,4173.4 194.82,3974.4 377.35,3798.4 382.84,3793.1 \
+389.09,3788.7 395.82,3785.1",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,414.88,4418.2 159.68,4383.2 218.09,4391.2 325.6,4406 404.87,4416.9",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,411.72,4638.8 159.81,4379.6 183.22,4382.7 211.85,4389.4 233.35,4404.4 328.64,4470.7 281.7,4556.5 377.35,4622.4 384.94,4627.6 393.34,\
+4631.9 402.1,4635.4",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,404.76,3725.6 159.79,4378 184.37,4376.1 214.21,4369.5 233.35,4350.4 429.76,4154.7 179.9,3938 377.35,3743.4 382.72,3738.1 388.86,\
+3733.7 395.48,3730.1",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,419.93,4223.4 159.81,4372 182.41,4368.1 210.27,4361.4 233.35,4350.4 306.52,4315.5 303.98,4272.9 377.35,4238.4 387.62,4233.6 398.76,\
+4229.5 410.02,4226.2",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,405.77,4915 159.72,4377.2 184.12,4379.2 213.8,4385.9 233.35,4404.4 399.12,4561.3 210.74,4741.3 377.35,4897.4 383.1,4902.8 389.64,\
+4907.2 396.66,4910.8",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,409.4,4056.5 159.87,4376 183.58,4373.3 212.5,4366.6 233.35,4350.4 342.93,4265.3 267.31,4157.9 377.35,4073.4 384.25,4068.1 391.97,\
+4063.7 400.09,4060.2",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,385.54,4376 159.68,4377.2 211.05,4376.9 300.39,4376.4 375.1,4376",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,405.76,3835.7 159.74,4377.6 184.14,4375.6 213.82,4368.9 233.35,4350.4 400.19,4192.1 209.66,4010.8 377.35,3853.4 383.09,3848 389.63,\
+3843.6 396.65,3839.9",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,414.9,4583.2 159.88,4380.9 182.89,4384.4 211.12,4391.1 233.35,4404.4 316.34,4453.9 294.09,4518.3 377.35,4567.4 385.96,4572.5 395.4,\
+4576.6 405.11,4580",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,406.32,3890.8 159.8,4377.4 184.07,4375.2 213.59,4368.5 233.35,4350.4 385.56,4210.7 224.39,4047.3 377.35,3908.4 383.24,3903 389.92,\
+3898.6 397.05,3895",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,409.44,4694.2 159.84,4378.8 183.53,4381.5 212.45,4388.3 233.35,4404.4 341.94,4488.2 268.31,4594.1 377.35,4677.4 384.27,4682.7 \
+391.99,4687 400.12,4690.5",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,417.94,4333 159.68,4371.2 218.84,4362.4 328.36,4346.2 407.9,4334.5",
+		style=solid];
+	"down($a1)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,411.34,4112 159.86,4375.2 183.28,4372.2 211.91,4365.4 233.35,4350.4 329.58,4282.8 280.75,4195.5 377.35,4128.4 384.85,4123.2 393.15,\
+4118.9 401.82,4115.4",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o6)"	 [color=black,
+		pos="e,411.27,1005.3 193.34,1592 208.12,1587.8 222.4,1581 233.35,1570.4 413.05,1395.8 196.71,1199 377.35,1025.4 384.42,1018.6 392.76,\
+1013.3 401.73,1009.2",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o0)"	 [color=black,
+		pos="e,417.31,1860.6 188.23,1605.7 204.05,1609.8 220.06,1616.1 233.35,1625.4 328.14,1691.8 281.93,1776.9 377.35,1842.4 386.56,1848.7 \
+396.97,1853.6 407.76,1857.5",
+		style=solid];
+	"damaged($w1)" -> "damaged'($w1)"	 [color=black,
+		pos="e,422.89,3548 194.33,1601.9 209.22,1606.3 223.31,1613.6 233.35,1625.4 507.16,1947.5 100.51,3202.9 377.35,3522.4 386.82,3533.3 399.54,\
+3540.5 413.26,3545.2",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o1)"	 [color=black,
+		pos="e,409.56,445.51 194.41,1593 209.12,1588.7 223.11,1581.7 233.35,1570.4 565.39,1203.5 43.358,831.49 377.35,466.38 383.86,459.27 391.74,\
+453.75 400.35,449.5",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o2)"	 [color=black,
+		pos="e,456.25,3183 194.15,1602 209.06,1606.4 223.19,1613.7 233.35,1625.4 452.35,1877.8 200.08,2839.1 377.35,3122.4 393.39,3148 421.42,\
+3166.4 446.97,3178.7",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o3)"	 [color=black,
+		pos="e,408.48,5028.8 194.62,1601.6 209.5,1606.1 223.51,1613.4 233.35,1625.4 472.16,1916 135.81,4719.1 377.35,5007.4 383.42,5014.6 390.92,\
+5020.3 399.21,5024.6",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o4)"	 [color=black,
+		pos="e,437.09,1530.3 176.25,1585.1 243.27,1571 353.24,1547.9 426.94,1532.4",
+		style=solid];
+	"damaged($w1)" -> "waterDetected'($o5)"	 [color=black,
+		pos="e,459.77,687.04 194.04,1592.7 208.77,1588.4 222.86,1581.5 233.35,1570.4 487.63,1301.6 171.64,1058 377.35,750.38 395,723.99 424.62,\
+704.53 450.72,691.42",
+		style=solid];
+	"waterDetected($o2)" -> "waterDetected'($o2)"	 [color=black,
+		pos="e,406.09,3194.1 213.01,3183.6 268.46,3186.6 338.5,3190.4 395.9,3193.5",
+		style=solid];
+	"waterDetected($o2)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,437.89,3241.5 185.74,3191.8 253.55,3205.2 357.43,3225.6 427.77,3239.5",
+		style=solid];
+	"pictureTaken($o2)" -> "Reward Function"	 [pos="e,480.34,2505.3 187.93,2318.9 203.27,2322.8 219.15,2327.9 233.35,2334.4 328.58,2377.8 424.85,2456.5 472.56,2498.4"];
+	"lifeChecked($o3)" -> "lifeChecked2'($o3)"	 [color=black,
+		pos="e,435.94,5213.8 179.84,5293.2 197.25,5289.2 216.13,5284.4 233.35,5279.4 298.5,5260.3 312.09,5247.1 377.35,5228.4 392.95,5223.9 409.82,\
+5219.7 425.98,5216",
+		style=solid];
+	"lifeChecked($o3)" -> "lifeChecked'($o3)"	 [color=black,
+		pos="e,426.94,5265.5 192.95,5296.4 257.17,5287.9 349.52,5275.7 416.79,5266.8",
+		style=solid];
+	"lifeChecked2($o3)" -> "lifeChecked2'($o3)"	 [color=black,
+		pos="e,405.23,5199.9 214,5198.9 269.04,5199.2 338.21,5199.5 395.12,5199.8",
+		style=solid];
+	"lifeChecked2($o3)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,437.85,5103.2 182.29,5184.8 199.02,5180.9 216.95,5176.3 233.35,5171.4 298.68,5151.8 311.91,5137.6 377.35,5118.4 393.61,5113.6 \
+411.27,5109.2 428.07,5105.4",
+		style=solid];
+	"useToolOn($a1, $w1, $o0)" -> "waterChecked'($o0)"	 [color=black,
+		pos="e,401.62,1925.1 211.53,1924.6 265.79,1924.8 334.41,1924.9 391.47,1925.1",
+		style=solid];
+	"useToolOn($a1, $w1, $o0)" -> "waterDetected'($o0)"	 [color=black,
+		pos="e,423.12,1881.6 211.53,1911.2 272.88,1902.7 352.58,1891.5 413.18,1883",
+		style=solid];
+	"agentAt($a1, $x0, $y0)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,385.38,4760.4 233.39,4760.4 278.05,4760.4 329.31,4760.4 375.09,4760.4",
+		style=solid];
+	"agentAt($a1, $x0, $y0)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,411.71,4496.9 202.44,4747.8 213.41,4743.9 224.05,4738.9 233.35,4732.4 328.6,4665.3 281.46,4579.5 377.35,4513.4 384.93,4508.2 393.33,\
+4503.9 402.09,4500.4",
+		style=solid];
+	"agentAt($a1, $x0, $y0)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,414.88,4968.2 199.21,4773.4 211.15,4777.2 222.91,4782.1 233.35,4788.4 316.35,4838.6 293.87,4903 377.35,4952.4 385.95,4957.5 395.38,\
+4961.6 405.1,4965.1",
+		style=solid];
+	"lifeDetected($o6)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,421.92,895.92 194.87,1149.9 208.47,1146 221.91,1140.3 233.35,1132.4 328.41,1066.4 281.93,980.91 377.35,915.38 387.77,908.23 399.71,\
+902.87 412.01,898.85",
+		style=solid];
+	"lifeDetected($o6)" -> "Reward Function"	 [pos="e,494.58,2502.1 200.16,1166.6 212.69,1171 224.39,1177.7 233.35,1187.4 374.48,1340.8 330.74,1911.2 377.35,2114.4 410.1,2257.2 466.49,\
+2422.6 491.18,2492.5"];
+	"agentAt($a1, $x2, $y4)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,419.75,3673.4 200.41,3707.5 261.86,3698 345.75,3684.9 409.67,3675",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "damaged'($w1)"	 [color=black,
+		pos="e,434.1,3559.9 196.76,3706.9 209.33,3703.4 221.93,3698.9 233.35,3693.4 307.04,3657.6 303.46,3613.7 377.35,3578.4 391.91,3571.4 408.25,\
+3566.2 424.23,3562.2",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "damaged'($l1)"	 [color=black,
+		pos="e,433.26,3502.6 201.42,3707.6 212.61,3704 223.58,3699.4 233.35,3693.4 317.83,3641.7 292.59,3574.6 377.35,3523.4 391.24,3515 407.37,\
+3509.1 423.35,3505",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "damaged'($p1)"	 [color=black,
+		pos="e,441.57,3616.8 188.53,3705.8 203.46,3702.2 219.02,3698 233.35,3693.4 299.33,3672.1 311.25,3654.3 377.35,3633.4 394.74,3627.9 413.81,\
+3623 431.74,3619",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,385.89,3716.9 233.13,3718.9 278.09,3718.3 329.79,3717.6 375.85,3717",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,405.27,4310.1 208.35,3731.9 217.58,3736 226.18,3741.4 233.35,3748.4 412.07,3923.3 196.98,4119.1 377.35,4292.4 382.84,4297.7 389.11,\
+4302 395.84,4305.7",
+		style=solid];
+	"agentAt($a1, $x2, $y4)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,408.33,4089.6 205.54,3732.4 215.61,3736.4 225.17,3741.6 233.35,3748.4 354.37,3849.3 255.37,3972.6 377.35,4072.4 383.89,4077.7 \
+391.24,4082.1 399.02,4085.7",
+		style=solid];
+	"useToolOn($a1, $p1, $o0)" -> "pictureTaken'($o0)"	 [color=black,
+		pos="e,406,2799.1 210.05,2798.6 265.98,2798.8 337.55,2799 395.99,2799.1",
+		style=solid];
+	"useToolOn($a1, $p1, $o0)" -> "Reward Function"	 [pos="e,482.31,2548.1 209.85,2781.4 218,2778.6 225.95,2775.3 233.35,2771.4 288.33,2742.5 417.62,2614 475.02,2555.5"];
+	"waterDetected($o3)" -> "waterDetected'($o3)"	 [color=black,
+		pos="e,401.8,5035.4 217.24,5035.4 270.61,5035.4 336.53,5035.4 391.64,5035.4",
+		style=solid];
+	"waterDetected($o3)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,428.73,5079.7 196.65,5046.6 261.32,5055.9 352.6,5068.9 418.75,5078.3",
+		style=solid];
+	"pictureTaken($o1)" -> "Reward Function"	 [pos="e,485.75,2503.9 190.69,2263.2 205.32,2267.1 220.21,2272.4 233.35,2279.4 339.27,2335.8 435.88,2443.4 479.25,2496"];
+	"waterChecked($o4)" -> "waterChecked'($o4)"	 [color=black,
+		pos="e,437.6,1557.4 183.1,1503.3 250.83,1517.7 356.53,1540.2 427.78,1555.3",
+		style=solid];
+	"waterChecked($o4)" -> "waterDetected'($o4)"	 [color=black,
+		pos="e,408.5,1509.7 211.03,1495.9 267.62,1499.9 339.94,1504.9 398.48,1509",
+		style=solid];
+	"lifeChecked($o4)" -> "lifeChecked2'($o4)"	 [color=black,
+		pos="e,474.45,1198.6 183.64,1063.9 200.11,1067.8 217.56,1072.6 233.35,1078.4 320.09,1110.1 414.76,1163.2 465.75,1193.4",
+		style=solid];
+	"lifeChecked($o4)" -> "lifeChecked'($o4)"	 [color=black,
+		pos="e,429.01,1096.6 190.67,1062 255.58,1071.4 350.51,1085.2 418.72,1095.1",
+		style=solid];
+	"useToolOn($a1, $w1, $o1)" -> "waterDetected'($o1)"	 [color=black,
+		pos="e,415.04,429.23 211.53,408.12 270.12,414.2 345.45,422.01 404.89,428.17",
+		style=solid];
+	"useToolOn($a1, $w1, $o1)" -> "waterChecked'($o1)"	 [color=black,
+		pos="e,437.47,479.43 196.8,416.39 209.06,419.32 221.56,422.37 233.35,425.38 297.7,441.83 312.9,449.29 377.35,465.38 393.46,469.41 410.8,\
+473.45 427.32,477.16",
+		style=solid];
+	"lifeChecked2($o2)" -> "lifeChecked2'($o2)"	 [color=black,
+		pos="e,419.41,3375.8 200.41,3350.8 261.76,3357.8 345.46,3367.4 409.34,3374.7",
+		style=solid];
+	"lifeChecked2($o2)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,441.81,3268 179.3,3327.3 231.9,3315.3 309.57,3297.6 377.35,3282.4 395.05,3278.4 414.17,3274.1 432.03,3270.2",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,405.78,4860 157.22,4323 182.06,4324.8 213.12,4331.3 233.35,4350.4 398.85,4507 211.01,4686.7 377.35,4842.4 383.1,4847.8 389.64,\
+4852.2 396.66,4855.8",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,418.37,4278.2 157.49,4317.4 216.19,4308.6 327.66,4291.8 408.21,4279.7",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,404.76,3670.6 157.28,4324.2 182.31,4322.5 213.55,4316.1 233.35,4296.4 430.03,4100.3 179.62,3883.4 377.35,3688.4 382.72,3683.1 \
+388.86,3678.7 395.48,3675.1",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,414.92,4528.2 157.41,4326.6 180.84,4329.9 210.31,4336.7 233.35,4350.4 316.13,4399.6 294.3,4463.6 377.35,4512.4 385.97,4517.5 395.41,\
+4521.6 405.13,4525",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,407.94,3946.2 157.27,4322.9 181.67,4320.6 212.22,4314 233.35,4296.4 357.09,4193 253.05,4066.1 377.35,3963.4 383.73,3958.1 390.9,\
+3953.8 398.49,3950.2",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,406.96,4749.7 157.29,4323.5 181.85,4325.6 212.57,4332.2 233.35,4350.4 369.78,4470 240.28,4613.5 377.35,4732.4 383.42,4737.6 390.26,\
+4742 397.54,4745.6",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,406.34,4804.9 157.28,4323.2 181.99,4325.2 212.88,4331.7 233.35,4350.4 384.23,4488.4 225.72,4650.2 377.35,4787.4 383.24,4792.7 \
+389.93,4797.1 397.07,4800.7",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,420.71,4472.3 157.28,4328.5 180.25,4332.5 209.3,4339.2 233.35,4350.4 305.68,4383.9 304.83,4424.2 377.35,4457.4 387.93,4462.2 399.41,\
+4466.3 410.99,4469.6",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,404.78,4970.2 157.26,4322.6 182.29,4324.3 213.53,4330.7 233.35,4350.4 428.41,4544.4 181.26,4759.4 377.35,4952.4 382.73,4957.7 \
+388.87,4962.1 395.49,4965.7",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,419.91,4168.4 157.39,4318.5 180.4,4314.6 209.45,4307.8 233.35,4296.4 306.69,4261.2 303.81,4218.2 377.35,4183.4 387.61,4178.5 398.74,\
+4174.5 410,4171.2",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,409.39,4001.5 157.4,4322.3 181.55,4319.8 211.78,4313.2 233.35,4296.4 343.18,4211 267.06,4103.2 377.35,4018.4 384.25,4013.1 391.96,\
+4008.7 400.08,4005.2",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,405.75,3780.7 157.24,4323.8 182.09,4322 213.15,4315.6 233.35,4296.4 400.46,4137.8 209.39,3956.1 377.35,3798.4 383.09,3793 389.63,\
+3788.6 396.64,3784.9",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,430.65,4415.9 157.32,4331.4 179.79,4336.3 208.33,4343 233.35,4350.4 298.59,4369.7 312,4383.4 377.35,4402.4 391.25,4406.4 406.15,\
+4410.2 420.67,4413.6",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,409.45,4639.2 157.35,4324.5 181.48,4327.1 211.7,4333.7 233.35,4350.4 341.69,4433.9 268.56,4539.5 377.35,4622.4 384.27,4627.7 392,\
+4632 400.13,4635.5",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,405.24,3725.6 157.41,4324 182.33,4322.3 213.41,4315.8 233.35,4296.4 415.2,4119.1 194.55,3919.7 377.35,3743.4 382.83,3738.1 389.09,\
+3733.7 395.81,3730.1",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,429.19,4224.7 157.43,4315.7 179.94,4310.9 208.47,4304.2 233.35,4296.4 299.13,4275.6 311.45,4258.8 377.35,4238.4 390.69,4234.2 \
+405.01,4230.5 419.04,4227.1",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,405.26,4915.1 157.39,4322.8 182.31,4324.5 213.39,4331 233.35,4350.4 413.59,4525.6 196.17,4723.1 377.35,4897.4 382.84,4902.7 389.1,\
+4907 395.83,4910.7",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,411.33,4056.9 157.4,4321.5 181.26,4318.7 211.17,4312 233.35,4296.4 329.82,4228.5 280.51,4140.8 377.35,4073.4 384.84,4068.2 393.14,\
+4063.9 401.81,4060.4",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,414.13,4363.4 157.49,4328.8 215.17,4336.5 323.82,4351.2 404.01,4362",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,406.31,3835.8 157.3,4323.6 182.02,4321.6 212.92,4315.1 233.35,4296.4 385.82,4156.3 224.12,3992.6 377.35,3853.4 383.23,3848 389.91,\
+3843.6 397.05,3840",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,411.74,4583.8 157.33,4325.4 181.16,4328.2 211.07,4334.9 233.35,4350.4 328.41,4416.4 281.93,4501.9 377.35,4567.4 384.94,4572.6 \
+393.35,4576.9 402.11,4580.3",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,406.93,3891 157.32,4323.3 181.89,4321.2 212.61,4314.7 233.35,4296.4 371.34,4174.8 238.7,4029.3 377.35,3908.4 383.4,3903.1 390.23,\
+3898.8 397.51,3895.2",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,407.99,4694.5 157.23,4323.9 181.61,4326.2 212.16,4332.8 233.35,4350.4 355.55,4451.8 254.6,4576.6 377.35,4677.4 383.75,4682.6 390.93,\
+4687 398.53,4690.5",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,385.34,4321.3 157.49,4323.1 208.51,4322.7 299.42,4322 375.23,4321.4",
+		style=solid];
+	"right($a1)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,414.48,4112.5 157.23,4320.4 180.73,4317.1 210.34,4310.4 233.35,4296.4 317.4,4245.3 293.02,4179 377.35,4128.4 385.85,4123.3 395.18,\
+4119.1 404.79,4115.7",
+		style=solid];
+	"agentAt($a1, $x2, $y1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,409.43,4276.6 204.23,4583.2 214.69,4579.3 224.71,4574.1 233.35,4567.4 341.84,4482.8 268.06,4376.9 377.35,4293.4 384.26,4288.1 \
+391.99,4283.8 400.11,4280.2",
+		style=solid];
+	"agentAt($a1, $x2, $y1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,414.88,4803.2 199.21,4608.4 211.15,4612.2 222.91,4617.1 233.35,4623.4 316.35,4673.6 293.87,4738 377.35,4787.4 385.95,4792.5 395.38,\
+4796.6 405.1,4800.1",
+		style=solid];
+	"agentAt($a1, $x2, $y1)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,405.25,4000.6 208.36,4583.9 217.6,4579.8 226.19,4574.4 233.35,4567.4 413.4,4390.7 195.63,4193.3 377.35,4018.4 382.84,4013.1 389.1,\
+4008.7 395.82,4005.1",
+		style=solid];
+	"agentAt($a1, $x2, $y1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,416.2,4638 203.75,4607.7 263.68,4616.2 343.71,4627.6 405.97,4636.5",
+		style=solid];
+	"agentAt($a1, $x2, $y1)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,385.38,4595.4 233.39,4595.4 278.05,4595.4 329.31,4595.4 375.09,4595.4",
+		style=solid];
+	"lifeDetected($o1)" -> "Reward Function"	 [pos="e,494.15,2502.2 201.7,731.89 213.73,736.28 224.88,742.8 233.35,752.38 434.81,980.51 316.56,1816.2 377.35,2114.4 406.6,2257.9 464.85,\
+2423 490.6,2492.6"];
+	"lifeDetected($o1)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,447.34,371.98 195.69,716.3 209.22,712.1 222.42,706.06 233.35,697.38 344.81,608.91 273.67,508.87 377.35,411.38 394.26,395.48 416.58,\
+383.86 437.73,375.56",
+		style=solid];
+	"useToolOn($a1, $p1, $o5)" -> "pictureTaken'($o5)"	 [color=black,
+		pos="e,406,2744.4 210.05,2744.4 265.98,2744.4 337.55,2744.4 395.99,2744.4",
+		style=solid];
+	"useToolOn($a1, $p1, $o5)" -> "Reward Function"	 [pos="e,480.01,2547.8 209.69,2726.4 217.83,2723.8 225.82,2720.8 233.35,2717.4 328.59,2674.6 424.78,2596.2 472.5,2554.4"];
+	"useToolOn($a1, $l1, $o5)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,429.66,931.5 207.96,796.57 216.71,799.39 225.31,802.64 233.35,806.38 305.85,840.2 304.66,880.96 377.35,914.38 390.58,920.47 405.21,\
+925.27 419.69,929.05",
+		style=solid];
+	"useToolOn($a1, $l1, $o5)" -> "lifeChecked2'($o5)"	 [color=black,
+		pos="e,424.27,821.52 208.1,791.81 270.21,800.35 352.29,811.63 414.13,820.13",
+		style=solid];
+	"useToolOn($a1, $l1, $o5)" -> "lifeChecked'($o5)"	 [color=black,
+		pos="e,411.48,777.86 208.1,778.92 265.97,778.62 341.19,778.23 401.22,777.91",
+		style=solid];
+	"waterDetected($o0)" -> "waterDetected'($o0)"	 [color=black,
+		pos="e,423.48,1859 196.65,1826.6 259.64,1835.6 347.88,1848.2 413.55,1857.6",
+		style=solid];
+	"waterDetected($o0)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,411.43,1815.4 217.24,1815.4 273.78,1815.4 344.39,1815.4 401.33,1815.4",
+		style=solid];
+	"Current State and Actions" -> "Next State and Reward"	 [color=black,
+		pos="e,423.11,5360.4 207.61,5360.4 269.39,5360.4 351.09,5360.4 412.96,5360.4",
+		style=invis];
+	"agentAt($a1, $x3, $y2)" -> "pictureTaken'($o1)"	 [color=black,
+		pos="e,473.57,2671.7 188.78,2540.9 203.69,2544.7 219.18,2549.2 233.35,2554.4 319.25,2585.8 413.51,2637.1 464.81,2666.6",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,402.7,4255.9 210.71,2537.3 219.29,2541.5 227.09,2547.1 233.35,2554.4 477.83,2839.2 130.19,3954.9 377.35,4237.4 382.05,4242.8 387.55,\
+4247.2 393.56,4251",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "waterDetected'($o1)"	 [color=black,
+		pos="e,408.73,445.18 211.09,2515.4 219.54,2511.2 227.21,2505.6 233.35,2498.4 525.68,2152.7 81.775,809.26 377.35,466.38 383.52,459.22 \
+391.09,453.65 399.42,449.36",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "Reward Function"	 [pos="e,377.28,2526.4 233.39,2526.4 275.48,2526.4 323.45,2526.4 367.15,2526.4"];
+	"agentAt($a1, $x3, $y2)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,438.32,370.43 211.11,2515.4 219.55,2511.2 227.21,2505.6 233.35,2498.4 533.22,2143.2 108.22,790.44 377.35,411.38 389.77,393.88 \
+409.09,382 428.9,373.97",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,402.72,4200.8 210.69,2537.3 219.27,2541.5 227.08,2547.1 233.35,2554.4 470.29,2829.6 137.82,3909.4 377.35,4182.4 382.06,4187.8 \
+387.56,4192.2 393.57,4195.9",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,402.93,3815.7 210.49,2537.5 219.11,2541.7 226.98,2547.2 233.35,2554.4 601.86,2970.9 4.9292,3384.4 377.35,3797.4 382.13,3802.7 \
+387.69,3807.1 393.74,3810.8",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,402.28,4585.8 211.09,2537.4 219.54,2541.6 227.21,2547.1 233.35,2554.4 523.07,2896.7 84.411,4227.8 377.35,4567.4 381.97,4572.7 \
+387.37,4577.2 393.28,4580.9",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,402.9,3870.7 210.53,2537.5 219.14,2541.7 227,2547.2 233.35,2554.4 616.9,2990 -10.29,3420.4 377.35,3852.4 382.12,3857.7 387.66,\
+3862.1 393.71,3865.8",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "lifeChecked2'($o1)"	 [color=black,
+		pos="e,423.25,300.05 211.13,2515.4 219.57,2511.2 227.22,2505.7 233.35,2498.4 544.33,2129 80.826,711.45 377.35,330.38 386.73,318.32 399.73,\
+309.76 413.84,303.69",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "waterChecked'($o1)"	 [color=black,
+		pos="e,422.34,504.45 211.07,2515.4 219.53,2511.2 227.2,2505.6 233.35,2498.4 516.35,2164.6 107.41,878.83 377.35,534.38 386.51,522.69 399.07,\
+514.29 412.73,508.26",
+		style=solid];
+	"agentAt($a1, $x3, $y2)" -> "lifeChecked'($o1)"	 [color=black,
+		pos="e,414.37,239.09 211.14,2515.5 219.58,2511.2 227.23,2505.7 233.35,2498.4 553.66,2117.2 53.458,640.56 377.35,262.38 384.84,253.63 \
+394.41,247.26 404.92,242.68",
+		style=solid];
+	"lifeChecked($o0)" -> "lifeChecked'($o0)"	 [color=black,
+		pos="e,427.57,1695 192.03,1662.6 256.47,1671.5 349.73,1684.3 417.36,1693.6",
+		style=solid];
+	"lifeChecked($o0)" -> "lifeChecked2'($o0)"	 [color=black,
+		pos="e,435.57,1747.1 180.18,1665.5 197.51,1669.5 216.26,1674.3 233.35,1679.4 298.68,1699 311.91,1713.2 377.35,1732.4 392.84,1736.9 409.59,\
+1741.1 425.66,1744.8",
+		style=solid];
+	"useToolOn($a1, $w1, $o2)" -> "waterDetected'($o2)"	 [color=black,
+		pos="e,438.9,3213.6 194.9,3269.4 246.52,3257.4 315.97,3241.3 377.35,3227.4 394.06,3223.6 412.04,3219.6 429.03,3215.8",
+		style=solid];
+	"useToolOn($a1, $w1, $o2)" -> "waterChecked'($o2)"	 [color=black,
+		pos="e,406.38,3303.9 211.53,3292.7 267.27,3295.9 338.14,3300 396.09,3303.3",
+		style=solid];
+	"pictureTaken($o5)" -> "Reward Function"	 [pos="e,489.69,2503.2 193.08,2207.7 207.07,2211.7 221.11,2217.1 233.35,2224.4 350.68,2294.6 445.53,2432.4 484.37,2494.6"];
+	"agentAt($a1, $x1, $y3)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,385.38,4540.4 233.39,4540.4 278.05,4540.4 329.31,4540.4 375.09,4540.4",
+		style=solid];
+	"agentAt($a1, $x1, $y3)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,430.27,4444.8 185.33,4525.5 201.18,4521.6 217.94,4517.1 233.35,4512.4 298.68,4492.3 311.82,4477.8 377.35,4458.4 391.13,4454.3 \
+405.93,4450.5 420.36,4447.1",
+		style=solid];
+	"agentAt($a1, $x1, $y3)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,407.97,4914.5 205.58,4552.4 215.64,4556.3 225.19,4561.5 233.35,4568.4 355.65,4671 254.09,4796 377.35,4897.4 383.74,4902.6 390.92,\
+4907 398.52,4910.5",
+		style=solid];
+	"agentAt($a1, $x1, $y3)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,414.88,4332.5 199.21,4527.4 211.15,4523.6 222.91,4518.7 233.35,4512.4 316.35,4462.2 293.87,4397.8 377.35,4348.4 385.95,4343.3 \
+395.38,4339.1 405.1,4335.7",
+		style=solid];
+	"agentAt($a1, $x1, $y3)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,406.95,4111.1 206.52,4528.6 216.3,4524.6 225.53,4519.3 233.35,4512.4 369.8,4391.5 239.75,4247.9 377.35,4128.4 383.41,4123.1 390.25,\
+4118.8 397.53,4115.2",
+		style=solid];
+	"lifeChecked2($o1)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,434.35,345.22 188.41,301.86 255.15,313.62 355.04,331.24 424.36,343.46",
+		style=solid];
+	"lifeChecked2($o1)" -> "lifeChecked2'($o1)"	 [color=black,
+		pos="e,405.23,289.38 214,289.38 269.04,289.38 338.21,289.38 395.12,289.38",
+		style=solid];
+	"agentAt($a1, $x2, $y2)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,385.38,4650.4 233.39,4650.4 278.05,4650.4 329.31,4650.4 375.09,4650.4",
+		style=solid];
+	"agentAt($a1, $x2, $y2)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,411.71,4913.9 202.44,4663 213.41,4666.8 224.05,4671.8 233.35,4678.4 328.6,4745.4 281.46,4831.2 377.35,4897.4 384.93,4902.6 393.33,\
+4906.9 402.09,4910.4",
+		style=solid];
+	"agentAt($a1, $x2, $y2)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,416.2,4607.8 203.75,4638.1 263.68,4629.6 343.71,4618.2 405.97,4609.3",
+		style=solid];
+	"agentAt($a1, $x2, $y2)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,404.2,3890.5 209.05,4639.1 218.1,4635 226.47,4629.5 233.35,4622.4 457.81,4389.1 150.7,4139.5 377.35,3908.4 382.58,3903 388.58,\
+3898.6 395.07,3895",
+		style=solid];
+	"agentAt($a1, $x2, $y2)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,409.43,4331.6 204.23,4638.2 214.69,4634.3 224.71,4629.1 233.35,4622.4 341.84,4537.8 268.06,4431.9 377.35,4348.4 384.26,4343.1 \
+391.99,4338.8 400.11,4335.2",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,414.45,892.16 212.14,2895.7 220.16,2891.6 227.45,2886.3 233.35,2879.4 517.71,2546.8 91.211,1246.5 377.35,915.38 384.88,906.66 \
+394.48,900.32 405,895.74",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,402.89,4255.7 211.6,2917.2 219.79,2921.2 227.25,2926.5 233.35,2933.4 620.33,3369.5 -11.951,3803.3 377.35,4237.4 382.12,4242.7 \
+387.66,4247.1 393.71,4250.8",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "waterDetected'($o6)"	 [color=black,
+		pos="e,408.79,1004.2 212.11,2895.7 220.14,2891.6 227.43,2886.3 233.35,2879.4 502.55,2565.9 106.47,1337.5 377.35,1025.4 383.55,1018.2 \
+391.13,1012.7 399.47,1008.4",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,403.49,3925.6 211.07,2917.3 219.41,2921.3 227.06,2926.6 233.35,2933.4 529.74,3255.3 79.239,3587 377.35,3907.4 382.38,3912.8 388.22,\
+3917.3 394.55,3921",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "lifeChecked2'($o6)"	 [color=black,
+		pos="e,458.27,142.8 212.28,2895.8 220.27,2891.7 227.52,2886.3 233.35,2879.4 615.36,2423.7 78.456,721.45 377.35,207.38 393.31,179.93 422.71,\
+160.24 449.09,147.15",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "waterChecked'($o6)"	 [color=black,
+		pos="e,408.81,1059.2 212.09,2895.7 220.12,2891.6 227.43,2886.3 233.35,2879.4 494.97,2575.4 114.1,1383 377.35,1080.4 383.56,1073.2 391.15,\
+1067.7 399.49,1063.4",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "lifeChecked'($o6)"	 [color=black,
+		pos="e,414.25,75.993 212.29,2895.8 220.29,2891.7 227.52,2886.3 233.35,2879.4 630.26,2404.9 -22.089,571.75 377.35,99.385 384.79,90.584 \
+394.33,84.189 404.82,79.589",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "Reward Function"	 [pos="e,481.23,2548 203.89,2894 214.34,2890.3 224.45,2885.6 233.35,2879.4 328.41,2813.4 305.78,2753.4 377.35,2662.4 408.09,2623.3 447.61,\
+2581.9 474.12,2555.1"];
+	"agentAt($a1, $x3, $y1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,402.69,4640.9 212.05,2917.1 220.1,2921.2 227.41,2926.5 233.35,2933.4 479.82,3218.3 129.36,4338.8 377.35,4622.4 382.05,4627.8 387.55,\
+4632.2 393.55,4636",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,402.82,4365.7 211.66,2917.1 219.83,2921.2 227.28,2926.5 233.35,2933.4 650.58,3407.7 -42.408,3875.3 377.35,4347.4 382.1,4352.7 \
+387.62,4357.2 393.65,4360.9",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "pictureTaken'($o6)"	 [color=black,
+		pos="e,405.93,2906.4 233.39,2906.4 284.87,2906.4 345.13,2906.4 395.64,2906.4",
+		style=solid];
+	"agentAt($a1, $x3, $y1)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,403.55,3870.5 211.01,2917.3 219.36,2921.3 227.03,2926.6 233.35,2933.4 514.69,3236.3 94.396,3551 377.35,3852.4 382.41,3857.8 388.26,\
+3862.2 394.61,3865.9",
+		style=solid];
+	"waterChecked($o6)" -> "waterDetected'($o6)"	 [color=black,
+		pos="e,423.01,986.14 197.12,954.51 259.81,963.29 347.29,975.53 412.71,984.69",
+		style=solid];
+	"waterChecked($o6)" -> "waterChecked'($o6)"	 [color=black,
+		pos="e,434.23,1038.9 183.52,957.2 199.91,961.06 217.36,965.54 233.35,970.38 298.76,990.19 311.82,1004.9 377.35,1024.4 392.32,1028.8 408.49,\
+1032.9 424.09,1036.6",
+		style=solid];
+	"useToolOn($a1, $p1, $o6)" -> "Reward Function"	 [pos="e,482.67,2548.4 209.74,2836.5 217.99,2833.4 226,2829.8 233.35,2825.4 316.34,2775.8 312.49,2734.1 377.35,2662.4 410.9,2625.3 450.14,\
+2583.1 475.81,2555.7"];
+	"useToolOn($a1, $p1, $o6)" -> "pictureTaken'($o6)"	 [color=black,
+		pos="e,425.06,2895.4 210.05,2865.3 272.22,2874 353.71,2885.4 415.02,2894",
+		style=solid];
+	"lifeDetected($o0)" -> "Reward Function"	 [pos="e,496.68,2501.7 195.87,2042.4 209.22,2046.5 222.33,2052.2 233.35,2060.4 387.47,2174.5 467.96,2405 493.86,2492"];
+	"lifeDetected($o0)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,424.85,1824.9 190.97,2022.7 205.66,2018.7 220.5,2013.1 233.35,2005.4 315.93,1955.8 294.3,1892.2 377.35,1843.4 388.81,1836.6 401.74,\
+1831.5 414.83,1827.6",
+		style=solid];
+	"useToolOn($a1, $l1, $o6)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,415.8,881.76 207.68,82.116 217.27,86.266 226.14,91.868 233.35,99.385 471.27,347.54 138.1,612.5 377.35,859.38 385.43,867.72 395.4,\
+873.83 406.17,878.28",
+		style=solid];
+	"useToolOn($a1, $l1, $o6)" -> "lifeChecked2'($o6)"	 [color=black,
+		pos="e,424.91,115.4 208.1,85.045 270.42,93.771 352.84,105.31 414.76,113.98",
+		style=solid];
+	"useToolOn($a1, $l1, $o6)" -> "lifeChecked'($o6)"	 [color=black,
+		pos="e,411.48,71.623 208.1,72.15 265.97,72 341.19,71.805 401.22,71.65",
+		style=solid];
+	"waterDetected($o1)" -> "waterDetected'($o1)"	 [color=black,
+		pos="e,444.15,423.44 179.84,358.73 197.17,362.77 216,367.21 233.35,371.38 301.75,387.85 379.74,407.28 434.25,420.96",
+		style=solid];
+	"waterDetected($o1)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,412.91,354.34 215.49,347.68 272.75,349.61 344.92,352.04 402.67,353.99",
+		style=solid];
+	"pictureTaken($o3)" -> "Reward Function"	 [pos="e,492.46,2502.3 194.79,2152.2 208.33,2156.3 221.77,2161.8 233.35,2169.4 362.13,2253.8 453.33,2421.5 487.96,2492.9"];
+	"lifeChecked($o1)" -> "lifeChecked2'($o1)"	 [color=black,
+		pos="e,435.57,276.07 180.18,194.49 197.51,198.53 216.26,203.27 233.35,208.38 298.68,227.95 311.91,242.17 377.35,261.38 392.84,265.93 \
+409.59,270.14 425.66,273.84",
+		style=solid];
+	"lifeChecked($o1)" -> "lifeChecked'($o1)"	 [color=black,
+		pos="e,427.57,223.97 192.03,191.6 256.47,200.46 349.73,213.27 417.36,222.57",
+		style=solid];
+	"useToolOn($a1, $w1, $o3)" -> "waterDetected'($o3)"	 [color=black,
+		pos="e,434.23,5048.9 200.79,5126.4 211.8,5123.6 222.88,5120.6 233.35,5117.4 298.76,5097.6 311.82,5082.8 377.35,5063.4 392.32,5058.9 408.49,\
+5054.8 424.09,5051.2",
+		style=solid];
+	"useToolOn($a1, $w1, $o3)" -> "waterChecked'($o3)"	 [color=black,
+		pos="e,401.62,5145.1 211.53,5144.6 265.79,5144.8 334.41,5144.9 391.47,5145.1",
+		style=solid];
+	"lifeChecked($o2)" -> "lifeChecked2'($o2)"	 [color=black,
+		pos="e,433.7,3398.3 180.38,3491.3 197.71,3487.1 216.41,3482.1 233.35,3476.4 299.55,3454.1 310.94,3435.1 377.35,3413.4 392.11,3408.6 408.12,\
+3404.3 423.61,3400.6",
+		style=solid];
+	"lifeChecked($o2)" -> "lifeChecked'($o2)"	 [color=black,
+		pos="e,432.72,3452.1 187.52,3492.8 253.72,3481.8 353.13,3465.3 422.68,3453.8",
+		style=solid];
+	"pictureTaken($o4)" -> "Reward Function"	 [pos="e,428.8,2515.8 194.33,2482.3 259.1,2491.6 351.76,2504.8 418.7,2514.3"];
+	"agentAt($a1, $x4, $y0)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,403.47,3945.2 210,4969.2 218.77,4965 226.8,4959.6 233.35,4952.4 532.51,4624 75.102,4288.9 377.35,3963.4 382.38,3958 388.21,3953.5 \
+394.54,3949.8",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "lifeChecked2'($o3)"	 [color=black,
+		pos="e,421.83,5190.2 199.21,4993.4 211.15,4997.2 222.91,5002.1 233.35,5008.4 316.35,5058.6 293.87,5123 377.35,5172.4 388,5178.7 399.92,\
+5183.6 412.06,5187.4",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "lifeChecked'($o3)"	 [color=black,
+		pos="e,421.89,5246.9 202.44,4993 213.41,4996.8 224.05,5001.8 233.35,5008.4 328.6,5075.4 281.46,5161.2 377.35,5227.4 387.75,5234.6 399.69,\
+5239.9 411.98,5244",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "pictureTaken'($o3)"	 [color=black,
+		pos="e,456.41,3111.5 210.74,4969.5 219.31,4965.3 227.1,4959.7 233.35,4952.4 491.12,4650.7 169.42,3510.4 377.35,3172.4 393.26,3146.5 421.42,\
+3128.1 447.09,3115.8",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "Reward Function"	 [pos="e,475.66,2546.6 211.15,4969.5 219.59,4965.2 227.24,4959.7 233.35,4952.4 561.07,4561.8 176.43,3131 377.35,2662.4 396.65,2617.4 437.53,\
+2577.8 467.51,2553.1"];
+	"agentAt($a1, $x4, $y0)" -> "waterDetected'($o3)"	 [color=black,
+		pos="e,423.46,5024 203.75,4992.7 266.12,5001.6 350.26,5013.6 413.49,5022.6",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "waterChecked'($o3)"	 [color=black,
+		pos="e,425.33,5133.5 194.19,4994.2 207.57,4997.9 221.12,5002.6 233.35,5008.4 305.87,5042.8 304.5,5083.7 377.35,5117.4 389.26,5122.9 402.31,\
+5127.4 415.37,5130.9",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,405.25,4385.6 208.36,4968.9 217.6,4964.8 226.19,4959.4 233.35,4952.4 413.4,4775.7 195.63,4578.3 377.35,4403.4 382.84,4398.1 389.1,\
+4393.7 395.82,4390.1",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,437.5,5077.6 185.33,4995.3 201.18,4999.2 217.94,5003.7 233.35,5008.4 298.68,5028.5 311.82,5042.9 377.35,5062.4 393.36,5067.1 410.72,\
+5071.5 427.3,5075.3",
+		style=solid];
+	"agentAt($a1, $x4, $y0)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,411.71,4716.9 202.44,4967.8 213.41,4963.9 224.05,4958.9 233.35,4952.4 328.6,4885.3 281.46,4799.5 377.35,4733.4 384.93,4728.2 393.33,\
+4723.9 402.09,4720.4",
+		style=solid];
+	"lifeChecked2($o0)" -> "lifeChecked2'($o0)"	 [color=black,
+		pos="e,405.23,1760.4 214,1760.4 269.04,1760.4 338.21,1760.4 395.12,1760.4",
+		style=solid];
+	"lifeChecked2($o0)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,428.65,1804.7 194.79,1771.4 259.51,1780.6 351.81,1793.8 418.58,1803.3",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,419.89,3673.3 194.91,3816.6 208.08,3812.9 221.37,3808.2 233.35,3802.4 306.72,3766.6 303.64,3723.5 377.35,3688.4 387.6,3683.5 398.72,\
+3679.5 409.98,3676.1",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "damaged'($w1)"	 [color=black,
+		pos="e,428.08,3557.2 202.5,3817.9 213.47,3814 224.09,3809 233.35,3802.4 329.77,3733.8 280.27,3646.1 377.35,3578.4 389.44,3569.9 403.65,\
+3564 418.07,3559.8",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "damaged'($l1)"	 [color=black,
+		pos="e,430.32,3500.5 204.58,3818.1 214.92,3814.2 224.82,3809.1 233.35,3802.4 343.07,3716.2 266.81,3608.6 377.35,3523.4 389.79,3513.8 \
+404.88,3507.4 420.22,3503.1",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "damaged'($p1)"	 [color=black,
+		pos="e,431.64,3613 199.6,3817.4 211.42,3813.6 223.05,3808.7 233.35,3802.4 317.41,3750.7 292.8,3684.3 377.35,3633.4 390.73,3625.3 406.17,\
+3619.6 421.56,3615.5",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,405.27,4420.1 208.35,3841.9 217.58,3846 226.18,3851.4 233.35,3858.4 412.07,4033.3 196.98,4229.1 377.35,4402.4 382.84,4407.7 389.11,\
+4412 395.84,4415.7",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,415.3,4033.2 198.82,3843.4 210.87,3847.2 222.78,3852.1 233.35,3858.4 315.31,3907.1 294.93,3969.5 377.35,4017.4 386.15,4022.5 395.81,\
+4026.7 405.73,4030.1",
+		style=solid];
+	"agentAt($a1, $x1, $y4)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,411.78,4088.8 202.07,3843 213.16,3846.8 223.93,3851.8 233.35,3858.4 327.44,3923.9 282.64,4007.8 377.35,4072.4 384.96,4077.6 393.38,\
+4081.8 402.15,4085.3",
+		style=solid];
+	"useToolOn($a1, $p1, $o3)" -> "pictureTaken'($o3)"	 [color=black,
+		pos="e,438.22,3081.7 203.75,3032.5 271.07,3046.6 363.76,3066.1 428.14,3079.6",
+		style=solid];
+	"useToolOn($a1, $p1, $o3)" -> "Reward Function"	 [pos="e,479.45,2547.5 209.89,3001.4 218.35,2997.8 226.36,2993.2 233.35,2987.4 355.04,2886.6 290.48,2794.3 377.35,2662.4 404.52,2621.1 \
+444.43,2580.4 472.02,2554.5"];
+	"lifeDetected($o3)" -> "Reward Function"	 [pos="e,476.27,2546.8 200.35,3768.3 212.85,3763.9 224.5,3757.2 233.35,3747.4 558.69,3385.7 170.32,3102.6 377.35,2662.4 398.19,2618.1 438.78,\
+2578.4 468.28,2553.5"];
+	"lifeDetected($o3)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,415.15,5085.4 200.79,3782.4 213.16,3786.9 224.66,3793.6 233.35,3803.4 606.23,4225.5 0.50254,4643.8 377.35,5062.4 385.12,5071 394.9,\
+5077.3 405.57,5081.8",
+		style=solid];
+	"waterChecked($o1)" -> "waterDetected'($o1)"	 [color=black,
+		pos="e,403.62,442 215.49,448.83 269.7,446.87 337.25,444.41 393.29,442.38",
+		style=solid];
+	"waterChecked($o1)" -> "waterChecked'($o1)"	 [color=black,
+		pos="e,415.75,484.07 204.23,461.59 263.97,467.94 343.51,476.39 405.56,482.99",
+		style=solid];
+	"agentAt($a1, $x3, $y4)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,411.31,3671.9 202.5,3927.9 213.47,3924 224.09,3919 233.35,3912.4 329.77,3843.8 280.27,3756.1 377.35,3688.4 384.84,3683.2 393.14,\
+3678.9 401.8,3675.4",
+		style=solid];
+	"agentAt($a1, $x3, $y4)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,415.3,4143.2 198.82,3953.4 210.87,3957.2 222.78,3962.1 233.35,3968.4 315.31,4017.1 294.93,4079.5 377.35,4127.4 386.15,4132.5 395.81,\
+4136.7 405.73,4140.1",
+		style=solid];
+	"agentAt($a1, $x3, $y4)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,414.46,3727.5 199.6,3927.4 211.42,3923.6 223.05,3918.7 233.35,3912.4 317.41,3860.7 292.8,3794.3 377.35,3743.4 385.84,3738.3 395.16,\
+3734.1 404.77,3730.7",
+		style=solid];
+	"agentAt($a1, $x3, $y4)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,429.17,3839.7 186.35,3925.6 201.93,3921.7 218.31,3917.3 233.35,3912.4 299.14,3891.1 311.35,3874.1 377.35,3853.4 390.68,3849.2 \
+405,3845.4 419.02,3842",
+		style=solid];
+	"useToolOn($a1, $w1, $o4)" -> "waterChecked'($o4)"	 [color=black,
+		pos="e,409.07,1564.5 211.53,1550.2 268.22,1554.3 340.59,1559.6 399.07,1563.8",
+		style=solid];
+	"useToolOn($a1, $w1, $o4)" -> "waterDetected'($o4)"	 [color=black,
+		pos="e,408.4,1523 211.53,1536.8 268.01,1532.9 340.05,1527.8 398.41,1523.7",
+		style=solid];
+	"waterDetected($o6)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,411.43,887.62 217.24,888.13 273.78,887.98 344.39,887.8 401.33,887.65",
+		style=solid];
+	"waterDetected($o6)" -> "waterDetected'($o6)"	 [color=black,
+		pos="e,434.58,983.85 181.67,902.48 198.58,906.59 216.74,911.34 233.35,916.38 298.59,936.22 311.91,950.17 377.35,969.38 392.57,973.86 \
+409.01,978 424.83,981.65",
+		style=solid];
+	"repair($a1, $w1)" -> "damaged'($w1)"	 [color=black,
+		pos="e,437.05,3561 177.93,3602.7 245.11,3591.9 353.89,3574.4 426.98,3562.7",
+		style=solid];
+	"useToolOn($a1, $l1, $o2)" -> "lifeChecked2'($o2)"	 [color=black,
+		pos="e,406.06,3387.9 208.1,3393 264.29,3391.6 336.83,3389.7 395.95,3388.2",
+		style=solid];
+	"useToolOn($a1, $l1, $o2)" -> "lifeChecked'($o2)"	 [color=black,
+		pos="e,423.95,3431.1 208.1,3405.9 270.1,3413.2 352.01,3422.7 413.82,3429.9",
+		style=solid];
+	"useToolOn($a1, $l1, $o2)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,432.17,3266 207.58,3377.3 216.4,3374.7 225.12,3371.7 233.35,3368.4 302.47,3340.5 308.08,3309.9 377.35,3282.4 391.52,3276.7 407.07,\
+3272.1 422.26,3268.4",
+		style=solid];
+	"agentAt($a1, $x1, $y1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,385.38,4815.4 233.39,4815.4 278.05,4815.4 329.31,4815.4 375.09,4815.4",
+		style=solid];
+	"agentAt($a1, $x1, $y1)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,409.43,4496.6 204.23,4803.2 214.69,4799.3 224.71,4794.1 233.35,4787.4 341.84,4702.8 268.06,4596.9 377.35,4513.4 384.26,4508.1 \
+391.99,4503.8 400.11,4500.2",
+		style=solid];
+	"agentAt($a1, $x1, $y1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,420.33,4967.3 194.19,4829.2 207.57,4832.9 221.12,4837.6 233.35,4843.4 305.87,4877.8 304.5,4918.7 377.35,4952.4 387.83,4957.2 399.21,\
+4961.3 410.68,4964.6",
+		style=solid];
+	"agentAt($a1, $x1, $y1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,420.33,4663.5 194.19,4801.6 207.57,4797.8 221.12,4793.2 233.35,4787.4 305.87,4753 304.5,4712.1 377.35,4678.4 387.83,4673.5 399.21,\
+4669.5 410.68,4666.2",
+		style=solid];
+	"agentAt($a1, $x1, $y1)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,430.27,4911 185.33,4830.3 201.18,4834.2 217.94,4838.7 233.35,4843.4 298.68,4863.5 311.82,4877.9 377.35,4897.4 391.13,4901.5 405.93,\
+4905.3 420.36,4908.7",
+		style=solid];
+	"agentAt($a1, $x4, $y1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,414.86,4277.5 201.04,4472.6 212.35,4469 223.45,4464.3 233.35,4458.4 316.76,4408.2 293.66,4343.1 377.35,4293.4 385.94,4288.3 395.37,\
+4284.1 405.08,4280.7",
+		style=solid];
+	"agentAt($a1, $x4, $y1)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,411.37,4222 203.93,4473.1 214.37,4469.4 224.47,4464.6 233.35,4458.4 329.11,4391.4 281.22,4304.8 377.35,4238.4 384.86,4233.2 393.17,\
+4228.9 401.84,4225.5",
+		style=solid];
+	"agentAt($a1, $x4, $y1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,429.92,4389.8 187.51,4470.7 202.72,4467 218.65,4462.9 233.35,4458.4 298.85,4438.3 311.73,4423.1 377.35,4403.4 391.03,4399.3 405.72,\
+4395.5 420.06,4392.1",
+		style=solid];
+	"agentAt($a1, $x4, $y1)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,414.88,4693.2 199.21,4498.4 211.15,4502.2 222.91,4507.1 233.35,4513.4 316.35,4563.6 293.87,4628 377.35,4677.4 385.95,4682.5 395.38,\
+4686.6 405.1,4690.1",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,404.79,4530.2 208.51,3896.8 217.72,3900.9 226.26,3906.3 233.35,3913.4 426.8,4107.1 182.07,4320.5 377.35,4512.4 382.73,4517.7 388.88,\
+4522.1 395.5,4525.7",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "damaged'($w1)"	 [color=black,
+		pos="e,426.7,3556.4 204.58,3873.1 214.92,3869.2 224.82,3864.1 233.35,3857.4 343.07,3771.2 266.81,3663.6 377.35,3578.4 388.88,3569.5 402.68,\
+3563.3 416.86,3559",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "damaged'($l1)"	 [color=black,
+		pos="e,429.44,3499.9 205.61,3873.5 215.67,3869.5 225.21,3864.2 233.35,3857.4 356.92,3753.2 252.79,3626.4 377.35,3523.4 389.38,3513.4 \
+404.21,3506.8 419.42,3502.5",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "damaged'($p1)"	 [color=black,
+		pos="e,429.39,3611.9 202.5,3872.9 213.47,3869 224.09,3864 233.35,3857.4 329.77,3788.8 280.27,3701.1 377.35,3633.4 389.86,3624.7 404.63,\
+3618.6 419.57,3614.4",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,421.12,4032.2 193.47,3899.3 207.06,3903 220.86,3907.6 233.35,3913.4 305.06,3946.4 305.33,3985 377.35,4017.4 388.05,4022.2 399.64,\
+4026.2 411.31,4029.5",
+		style=solid];
+	"agentAt($a1, $x0, $y4)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,415.3,4088.2 198.82,3898.4 210.87,3902.2 222.78,3907.1 233.35,3913.4 315.31,3962.1 294.93,4024.5 377.35,4072.4 386.15,4077.5 395.81,\
+4081.7 405.73,4085.1",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,405.26,4860.1 150.38,4268.4 176.22,4269.4 211.46,4275.1 233.35,4296.4 413.32,4471.3 196.44,4668.4 377.35,4842.4 382.84,4847.7 \
+389.1,4852 395.83,4855.7",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,385.46,4266.6 150.22,4269 199.51,4268.5 295.76,4267.5 375.34,4266.7",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,405.24,3670.6 150.4,4270.4 176.25,4269.4 211.5,4263.7 233.35,4242.4 415.47,4064.8 194.28,3865 377.35,3688.4 382.83,3683.1 389.09,\
+3678.7 395.81,3675.1",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,411.75,4528.8 150.19,4270.6 174.92,4273 208.77,4279.4 233.35,4296.4 328.17,4362.1 282.17,4447.2 377.35,4512.4 384.95,4517.6 393.36,\
+4521.9 402.12,4525.3",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,409.38,3946.5 150.23,4269 175.31,4267.1 209.59,4260.9 233.35,4242.4 343.43,4156.6 266.81,4048.6 377.35,3963.4 384.25,3958.1 391.95,\
+3953.7 400.07,3950.2",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,406.35,4749.9 150.3,4268.8 175.91,4270 210.89,4275.9 233.35,4296.4 383.97,4434.1 225.99,4595.5 377.35,4732.4 383.25,4737.7 389.93,\
+4742.1 397.08,4745.7",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,405.78,4805 150.22,4268.6 175.97,4269.7 211.17,4275.4 233.35,4296.4 398.59,4452.6 211.27,4632 377.35,4787.4 383.1,4792.8 389.65,\
+4797.2 396.67,4800.8",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,414.94,4473.1 150.31,4271.7 174.63,4274.6 207.89,4281.3 233.35,4296.4 315.92,4345.3 294.51,4408.9 377.35,4457.4 385.97,4462.4 \
+395.42,4466.6 405.14,4470",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,404.64,4970.3 150.35,4268.1 176.36,4269 211.83,4274.6 233.35,4296.4 443.01,4508.8 166.55,4741 377.35,4952.4 382.68,4957.7 388.79,\
+4962.2 395.38,4965.8",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,429.17,4169.7 150.46,4263.2 173.83,4258.4 205.84,4251.2 233.35,4242.4 299.23,4221.3 311.35,4204.1 377.35,4183.4 390.68,4179.2 \
+405,4175.4 419.02,4172",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,411.31,4001.9 150.27,4268.3 175.05,4266 208.91,4259.6 233.35,4242.4 330.05,4174.2 280.27,4086.1 377.35,4018.4 384.84,4013.2 393.14,\
+4008.9 401.8,4005.4",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,406.31,3780.8 150.33,4270 175.96,4268.8 210.95,4263 233.35,4242.4 386.09,4102 223.86,3937.9 377.35,3798.4 383.23,3793 389.91,3788.6 \
+397.05,3785",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,420.74,4417.2 150.24,4273.4 174.07,4277.2 206.75,4284.1 233.35,4296.4 305.52,4329.7 305,4369.5 377.35,4402.4 387.94,4407.2 399.43,\
+4411.2 411.01,4414.6",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,408,4639.5 150.29,4269.4 175.57,4271.1 210.09,4277.1 233.35,4296.4 355.3,4397.5 254.86,4522 377.35,4622.4 383.75,4627.6 390.94,\
+4632 398.54,4635.5",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,405.75,3725.7 150.25,4270.2 176.01,4269.1 211.21,4263.4 233.35,4242.4 400.72,4083.4 209.12,3901.4 377.35,3743.4 383.09,3738 389.63,\
+3733.5 396.64,3729.9",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,419.28,4223.2 150.22,4264.4 206.76,4255.8 325.12,4237.7 409.2,4224.8",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,404.78,4915.2 150.24,4268.2 176.18,4269.2 211.63,4274.8 233.35,4296.4 428.14,4490 181.53,4704.8 377.35,4897.4 382.73,4902.7 388.87,\
+4907.1 395.49,4910.7",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,414.46,4057.5 150.41,4267.2 174.79,4264.4 208.07,4257.8 233.35,4242.4 317.62,4191 292.8,4124.3 377.35,4073.4 385.84,4068.3 395.16,\
+4064.1 404.77,4060.7",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,431,4360.9 150.33,4276 173.64,4281 205.64,4288.3 233.35,4296.4 298.5,4315.5 312.09,4328.7 377.35,4347.4 391.35,4351.4 406.36,4355.2 \
+420.97,4358.6",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,406.92,3836 150.36,4269.8 175.84,4268.4 210.61,4262.4 233.35,4242.4 371.6,4120.4 238.44,3974.6 377.35,3853.4 383.4,3848.1 390.23,\
+3843.7 397.5,3840.2",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,409.46,4584.2 150.17,4269.9 175.22,4271.8 209.48,4278 233.35,4296.4 341.44,4379.6 268.81,4484.8 377.35,4567.4 384.28,4572.7 392.01,\
+4577 400.14,4580.5",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,407.93,3891.2 150.34,4269.4 175.64,4267.8 210.17,4261.8 233.35,4242.4 357.35,4138.7 252.79,4011.4 377.35,3908.4 383.73,3903.1 \
+390.89,3898.8 398.49,3895.2",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,406.97,4694.7 150.32,4269 175.79,4270.5 210.54,4276.4 233.35,4296.4 369.51,4415.7 240.54,4558.8 377.35,4677.4 383.42,4682.6 390.26,\
+4687 397.54,4690.6",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,413.35,4308.5 150.22,4273.7 205.45,4281 319.67,4296.1 403.31,4307.2",
+		style=solid];
+	"up($a1)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,419.89,4113.3 150.37,4265.7 174.27,4262 206.97,4255.1 233.35,4242.4 306.87,4206.9 303.64,4163.5 377.35,4128.4 387.6,4123.5 398.72,\
+4119.5 409.98,4116.1",
+		style=solid];
+	"lifeDetected($o2)" -> "Reward Function"	 [pos="e,478.42,2547.3 197.96,3115.2 210.95,3110.9 223.38,3104.5 233.35,3095.4 382.62,2958.1 274.09,2836.9 377.35,2662.4 402.43,2620 442.58,\
+2579.6 470.8,2554.1"];
+	"lifeDetected($o2)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,434.08,3242.4 182.45,3136.1 199.27,3140.2 217.19,3145.3 233.35,3151.4 300.91,3176.7 309.55,3201.7 377.35,3226.4 392.11,3231.8 \
+408.25,3236.3 423.89,3240",
+		style=solid];
+	"useToolOn($a1, $p1, $o4)" -> "Reward Function"	 [pos="e,494.96,2502.3 209.85,2101.9 218.18,2105.3 226.16,2109.4 233.35,2114.4 375.18,2213.5 461.48,2413.3 491.43,2492.7"];
+	"useToolOn($a1, $p1, $o4)" -> "pictureTaken'($o4)"	 [color=black,
+		pos="e,406,2087.4 210.05,2087.4 265.98,2087.4 337.55,2087.4 395.99,2087.4",
+		style=solid];
+	"useToolOn($a1, $l1, $o4)" -> "lifeChecked2'($o4)"	 [color=black,
+		pos="e,455.37,1200.3 198.44,1123.5 210.19,1126.3 222.1,1129.3 233.35,1132.4 307.15,1152.5 391.13,1179.2 445.56,1197.1",
+		style=solid];
+	"useToolOn($a1, $l1, $o4)" -> "lifeChecked'($o4)"	 [color=black,
+		pos="e,411.48,1106.9 208.1,1105.9 265.97,1106.2 341.19,1106.5 401.22,1106.9",
+		style=solid];
+	"useToolOn($a1, $l1, $o4)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,482.25,1333.4 207.81,1122.2 216.63,1125.1 225.29,1128.4 233.35,1132.4 260.51,1145.7 410.64,1272.4 474.54,1326.8",
+		style=solid];
+	"waterChecked($o0)" -> "waterChecked'($o0)"	 [color=black,
+		pos="e,423.48,1914 196.65,1881.6 259.64,1890.6 347.88,1903.2 413.55,1912.6",
+		style=solid];
+	"waterChecked($o0)" -> "waterDetected'($o0)"	 [color=black,
+		pos="e,401.8,1870.4 217.24,1870.4 270.61,1870.4 336.53,1870.4 391.64,1870.4",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,414.93,947.2 210.67,2570.4 219.25,2566.2 227.07,2560.7 233.35,2553.4 464.13,2286 144.05,1235.6 377.35,970.38 385.01,961.67 394.74,\
+955.33 405.38,950.77",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,402.9,3925.7 210.53,2592.5 219.14,2596.7 227,2602.2 233.35,2609.4 616.9,3045 -10.29,3475.4 377.35,3907.4 382.12,3912.7 387.66,\
+3917.1 393.71,3920.8",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,402.33,4475.8 211.04,2592.4 219.5,2596.6 227.18,2602.1 233.35,2609.4 500.45,2923 107.31,4146.3 377.35,4457.4 381.98,4462.7 387.4,\
+4467.2 393.32,4470.9",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "lifeChecked2'($o5)"	 [color=black,
+		pos="e,410.74,838.58 210.71,2570.5 219.29,2566.2 227.09,2560.7 233.35,2553.4 479.2,2266.8 128.8,1144.6 377.35,860.38 384.04,852.73 392.32,\
+846.91 401.41,842.51",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "waterChecked'($o5)"	 [color=black,
+		pos="e,459.1,577.98 211.06,2570.4 219.51,2566.2 227.19,2560.6 233.35,2553.4 508.95,2229 160.49,1009.7 377.35,643.38 393.7,615.76 423.43,\
+595.75 449.9,582.42",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "lifeChecked'($o5)"	 [color=black,
+		pos="e,414.85,782.13 210.73,2570.5 219.31,2566.3 227.1,2560.7 233.35,2553.4 486.74,2257.2 121.18,1099.1 377.35,805.38 384.98,796.63 394.68,\
+790.28 405.31,785.71",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "pictureTaken'($o5)"	 [color=black,
+		pos="e,427.37,2732.9 193.84,2595.2 207.33,2598.9 221,2603.6 233.35,2609.4 305.54,2643.2 304.83,2683.2 377.35,2716.4 389.89,2722.1 403.69,\
+2726.7 417.41,2730.4",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,402.86,3980.7 210.56,2592.4 219.16,2596.6 227.01,2602.2 233.35,2609.4 631.94,3064.2 -25.515,3511.4 377.35,3962.4 382.11,3967.7 \
+387.64,3972.2 393.68,3975.8",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "Reward Function"	 [pos="e,428.92,2537 203.75,2569.1 267.91,2560 355.11,2547.5 418.89,2538.4"];
+	"agentAt($a1, $x2, $y0)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,402.28,4640.8 211.09,2592.4 219.54,2596.6 227.21,2602.1 233.35,2609.4 523.07,2951.7 84.411,4282.8 377.35,4622.4 381.97,4627.7 \
+387.37,4632.2 393.28,4635.9",
+		style=solid];
+	"agentAt($a1, $x2, $y0)" -> "waterDetected'($o5)"	 [color=black,
+		pos="e,457.92,686.89 210.75,2570.5 219.32,2566.3 227.11,2560.7 233.35,2553.4 494.28,2247.7 169.87,1094.6 377.35,750.38 393.56,723.49 \
+422.66,704.12 448.82,691.19",
+		style=solid];
+	"agentAt($a1, $x3, $y3)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,411.31,3781.9 202.5,4037.9 213.47,4034 224.09,4029 233.35,4022.4 329.77,3953.8 280.27,3866.1 377.35,3798.4 384.84,3793.2 393.14,\
+3788.9 401.8,3785.4",
+		style=solid];
+	"agentAt($a1, $x3, $y3)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,409.38,3726.5 204.58,4038.1 214.92,4034.2 224.82,4029.1 233.35,4022.4 343.07,3936.2 266.81,3828.6 377.35,3743.4 384.25,3738.1 \
+391.95,3733.7 400.07,3730.2",
+		style=solid];
+	"agentAt($a1, $x3, $y3)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,414.46,3837.5 199.6,4037.4 211.42,4033.6 223.05,4028.7 233.35,4022.4 317.41,3970.7 292.8,3904.3 377.35,3853.4 385.84,3848.3 395.16,\
+3844.1 404.77,3840.7",
+		style=solid];
+	"agentAt($a1, $x3, $y3)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,419.89,3893.3 194.91,4036.6 208.08,4032.9 221.37,4028.2 233.35,4022.4 306.72,3986.6 303.64,3943.5 377.35,3908.4 387.6,3903.5 398.72,\
+3899.5 409.98,3896.1",
+		style=solid];
+	"agentAt($a1, $x3, $y3)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,411.78,4308.8 202.07,4063 213.16,4066.8 223.93,4071.8 233.35,4078.4 327.44,4143.9 282.64,4227.8 377.35,4292.4 384.96,4297.6 393.38,\
+4301.8 402.15,4305.3",
+		style=solid];
+	"pictureTaken($o6)" -> "Reward Function"	 [pos="e,454.32,2510.6 178.77,2430.5 196.43,2434.7 215.7,2439.6 233.35,2444.4 306.54,2464.3 389.98,2490.2 444.49,2507.4"];
+	"useToolOn($a1, $l1, $o3)" -> "lifeChecked2'($o3)"	 [color=black,
+		pos="e,423.63,5211.1 208.1,5240.2 270,5231.8 351.73,5220.8 413.5,5212.5",
+		style=solid];
+	"useToolOn($a1, $l1, $o3)" -> "lifeChecked'($o3)"	 [color=black,
+		pos="e,411.48,5254.7 208.1,5253.1 265.97,5253.5 341.19,5254.1 401.22,5254.6",
+		style=solid];
+	"useToolOn($a1, $l1, $o3)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,429.69,5101.3 207.94,5235.2 216.69,5232.4 225.3,5229.1 233.35,5225.4 305.68,5191.8 304.83,5151.5 377.35,5118.4 390.59,5112.3 405.23,\
+5107.5 419.71,5103.8",
+		style=solid];
+	"useToolOn($a1, $w1, $o5)" -> "waterChecked'($o5)"	 [color=black,
+		pos="e,401.62,561.38 211.53,561.38 265.79,561.38 334.41,561.38 391.47,561.38",
+		style=solid];
+	"useToolOn($a1, $w1, $o5)" -> "waterDetected'($o5)"	 [color=black,
+		pos="e,453.86,654.29 198.11,579.44 209.96,582.31 221.99,585.34 233.35,588.38 306.4,607.98 389.54,633.77 444.03,651.15",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "lifeChecked2'($o4)"	 [color=black,
+		pos="e,473.54,1233.9 209.97,1967.3 218.63,1963.3 226.65,1958.1 233.35,1951.4 435.16,1748.8 229.37,1569 377.35,1324.4 398.97,1288.6 436.52,\
+1258.7 465.02,1239.5",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "lifeChecked'($o4)"	 [color=black,
+		pos="e,462.01,1123.8 210.51,1967.4 219.01,1963.4 226.85,1958.2 233.35,1951.4 471.82,1702.5 185.5,1475.7 377.35,1189.4 395.6,1162.1 426.3,\
+1141.9 452.83,1128.3",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,402.37,3760.7 210.73,1989.3 219.3,1993.5 227.1,1999.1 233.35,2006.4 485.09,2300.4 122.84,3450.7 377.35,3742.4 382,3747.7 387.42,\
+3752.2 393.35,3755.9",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "waterChecked'($o4)"	 [color=black,
+		pos="e,476.88,1589.2 205.68,1966.4 215.61,1962.7 225.1,1957.7 233.35,1951.4 341.94,1867.6 291.51,1785.4 377.35,1678.4 403.68,1645.6 441.18,\
+1615.2 468.42,1595.3",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "Reward Function"	 [pos="e,498.17,2501.6 204.26,1990.5 214.72,1994.5 224.73,1999.6 233.35,2006.4 399.65,2136.7 473.83,2397.9 495.9,2491.8"];
+	"agentAt($a1, $x4, $y2)" -> "pictureTaken'($o4)"	 [color=black,
+		pos="e,453.32,2071.5 182.98,1993.5 199.46,1997.5 217.09,2002 233.35,2006.4 306.05,2026.1 388.93,2051.4 443.47,2068.4",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,402.24,4200.9 211.13,1989.3 219.57,1993.6 227.22,1999.1 233.35,2006.4 545.43,2377.1 61.787,3814.6 377.35,4182.4 381.95,4187.8 \
+387.34,4192.2 393.25,4195.9",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,481.97,1369.3 208.89,1967 217.86,1963.1 226.25,1958 233.35,1951.4 390.86,1804.9 270.28,1675.9 377.35,1489.4 403.18,1444.4 445.92,\
+1401.7 474.36,1376.1",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "waterDetected'($o4)"	 [color=black,
+		pos="e,412.89,1524.7 208.06,1966.9 217.29,1963.1 225.97,1958 233.35,1951.4 376.32,1823.4 233.69,1671.6 377.35,1544.4 384.96,1537.6 393.83,\
+1532.4 403.28,1528.4",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,402.2,4365.9 211.16,1989.3 219.6,1993.5 227.24,1999.1 233.35,2006.4 568.06,2405.9 38.88,3951 377.35,4347.4 381.94,4352.8 387.32,\
+4357.2 393.22,4361",
+		style=solid];
+	"agentAt($a1, $x4, $y2)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,402.33,3870.8 211.04,1989.4 219.5,1993.6 227.18,1999.1 233.35,2006.4 500.17,2319.6 107.58,3541.7 377.35,3852.4 381.98,3857.7 387.4,\
+3862.2 393.32,3865.9",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,404.21,4860.3 209.04,4116.7 218.1,4120.8 226.46,4126.2 233.35,4133.4 456.45,4364.9 152.07,4612.9 377.35,4842.4 382.58,4847.7 388.59,\
+4852.1 395.08,4855.8",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,406.98,4529.7 206.49,4117.2 216.28,4121.2 225.52,4126.5 233.35,4133.4 368.51,4252.6 241.07,4394.5 377.35,4512.4 383.42,4517.6 \
+390.27,4522 397.55,4525.5",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "damaged'($w1)"	 [color=black,
+		pos="e,424.44,3554.6 207.91,4093.8 217.28,4089.7 226.03,4084.4 233.35,4077.4 400.07,3917.7 209.12,3736.4 377.35,3578.4 387.83,3568.5 \
+400.97,3561.9 414.79,3557.4",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "damaged'($l1)"	 [color=black,
+		pos="e,428.14,3498.5 208.38,4093.9 217.61,4089.8 226.2,4084.4 233.35,4077.4 414.74,3899 194.28,3700 377.35,3523.4 388.59,3512.5 403.05,\
+3505.5 418.15,3501.1",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "damaged'($p1)"	 [color=black,
+		pos="e,426.36,3609.6 207.4,4093.7 216.92,4089.6 225.84,4084.3 233.35,4077.4 385.51,3936.4 223.86,3772.9 377.35,3633.4 388.32,3623.4 402.05,\
+3616.7 416.38,3612.3",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,409.48,4419.1 204.18,4117.6 214.65,4121.6 224.68,4126.7 233.35,4133.4 340.61,4216.4 269.31,4320.4 377.35,4402.4 384.28,4407.6 \
+392.02,4412 400.15,4415.5",
+		style=solid];
+	"agentAt($a1, $x0, $y3)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,419.75,4058.4 200.41,4092.5 261.86,4083 345.75,4069.9 409.67,4060",
+		style=solid];
+	"agentAt($a1, $x1, $y2)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,420.33,4857.3 194.19,4719.2 207.57,4722.9 221.12,4727.6 233.35,4733.4 305.87,4767.8 304.5,4808.7 377.35,4842.4 387.83,4847.2 399.21,\
+4851.3 410.68,4854.6",
+		style=solid];
+	"agentAt($a1, $x1, $y2)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,430.27,4801 185.33,4720.3 201.18,4724.2 217.94,4728.7 233.35,4733.4 298.68,4753.5 311.82,4767.9 377.35,4787.4 391.13,4791.5 405.93,\
+4795.3 420.36,4798.7",
+		style=solid];
+	"agentAt($a1, $x1, $y2)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,411.71,4441.9 202.44,4692.8 213.41,4688.9 224.05,4683.9 233.35,4677.4 328.6,4610.3 281.46,4524.5 377.35,4458.4 384.93,4453.2 393.33,\
+4448.9 402.09,4445.4",
+		style=solid];
+	"agentAt($a1, $x1, $y2)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,414.88,4913.2 199.21,4718.4 211.15,4722.2 222.91,4727.1 233.35,4733.4 316.35,4783.6 293.87,4848 377.35,4897.4 385.95,4902.5 395.38,\
+4906.6 405.1,4910.1",
+		style=solid];
+	"agentAt($a1, $x1, $y2)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,430.27,4609.8 185.33,4690.5 201.18,4686.6 217.94,4682.1 233.35,4677.4 298.68,4657.3 311.82,4642.8 377.35,4623.4 391.13,4619.3 \
+405.93,4615.5 420.36,4612.1",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,406.95,4859.7 152.17,4431.1 177.46,4432.7 211.11,4438.9 233.35,4458.4 370.3,4578.7 239.75,4722.8 377.35,4842.4 383.41,4847.7 390.25,\
+4852 397.53,4855.6",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x3, $y1)"	 [color=black,
+		pos="e,420.29,4278.4 152.36,4427.2 176.03,4423.5 207.63,4416.6 233.35,4404.4 306.35,4369.7 304.16,4327.6 377.35,4293.4 387.81,4288.5 \
+399.17,4284.4 410.64,4281.1",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x2, $y4)"	 [color=black,
+		pos="e,404.19,3670.5 152.31,4432.7 178.18,4431.7 212.53,4425.9 233.35,4404.4 459.3,4171.3 150.15,3920.2 377.35,3688.4 382.58,3683 388.58,\
+3678.6 395.07,3675",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,430.27,4526 152.4,4438.3 175.53,4443.1 206.5,4450.3 233.35,4458.4 298.76,4478.2 311.82,4492.9 377.35,4512.4 391.13,4516.5 405.93,\
+4520.3 420.36,4523.7",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x3, $y0)"	 [color=black,
+		pos="e,406.32,3945.8 152.42,4431.9 177.83,4430.4 211.54,4424.4 233.35,4404.4 385.29,4265 224.66,4101.9 377.35,3963.4 383.24,3958 389.92,\
+3953.6 397.06,3950",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,409.43,4749.2 152.28,4432 177.12,4434.1 210.18,4440.5 233.35,4458.4 342.18,4542.5 268.06,4648.8 377.35,4732.4 384.26,4737.7 391.99,\
+4742 400.11,4745.5",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,407.97,4804.5 152.4,4431.5 177.47,4433.4 210.75,4439.6 233.35,4458.4 356.06,4560.4 254.09,4686 377.35,4787.4 383.74,4792.6 390.92,\
+4797 398.52,4800.5",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,415.64,4473.1 152.24,4436.2 208.74,4444.1 322.86,4460.1 405.7,4471.7",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,405.77,4970.1 152.34,4430.6 177.88,4432 211.78,4438 233.35,4458.4 399.39,4615.6 210.47,4796 377.35,4952.4 383.09,4957.8 389.64,\
+4962.2 396.66,4965.9",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,411.36,4167 152.31,4430 176.86,4427.6 209.53,4421.1 233.35,4404.4 329.35,4337.1 280.99,4250.2 377.35,4183.4 384.85,4178.2 393.16,\
+4173.9 401.83,4170.4",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,406.94,4001.1 152.18,4431.6 177.47,4430 211.13,4423.9 233.35,4404.4 370.82,4283.4 239.23,4138.6 377.35,4018.4 383.41,4013.1 390.24,\
+4008.8 397.52,4005.2",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,404.77,3780.6 152.37,4432.4 178.1,4431.3 212.23,4425.4 233.35,4404.4 429.49,4209 180.17,3992.7 377.35,3798.4 382.72,3793.1 388.87,\
+3788.7 395.48,3785.1",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x1, $y3)"	 [color=black,
+		pos="e,385.15,4430.7 152.24,4431.3 201.96,4431.2 296.31,4430.9 374.7,4430.7",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x2, $y1)"	 [color=black,
+		pos="e,414.88,4638.2 152.4,4433.9 176.54,4436.9 208.67,4443.6 233.35,4458.4 316.55,4508.2 293.87,4573 377.35,4622.4 385.95,4627.5 395.38,\
+4631.6 405.1,4635.1",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,404.62,3725.4 152.22,4432.6 178.04,4431.5 212.36,4425.7 233.35,4404.4 444.37,4190.2 165.18,3956.4 377.35,3743.4 382.67,3738 388.78,\
+3733.6 395.37,3730",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,414.84,4222.5 152.43,4428.9 176.58,4425.9 208.71,4419.2 233.35,4404.4 316.98,4353.9 293.45,4288.4 377.35,4238.4 385.94,4233.3 \
+395.36,4229.1 405.07,4225.7",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,406.33,4914.9 152.41,4430.9 177.82,4432.3 211.52,4438.4 233.35,4458.4 384.76,4597.1 225.19,4759.5 377.35,4897.4 383.24,4902.7 \
+389.93,4907.1 397.07,4910.7",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x0, $y4)"	 [color=black,
+		pos="e,407.96,4056.3 152.41,4431.3 177.49,4429.4 210.77,4423.2 233.35,4404.4 356.58,4301.7 253.57,4175.4 377.35,4073.4 383.74,4068.1 \
+390.91,4063.8 398.51,4060.2",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x4, $y1)"	 [color=black,
+		pos="e,417.21,4387.9 152.24,4426.4 209.09,4418.1 324.3,4401.4 407.26,4389.3",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,405.25,3835.6 152.24,4432.3 177.9,4431.1 212,4425.2 233.35,4404.4 414.66,4227.8 195.09,4029 377.35,3853.4 382.84,3848.1 389.09,\
+3843.7 395.82,3840.1",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x2, $y2)"	 [color=black,
+		pos="e,420.33,4582.3 152.32,4435.6 175.98,4439.4 207.58,4446.3 233.35,4458.4 306.01,4492.5 304.5,4533.7 377.35,4567.4 387.83,4572.2 399.21,\
+4576.3 410.68,4579.6",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x3, $y2)"	 [color=black,
+		pos="e,405.76,3890.7 152.35,4432.1 177.89,4430.8 211.8,4424.8 233.35,4404.4 399.92,4246.4 209.93,4065.4 377.35,3908.4 383.09,3903 389.63,\
+3898.6 396.65,3894.9",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x4, $y0)"	 [color=black,
+		pos="e,411.71,4693.9 152.29,4432.8 176.83,4435.2 209.5,4441.7 233.35,4458.4 328.88,4525 281.46,4611.2 377.35,4677.4 384.93,4682.6 393.33,\
+4686.9 402.09,4690.4",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x2, $y3)"	 [color=black,
+		pos="e,429.9,4334.7 152.18,4424.7 175.35,4419.8 206.45,4412.7 233.35,4404.4 298.95,4384.1 311.64,4368.3 377.35,4348.4 391.02,4344.2 405.7,\
+4340.4 420.04,4337",
+		style=solid];
+	"left($a1)" -> "agentAt'($a1, $x1, $y4)"	 [color=black,
+		pos="e,409.41,4111.5 152.29,4430.8 177.15,4428.7 210.2,4422.3 233.35,4404.4 342.68,4319.6 267.56,4212.6 377.35,4128.4 384.26,4123.1 391.97,\
+4118.7 400.09,4115.2",
+		style=solid];
+	"lifeDetected($o5)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,421.94,950.94 193.66,1204.6 207.67,1200.4 221.58,1194.6 233.35,1186.4 327.9,1120.3 282.17,1035.6 377.35,970.38 387.77,963.24 399.73,\
+957.88 412.02,953.87",
+		style=solid];
+	"lifeDetected($o5)" -> "Reward Function"	 [pos="e,494.67,2502.1 200.09,1221.7 212.62,1226.1 224.35,1232.7 233.35,1242.4 500.66,1530.2 287.71,1731.9 377.35,2114.4 410.78,2257 466.81,\
+2422.6 491.29,2492.5"];
+	"useToolOn($a1, $p1, $o1)" -> "pictureTaken'($o1)"	 [color=black,
+		pos="e,406,2689.6 210.05,2690.1 265.98,2690 337.55,2689.8 395.99,2689.7",
+		style=solid];
+	"useToolOn($a1, $p1, $o1)" -> "Reward Function"	 [pos="e,471.24,2545.9 205.18,2672.3 214.78,2669.6 224.34,2666.7 233.35,2663.4 318.14,2632.5 410.64,2581.4 462.37,2551.1"];
+	"repair($a1, $l1)" -> "damaged'($l1)"	 [color=black,
+		pos="e,440.25,3505.7 175,3549 242.83,3537.9 355.92,3519.5 430.06,3507.4",
+		style=solid];
+	"lifeChecked2($o6)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,415.93,881.64 202.71,135.02 214.18,139.39 224.88,145.61 233.35,154.38 455.37,384.55 153.16,631.32 377.35,859.38 385.49,867.67 \
+395.49,873.74 406.28,878.17",
+		style=solid];
+	"lifeChecked2($o6)" -> "lifeChecked2'($o6)"	 [color=black,
+		pos="e,405.23,126.38 214,126.38 269.04,126.38 338.21,126.38 395.12,126.38",
+		style=solid];
+	"pictureTaken($o0)" -> "Reward Function"	 [pos="e,471.2,2507 183.92,2374.6 200.3,2378.7 217.64,2383.6 233.35,2389.4 318.01,2420.6 410.56,2471.6 462.33,2501.8"];
+	"damaged($l1)" -> "lifeDetected'($o6)"	 [color=black,
+		pos="e,417.58,893.97 188.38,1374 204.74,1369.8 220.96,1362.8 233.35,1351.4 383.41,1213.1 225.99,1052.3 377.35,915.38 386.17,907.4 396.77,\
+901.52 408.01,897.22",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,418.25,949.27 188.05,1373.6 204.41,1369.4 220.72,1362.5 233.35,1351.4 369.03,1231.5 240.54,1088.9 377.35,970.38 386.41,962.53 \
+397.19,956.74 408.57,952.49",
+		style=solid];
+	"damaged($l1)" -> "damaged'($l1)"	 [color=black,
+		pos="e,427.42,3494.1 190.49,1382.7 206.81,1387 222.48,1394.5 233.35,1407.4 529.52,1757.9 77.889,3119.7 377.35,3467.4 387.82,3479.5 402.3,\
+3487.1 417.72,3491.7",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,440.17,370.73 190.07,1375.3 206.29,1371 222.03,1363.7 233.35,1351.4 519.16,1040 118.56,745.55 377.35,411.38 390.68,394.17 410.58,\
+382.36 430.65,374.29",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,418.26,1808.5 188.04,1385.1 204.41,1389.4 220.72,1396.2 233.35,1407.4 368.77,1526.9 240.81,1669.2 377.35,1787.4 386.41,1795.2 \
+397.19,1801 408.58,1805.3",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,417.06,1357.6 188.86,1374.2 250.14,1369.8 339.12,1363.3 406.81,1358.4",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o3)"	 [color=black,
+		pos="e,414.14,5085.9 190.76,1382.5 207.07,1386.8 222.67,1394.4 233.35,1407.4 490.9,1721.8 116.84,4750.4 377.35,5062.4 384.73,5071.2 394.24,\
+5077.7 404.71,5082.3",
+		style=solid];
+	"damaged($l1)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,414.51,3249.6 190.41,1382.8 206.72,1387.1 222.42,1394.6 233.35,1407.4 496.47,1715.9 111.33,2920.4 377.35,3226.4 384.91,3235.1 \
+394.52,3241.4 405.04,3246",
+		style=solid];
+	"waterChecked($o3)" -> "waterDetected'($o3)"	 [color=black,
+		pos="e,423.48,5046.8 196.65,5079.1 259.64,5070.1 347.88,5057.6 413.55,5048.2",
+		style=solid];
+	"waterChecked($o3)" -> "waterChecked'($o3)"	 [color=black,
+		pos="e,423.48,5134 196.65,5101.6 259.64,5110.6 347.88,5123.2 413.55,5132.6",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o1)"	 [color=black,
+		pos="e,416.09,2697.6 190,3062.2 205.57,3058.1 221.03,3051.6 233.35,3041.4 354.78,2941 255.37,2817.2 377.35,2717.4 385.91,2710.4 395.86,\
+2705 406.34,2701",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o0)"	 [color=black,
+		pos="e,470.59,2816.8 185.81,3059.8 202.14,3055.8 218.99,3049.9 233.35,3041.4 316.13,2992.1 303.97,2941.8 377.35,2879.4 403.47,2857.2 \
+436.28,2836.5 461.86,2821.8",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o3)"	 [color=black,
+		pos="e,412.01,3089 191.58,3073.6 251.29,3077.7 335.95,3083.7 401.99,3088.3",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o2)"	 [color=black,
+		pos="e,412.5,3047 191.12,3063.1 250.99,3058.7 336.17,3052.5 402.45,3047.7",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o5)"	 [color=black,
+		pos="e,417.3,2753.1 189.16,3061.6 204.86,3057.5 220.58,3051.2 233.35,3041.4 340.95,2958.9 269.31,2854.3 377.35,2772.4 386.39,2765.5 396.79,\
+2760.3 407.65,2756.3",
+		style=solid];
+	"damaged($p1)" -> "damaged'($p1)"	 [color=black,
+		pos="e,426.16,3601.4 190.71,3074.1 206.34,3078.4 221.65,3085.3 233.35,3096.4 395.29,3249.9 213.96,3425.4 377.35,3577.4 388.21,3587.5 \
+401.88,3594.2 416.19,3598.7",
+		style=solid];
+	"damaged($p1)" -> "Reward Function"	 [pos="e,479.02,2547.3 190.71,3062.6 206.16,3058.4 221.39,3051.8 233.35,3041.4 368.99,2922.8 282.37,2815.5 377.35,2662.4 403.4,2620.4 443.53,\
+2579.8 471.48,2554.1"];
+	"damaged($p1)" -> "pictureTaken'($o4)"	 [color=black,
+		pos="e,497.26,2105.8 191.86,3063.4 207.16,3059.2 222.04,3052.4 233.35,3041.4 414.39,2865.1 307.71,2734.3 377.35,2491.4 418.09,2349.3 \
+472.63,2180.9 494.11,2115.4",
+		style=solid];
+	"damaged($p1)" -> "pictureTaken'($o6)"	 [color=black,
+		pos="e,474,2923.9 178.19,3057.1 196.19,3053 215.79,3047.7 233.35,3041.4 319.61,3010.2 414.1,2958.6 465.26,2929",
+		style=solid];
+	"lifeChecked($o5)" -> "lifeChecked2'($o5)"	 [color=black,
+		pos="e,421.89,822.08 190.65,625.98 205.44,630.03 220.4,635.64 233.35,643.38 315.72,692.68 294.51,755.86 377.35,804.38 388.03,810.64 399.96,\
+815.5 412.12,819.28",
+		style=solid];
+	"lifeChecked($o5)" -> "lifeChecked'($o5)"	 [color=black,
+		pos="e,473.55,759.82 181.77,628.21 198.76,632.33 216.94,637.41 233.35,643.38 319.16,674.62 413.46,725.55 464.78,754.8",
+		style=solid];
+	"useToolOn($a1, $l1, $o0)" -> "lifeChecked'($o0)"	 [color=black,
+		pos="e,411.48,1705.6 208.1,1706.2 265.97,1706 341.19,1705.8 401.22,1705.6",
+		style=solid];
+	"useToolOn($a1, $l1, $o0)" -> "lifeChecked2'($o0)"	 [color=black,
+		pos="e,424.91,1749.4 208.1,1719 270.42,1727.8 352.84,1739.3 414.76,1748",
+		style=solid];
+	"useToolOn($a1, $l1, $o0)" -> "lifeDetected'($o0)"	 [color=black,
+		pos="e,437.5,1802.6 200.79,1724.4 211.8,1727.2 222.88,1730.2 233.35,1733.4 298.76,1753.2 311.82,1767.9 377.35,1787.4 393.36,1792.1 410.72,\
+1796.5 427.3,1800.3",
+		style=solid];
+	"useToolOn($a1, $w1, $o6)" -> "waterDetected'($o6)"	 [color=black,
+		pos="e,401.62,997.38 211.53,997.38 265.79,997.38 334.41,997.38 391.47,997.38",
+		style=solid];
+	"useToolOn($a1, $w1, $o6)" -> "waterChecked'($o6)"	 [color=black,
+		pos="e,423.44,1041 211.53,1010.8 272.99,1019.5 352.86,1030.9 413.5,1039.6",
+		style=solid];
+	"agentAt($a1, $x4, $y3)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,385.89,4156.9 233.13,4158.9 278.09,4158.3 329.79,4157.6 375.85,4157",
+		style=solid];
+	"agentAt($a1, $x4, $y3)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,407.93,3781.2 205.61,4148.5 215.67,4144.5 225.21,4139.2 233.35,4132.4 356.92,4028.2 252.79,3901.4 377.35,3798.4 383.73,3793.1 \
+390.89,3788.8 398.49,3785.2",
+		style=solid];
+	"agentAt($a1, $x4, $y3)" -> "agentAt'($a1, $x4, $y2)"	 [color=black,
+		pos="e,412.6,4198.6 207.61,4172 266.01,4179.6 342.23,4189.5 402.66,4197.3",
+		style=solid];
+	"agentAt($a1, $x4, $y3)" -> "agentAt'($a1, $x3, $y3)"	 [color=black,
+		pos="e,409.38,3836.5 204.58,4148.1 214.92,4144.2 224.82,4139.1 233.35,4132.4 343.07,4046.2 266.81,3938.6 377.35,3853.4 384.25,3848.1 \
+391.95,3843.7 400.07,3840.2",
+		style=solid];
+	"waterDetected($o4)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,416.79,1345.3 211.03,1330.9 270.25,1335.1 346.7,1340.4 406.57,1344.6",
+		style=solid];
+	"waterDetected($o4)" -> "waterDetected'($o4)"	 [color=black,
+		pos="e,479.41,1498.3 187.29,1337.6 202.74,1341.5 218.83,1346.4 233.35,1352.4 325.16,1390.3 422.21,1456.7 471.13,1492.2",
+		style=solid];
+	"lifeChecked2($o5)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,437.85,929.57 180.76,847.26 197.93,851.42 216.44,856.25 233.35,861.38 298.59,881.22 311.91,895.17 377.35,914.38 393.61,919.16 \
+411.27,923.56 428.07,927.39",
+		style=solid];
+	"lifeChecked2($o5)" -> "lifeChecked2'($o5)"	 [color=black,
+		pos="e,405.23,832.64 214,833.14 269.04,832.99 338.21,832.81 395.12,832.67",
+		style=solid];
+	"agentAt($a1, $x0, $y2)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,416.2,4882.8 203.75,4913.1 263.68,4904.6 343.71,4893.2 405.97,4884.3",
+		style=solid];
+	"agentAt($a1, $x0, $y2)" -> "agentAt'($a1, $x0, $y3)"	 [color=black,
+		pos="e,407.97,4551.3 205.58,4913.4 215.64,4909.4 225.19,4904.2 233.35,4897.4 355.65,4794.8 254.09,4669.8 377.35,4568.4 383.74,4563.1 \
+390.92,4558.8 398.52,4555.2",
+		style=solid];
+	"agentAt($a1, $x0, $y2)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,416.2,4968 203.75,4937.7 263.68,4946.2 343.71,4957.6 405.97,4966.5",
+		style=solid];
+	"agentAt($a1, $x0, $y2)" -> "agentAt'($a1, $x1, $y2)"	 [color=black,
+		pos="e,385.38,4925.4 233.39,4925.4 278.05,4925.4 329.31,4925.4 375.09,4925.4",
+		style=solid];
+	"repair($a1, $p1)" -> "damaged'($p1)"	 [color=black,
+		pos="e,438.08,3615.7 176.25,3657.1 243.57,3646.5 354.23,3629 427.93,3617.3",
+		style=solid];
+	"useToolOn($a1, $p1, $o2)" -> "pictureTaken'($o2)"	 [color=black,
+		pos="e,437.94,3026.8 204.71,2978.4 271.87,2992.4 363.84,3011.4 427.91,3024.7",
+		style=solid];
+	"useToolOn($a1, $p1, $o2)" -> "Reward Function"	 [pos="e,480.02,2547.9 209.76,2946.8 218.2,2943.2 226.24,2938.9 233.35,2933.4 341.44,2850.2 298.34,2773.6 377.35,2662.4 405.98,2622.1 445.6,\
+2581.2 472.72,2554.9"];
+	"lifeDetected($o4)" -> "Reward Function"	 [pos="e,495.13,2502 199.36,1442 212.05,1446.4 224.02,1452.9 233.35,1462.4 441.06,1674.3 301.89,1827.4 377.35,2114.4 414.6,2256.1 468.6,\
+2422.1 491.92,2492.3"];
+	"lifeDetected($o4)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,440.89,1364.8 179.64,1421 248.17,1406.3 358.46,1382.6 430.93,1367",
+		style=solid];
+	"waterChecked($o2)" -> "waterDetected'($o2)"	 [color=black,
+		pos="e,411.93,3207.4 207.61,3225.5 265.68,3220.3 341.36,3213.7 401.63,3208.4",
+		style=solid];
+	"waterChecked($o2)" -> "waterChecked'($o2)"	 [color=black,
+		pos="e,434.67,3295.9 185.74,3246.8 252.52,3260 354.28,3280 424.54,3293.9",
+		style=solid];
+	"useToolOn($a1, $l1, $o1)" -> "lifeDetected'($o1)"	 [color=black,
+		pos="e,454.11,341.92 200.79,253.42 211.8,256.2 222.88,259.22 233.35,262.38 298.76,282.19 312.83,293.8 377.35,316.38 399.19,324.03 423.32,\
+332 444.57,338.85",
+		style=solid];
+	"useToolOn($a1, $l1, $o1)" -> "lifeChecked2'($o1)"	 [color=black,
+		pos="e,424.91,278.4 208.1,248.05 270.42,256.77 352.84,268.31 414.76,276.98",
+		style=solid];
+	"useToolOn($a1, $l1, $o1)" -> "lifeChecked'($o1)"	 [color=black,
+		pos="e,411.48,234.62 208.1,235.15 265.97,235 341.19,234.81 401.22,234.65",
+		style=solid];
+	"waterDetected($o5)" -> "lifeDetected'($o5)"	 [color=black,
+		pos="e,421.94,933.83 197.59,681.41 210.25,685.44 222.68,690.93 233.35,698.38 327.9,764.49 282.17,849.17 377.35,914.38 387.77,921.53 399.73,\
+926.89 412.02,930.9",
+		style=solid];
+	"waterDetected($o5)" -> "waterDetected'($o5)"	 [color=black,
+		pos="e,401.8,670.38 217.24,670.38 270.61,670.38 336.53,670.38 391.64,670.38",
+		style=solid];
+	"lifeChecked($o6)" -> "lifeChecked2'($o6)"	 [color=black,
+		pos="e,435.57,113.07 180.18,31.49 197.51,35.525 216.26,40.267 233.35,45.385 298.68,64.951 311.91,79.167 377.35,98.385 392.84,102.93 409.59,\
+107.14 425.66,110.84",
+		style=solid];
+	"lifeChecked($o6)" -> "lifeChecked'($o6)"	 [color=black,
+		pos="e,427.57,60.971 192.03,28.604 256.47,37.459 349.73,50.274 417.36,59.569",
+		style=solid];
+	"agentAt($a1, $x4, $y4)" -> "agentAt'($a1, $x4, $y4)"	 [color=black,
+		pos="e,421.12,4142.2 193.47,4009.3 207.06,4013 220.86,4017.6 233.35,4023.4 305.06,4056.4 305.33,4095 377.35,4127.4 388.05,4132.2 399.64,\
+4136.2 411.31,4139.5",
+		style=solid];
+	"agentAt($a1, $x4, $y4)" -> "agentAt'($a1, $x4, $y3)"	 [color=black,
+		pos="e,414.46,3782.5 199.6,3982.4 211.42,3978.6 223.05,3973.7 233.35,3967.4 317.41,3915.7 292.8,3849.3 377.35,3798.4 385.84,3793.3 395.16,\
+3789.1 404.77,3785.7",
+		style=solid];
+	"agentAt($a1, $x4, $y4)" -> "agentAt'($a1, $x3, $y4)"	 [color=black,
+		pos="e,411.31,3726.9 202.5,3982.9 213.47,3979 224.09,3974 233.35,3967.4 329.77,3898.8 280.27,3811.1 377.35,3743.4 384.84,3738.2 393.14,\
+3733.9 401.8,3730.4",
+		style=solid];
+	"lifeChecked2($o4)" -> "lifeChecked2'($o4)"	 [color=black,
+		pos="e,424.09,1227.3 195.72,1258.7 258.95,1250 348.06,1237.7 414.11,1228.6",
+		style=solid];
+	"lifeChecked2($o4)" -> "lifeDetected'($o4)"	 [color=black,
+		pos="e,440.35,1338 181.79,1283 250.32,1297.6 358.77,1320.6 430.49,1335.9",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,402.92,4750.7 210.5,3460.5 219.12,3464.7 226.98,3470.2 233.35,3477.4 605.14,3898.1 1.6093,4315.2 377.35,4732.4 382.13,4737.7 387.68,\
+4742.1 393.73,4745.8",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,402.89,4805.7 210.53,3460.5 219.14,3464.7 227,3470.2 233.35,3477.4 620.18,3917.2 -13.611,4351.2 377.35,4787.4 382.12,4792.7 387.66,\
+4797.1 393.7,4800.8",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "agentAt'($a1, $x1, $y0)"	 [color=black,
+		pos="e,403.48,4475.6 209.99,3460.6 218.76,3464.7 226.8,3470.2 233.35,3477.4 530.06,3802.6 77.584,4135 377.35,4457.4 382.38,4462.8 388.21,\
+4467.3 394.55,4471",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "pictureTaken'($o2)"	 [color=black,
+		pos="e,415.52,3048.4 207.47,3437.7 216.86,3433.9 225.74,3428.9 233.35,3422.4 362.5,3312.1 247.61,3178 377.35,3068.4 385.73,3061.3 395.52,\
+3055.9 405.88,3051.8",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "agentAt'($a1, $x2, $y0)"	 [color=black,
+		pos="e,405.81,3980 207.86,3461 217.24,3465.1 226.01,3470.4 233.35,3477.4 396.35,3632.3 212.89,3809 377.35,3962.4 383.11,3967.8 389.66,\
+3972.2 396.69,3975.8",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "waterDetected'($o2)"	 [color=black,
+		pos="e,418.31,3209.5 202.7,3436.9 213.52,3433.2 224.04,3428.5 233.35,3422.4 323.34,3363.2 287.03,3286.1 377.35,3227.4 386.86,3221.2 397.55,\
+3216.4 408.56,3212.6",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "Reward Function"	 [pos="e,477.03,2546.9 210.51,3438.4 219.01,3434.4 226.85,3429.2 233.35,3422.4 471.27,3174.2 222.49,2969.3 377.35,2662.4 399.48,2618.5 \
+440.01,2578.6 469.14,2553.5"];
+	"agentAt($a1, $x1, $y0)" -> "lifeChecked2'($o2)"	 [color=black,
+		pos="e,430.06,3397.5 197.58,3436.1 262.64,3425.3 354.18,3410.1 420.11,3399.2",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "waterChecked'($o2)"	 [color=black,
+		pos="e,459.12,3326 189.23,3434.9 203.96,3431.3 219.27,3427.1 233.35,3422.4 299.74,3400.1 312.69,3385.3 377.35,3358.4 400.95,3348.6 427.28,\
+3338.2 449.74,3329.6",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "lifeChecked'($o2)"	 [color=black,
+		pos="e,412.04,3442.5 232.34,3446.7 286.15,3445.5 349.74,3444 401.79,3442.8",
+		style=solid];
+	"agentAt($a1, $x1, $y0)" -> "lifeDetected'($o2)"	 [color=black,
+		pos="e,426.29,3264.4 199.08,3436.3 210.97,3432.7 222.76,3428.2 233.35,3422.4 311.67,3379.6 298.8,3324.8 377.35,3282.4 389.4,3275.9 402.89,\
+3270.9 416.44,3267",
+		style=solid];
+	"agentAt($a1, $x0, $y1)" -> "agentAt'($a1, $x0, $y2)"	 [color=black,
+		pos="e,385.38,4870.4 233.39,4870.4 278.05,4870.4 329.31,4870.4 375.09,4870.4",
+		style=solid];
+	"agentAt($a1, $x0, $y1)" -> "agentAt'($a1, $x0, $y0)"	 [color=black,
+		pos="e,430.27,4774.8 185.33,4855.5 201.18,4851.6 217.94,4847.1 233.35,4842.4 298.68,4822.3 311.82,4807.8 377.35,4788.4 391.13,4784.3 \
+405.93,4780.5 420.36,4777.1",
+		style=solid];
+	"agentAt($a1, $x0, $y1)" -> "agentAt'($a1, $x1, $y1)"	 [color=black,
+		pos="e,416.2,4827.8 203.75,4858.1 263.68,4849.6 343.71,4838.2 405.97,4829.3",
+		style=solid];
+	"agentAt($a1, $x0, $y1)" -> "agentAt'($a1, $x0, $y1)"	 [color=black,
+		pos="e,430.27,4966 185.33,4885.3 201.18,4889.2 217.94,4893.7 233.35,4898.4 298.68,4918.5 311.82,4932.9 377.35,4952.4 391.13,4956.5 405.93,\
+4960.3 420.36,4963.7",
+		style=solid];
+}

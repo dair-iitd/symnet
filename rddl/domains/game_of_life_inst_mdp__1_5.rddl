@@ -1,0 +1,72 @@
+non-fluents nf_game_of_life_inst_mdp__1_5 {
+	domain = game_of_life_mdp;
+	objects {
+		x_pos : {x1,x2,x3};
+		y_pos : {y1,y2,y3};
+	};
+	non-fluents {
+		NOISE-PROB(x1,y1) = 0.019240558;
+		NEIGHBOR(x1,y1,x1,y2);
+		NEIGHBOR(x1,y1,x2,y1);
+		NEIGHBOR(x1,y1,x2,y2);
+		NOISE-PROB(x1,y2) = 0.02318462;
+		NEIGHBOR(x1,y2,x1,y1);
+		NEIGHBOR(x1,y2,x1,y3);
+		NEIGHBOR(x1,y2,x2,y1);
+		NEIGHBOR(x1,y2,x2,y2);
+		NEIGHBOR(x1,y2,x2,y3);
+		NOISE-PROB(x1,y3) = 0.013870704;
+		NEIGHBOR(x1,y3,x1,y2);
+		NEIGHBOR(x1,y3,x2,y2);
+		NEIGHBOR(x1,y3,x2,y3);
+		NOISE-PROB(x2,y1) = 0.045021944;
+		NEIGHBOR(x2,y1,x1,y1);
+		NEIGHBOR(x2,y1,x1,y2);
+		NEIGHBOR(x2,y1,x2,y2);
+		NEIGHBOR(x2,y1,x3,y1);
+		NEIGHBOR(x2,y1,x3,y2);
+		NOISE-PROB(x2,y2) = 0.02066207;
+		NEIGHBOR(x2,y2,x1,y1);
+		NEIGHBOR(x2,y2,x1,y2);
+		NEIGHBOR(x2,y2,x1,y3);
+		NEIGHBOR(x2,y2,x2,y1);
+		NEIGHBOR(x2,y2,x2,y3);
+		NEIGHBOR(x2,y2,x3,y1);
+		NEIGHBOR(x2,y2,x3,y2);
+		NEIGHBOR(x2,y2,x3,y3);
+		NOISE-PROB(x2,y3) = 0.03581837;
+		NEIGHBOR(x2,y3,x1,y2);
+		NEIGHBOR(x2,y3,x1,y3);
+		NEIGHBOR(x2,y3,x2,y2);
+		NEIGHBOR(x2,y3,x3,y2);
+		NEIGHBOR(x2,y3,x3,y3);
+		NOISE-PROB(x3,y1) = 0.03587804;
+		NEIGHBOR(x3,y1,x2,y1);
+		NEIGHBOR(x3,y1,x2,y2);
+		NEIGHBOR(x3,y1,x3,y2);
+		NOISE-PROB(x3,y2) = 0.036387995;
+		NEIGHBOR(x3,y2,x2,y1);
+		NEIGHBOR(x3,y2,x2,y2);
+		NEIGHBOR(x3,y2,x2,y3);
+		NEIGHBOR(x3,y2,x3,y1);
+		NEIGHBOR(x3,y2,x3,y3);
+		NOISE-PROB(x3,y3) = 0.04642283;
+		NEIGHBOR(x3,y3,x2,y2);
+		NEIGHBOR(x3,y3,x2,y3);
+		NEIGHBOR(x3,y3,x3,y2);
+	};
+}
+
+instance game_of_life_inst_mdp__1_5 {
+	domain = game_of_life_mdp;
+	non-fluents = nf_game_of_life_inst_mdp__1_5;
+	init-state {
+		alive(x1,y1);
+		alive(x3,y1);
+		alive(x3,y2);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 1.0;
+}
