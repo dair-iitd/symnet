@@ -1,0 +1,1020 @@
+digraph G {
+	graph [bb="0,0,617.2,1790.4",
+		fontname=Helvetica,
+		fontsize=16,
+		rankdir=LR,
+		ranksep=2.00,
+		ratio=auto,
+		size=600
+	];
+	node [fontsize=16,
+		label="\N"
+	];
+	{
+		graph [rank=same];
+		"proficiencyMed($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1553.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"giveHint($s2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,1277.4",
+			shape=box,
+			style=filled,
+			width=1.4722];
+		"updateTurn($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1058.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4356];
+		"answeredRight($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,293.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"hintedRight($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,18.385",
+			shape=ellipse,
+			style=filled,
+			width=2.4749];
+		"proficiencyHigh($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,678.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"askProb($s1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,896.38",
+			shape=box,
+			style=filled,
+			width=1.4028];
+		"hintDelayVar($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,403.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"updateTurn($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1223.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4356];
+		"proficiencyMed($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,623.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"answeredRight($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,568.38",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"giveHint($s1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,1388.4",
+			shape=box,
+			style=filled,
+			width=1.4722];
+		"proficiencyHigh($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,788.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"askProb($s0)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,950.38",
+			shape=box,
+			style=filled,
+			width=1.4028];
+		"hintDelayVar($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,238.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"hintedRight($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1718.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4749];
+		"giveHint($s0)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,1004.4",
+			shape=box,
+			style=filled,
+			width=1.4722];
+		"proficiencyMed($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,513.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"Current State and Actions"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="109.6,1772.4",
+			shape=plaintext,
+			style=bold,
+			width=2.5139];
+		"updateTurn($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1168.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4356];
+		"answeredRight($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1663.4",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"hintedRight($s0)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,348.38",
+			shape=ellipse,
+			style=filled,
+			width=2.4749];
+		"hintDelayVar($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,128.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"proficiencyHigh($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1498.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"askProb($s3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,1444.4",
+			shape=box,
+			style=filled,
+			width=1.4028];
+		"proficiencyMed($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,458.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"giveHint($s3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,1333.4",
+			shape=box,
+			style=filled,
+			width=1.4722];
+		"updateTurn($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1113.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4356];
+		"answeredRight($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,73.385",
+			shape=ellipse,
+			style=filled,
+			width=2.8481];
+		"hintedRight($s1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,183.38",
+			shape=ellipse,
+			style=filled,
+			width=2.4749];
+		"hintDelayVar($s3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,1608.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6713];
+		"askProb($s2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="109.6,842.38",
+			shape=box,
+			style=filled,
+			width=1.4028];
+		"proficiencyHigh($s2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="109.6,733.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+	}
+	{
+		graph [rank=same];
+		"proficiencyMed'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1663.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"hintedRight'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1058.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5338];
+		"answeredRight'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1498.4",
+			shape=ellipse,
+			style=filled,
+			width=2.907];
+		"hintDelayVar'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1443.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"Next State and Reward"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="490.2,1772.4",
+			shape=plaintext,
+			style=bold,
+			width=2.25];
+		"Reward Function"		 [color=black,
+			fillcolor=firebrick1,
+			height=0.72222,
+			pos="490.2,611.38",
+			shape=diamond,
+			style=filled,
+			width=3.5278];
+		"updateTurn'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1168.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4945];
+		"hintedRight'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,948.38",
+			shape=ellipse,
+			style=filled,
+			width=2.5338];
+		"answeredRight'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,838.38",
+			shape=ellipse,
+			style=filled,
+			width=2.907];
+		"proficiencyHigh'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,549.38",
+			shape=ellipse,
+			style=filled,
+			width=3.1034];
+		"hintDelayVar'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1278.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"proficiencyHigh'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,673.38",
+			shape=ellipse,
+			style=filled,
+			width=3.1034];
+		"updateTurn'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1553.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4945];
+		"proficiencyMed'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,338.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"hintedRight'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1113.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5338];
+		"answeredRight'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,783.38",
+			shape=ellipse,
+			style=filled,
+			width=2.907];
+		"proficiencyHigh'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,494.38",
+			shape=ellipse,
+			style=filled,
+			width=3.1034];
+		"hintDelayVar'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1333.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"proficiencyMed'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,439.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"updateTurn'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,893.38",
+			shape=ellipse,
+			style=filled,
+			width=2.4945];
+		"proficiencyMed'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,183.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"hintedRight'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1388.4",
+			shape=ellipse,
+			style=filled,
+			width=2.5338];
+		"hintDelayVar'($s0)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1003.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7302];
+		"answeredRight'($s2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,728.38",
+			shape=ellipse,
+			style=filled,
+			width=2.907];
+		"proficiencyHigh'($s3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1608.4",
+			shape=ellipse,
+			style=filled,
+			width=3.1034];
+		"updateTurn'($s1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="490.2,1223.4",
+			shape=ellipse,
+			style=filled,
+			width=2.4945];
+	}
+	"proficiencyMed($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,418.45,1649.5 172.95,1568.2 188.17,1572.2 204.35,1576.7 219.2,1581.4 284.39,1601.9 297.68,1615.9 363.2,1635.4 377.74,1639.7 393.4,\
+1643.7 408.57,1647.2",
+		style=solid];
+	"proficiencyMed($s3)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,408.96,1510 192.29,1541.5 253.16,1532.7 336.26,1520.6 399.07,1511.5",
+		style=solid];
+	"proficiencyMed($s3)" -> "Reward Function"	 [pos="e,406.04,620.23 195.37,1542.3 204.33,1538.1 212.57,1532.6 219.2,1525.4 486.26,1233.2 98.878,941.09 363.2,646.38 372.2,636.35 383.8,\
+629.09 396.32,623.85"];
+	"proficiencyMed($s3)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,405.7,1596.3 192.29,1565.3 252,1573.9 333.11,1585.7 395.47,1594.8",
+		style=solid];
+	"giveHint($s2)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,424.33,1181 162.86,1265.7 180.84,1261.3 201.02,1256 219.2,1250.4 284.48,1230.1 297.68,1215.8 363.2,1196.4 379.63,1191.5 397.49,\
+1187 414.46,1183.2",
+		style=solid];
+	"giveHint($s2)" -> "hintDelayVar'($s2)"	 [color=black,
+		pos="e,391.9,1278.1 162.85,1277.5 219.01,1277.7 309.87,1277.9 381.48,1278.1",
+		style=solid];
+	"giveHint($s2)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,415.83,1124.1 162.63,1268.9 181.06,1264.8 201.59,1258.8 219.2,1250.4 291.63,1215.8 290.35,1175.1 363.2,1141.4 376.51,1135.2 391.24,\
+1130.4 405.79,1126.6",
+		style=solid];
+	"updateTurn($s2)" -> "hintedRight'($s0)"	 [color=black,
+		pos="e,398.8,1058.4 197.46,1058.4 254.42,1058.4 329.09,1058.4 388.62,1058.4",
+		style=solid];
+	"updateTurn($s2)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,397.93,1489.6 185.76,1067.7 197.98,1071.9 209.72,1077.9 219.2,1086.4 354.76,1208.2 225.61,1350.8 363.2,1470.4 370.69,1476.9 379.35,\
+1482 388.56,1486",
+		style=solid];
+	"updateTurn($s2)" -> "hintDelayVar'($s1)"	 [color=black,
+		pos="e,401.91,1435.2 184.82,1067.9 197.28,1072.1 209.34,1078 219.2,1086.4 340.74,1189.9 239.94,1314 363.2,1415.4 371.75,1422.4 381.69,\
+1427.8 392.16,1431.8",
+		style=solid];
+	"updateTurn($s2)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,424.33,1155.8 168.42,1072.1 184.92,1076.3 202.86,1081.2 219.2,1086.4 284.39,1106.9 297.68,1120.9 363.2,1140.4 379.63,1145.3 397.49,\
+1149.7 414.46,1153.6",
+		style=solid];
+	"updateTurn($s2)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,423.66,961.05 170.15,1045 186.18,1041 203.45,1036.3 219.2,1031.4 284.57,1010.9 297.59,996.09 363.2,976.38 379.44,971.51 397.08,\
+967.07 413.88,963.23",
+		style=solid];
+	"updateTurn($s2)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,405.35,849.19 180.91,1047.6 194.22,1043.7 207.6,1038.5 219.2,1031.4 302.26,980.64 279.52,916.09 363.2,866.38 373.21,860.44 384.35,\
+855.75 395.74,852.06",
+		style=solid];
+	"updateTurn($s2)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,393.09,558.59 187.49,1049.8 199.17,1045.7 210.28,1039.8 219.2,1031.4 373.82,886.19 206.24,719.04 363.2,576.38 369.26,570.88 376.15,\
+566.4 383.52,562.76",
+		style=solid];
+	"updateTurn($s2)" -> "hintDelayVar'($s2)"	 [color=black,
+		pos="e,408.02,1268.3 179.47,1069.5 193.25,1073.5 207.18,1079 219.2,1086.4 301.83,1137.2 279.73,1201 363.2,1250.4 373.93,1256.7 385.95,\
+1261.6 398.18,1265.4",
+		style=solid];
+	"updateTurn($s2)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,396.07,683.46 185.93,1049.2 197.99,1045.2 209.63,1039.5 219.2,1031.4 341.44,928.11 239.69,803.12 363.2,701.38 370.25,695.58 378.25,\
+690.91 386.72,687.17",
+		style=solid];
+	"updateTurn($s2)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,405.05,1547.3 186.33,1067.4 198.42,1071.7 209.97,1077.7 219.2,1086.4 369.02,1226.8 211.05,1387.5 363.2,1525.4 372.44,1533.8 383.61,\
+1539.8 395.44,1544.2",
+		style=solid];
+	"updateTurn($s2)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,415.58,1102.7 182.26,1068.8 245.78,1078 338.57,1091.5 405.49,1101.2",
+		style=solid];
+	"updateTurn($s2)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,402.14,793.44 183.43,1048.3 196.09,1044.4 208.59,1038.9 219.2,1031.4 314.49,963.73 267.08,877.85 363.2,811.38 372.09,805.24 382.11,\
+800.41 392.5,796.63",
+		style=solid];
+	"updateTurn($s2)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,393.77,503.77 187.72,1050 199.37,1045.9 210.41,1039.9 219.2,1031.4 388.09,867.83 192.29,683.82 363.2,522.38 369.47,516.47 376.69,\
+511.7 384.45,507.86",
+		style=solid];
+	"updateTurn($s2)" -> "hintDelayVar'($s3)"	 [color=black,
+		pos="e,405.11,1324.2 182.01,1068.8 195.16,1072.9 208.2,1078.5 219.2,1086.4 313.96,1154.1 267.32,1239.2 363.2,1305.4 372.93,1312.1 384,\
+1317.2 395.44,1321.2",
+		style=solid];
+	"updateTurn($s2)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,416.46,903.94 176.72,1046.5 191.11,1042.7 205.98,1037.7 219.2,1031.4 291.79,996.5 290.18,955.36 363.2,921.38 376.79,915.06 391.87,\
+910.14 406.74,906.3",
+		style=solid];
+	"updateTurn($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,464.25,201.36 188.85,1050.4 200.23,1046.2 210.88,1040.1 219.2,1031.4 444.56,795.35 210.35,599.71 363.2,311.38 385.83,268.7 427.22,\
+230.8 456.37,207.52",
+		style=solid];
+	"updateTurn($s2)" -> "hintedRight'($s1)"	 [color=black,
+		pos="e,406.7,1380.8 183.77,1068.3 196.48,1072.4 208.9,1078.2 219.2,1086.4 327.07,1171.8 253.92,1276.8 363.2,1360.4 373.18,1368 384.82,\
+1373.6 396.92,1377.8",
+		style=solid];
+	"updateTurn($s2)" -> "hintDelayVar'($s0)"	 [color=black,
+		pos="e,411.98,1014.6 182.26,1048 244.65,1038.9 335.3,1025.7 401.92,1016.1",
+		style=solid];
+	"updateTurn($s2)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,400.15,737.91 184.89,1048.8 197.2,1044.9 209.2,1039.2 219.2,1031.4 327.68,946.14 253.67,840.27 363.2,756.38 371.43,750.09 380.79,\
+745.15 390.61,741.29",
+		style=solid];
+	"updateTurn($s2)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,393.83,1598.9 186.86,1067.3 198.82,1071.5 210.18,1077.6 219.2,1086.4 383.43,1245.5 196.33,1424 363.2,1580.4 369.49,1586.3 376.73,\
+1591 384.5,1594.9",
+		style=solid];
+	"updateTurn($s2)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,416.49,1212.8 175.27,1070.6 190.1,1074.6 205.53,1079.8 219.2,1086.4 291.48,1121.3 290.35,1161.7 363.2,1195.4 376.8,1201.7 391.89,\
+1206.6 406.76,1210.4",
+		style=solid];
+	"answeredRight($s1)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,400.46,538.29 186.29,305.61 197.91,309.5 209.32,314.63 219.2,321.38 309.63,383.19 271.75,461.11 363.2,521.38 371.71,526.99 381.17,\
+531.49 390.98,535.1",
+		style=solid];
+	"answeredRight($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,400.24,327.81 195.57,303.48 253.29,310.34 329.83,319.44 390.3,326.63",
+		style=solid];
+	"hintedRight($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,459.41,165.54 171.64,31.644 187.35,35.728 204.08,40.677 219.2,46.385 305.03,78.782 399.32,130.68 450.64,160.43",
+		style=solid];
+	"proficiencyHigh($s1)" -> "Reward Function"	 [pos="e,421.4,623.38 185.85,665.07 251.18,653.51 345.41,636.83 411.46,625.14"];
+	"proficiencyHigh($s1)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,412.01,562.56 176.81,663.82 190.98,660.01 205.74,655.51 219.2,650.38 286.46,624.8 295.44,600.58 363.2,576.38 375.54,571.98 388.83,\
+568.18 401.99,564.93",
+		style=solid];
+	"proficiencyHigh($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,449.16,355.52 189.87,665.73 200.34,661.89 210.45,656.89 219.2,650.38 318.4,576.6 275.21,499.23 363.2,412.38 385.31,390.56 415.1,\
+372.68 440.17,359.97",
+		style=solid];
+	"proficiencyHigh($s1)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,404.77,1106.7 192.93,690.41 202.53,694.37 211.59,699.57 219.2,706.38 353.48,826.55 226.93,967.49 363.2,1085.4 372.4,1093.3 383.37,\
+1099.2 394.94,1103.5",
+		style=solid];
+	"proficiencyHigh($s1)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,420.53,769.55 172.57,693.5 187.87,697.47 204.18,701.9 219.2,706.38 283.98,725.73 298.11,737.14 363.2,755.38 378.48,759.67 394.95,\
+763.72 410.77,767.35",
+		style=solid];
+	"proficiencyHigh($s1)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,405.91,717.38 196.51,689.73 255.93,697.58 334.95,708.01 395.9,716.06",
+		style=solid];
+	"askProb($s1)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,418.69,796.91 160.21,885.59 178.87,881.13 200.17,875.55 219.2,869.38 284.84,848.12 297.3,831.83 363.2,811.38 377.78,806.86 393.51,\
+802.77 408.76,799.19",
+		style=solid];
+	"askProb($s1)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,407.71,1216 160.13,899.91 180.15,903.44 202.45,910.28 219.2,923.38 326.94,1007.7 254.42,1112.5 363.2,1195.4 373.5,1203.2 385.57,\
+1209 398.08,1213.1",
+		style=solid];
+	"hintDelayVar($s0)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,398.29,662.78 185.08,414.85 197.16,418.83 209.04,424.18 219.2,431.38 313.04,497.88 268.02,581.84 363.2,646.38 371.04,651.7 379.72,\
+655.99 388.76,659.46",
+		style=solid];
+	"hintDelayVar($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,394.44,430.37 196.04,411.51 251.81,416.81 324.99,423.77 384.29,429.41",
+		style=solid];
+	"updateTurn($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,395.99,1653.9 186.57,1232.2 198.5,1236.3 209.92,1242.1 219.2,1250.4 355.55,1372 225.35,1515.5 363.2,1635.4 370.16,1641.4 378.13,\
+1646.3 386.61,1650.1",
+		style=solid];
+	"updateTurn($s3)" -> "hintedRight'($s0)"	 [color=black,
+		pos="e,415.83,1069.1 175.27,1211.2 190.1,1207.2 205.53,1202 219.2,1195.4 291.48,1160.5 290.35,1120.1 363.2,1086.4 376.51,1080.2 391.24,\
+1075.4 405.79,1071.6",
+		style=solid];
+	"updateTurn($s3)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,402.14,1488.3 183.43,1233.5 196.09,1237.4 208.59,1242.8 219.2,1250.4 314.49,1318 267.08,1403.9 363.2,1470.4 372.09,1476.5 382.11,\
+1481.4 392.5,1485.1",
+		style=solid];
+	"updateTurn($s3)" -> "hintDelayVar'($s1)"	 [color=black,
+		pos="e,408,1433.3 180.91,1234.2 194.22,1238.1 207.6,1243.3 219.2,1250.4 302.26,1301.1 279.52,1365.7 363.2,1415.4 373.92,1421.8 385.93,\
+1426.7 398.16,1430.5",
+		style=solid];
+	"updateTurn($s3)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,416.55,1178.9 182.26,1213 246.08,1203.7 339.46,1190.1 406.45,1180.4",
+		style=solid];
+	"updateTurn($s3)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,408.41,956.7 182.01,1213 195.16,1208.9 208.2,1203.3 219.2,1195.4 313.96,1127.6 267.32,1042.5 363.2,976.38 373.86,969.03 386.12,\
+963.57 398.73,959.53",
+		style=solid];
+	"updateTurn($s3)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,398.98,847.47 184.82,1213.9 197.28,1209.7 209.34,1203.8 219.2,1195.4 340.74,1091.9 239.94,967.79 363.2,866.38 370.99,859.98 379.93,\
+854.96 389.38,851.04",
+		style=solid];
+	"updateTurn($s3)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,391.87,558.21 187.54,1214.8 199.36,1210.5 210.5,1204.3 219.2,1195.4 416.54,993.3 161.74,774.36 363.2,576.38 368.93,570.76 375.52,\
+566.18 382.62,562.47",
+		style=solid];
+	"updateTurn($s3)" -> "hintDelayVar'($s2)"	 [color=black,
+		pos="e,411.98,1267.2 182.26,1233.8 244.65,1242.9 335.3,1256 401.92,1265.7",
+		style=solid];
+	"updateTurn($s3)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,393.83,682.84 186.86,1214.5 198.82,1210.2 210.18,1204.1 219.2,1195.4 383.43,1036.2 196.33,857.76 363.2,701.38 369.49,695.49 376.73,\
+690.74 384.5,686.91",
+		style=solid];
+	"updateTurn($s3)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,407.68,1546.1 184.89,1232.9 197.2,1236.9 209.2,1242.5 219.2,1250.4 327.68,1335.6 253.67,1441.5 363.2,1525.4 373.48,1533.3 385.54,\
+1539 398.05,1543.2",
+		style=solid];
+	"updateTurn($s3)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,424.01,1126.1 168.42,1209.7 184.92,1205.5 202.86,1200.5 219.2,1195.4 284.39,1174.8 297.68,1160.8 363.2,1141.4 379.54,1136.5 397.3,\
+1132.1 414.18,1128.2",
+		style=solid];
+	"updateTurn($s3)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,397.93,792.2 185.76,1214.1 197.98,1209.9 209.72,1203.9 219.2,1195.4 354.76,1073.5 225.61,930.93 363.2,811.38 370.69,804.88 379.35,\
+799.79 388.56,795.82",
+		style=solid];
+	"updateTurn($s3)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,392.63,503.5 187.68,1214.9 199.48,1210.6 210.58,1204.4 219.2,1195.4 430.96,974.65 147.77,739.53 363.2,522.38 369.03,516.51 375.79,\
+511.75 383.11,507.9",
+		style=solid];
+	"updateTurn($s3)" -> "hintDelayVar'($s3)"	 [color=black,
+		pos="e,421.38,1320.2 170.15,1236.8 186.18,1240.8 203.45,1245.4 219.2,1250.4 284.57,1270.9 297.59,1285.7 363.2,1305.4 378.67,1310 395.4,\
+1314.3 411.48,1318",
+		style=solid];
+	"updateTurn($s3)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,407.69,900.71 183.77,1213.5 196.48,1209.3 208.9,1203.5 219.2,1195.4 327.07,1110 253.92,1004.9 363.2,921.38 373.49,913.52 385.55,\
+907.78 398.06,903.61",
+		style=solid];
+	"updateTurn($s3)" -> "hintedRight'($s1)"	 [color=black,
+		pos="e,415.8,1377.7 176.72,1235.2 191.11,1239.1 205.98,1244 219.2,1250.4 291.79,1285.3 290.18,1326.4 363.2,1360.4 376.49,1366.6 391.21,\
+1371.4 405.77,1375.2",
+		style=solid];
+	"updateTurn($s3)" -> "hintDelayVar'($s0)"	 [color=black,
+		pos="e,408.02,1013.5 179.47,1212.2 193.25,1208.2 207.18,1202.8 219.2,1195.4 301.83,1144.6 279.73,1080.8 363.2,1031.4 373.93,1025 385.95,\
+1020.1 398.18,1016.3",
+		style=solid];
+	"updateTurn($s3)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,397.28,736.95 186.33,1214.3 198.42,1210.1 209.97,1204 219.2,1195.4 369.02,1055 211.05,894.27 363.2,756.38 370.41,749.85 378.8,\
+744.73 387.76,740.73",
+		style=solid];
+	"updateTurn($s3)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,396.07,1598.3 185.93,1232.5 197.99,1236.6 209.63,1242.3 219.2,1250.4 341.44,1353.7 239.69,1478.6 363.2,1580.4 370.25,1586.2 378.25,\
+1590.9 386.72,1594.6",
+		style=solid];
+	"updateTurn($s3)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,400.12,1223.4 197.46,1223.4 254.83,1223.4 330.17,1223.4 389.91,1223.4",
+		style=solid];
+	"proficiencyMed($s0)" -> "Reward Function"	 [pos="e,380.08,614.84 215.56,620.06 263.47,618.54 320.43,616.73 369.96,615.16"];
+	"proficiencyMed($s0)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,405.8,827.48 185.38,636.5 197.17,640.28 208.87,645.14 219.2,651.38 300.8,700.7 280.79,762.45 363.2,810.38 373.34,816.28 384.6,\
+820.94 396.1,824.61",
+		style=solid];
+	"proficiencyMed($s0)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,402.67,661.96 195.1,634.54 253.62,642.27 331.67,652.58 392.65,660.63",
+		style=solid];
+	"proficiencyMed($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,406.77,451.37 182.81,609.91 195.34,606.14 207.95,601.38 219.2,595.38 294.78,555.12 286.96,506.37 363.2,467.38 373.72,462.01 385.26,\
+457.65 396.94,454.13",
+		style=solid];
+	"answeredRight($s0)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,416.87,659.48 171.45,583.14 187.08,587.18 203.83,591.74 219.2,596.38 284.06,615.97 297.96,628.14 363.2,646.38 377.21,650.3 392.22,\
+653.97 406.83,657.26",
+		style=solid];
+	"answeredRight($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,414.37,452.78 175.06,554.22 189.76,550.32 205.18,545.68 219.2,540.38 286.34,515.06 295.65,491.58 363.2,467.38 376.27,462.7 390.4,\
+458.65 404.3,455.19",
+		style=solid];
+	"giveHint($s1)" -> "hintDelayVar'($s1)"	 [color=black,
+		pos="e,411.93,1432.2 162.85,1396 224.46,1404.9 327.81,1419.9 401.71,1430.7",
+		style=solid];
+	"giveHint($s1)" -> "hintedRight'($s1)"	 [color=black,
+		pos="e,398.98,1388.4 162.85,1388.4 220.97,1388.4 316.24,1388.4 388.89,1388.4",
+		style=solid];
+	"giveHint($s1)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,416.49,1234 162.63,1379.4 181.06,1375 201.58,1368.9 219.2,1360.4 291.48,1325.5 290.35,1285.1 363.2,1251.4 376.8,1245.1 391.89,\
+1240.2 406.76,1236.4",
+		style=solid];
+	"proficiencyHigh($s0)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,395.52,1490.3 196.3,799.66 204.82,803.57 212.7,808.7 219.2,815.38 427.07,1029 152.68,1259.4 363.2,1470.4 369.83,1477 377.66,1482.2 \
+386.12,1486.3",
+		style=solid];
+	"proficiencyHigh($s0)" -> "Reward Function"	 [pos="e,424.55,624.08 181.96,774.54 194.71,770.8 207.61,766.14 219.2,760.38 292.31,724.07 290.44,683.37 363.2,646.38 379.11,638.3 397.12,\
+631.88 414.44,626.87"];
+	"proficiencyHigh($s0)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,416.25,937.5 182.65,802.12 195.13,805.67 207.76,810.04 219.2,815.38 290.97,848.9 291.02,887.77 363.2,920.38 376.64,926.46 391.5,\
+931.26 406.16,935.04",
+		style=solid];
+	"proficiencyHigh($s0)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,405.91,827.38 196.51,799.73 255.93,807.58 334.95,818.01 395.9,826.06",
+		style=solid];
+	"proficiencyHigh($s0)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,416.68,687.29 174.48,773.47 189.28,769.58 204.88,765.14 219.2,760.38 284.84,738.59 297.21,722.07 363.2,701.38 377.1,697.03 392.07,\
+693.08 406.66,689.61",
+		style=solid];
+	"proficiencyHigh($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,397.69,449.42 191.24,776.1 201.32,772.2 210.97,767.08 219.2,760.38 331.74,668.79 249.14,557.07 363.2,467.38 370.72,461.47 379.23,\
+456.76 388.2,453",
+		style=solid];
+	"askProb($s0)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,419.04,851.91 160.19,939.53 178.85,935.06 200.15,929.49 219.2,923.38 284.75,902.37 297.4,886.58 363.2,866.38 377.88,861.88 393.72,\
+857.78 409.05,854.2",
+		style=solid];
+	"askProb($s0)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,417.18,904.23 160.49,942.87 223.32,933.41 332.15,917.03 407.28,905.72",
+		style=solid];
+	"hintDelayVar($s1)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,398.09,538.82 186.4,249.49 198.14,253.52 209.55,258.98 219.2,266.38 322.46,345.62 258.63,443.9 363.2,521.38 370.89,527.08 379.51,\
+531.65 388.55,535.32",
+		style=solid];
+	"hintDelayVar($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,431.3,322.8 167.83,253.05 184.41,257.32 202.53,262.01 219.2,266.38 288.12,284.46 366.82,305.49 421.4,320.14",
+		style=solid];
+	"hintedRight($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,406.7,1675.4 183.15,1707.8 243.91,1699 330.99,1686.4 396.75,1676.8",
+		style=solid];
+	"giveHint($s0)" -> "hintedRight'($s0)"	 [color=black,
+		pos="e,415.41,1047.9 162.85,1011.8 225.42,1020.8 331.07,1035.8 405.17,1046.4",
+		style=solid];
+	"giveHint($s0)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,423.96,905.9 162.63,992.87 180.68,988.5 200.96,983.17 219.2,977.38 284.66,956.61 297.5,941.34 363.2,921.38 379.51,916.43 397.26,\
+911.95 414.14,908.1",
+		style=solid];
+	"giveHint($s0)" -> "hintDelayVar'($s0)"	 [color=black,
+		pos="e,391.9,1003.6 162.85,1004.2 219.01,1004.1 309.87,1003.9 381.48,1003.7",
+		style=solid];
+	"proficiencyMed($s1)" -> "Reward Function"	 [pos="e,433.62,596.95 169.79,528.63 185.82,532.76 203.18,537.24 219.2,541.38 289.05,559.44 369.04,580.19 423.71,594.38"];
+	"proficiencyMed($s1)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,393.07,540.24 204.19,522.28 258.41,527.44 326.86,533.95 383.08,539.29",
+		style=solid];
+	"proficiencyMed($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,458.77,356.2 177.19,498.98 191.27,495.18 205.89,490.63 219.2,485.38 265.35,467.2 386.8,397.94 449.9,361.35",
+		style=solid];
+	"proficiencyMed($s1)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,402.56,773.3 188.46,526.02 199.36,529.86 209.98,534.87 219.2,541.38 312.81,607.57 268.5,690.79 363.2,755.38 372.2,761.52 382.33,\
+766.34 392.83,770.12",
+		style=solid];
+	"Current State and Actions" -> "Next State and Reward"	 [color=black,
+		pos="e,409.14,1772.4 200.32,1772.4 260.27,1772.4 338.84,1772.4 398.9,1772.4",
+		style=invis];
+	"updateTurn($s0)" -> "hintedRight'($s0)"	 [color=black,
+		pos="e,424.01,1071.1 168.42,1154.7 184.92,1150.5 202.86,1145.5 219.2,1140.4 284.39,1119.8 297.68,1105.8 363.2,1086.4 379.54,1081.5 397.3,\
+1077.1 414.18,1073.2",
+		style=solid];
+	"updateTurn($s0)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,400.16,1488.8 183.77,1178.3 196.48,1182.4 208.9,1188.2 219.2,1196.4 327.07,1281.8 253.92,1386.8 363.2,1470.4 371.43,1476.7 380.8,\
+1481.6 390.62,1485.5",
+		style=solid];
+	"updateTurn($s0)" -> "hintDelayVar'($s1)"	 [color=black,
+		pos="e,405.11,1434.2 182.01,1178.8 195.16,1182.9 208.2,1188.5 219.2,1196.4 313.96,1264.1 267.32,1349.2 363.2,1415.4 372.93,1422.1 384,\
+1427.2 395.44,1431.2",
+		style=solid];
+	"updateTurn($s0)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,400.12,1168.4 197.46,1168.4 254.83,1168.4 330.17,1168.4 389.91,1168.4",
+		style=solid];
+	"updateTurn($s0)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,411.33,957.66 179.47,1157.2 193.25,1153.2 207.18,1147.8 219.2,1140.4 301.83,1089.6 279.73,1025.8 363.2,976.38 374.92,969.45 388.17,\
+964.23 401.57,960.3",
+		style=solid];
+	"updateTurn($s0)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,400.16,847.92 183.77,1158.5 196.48,1154.3 208.9,1148.5 219.2,1140.4 327.07,1055 253.92,949.95 363.2,866.38 371.43,860.09 380.8,\
+855.16 390.62,851.3",
+		style=solid];
+	"updateTurn($s0)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,392.35,558.26 187.1,1159.7 199.04,1155.5 210.33,1149.3 219.2,1140.4 401.92,957.24 176.75,755.73 363.2,576.38 369.04,570.77 375.75,\
+566.2 382.96,562.5",
+		style=solid];
+	"updateTurn($s0)" -> "hintDelayVar'($s2)"	 [color=black,
+		pos="e,421.4,1265.1 168.42,1182.1 184.92,1186.3 202.86,1191.2 219.2,1196.4 284.39,1216.9 297.68,1230.9 363.2,1250.4 378.68,1255 395.42,\
+1259.2 411.5,1262.9",
+		style=solid];
+	"updateTurn($s0)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,394.4,683 186.33,1159.3 198.42,1155.1 209.97,1149 219.2,1140.4 369.02,999.95 211.05,839.27 363.2,701.38 369.72,695.48 377.2,690.73 \
+385.19,686.91",
+		style=solid];
+	"updateTurn($s0)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,406.48,1546.6 184.82,1177.9 197.28,1182.1 209.34,1188 219.2,1196.4 340.74,1299.9 239.94,1424 363.2,1525.4 372.97,1533.4 384.55,\
+1539.3 396.67,1543.5",
+		style=solid];
+	"updateTurn($s0)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,415.58,1124.1 182.26,1158 245.78,1148.7 338.57,1135.3 405.49,1125.5",
+		style=solid];
+	"updateTurn($s0)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,398.98,792.47 184.82,1158.9 197.28,1154.7 209.34,1148.8 219.2,1140.4 340.74,1036.9 239.94,912.79 363.2,811.38 370.99,804.98 379.93,\
+799.96 389.38,796.04",
+		style=solid];
+	"updateTurn($s0)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,393.09,503.52 187.54,1159.8 199.35,1155.5 210.5,1149.3 219.2,1140.4 416.28,938.64 162.76,720.78 363.2,522.38 369.27,516.38 376.32,\
+511.54 383.93,507.66",
+		style=solid];
+	"updateTurn($s0)" -> "hintDelayVar'($s3)"	 [color=black,
+		pos="e,412.85,1321.9 175.27,1180.6 190.1,1184.6 205.53,1189.8 219.2,1196.4 291.48,1231.3 290.35,1271.7 363.2,1305.4 375.64,1311.1 389.33,\
+1315.7 402.95,1319.4",
+		style=solid];
+	"updateTurn($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,393.58,448.13 187.68,1159.9 199.48,1155.6 210.58,1149.4 219.2,1140.4 430.96,919.65 147.77,684.53 363.2,467.38 369.33,461.21 376.49,\
+456.27 384.24,452.32",
+		style=solid];
+	"updateTurn($s0)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,409.4,901.44 182.01,1158 195.16,1153.9 208.2,1148.3 219.2,1140.4 313.96,1072.6 267.32,987.53 363.2,921.38 374.08,913.88 386.63,\
+908.35 399.51,904.28",
+		style=solid];
+	"updateTurn($s0)" -> "hintedRight'($s1)"	 [color=black,
+		pos="e,411.33,1379.1 179.47,1179.5 193.25,1183.5 207.18,1189 219.2,1196.4 301.83,1247.2 279.73,1311 363.2,1360.4 374.92,1367.3 388.17,\
+1372.5 401.57,1376.5",
+		style=solid];
+	"updateTurn($s0)" -> "hintDelayVar'($s0)"	 [color=black,
+		pos="e,412.85,1014.8 175.27,1156.2 190.1,1152.2 205.53,1147 219.2,1140.4 291.48,1105.5 290.35,1065.1 363.2,1031.4 375.64,1025.6 389.33,\
+1021 402.95,1017.4",
+		style=solid];
+	"updateTurn($s0)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,397.93,737.2 185.76,1159.1 197.98,1154.9 209.72,1148.9 219.2,1140.4 354.76,1018.5 225.61,875.93 363.2,756.38 370.69,749.88 379.35,\
+744.79 388.56,740.82",
+		style=solid];
+	"updateTurn($s0)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,395.36,1598.7 185.76,1177.7 197.98,1181.9 209.72,1187.9 219.2,1196.4 354.76,1318.2 225.61,1460.8 363.2,1580.4 369.96,1586.3 377.68,\
+1591 385.9,1594.8",
+		style=solid];
+	"updateTurn($s0)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,416.55,1212.8 182.26,1178.8 246.08,1188.1 339.46,1201.6 406.45,1211.4",
+		style=solid];
+	"answeredRight($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,380.43,1663.4 212.56,1663.4 261.22,1663.4 319.75,1663.4 370.41,1663.4",
+		style=solid];
+	"answeredRight($s3)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,406.01,1620.5 189.97,1651.9 250.07,1643.1 332.79,1631.1 396.03,1621.9",
+		style=solid];
+	"hintedRight($s0)" -> "proficiencyMed'($s0)"	 [color=black,
+		pos="e,426.57,424.33 168.52,362.3 235.09,378.31 344.44,404.59 416.63,421.94",
+		style=solid];
+	"hintDelayVar($s2)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,396.56,484.22 187.75,139.15 199.13,143.22 210.07,148.79 219.2,156.38 335.97,253.57 244.82,371.18 363.2,466.38 370.38,472.16 378.51,\
+476.8 387.09,480.53",
+		style=solid];
+	"hintDelayVar($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,406.6,171.38 186.76,139.45 247.23,148.23 332.02,160.55 396.44,169.91",
+		style=solid];
+	"proficiencyHigh($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,408.86,1651 181.57,1512.4 194.42,1516.1 207.46,1520.7 219.2,1526.4 291.48,1561.3 290.35,1601.7 363.2,1635.4 374.44,1640.6 386.69,\
+1644.8 399,1648.3",
+		style=solid];
+	"proficiencyHigh($s3)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,385.39,1498.4 219.35,1498.4 268.2,1498.4 325.85,1498.4 375.29,1498.4",
+		style=solid];
+	"proficiencyHigh($s3)" -> "Reward Function"	 [pos="e,406.13,620.32 197.12,1487.1 205.38,1483.2 212.98,1478.1 219.2,1471.4 472.91,1199 113.24,922.17 363.2,646.38 372.25,636.4 383.88,\
+629.16 396.41,623.94"];
+	"proficiencyHigh($s3)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,417.79,1594.3 173.52,1513.4 188.58,1517.3 204.53,1521.8 219.2,1526.4 284.39,1546.9 297.68,1560.9 363.2,1580.4 377.56,1584.7 393.02,\
+1588.6 408.01,1592.1",
+		style=solid];
+	"askProb($s3)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,408.39,1486.9 160.49,1451.5 220.8,1460.1 323.48,1474.7 398.06,1485.4",
+		style=solid];
+	"askProb($s3)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,424.33,1540.8 160.13,1455.4 178.78,1459.9 200.09,1465.4 219.2,1471.4 284.48,1491.7 297.68,1505.9 363.2,1525.4 379.63,1530.3 397.49,\
+1534.7 414.46,1538.6",
+		style=solid];
+	"proficiencyMed($s2)" -> "Reward Function"	 [pos="e,427.73,598.09 178.59,472.5 192.29,476.29 206.41,480.89 219.2,486.38 288.56,516.15 294.13,545.97 363.2,576.38 380.46,583.98 399.79,\
+590.34 418.02,595.45"];
+	"proficiencyMed($s2)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,393.07,485.24 204.19,467.28 258.41,472.44 326.86,478.95 383.08,484.29",
+		style=solid];
+	"proficiencyMed($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,471.51,201.73 183.17,444.95 195.6,441.19 208.08,436.42 219.2,430.38 275.2,400.04 409.1,265.72 464.53,208.9",
+		style=solid];
+	"proficiencyMed($s2)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,402.56,718.3 188.46,471.02 199.36,474.86 209.98,479.87 219.2,486.38 312.81,552.57 268.5,635.79 363.2,700.38 372.2,706.52 382.33,\
+711.34 392.83,715.12",
+		style=solid];
+	"giveHint($s3)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,405.83,955.38 162.87,1329 182.39,1325.1 203.58,1317.8 219.2,1304.4 340.04,1200.7 240.2,1077.5 363.2,976.38 372.83,968.47 384.23,\
+962.67 396.17,958.45",
+		style=solid];
+	"giveHint($s3)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,411.99,1544.3 162.85,1340.3 181.61,1344.4 202.28,1351 219.2,1361.4 301.83,1412.2 279.73,1476 363.2,1525.4 375.07,1532.4 388.52,\
+1537.7 402.1,1541.6",
+		style=solid];
+	"giveHint($s3)" -> "hintDelayVar'($s3)"	 [color=black,
+		pos="e,391.9,1333.4 162.85,1333.4 219.01,1333.4 309.87,1333.4 381.48,1333.4",
+		style=solid];
+	"updateTurn($s1)" -> "hintedRight'($s0)"	 [color=black,
+		pos="e,415.58,1069.1 182.26,1103 245.78,1093.7 338.57,1080.3 405.49,1070.5",
+		style=solid];
+	"updateTurn($s1)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,398.98,1489.3 184.82,1122.9 197.28,1127.1 209.34,1133 219.2,1141.4 340.74,1244.9 239.94,1369 363.2,1470.4 370.99,1476.8 379.93,\
+1481.8 389.38,1485.7",
+		style=solid];
+	"updateTurn($s1)" -> "hintDelayVar'($s1)"	 [color=black,
+		pos="e,403.1,1434.8 183.77,1123.3 196.48,1127.4 208.9,1133.2 219.2,1141.4 327.07,1226.8 253.92,1331.8 363.2,1415.4 372.22,1422.3 382.6,\
+1427.5 393.46,1431.5",
+		style=solid];
+	"updateTurn($s1)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,416.55,1157.8 182.26,1123.8 246.08,1133.1 339.46,1146.6 406.45,1156.4",
+		style=solid];
+	"updateTurn($s1)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,415.83,959.14 175.27,1101.2 190.1,1097.2 205.53,1092 219.2,1085.4 291.48,1050.5 290.35,1010.1 363.2,976.38 376.51,970.23 391.24,\
+965.39 405.79,961.6",
+		style=solid];
+	"updateTurn($s1)" -> "answeredRight'($s0)"	 [color=black,
+		pos="e,402.15,848.46 182.01,1103 195.16,1098.9 208.2,1093.3 219.2,1085.4 313.96,1017.6 267.32,932.53 363.2,866.38 372.1,860.25 382.12,\
+855.43 392.52,851.65",
+		style=solid];
+	"updateTurn($s1)" -> "proficiencyHigh'($s1)"	 [color=black,
+		pos="e,392.54,558.46 186.91,1104.6 198.87,1100.3 210.22,1094.2 219.2,1085.4 387.38,921.1 191.68,737.17 363.2,576.38 369.11,570.84 375.87,\
+566.33 383.12,562.67",
+		style=solid];
+	"updateTurn($s1)" -> "hintDelayVar'($s2)"	 [color=black,
+		pos="e,412.85,1266.9 175.27,1125.6 190.1,1129.6 205.53,1134.8 219.2,1141.4 291.48,1176.3 290.35,1216.7 363.2,1250.4 375.64,1256.1 389.33,\
+1260.7 402.95,1264.4",
+		style=solid];
+	"updateTurn($s1)" -> "proficiencyHigh'($s0)"	 [color=black,
+		pos="e,395.36,683.11 185.76,1104.1 197.98,1099.9 209.72,1093.9 219.2,1085.4 354.76,963.54 225.61,820.93 363.2,701.38 369.96,695.51 377.68,\
+690.79 385.9,687",
+		style=solid];
+	"updateTurn($s1)" -> "updateTurn'($s3)"	 [color=black,
+		pos="e,405.72,1547 185.76,1122.7 197.98,1126.9 209.72,1132.9 219.2,1141.4 354.76,1263.2 225.61,1405.8 363.2,1525.4 372.68,1533.6 384.04,\
+1539.6 396.01,1543.9",
+		style=solid];
+	"updateTurn($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,442.02,354.95 187.68,1104.9 199.48,1100.6 210.58,1094.4 219.2,1085.4 430.96,864.65 184.16,660.39 363.2,412.38 380.39,388.58 407.78,\
+371.18 432.64,359.25",
+		style=solid];
+	"updateTurn($s1)" -> "hintedRight'($s2)"	 [color=black,
+		pos="e,398.8,1113.4 197.46,1113.4 254.42,1113.4 329.09,1113.4 388.62,1113.4",
+		style=solid];
+	"updateTurn($s1)" -> "answeredRight'($s1)"	 [color=black,
+		pos="e,400.16,792.92 183.77,1103.5 196.48,1099.3 208.9,1093.5 219.2,1085.4 327.07,1000 253.92,894.95 363.2,811.38 371.43,805.09 380.8,\
+800.16 390.62,796.3",
+		style=solid];
+	"updateTurn($s1)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,393.26,503.69 187.1,1104.7 199.04,1100.5 210.33,1094.3 219.2,1085.4 401.66,902.58 177.7,702.09 363.2,522.38 369.33,516.45 376.43,\
+511.65 384.07,507.8",
+		style=solid];
+	"updateTurn($s1)" -> "hintDelayVar'($s3)"	 [color=black,
+		pos="e,408.02,1323.3 179.47,1124.5 193.25,1128.5 207.18,1134 219.2,1141.4 301.83,1192.2 279.73,1256 363.2,1305.4 373.93,1311.7 385.95,\
+1316.6 398.18,1320.4",
+		style=solid];
+	"updateTurn($s1)" -> "updateTurn'($s0)"	 [color=black,
+		pos="e,411.99,902.5 179.47,1102.2 193.25,1098.2 207.18,1092.8 219.2,1085.4 301.83,1034.6 279.73,970.79 363.2,921.38 375.07,914.36 388.52,\
+909.09 402.1,905.15",
+		style=solid];
+	"updateTurn($s1)" -> "hintedRight'($s1)"	 [color=black,
+		pos="e,408.41,1380.1 182.01,1123.8 195.16,1127.9 208.2,1133.5 219.2,1141.4 313.96,1209.1 267.32,1294.2 363.2,1360.4 373.86,1367.7 386.12,\
+1373.2 398.73,1377.2",
+		style=solid];
+	"updateTurn($s1)" -> "hintDelayVar'($s0)"	 [color=black,
+		pos="e,421.4,1016.6 168.42,1099.7 184.92,1095.5 202.86,1090.5 219.2,1085.4 284.39,1064.8 297.68,1050.8 363.2,1031.4 378.68,1026.8 395.42,\
+1022.6 411.5,1018.9",
+		style=solid];
+	"updateTurn($s1)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,398.98,737.47 184.82,1103.9 197.28,1099.7 209.34,1093.8 219.2,1085.4 340.74,981.92 239.94,857.79 363.2,756.38 370.99,749.98 379.93,\
+744.96 389.38,741.04",
+		style=solid];
+	"updateTurn($s1)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,394.4,1598.8 186.33,1122.4 198.42,1126.7 209.97,1132.7 219.2,1141.4 369.02,1281.8 211.05,1442.5 363.2,1580.4 369.72,1586.3 377.2,\
+1591 385.19,1594.9",
+		style=solid];
+	"updateTurn($s1)" -> "updateTurn'($s1)"	 [color=black,
+		pos="e,424.33,1210.8 168.42,1127.1 184.92,1131.3 202.86,1136.2 219.2,1141.4 284.39,1161.9 297.68,1175.9 363.2,1195.4 379.63,1200.3 397.49,\
+1204.7 414.46,1208.6",
+		style=solid];
+	"answeredRight($s2)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,395.48,484.51 190.92,84.731 201.24,88.764 211.03,94.165 219.2,101.38 349.89,216.86 230.59,353.13 363.2,466.38 370.01,472.2 377.77,\
+476.88 386,480.64",
+		style=solid];
+	"answeredRight($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,438.13,167.17 170.19,88.261 186.15,92.378 203.36,96.939 219.2,101.38 291.36,121.63 373.69,146.96 428.27,164.07",
+		style=solid];
+	"hintedRight($s1)" -> "proficiencyMed'($s1)"	 [color=black,
+		pos="e,456.8,320.7 170.96,196.81 186.83,200.92 203.82,205.84 219.2,211.38 302.87,241.55 395.76,288.38 447.86,315.95",
+		style=solid];
+	"hintDelayVar($s3)" -> "proficiencyMed'($s3)"	 [color=black,
+		pos="e,406.6,1651.4 186.76,1619.4 247.23,1628.2 332.02,1640.6 396.44,1649.9",
+		style=solid];
+	"hintDelayVar($s3)" -> "proficiencyHigh'($s3)"	 [color=black,
+		pos="e,378.25,1608.4 206.14,1608.4 255.32,1608.4 315.81,1608.4 368.22,1608.4",
+		style=solid];
+	"askProb($s2)" -> "updateTurn'($s2)"	 [color=black,
+		pos="e,407.72,1161 160.12,845.93 180.14,849.46 202.44,856.29 219.2,869.38 326.7,953.33 254.67,1057.8 363.2,1140.4 373.51,1148.2 385.57,\
+1154 398.09,1158.1",
+		style=solid];
+	"askProb($s2)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,418.66,741.84 160.23,831.65 178.89,827.2 200.18,821.61 219.2,815.38 284.94,793.87 297.21,777.07 363.2,756.38 377.76,751.82 393.49,\
+747.7 408.73,744.12",
+		style=solid];
+	"proficiencyHigh($s2)" -> "answeredRight'($s3)"	 [color=black,
+		pos="e,395.38,1490.5 195.37,744.88 204.27,748.95 212.5,754.32 219.2,761.38 440.59,994.58 137.93,1240.9 363.2,1470.4 369.77,1477.1 377.57,\
+1482.3 386,1486.4",
+		style=solid];
+	"proficiencyHigh($s2)" -> "Reward Function"	 [pos="e,432.32,625.66 174.48,718.47 189.28,714.58 204.88,710.14 219.2,705.38 284.84,683.59 297.77,668.79 363.2,646.38 382.23,639.87 403.17,\
+633.68 422.42,628.36"];
+	"proficiencyHigh($s2)" -> "hintedRight'($s3)"	 [color=black,
+		pos="e,411.43,938.94 185.95,746.68 197.55,750.44 209.04,755.24 219.2,761.38 300.8,810.7 280.79,872.45 363.2,920.38 374.97,927.23 388.25,\
+932.4 401.66,936.31",
+		style=solid];
+	"proficiencyHigh($s2)" -> "proficiencyHigh'($s2)"	 [color=black,
+		pos="e,401.4,505.71 187.47,720.31 198.63,716.54 209.58,711.66 219.2,705.38 305.87,648.82 275.59,577.48 363.2,522.38 371.97,516.87 381.68,\
+512.43 391.71,508.87",
+		style=solid];
+	"proficiencyHigh($s2)" -> "proficiencyMed'($s2)"	 [color=black,
+		pos="e,466.18,201.44 193.02,721.45 202.59,717.48 211.63,712.25 219.2,705.38 357.34,580.17 263.54,468.95 363.2,311.38 389.14,270.37 430.11,\
+231.91 458.25,208.07",
+		style=solid];
+	"proficiencyHigh($s2)" -> "answeredRight'($s2)"	 [color=black,
+		pos="e,385.58,729.75 219.09,731.95 268.05,731.31 325.89,730.54 375.46,729.89",
+		style=solid];
+}

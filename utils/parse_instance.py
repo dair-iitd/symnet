@@ -52,7 +52,7 @@ class InstanceParser(object):
             'action': 'olivedrab1'
         }
 
-        self.object_names = set()  # contains name of nodes form dbn
+        self.object_names = set()  # contains name of nodes from dbn
 
         self.para_state_names = set()  # contains name of state templates
         self.para_action_names = set()  # contains name of action templates
@@ -291,8 +291,12 @@ class InstanceParser(object):
         for ac in action_str:
             self.action_to_num[ac[2].replace(' ', '')] = int(ac[0]) + 1
 
+        self.num_to_action = {v: k for k, v in self.action_to_num.items()}
+
         print('action to num')
         pprint(self.action_to_num)
+        print('num to action')
+        pprint(self.num_to_action)
 
         # mapping form state to numbers
 
@@ -323,8 +327,11 @@ class InstanceParser(object):
         for ac in prob_str:
             self.state_to_num[ac[2].replace(' ', '')] = int(ac[11])
 
+        self.num_to_state = {v: k for k, v in self.state_to_num.items()}
         print('state to num')
         pprint(self.state_to_num)
+        print('num to state')
+        pprint(self.num_to_state)
 
         # Making of actual graph for neural network
 
@@ -335,17 +342,6 @@ class InstanceParser(object):
 
         print('object to node num')
         pprint(self.node_dict)
-
-        self.adjacency_list = {}
-        for a, b in sorted(self.para_state_connections):
-            if self.node_dict[a] not in self.adjacency_list:
-                self.adjacency_list[self.node_dict[a]] = [self.node_dict[b]]
-            else:
-                self.adjacency_list[self.node_dict[a]].append(
-                    self.node_dict[b])
-
-        print('adjacency list')
-        pprint(self.adjacency_list)
 
         # making of features for network
 
@@ -438,6 +434,96 @@ class InstanceParser(object):
         print('num types action')
         pprint(self.get_num_type_actions())
 
+        self.adjacency_lists = [
+            {} for _ in range(len(self.action_template_to_num.keys()) + 1)
+        ]
+        for a, b in sorted(self.para_state_connections):
+            if self.node_dict[a] not in self.adjacency_lists[0]:
+                self.adjacency_lists[0][self.node_dict[a]] = [
+                    self.node_dict[b]
+                ]
+            else:
+                self.adjacency_lists[0][self.node_dict[a]].append(
+                    self.node_dict[b])
+        for i in range(1, len(self.action_template_to_num.keys()) + 1):
+            self.adjacency_lists[i] = {
+                k: []
+                for k in self.adjacency_lists[0].keys()
+            }
+        print('adjacency list')
+        pprint(self.adjacency_lists)
+
+        ### making the relations between objects dependent on actions
+        for strrr in [det_str, prob_str]:
+            for ac in strrr:
+                state_var = ac[2].replace(' ', '')
+                state_var_ob = state_var.split('(')[-1].replace('(',
+                                                                '').replace(
+                                                                    ')', '')
+                formula = ac[9].strip()
+                if 'switch' in formula:
+                    formula = formula[7:-1].strip()
+
+                brackets = []
+                i = 0
+                j = 0
+
+                print(formula)
+                while (i < len(formula)):
+                    j=i
+                    if formula[i] == '(':
+                        count = 0
+                        while (j < len(formula)):
+
+                            if (formula[j] == '('):
+                                count += 1
+                            elif formula[j] == ')':
+                                count -= 1
+
+                            if count == 0:
+                                break
+                            j += 1
+                        if formula[j] == ')':
+                            brackets.append(formula[i:j + 1])
+                        i = j + 1
+                    else:
+                        i += 1
+
+                dependencies = [
+                    re.findall('\$a\(\d+\).*?\$s\(\d+\)', bac)
+                    for bac in brackets if '$c(0)' not in bac
+                ]
+
+                print(dependencies)
+
+                # print(ac)
+                for ininin in dependencies:
+                    for dep in ininin:
+
+                        ac_num, st_num = tuple(
+                            map(int, re.findall('\d+', dep)))
+                        ac_num += 1
+
+                        ac = self.num_to_action[ac_num].replace(' ', '')
+                        st = self.num_to_state[st_num].replace(' ', '')
+
+                        ac_temp = self.action_template_to_num[ac.split('(')[0]]
+                        st_ob = re.findall('\(.*?\)', st)[0][1:-1]
+
+                        if self.node_dict[
+                                state_var_ob] not in self.adjacency_lists[
+                                    ac_temp]:
+                            self.adjacency_lists[ac_temp][self.node_dict[
+                                state_var_ob]] = [self.node_dict[st_ob]]
+                        else:
+                            self.adjacency_lists[ac_temp][self.node_dict[
+                                state_var_ob]].append(self.node_dict[st_ob])
+
+        print('adjacency list')
+        pprint(self.adjacency_lists)
+
+        # exit(0)
+
     def parse_dot_file(self, dot_instance_file_str):
         file_str = dot_instance_file_str.strip().split(';')
 
@@ -511,10 +597,14 @@ class InstanceParser(object):
         self.action_object_names = set(self.para_action_of_objects.keys())
 
     def get_adjacency_list(self):
-        return self.adjacency_list
+        return self.adjacency_lists
+
+    def get_num_adjacency_list(self):
+        return len(self.adjacency_lists)
 
     def get_fluent_features(self, state):
         for st in self.para_state_names:
+
             for node in self.state_object_names:
                 stn = st + '(' + node + ')'
                 try:
@@ -571,6 +661,111 @@ class InstanceParser(object):
 
     def get_num_type_actions(self):
         return self.num_types_action
+
+    def print_domain(self, state):
+        print('state')
+        state = np.array(state)
+        if self.domain == 'navigation':
+
+            num_x = 0
+            num_y = 0
+            mapping = []
+            for _, k in self.object_name_to_type.items():
+                if k == 'xpos':
+                    num_x += 1
+                elif k == 'ypos':
+                    num_y += 1
+                else:
+                    print('error')
+
+            for k in self.state_object_names:
+                x, y = tuple(k.split(','))
+                xn = int(x[1:])
+                yn = int(y[1:])
+                pos = self.state_to_num['robot-at({})'.format(k)]
+                val = state[pos]
+                # print('robot-at({}) = {}'.format(k, val))
+                mapping.append((xn, yn, val))
+
+            # print(mapping)
+            mapping.sort(key=lambda x: (-x[1], x[0]))
+
+            s = np.array([a[-1] for a in mapping]).reshape((num_y, num_x))
+
+            print(s)
+
+        elif self.domain == 'crossing_traffic':
+
+            num_x = 0
+            num_y = 0
+            mapping = []
+            for _, k in self.object_name_to_type.items():
+                if k == 'xpos':
+                    num_x += 1
+                elif k == 'ypos':
+                    num_y += 1
+                else:
+                    print('error')
+
+            for k in self.state_object_names:
+                x, y = tuple(k.split(','))
+                xn = int(x[1:])
+                yn = int(y[1:])
+                pos = self.state_to_num['robot-at({})'.format(k)]
+                val = state[pos]
+                try:
+                    pos = self.state_to_num['obstacle-at({})'.format(k)]
+                    val2 = state[pos]
+                    if val2 == 1:
+                        if val == 1:
+                            val = 3
+                        else:
+                            val = 2
+                except Exception as _:
+                    pass
+                # print('robot-at({}) = {}'.format(k, val))
+                mapping.append((xn, yn, val))
+
+            # print(mapping)
+            mapping.sort(key=lambda x: (-x[1], x[0]))
+
+            s = np.array([a[-1] for a in mapping]).reshape((num_y, num_x))
+
+            print(s)
+
+        elif self.domain == 'tamarisk':
+            s = {}
+            l1 = []
+            for key, index in self.state_to_num.items():
+                l1.append('{} : {} '.format(key, state[index]))
+
+            l2 = [
+                '{} {}'.format(l1[i], l1[i + len(l1) // 2])
+                for i in range(len(l1) // 2)
+            ]
+
+            pprint(l2)
+
+        else:
+            s = {}
+
+            for key, index in self.state_to_num.items():
+                s[key] = state[index]
+
+            pprint(s)
+
+    def print_action_probs(self, action_probs, action):
+        action_probs = np.around(action_probs, decimals=2)
+        mapping = {'noop': action_probs[0]}
+        max_action = None
+        for key, val in self.action_to_num.items():
+            mapping[key] = action_probs[val]
+            if val == action:
+                max_action = key
+        print('action probs')
+        print(mapping)
+        print('max action')
+        print(max_action)
 
 
 def main():

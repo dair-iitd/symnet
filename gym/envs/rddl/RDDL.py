@@ -169,7 +169,7 @@ class RDDLEnv(Env):
 
         # Advance time step
         self.tstep = self.tstep + 1
-        if self.domain == "academic_advising_mdp" or self.domain == "navigation_mdp":
+        if self.domain == "navigation_mdp":
             if self.tstep > 2 * self.horizon:
                 self.done = True
         else:
@@ -267,6 +267,9 @@ class RDDLEnv(Env):
     def get_adjacency_list(self):
         return self.instance_parser.get_adjacency_list()
 
+    def get_num_adjacency_list(self):
+        return self.instance_parser.get_num_adjacency_list()
+
     def get_feature_dims(self):
         return self.instance_parser.get_feature_dims()
 
@@ -284,6 +287,12 @@ class RDDLEnv(Env):
 
     def get_num_type_actions(self):
         return self.instance_parser.get_num_type_actions()
+
+    def print_domain(self, state):
+        self.instance_parser.print_domain(state)
+
+    def print_action_probs(self, action_probs, action):
+        self.instance_parser.print_action_probs(action_probs, action)
 
 
 if __name__ == '__main__':

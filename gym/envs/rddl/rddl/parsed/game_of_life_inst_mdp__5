@@ -966,7 +966,7 @@ NONE
 16 17
 ## kleene state fluent hash keys (first line is the number of keys)
 5
--256631944 8436720
+686840696 26225552
 1 2
 4 2
 5 2
@@ -989,7 +989,7 @@ NONE
 16 34
 ## kleene state fluent hash keys (first line is the number of keys)
 7
--256631944 8495264
+686840696 26284096
 1 6
 2 2
 4 6
@@ -1014,7 +1014,7 @@ NONE
 16 68
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8436720 8568320
+26225552 26357152
 2 6
 3 2
 5 18
@@ -1037,7 +1037,7 @@ NONE
 16 136
 ## kleene state fluent hash keys (first line is the number of keys)
 5
-8711328 140062921857912
+26500160 139651548470136
 3 6
 6 18
 7 6
@@ -1060,7 +1060,7 @@ NONE
 16 272
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8495264 8685296
+26284096 26474128
 1 54
 4 18
 5 54
@@ -1088,7 +1088,7 @@ NONE
 16 544
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-8568320 8693184
+26357152 26482016
 1 162
 2 54
 4 54
@@ -1119,7 +1119,7 @@ NONE
 16 1088
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-8685296 8627504
+26474128 26416336
 2 162
 3 18
 5 486
@@ -1147,7 +1147,7 @@ NONE
 16 2176
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8693184 8695504
+26482016 26484336
 3 54
 6 486
 7 54
@@ -1172,7 +1172,7 @@ NONE
 16 4352
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8627504 8713840
+26416336 26502672
 5 1458
 8 18
 9 54
@@ -1200,7 +1200,7 @@ NONE
 16 8704
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-8695792 8715360
+26484624 26504192
 5 4374
 6 1458
 8 54
@@ -1231,7 +1231,7 @@ NONE
 16 17408
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-8695504 8568608
+26484336 26357440
 6 4374
 7 162
 9 486
@@ -1259,7 +1259,7 @@ NONE
 16 34816
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8713840 8695792
+26502672 26484624
 7 486
 10 486
 11 54
@@ -1305,7 +1305,7 @@ NONE
 16 139264
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-8568608 8711328
+26357440 26500160
 9 4374
 10 1458
 12 54

@@ -1,0 +1,2142 @@
+digraph G {
+	graph [bb="0,0,579,5455.4",
+		fontname=Helvetica,
+		fontsize=16,
+		rankdir=LR,
+		ranksep=2.00,
+		ratio=auto,
+		size=600
+	];
+	node [fontsize=16,
+		label="\N"
+	];
+	{
+		graph [rank=same];
+		"running($c47)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3109.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c9)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3811.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c35)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1806.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c19)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4839.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5112.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c1)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,5166.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1372.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c21)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4893.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c33)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2348.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c45)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4623.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c50)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2566.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c34)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2731.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c22)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3595.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c17)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,72.385",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c10)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5220.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c29)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,342.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c8)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1698.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c46)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1861.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c18)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4947.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c9)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3865.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c20)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3271.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c32)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4190.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c44)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,777.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c45)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4514.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c16)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1481.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c33)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,994.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c28)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2186.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c21)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5057.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c49)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,723.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c37)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1427.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c25)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2456.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c13)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2024.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c3)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1156.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"Current State and Actions"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="90.5,5437.4",
+			shape=plaintext,
+			style=bold,
+			width=2.5139];
+		"running($c8)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3920.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c31)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1048.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c43)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,669.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c40)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5002.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c15)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1535.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c12)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4082.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c27)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1210.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c39)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3703.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c48)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,451.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c36)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2511.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c24)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3433.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c2)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3379.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c7)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2132.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c30)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2785.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c42)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2078.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c14)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3649.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c26)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,180.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c23)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4569.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c38)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,234.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c11)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5383.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c27)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1264.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c15)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2621.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c5)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3487.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c39)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,5328.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c6)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2240.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c41)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3974.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c30)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2893.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c13)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1752.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c25)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,885.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c37)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1318.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c49)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4460.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c42)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,2676.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c38)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,288.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c26)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,396.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c14)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4244.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c4)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3757.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"reboot($c40)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4028.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,939.38",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"running($c41)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1589.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c12)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4136.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c24)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4406.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c36)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2402.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c48)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4298.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c7)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,1915.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c29)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,561.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c17)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,18.385",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1969.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c11)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,5274.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c23)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4352.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c35)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,615.38",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c47)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3055.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c44)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,126.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c32)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,4731.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"running($c20)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3217.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c19)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2947.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c16)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1644.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c6)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2294.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"running($c28)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,3325.4",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c50)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3001.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c10)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4677.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,1102.4",
+			shape=ellipse,
+			style=filled,
+			width=1.9838];
+		"reboot($c22)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3541.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c34)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,3163.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"reboot($c46)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,2839.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c43)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,831.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+		"reboot($c18)"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="90.5,4785.4",
+			shape=box,
+			style=filled,
+			width=1.3889];
+		"running($c31)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="90.5,506.38",
+			shape=ellipse,
+			style=filled,
+			width=2.1606];
+	}
+	{
+		graph [rank=same];
+		"running'($c45)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4664.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c7)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1969.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"Next State and Reward"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="452,5437.4",
+			shape=plaintext,
+			style=bold,
+			width=2.25];
+		"running'($c21)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4983.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c33)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2348.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c17)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,44.385",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c29)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,397.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c50)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3000.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c34)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3123.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c46)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2865.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c6)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2267.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c10)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4799.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c22)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3561.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c18)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4901.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c9)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3852.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c31)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,994.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,5166.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c43)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,722.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c27)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1183.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c39)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3703.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c15)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1535.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c20)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3204.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c8)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1670.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c32)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4217.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c44)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,777.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c16)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1480.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c28)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2186.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c41)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3974.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1102.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c13)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1779.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"Reward Function"		 [color=black,
+			fillcolor=firebrick1,
+			height=0.72222,
+			pos="452,2699.4",
+			shape=diamond,
+			style=filled,
+			width=3.5278];
+		"running'($c49)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4569.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c25)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,885.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c37)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,1372.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c30)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2785.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c42)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2105.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3379.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c38)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,288.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c14)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3641.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c26)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,153.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c23)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4353.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c35)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,560.38",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3493.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c11)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,5328.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c47)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3055.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c19)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2945.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,3771.4",
+			shape=ellipse,
+			style=filled,
+			width=2.0428];
+		"running'($c40)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4055.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c12)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4136.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c24)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4408.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c36)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,2457.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+		"running'($c48)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="452,4298.4",
+			shape=ellipse,
+			style=filled,
+			width=2.2195];
+	}
+	"running($c47)" -> "running'($c33)"	 [color=black,
+		pos="e,411.44,2364.3 155.55,3099.3 165.1,3095.3 174.05,3089.9 181,3082.4 382.76,2864.8 156.06,2674.4 325,2430.4 344.01,2402.9 375.48,\
+2382.4 402.21,2368.8",
+		style=solid];
+	"running($c47)" -> "running'($c20)"	 [color=black,
+		pos="e,398.71,3190.6 143.01,3123 207.87,3140.1 319.21,3169.6 388.76,3187.9",
+		style=solid];
+	"running($c47)" -> "Reward Function"	 [pos="e,398.34,2714.5 153.41,3098.4 163.42,3094.5 173.09,3089.4 181,3082.4 299.18,2978.1 214.68,2870.9 325,2758.4 342.53,2740.5 366.53,\
+2727.4 388.89,2718.2"];
+	"running($c47)" -> "running'($c30)"	 [color=black,
+		pos="e,398.4,2799.1 151.83,3097.9 162.24,3094.1 172.45,3089.1 181,3082.4 280.07,3004.7 230.16,2921.2 325,2838.4 343.22,2822.5 366.9,2810.8 \
+388.81,2802.6",
+		style=solid];
+	"running($c47)" -> "running'($c47)"	 [color=black,
+		pos="e,384.56,3065.4 156.6,3099.6 217.87,3090.4 309.64,3076.6 374.4,3066.9",
+		style=solid];
+	"reboot($c9)" -> "running'($c9)"	 [color=black,
+		pos="e,384.65,3844.8 136.67,3816.5 196.37,3823.3 302.44,3835.4 374.69,3843.7",
+		style=solid];
+	"reboot($c9)" -> "Reward Function"	 [pos="e,392.48,2713.4 136.61,3807.8 152.86,3804.2 169.91,3797.3 181,3784.4 480.67,3434.8 51.433,3128.8 325,2758.4 339.19,2739.2 361.21,\
+2726 382.9,2717.1"];
+	"running($c35)" -> "running'($c39)"	 [color=black,
+		pos="e,375.51,3697.8 156.51,1816.5 165.94,1820.6 174.61,1826.4 181,1834.4 435.82,2154.1 65.06,3352.9 325,3668.4 335.46,3681.1 350.09,\
+3689.4 365.7,3694.8",
+		style=solid];
+	"running($c35)" -> "running'($c13)"	 [color=black,
+		pos="e,375.94,1785 165.12,1800.9 223.4,1796.5 304.87,1790.4 365.93,1785.8",
+		style=solid];
+	"running($c35)" -> "Reward Function"	 [pos="e,434.49,2676.8 154.67,1816.9 164.55,1820.9 173.84,1826.6 181,1834.4 381.13,2052.3 216.88,2209 325,2484.4 352.39,2554.2 400.43,2628 \
+428.62,2668.4"];
+	"running($c35)" -> "running'($c35)"	 [color=black,
+		pos="e,427.33,577.94 156.56,1796.6 165.87,1792.6 174.48,1787 181,1779.4 495.93,1409.2 117.33,1134.8 325,695.38 346.66,649.55 389.64,608.83 \
+419.33,584.39",
+		style=solid];
+	"running($c35)" -> "running'($c36)"	 [color=black,
+		pos="e,412.12,2441.4 154.4,1817.1 164.31,1821.2 173.68,1826.7 181,1834.4 353.11,2014.1 179.01,2173.9 325,2375.4 344.66,2402.5 376.28,\
+2423.1 402.93,2436.8",
+		style=solid];
+	"running($c19)" -> "running'($c21)"	 [color=black,
+		pos="e,413.76,4967.1 141.55,4853.4 154.5,4857.3 168.35,4861.8 181,4866.4 192.16,4870.5 329.84,4930.5 404.15,4962.9",
+		style=solid];
+	"running($c19)" -> "running'($c10)"	 [color=black,
+		pos="e,379.61,4807.3 161.24,4831.6 220.82,4825 306.58,4815.5 369.35,4808.5",
+		style=solid];
+	"running($c19)" -> "Reward Function"	 [pos="e,391.11,2713.1 157.42,4829.7 166.51,4825.7 174.82,4820.1 181,4812.4 466.54,4454.8 66.1,3135.7 325,2758.4 338.39,2738.9 360,2725.6 \
+381.56,2716.8"];
+	"running($c19)" -> "running'($c19)"	 [color=black,
+		pos="e,372.53,2947.3 157.37,4829.7 166.46,4825.7 174.79,4820.1 181,4812.4 438.11,4493.1 56.209,3282.9 325,2973.4 334.85,2962 348.18,2954.7 \
+362.49,2950.1",
+		style=solid];
+	"running($c19)" -> "running'($c48)"	 [color=black,
+		pos="e,373.79,4302.3 155.11,4828.8 164.71,4824.9 173.79,4819.6 181,4812.4 339.9,4652.7 160.27,4480.1 325,4326.4 335.85,4316.3 349.52,\
+4309.5 363.82,4305",
+		style=solid];
+	"running($c1)" -> "running'($c45)"	 [color=black,
+		pos="e,424.66,4681.8 149.63,5101.9 160.96,5097.9 172.07,5092.2 181,5084.4 295.74,4983.6 232.9,4894.2 325,4772.4 350.74,4738.3 388.9,4707.5 \
+416.47,4687.6",
+		style=solid];
+	"running($c1)" -> "running'($c1)"	 [color=black,
+		pos="e,388.51,5157 152.48,5121.5 214.98,5130.9 312.15,5145.5 378.54,5155.5",
+		style=solid];
+	"running($c1)" -> "Reward Function"	 [pos="e,391.02,2713 153.91,5103.5 164.37,5099.3 174.07,5093.2 181,5084.4 500.44,4676.8 33.718,3186.6 325,2758.4 338.31,2738.8 359.9,2725.6 \
+381.47,2716.7"];
+	"running($c1)" -> "running'($c49)"	 [color=black,
+		pos="e,405.11,4584.3 151.31,5102.4 162.25,5098.3 172.79,5092.5 181,5084.4 329.21,4937.4 191.53,4797.9 325,4637.4 343.46,4615.2 371.11,\
+4599.1 395.81,4588.2",
+		style=solid];
+	"running($c1)" -> "running'($c24)"	 [color=black,
+		pos="e,428.32,4426.3 151.64,5102.7 162.56,5098.6 173.01,5092.7 181,5084.4 353.37,4904.3 203.94,4760.3 325,4542.4 349.53,4498.2 391.83,\
+4457.5 420.59,4432.8",
+		style=solid];
+	"reboot($c1)" -> "running'($c1)"	 [color=black,
+		pos="e,378.35,5166.4 136.67,5166.4 194.54,5166.4 295.98,5166.4 367.96,5166.4",
+		style=solid];
+	"reboot($c1)" -> "Reward Function"	 [pos="e,391,2713 136.68,5163.3 153.15,5159.8 170.33,5152.9 181,5139.4 509.8,4723.6 27.169,3196.9 325,2758.4 338.3,2738.8 359.88,2725.6 \
+381.45,2716.7"];
+	"running($c2)" -> "running'($c43)"	 [color=black,
+		pos="e,373.35,725.85 152.68,1363.2 163.26,1359.2 173.3,1353.5 181,1345.4 367.97,1147.7 130.81,940.96 325,750.38 335.59,739.99 349.13,\
+733.1 363.39,728.6",
+		style=solid];
+	"running($c2)" -> "running'($c16)"	 [color=black,
+		pos="e,402.62,1465.9 137.76,1386.3 202.97,1405.9 321.86,1441.6 392.92,1462.9",
+		style=solid];
+	"running($c2)" -> "Reward Function"	 [pos="e,433.76,2677 152.96,1381.4 163.64,1385.6 173.66,1391.7 181,1400.4 494.03,1772.2 167.01,2024.8 325,2484.4 349.37,2555.3 398.48,2628.7 \
+427.67,2668.8"];
+	"running($c2)" -> "running'($c37)"	 [color=black,
+		pos="e,371.81,1372.4 162.1,1372.4 219.24,1372.4 300.07,1372.4 361.7,1372.4",
+		style=solid];
+	"running($c2)" -> "running'($c2)"	 [color=black,
+		pos="e,428.93,3361.6 153.33,1381.1 163.98,1385.3 173.9,1391.5 181,1400.4 435.42,1719.5 169.12,2854.2 325,3231.4 345.94,3282.1 391.06,\
+3328 421.22,3354.8",
+		style=solid];
+	"reboot($c21)" -> "running'($c21)"	 [color=black,
+		pos="e,397.39,4970 140.73,4905.7 204.79,4921.7 316.83,4949.8 387.3,4967.4",
+		style=solid];
+	"reboot($c21)" -> "Reward Function"	 [pos="e,391.09,2713.1 140.83,4889.3 155.96,4885.6 171.19,4878.7 181,4866.4 473.68,4499.2 59.672,3145.8 325,2758.4 338.38,2738.9 359.98,\
+2725.6 381.54,2716.7"];
+	"reboot($c33)" -> "running'($c33)"	 [color=black,
+		pos="e,372.06,2348.4 140.73,2348.4 197.55,2348.4 292.12,2348.4 361.95,2348.4",
+		style=solid];
+	"reboot($c33)" -> "Reward Function"	 [pos="e,438.03,2675.8 140.69,2357.7 154.47,2361.7 168.95,2367.4 181,2375.4 300.31,2454.3 394.78,2601.5 432.83,2666.8"];
+	"reboot($c45)" -> "running'($c45)"	 [color=black,
+		pos="e,380.11,4656.3 140.73,4629 199.75,4635.7 299.5,4647.1 369.94,4655.1",
+		style=solid];
+	"reboot($c45)" -> "Reward Function"	 [pos="e,391.52,2713 140.76,4619.3 155.88,4615.5 171.13,4608.6 181,4596.4 437.97,4277.3 91.803,3095.2 325,2758.4 338.53,2738.8 360.29,2725.6 \
+381.94,2716.7"];
+	"running($c50)" -> "running'($c50)"	 [color=black,
+		pos="e,374.44,2995.7 152.83,2577.4 163.14,2581.4 173.06,2586.9 181,2594.4 311.93,2717.6 188.99,2854.8 325,2972.4 336.23,2982.1 350.08,\
+2988.6 364.44,2993",
+		style=solid];
+	"running($c50)" -> "running'($c34)"	 [color=black,
+		pos="e,383.24,3114 153.77,2577.1 163.86,2581.2 173.46,2586.7 181,2594.4 339.6,2755.6 167.32,2920.3 325,3082.4 338.06,3095.8 355.56,3104.8 \
+373.35,3110.9",
+		style=solid];
+	"running($c50)" -> "Reward Function"	 [pos="e,409.24,2682.1 139.54,2580.8 153.01,2585 167.63,2589.7 181,2594.4 258.02,2621.4 345.87,2656.3 399.88,2678.3"];
+	"running($c50)" -> "running'($c37)"	 [color=black,
+		pos="e,409.46,1388 155.69,2556.2 165.34,2552.1 174.29,2546.4 181,2538.4 494.29,2166.3 64.258,1864.1 325,1453.4 342.58,1425.7 373.42,1405.6 \
+400.19,1392.4",
+		style=solid];
+	"running($c50)" -> "running'($c42)"	 [color=black,
+		pos="e,395.68,2118.5 152.83,2555.4 163.14,2551.3 173.06,2545.9 181,2538.4 312.17,2414.8 200.27,2289.4 325,2159.4 341.5,2142.2 364.38,\
+2130.2 386.12,2121.9",
+		style=solid];
+	"running($c34)" -> "running'($c33)"	 [color=black,
+		pos="e,415.99,2364.9 151.65,2719.7 162.19,2715.8 172.49,2710.5 181,2703.4 286.42,2615.6 232.54,2531.7 325,2430.4 348.13,2405 380.74,2384.1 \
+406.99,2369.7",
+		style=solid];
+	"running($c34)" -> "running'($c34)"	 [color=black,
+		pos="e,385.39,3113.1 153.41,2742.4 163.42,2746.2 173.09,2751.4 181,2758.4 299.18,2862.6 207.95,2976.9 325,3082.4 339.19,3095.2 357.44,\
+3104 375.62,3110",
+		style=solid];
+	"running($c34)" -> "Reward Function"	 [pos="e,362.91,2707.2 163.82,2724.9 218.09,2720.1 293,2713.4 352.7,2708.1"];
+	"running($c34)" -> "running'($c42)"	 [color=black,
+		pos="e,393.43,2118.1 154.4,2720.7 164.31,2716.6 173.69,2711 181,2703.4 353.88,2522.6 161.53,2348.7 325,2159.4 340.31,2141.7 362.48,2129.6 \
+383.96,2121.4",
+		style=solid];
+	"running($c34)" -> "running'($c14)"	 [color=black,
+		pos="e,390.99,3629.4 156.3,2741.4 165.64,2745.4 174.33,2750.9 181,2758.4 429.22,3038.7 91.856,3295.4 325,3588.4 339.16,3606.2 360.37,\
+3618.1 381.38,3626",
+		style=solid];
+	"running($c22)" -> "running'($c34)"	 [color=black,
+		pos="e,395.58,3136.4 154.26,3584.6 164.06,3580.8 173.44,3575.5 181,3568.4 315.81,3441.4 197.5,3311.7 325,3177.4 341.41,3160.1 364.28,\
+3148.1 386.03,3139.8",
+		style=solid];
+	"running($c22)" -> "running'($c22)"	 [color=black,
+		pos="e,377.83,3568.3 162.96,3588.6 221.92,3583 305.68,3575.1 367.68,3569.3",
+		style=solid];
+	"running($c22)" -> "Reward Function"	 [pos="e,393.5,2713.4 156.27,3585.3 165.62,3581.4 174.31,3575.9 181,3568.4 423.98,3295.2 102.44,3048.5 325,2758.4 339.73,2739.2 362.23,\
+2726 384.16,2717"];
+	"running($c22)" -> "running'($c2)"	 [color=black,
+		pos="e,425.84,3396.6 145.11,3582.3 157.2,3578.5 169.77,3573.9 181,3568.4 251.46,3533.9 260.73,3511.3 325,3466.4 356.18,3444.6 391.88,\
+3420 417.3,3402.5",
+		style=solid];
+	"running($c22)" -> "running'($c5)"	 [color=black,
+		pos="e,402.76,3507.1 141.11,3581.3 206.93,3562.6 322.92,3529.7 392.8,3509.9",
+		style=solid];
+	"reboot($c17)" -> "running'($c17)"	 [color=black,
+		pos="e,376.12,50.217 140.73,68.55 198.65,64.039 295.79,56.473 365.97,51.007",
+		style=solid];
+	"reboot($c17)" -> "Reward Function"	 [pos="e,433.14,2677.2 140.89,76.402 156.02,80.169 171.24,87.036 181,99.385 345.66,307.63 247.76,2230.4 325,2484.4 346.86,2556.3 397.04,\
+2629.6 427.06,2669.3"];
+	"running($c10)" -> "running'($c21)"	 [color=black,
+		pos="e,433.04,5001.3 146.24,5207.4 158.03,5203.6 170.19,5199 181,5193.4 280.74,5141.8 380.42,5051.9 425.73,5008.4",
+		style=solid];
+	"running($c10)" -> "running'($c10)"	 [color=black,
+		pos="e,411.46,4815.3 153.37,5209.3 163.39,5205.5 173.07,5200.3 181,5193.4 297.96,5090.8 221.39,4990.4 325,4874.4 346.14,4850.7 376.58,\
+4832.3 402.24,4819.7",
+		style=solid];
+	"running($c10)" -> "running'($c1)"	 [color=black,
+		pos="e,388.49,5175.8 156.6,5210.6 219.12,5201.2 313.39,5187.1 378.33,5177.3",
+		style=solid];
+	"running($c10)" -> "running'($c20)"	 [color=black,
+		pos="e,428.92,3222.2 157.37,5210.7 166.46,5206.7 174.79,5201.1 181,5193.4 438.37,4873.8 168.35,3731.7 325,3352.4 345.93,3301.7 391.05,\
+3255.7 421.22,3228.9",
+		style=solid];
+	"running($c10)" -> "Reward Function"	 [pos="e,390.99,2713 157.5,5210.8 166.57,5206.8 174.86,5201.2 181,5193.4 516.94,4768 20.738,3207 325,2758.4 338.29,2738.8 359.86,2725.6 \
+381.44,2716.7"];
+	"reboot($c29)" -> "running'($c29)"	 [color=black,
+		pos="e,384.99,387.29 140.73,349.92 201.13,359.16 304.17,374.92 374.81,385.73",
+		style=solid];
+	"reboot($c29)" -> "Reward Function"	 [pos="e,433.21,2677.2 140.83,346.45 155.96,350.22 171.19,357.07 181,369.38 474.61,737.79 186.22,2034.2 325,2484.4 347.13,2556.2 397.21,\
+2629.5 427.14,2669.2"];
+	"reboot($c8)" -> "running'($c8)"	 [color=black,
+		pos="e,381.69,1675.8 136.67,1694.9 195.44,1690.3 299.14,1682.2 371.29,1676.6",
+		style=solid];
+	"reboot($c8)" -> "Reward Function"	 [pos="e,434.23,2676.9 136.75,1702.4 152.82,1706 169.71,1712.8 181,1725.4 410.65,1980.6 204.43,2162.9 325,2484.4 351.33,2554.6 399.74,2628.3 \
+428.28,2668.5"];
+	"running($c46)" -> "running'($c7)"	 [color=black,
+		pos="e,404.21,1955.3 139.24,1875.7 205.27,1895.6 324.29,1931.3 394.62,1952.4",
+		style=solid];
+	"running($c46)" -> "running'($c46)"	 [color=black,
+		pos="e,390.81,2853.5 156.41,1871.3 165.74,1875.3 174.39,1880.8 181,1888.4 453.87,2201.9 68.989,2485 325,2812.4 339.01,2830.3 360.18,2842.2 \
+381.2,2850.1",
+		style=solid];
+	"running($c46)" -> "running'($c43)"	 [color=black,
+		pos="e,372.71,724.84 155.69,1851.2 165.34,1847.1 174.29,1841.4 181,1833.4 493.77,1462 -3.1867,1108.3 325,750.38 335.09,739.38 348.46,\
+732.21 362.73,727.62",
+		style=solid];
+	"running($c46)" -> "Reward Function"	 [pos="e,434.64,2676.7 155.43,1871.6 164.99,1875.5 173.97,1881 181,1888.4 368.23,2086.4 223.01,2231.7 325,2484.4 353.06,2553.9 400.86,2627.8 \
+428.83,2668.3"];
+	"running($c18)" -> "running'($c18)"	 [color=black,
+		pos="e,381.71,4910.3 159.54,4938.7 219.92,4931 308.17,4919.7 371.73,4911.5",
+		style=solid];
+	"running($c18)" -> "running'($c1)"	 [color=black,
+		pos="e,430.74,5148.6 144.16,4960.9 156.54,4964.8 169.47,4969.7 181,4975.4 276.84,5022.8 376.12,5102.3 423.12,5142.1",
+		style=solid];
+	"running($c18)" -> "running'($c41)"	 [color=black,
+		pos="e,391.5,3986.6 156.38,4937.4 165.71,4933.4 174.37,4928 181,4920.4 445.47,4618.2 77.842,4344.9 325,4028.4 339.16,4010.2 360.6,3998.1 \
+381.8,3990",
+		style=solid];
+	"running($c18)" -> "Reward Function"	 [pos="e,391.07,2713.1 157.45,4937.7 166.53,4933.7 174.84,4928.1 181,4920.4 480.82,4543.6 53.244,3155.9 325,2758.4 338.36,2738.8 359.95,\
+2725.6 381.52,2716.7"];
+	"running($c18)" -> "running'($c14)"	 [color=black,
+		pos="e,375.88,3647.3 156.67,4937.7 165.97,4933.7 174.54,4928.1 181,4920.4 538.08,4493.4 -36.761,4099.4 325,3676.4 335.69,3663.9 350.43,\
+3655.7 366.06,3650.3",
+		style=solid];
+	"running($c9)" -> "running'($c10)"	 [color=black,
+		pos="e,421.08,4782.3 152.64,3874.7 163.35,3878.9 173.46,3884.8 181,3893.4 419.47,4163.6 145.82,4378.7 325,4691.4 345.84,4727.7 383.67,\
+4757.7 412.46,4776.7",
+		style=solid];
+	"running($c9)" -> "running'($c22)"	 [color=black,
+		pos="e,399.32,3575.3 148.82,3854.7 160.2,3850.8 171.54,3845.5 181,3838.4 275.49,3767.1 234.39,3690.5 325,3614.4 343.68,3598.7 367.67,\
+3587.1 389.7,3578.8",
+		style=solid];
+	"running($c9)" -> "running'($c9)"	 [color=black,
+		pos="e,379.16,3855 161.67,3862.8 221.09,3860.7 306.35,3857.6 368.93,3855.4",
+		style=solid];
+	"running($c9)" -> "running'($c44)"	 [color=black,
+		pos="e,408.05,792.79 154.42,3857.2 164.71,3853.1 174.21,3847.1 181,3838.4 385.04,3577.1 159.17,1145.4 325,858.38 341.29,830.19 371.8,\
+810.19 398.71,797.12",
+		style=solid];
+	"running($c9)" -> "Reward Function"	 [pos="e,392.41,2713.3 153.84,3856.7 164.18,3852.6 173.85,3846.8 181,3838.4 494.87,3469.6 38.649,3148.9 325,2758.4 339.12,2739.1 361.13,\
+2725.9 382.83,2717"];
+	"reboot($c20)" -> "running'($c20)"	 [color=black,
+		pos="e,389.44,3215.9 140.73,3262.2 202.41,3250.7 308.56,3230.9 379.27,3217.8",
+		style=solid];
+	"reboot($c20)" -> "Reward Function"	 [pos="e,395.56,2714 140.73,3265.6 155.31,3261.7 170.24,3255.2 181,3244.4 339.9,3084.7 178.07,2929.2 325,2758.4 340.99,2739.8 364.11,2726.7 \
+386.19,2717.6"];
+	"reboot($c32)" -> "running'($c32)"	 [color=black,
+		pos="e,375.79,4211.7 140.73,4194.1 198.56,4198.4 295.49,4205.7 365.64,4211",
+		style=solid];
+	"reboot($c32)" -> "Reward Function"	 [pos="e,391.77,2713.2 140.59,4186.1 155.7,4182.3 170.98,4175.5 181,4163.4 580.55,3679.2 -38.447,3270.2 325,2758.4 338.77,2739 360.57,2725.8 \
+382.21,2716.9"];
+	"reboot($c44)" -> "running'($c44)"	 [color=black,
+		pos="e,372.06,777.38 140.73,777.38 197.55,777.38 292.12,777.38 361.95,777.38",
+		style=solid];
+	"reboot($c44)" -> "Reward Function"	 [pos="e,433.36,2677.2 140.71,781.55 155.83,785.32 171.08,792.16 181,804.38 417.09,1095.4 211.48,2127.3 325,2484.4 347.71,2555.8 397.41,\
+2629.1 427.15,2668.9"];
+	"running($c45)" -> "running'($c45)"	 [color=black,
+		pos="e,417.46,4647.6 140.64,4528.6 153.86,4532.7 168.07,4537.5 181,4542.4 263.08,4573.6 355.78,4617.5 408.42,4643.2",
+		style=solid];
+	"running($c45)" -> "running'($c41)"	 [color=black,
+		pos="e,394.5,3987.2 154.55,4503.9 164.33,4500 173.61,4494.7 181,4487.4 333.01,4337 181.63,4187 325,4028.4 340.85,4010.9 363.36,3998.8 \
+384.98,3990.6",
+		style=solid];
+	"running($c45)" -> "Reward Function"	 [pos="e,391.57,2713.1 157.33,4504.6 166.43,4500.6 174.77,4495.1 181,4487.4 423.57,4187.7 104.77,3074.8 325,2758.4 338.58,2738.9 360.35,\
+2725.6 381.99,2716.7"];
+	"running($c45)" -> "running'($c4)"	 [color=black,
+		pos="e,394.93,3783.1 155.57,4504.3 165.12,4500.3 174.06,4494.9 181,4487.4 385.36,4266.3 133.33,4057.6 325,3825.4 340.31,3806.8 363.16,\
+3794.5 385.22,3786.4",
+		style=solid];
+	"running($c45)" -> "running'($c48)"	 [color=black,
+		pos="e,379.45,4306.3 148.94,4502.2 160.07,4498.4 171.28,4493.6 181,4487.4 261.98,4435.8 242.16,4374.9 325,4326.4 338.48,4318.5 353.97,\
+4312.8 369.36,4308.7",
+		style=solid];
+	"reboot($c16)" -> "running'($c16)"	 [color=black,
+		pos="e,372.06,1480.6 140.73,1481.2 197.55,1481.1 292.12,1480.8 361.95,1480.6",
+		style=solid];
+	"reboot($c16)" -> "Reward Function"	 [pos="e,433.88,2677 140.75,1486 155.69,1489.8 170.82,1496.6 181,1508.4 467.52,1840.3 179.48,2070.8 325,2484.4 349.88,2555.1 398.81,2628.6 \
+427.83,2668.7"];
+	"running($c33)" -> "running'($c33)"	 [color=black,
+		pos="e,390.69,2336.4 156.69,1004.1 165.98,1008.1 174.55,1013.7 181,1021.4 545.72,1458.6 -14.702,1837.4 325,2294.4 338.67,2312.8 359.87,\
+2325 381.01,2333",
+		style=solid];
+	"running($c33)" -> "running'($c31)"	 [color=black,
+		pos="e,371.83,994.38 168.62,994.38 225.28,994.38 302.39,994.38 361.72,994.38",
+		style=solid];
+	"running($c33)" -> "running'($c15)"	 [color=black,
+		pos="e,373.79,1531.5 155.11,1004.9 164.71,1008.8 173.79,1014.1 181,1021.4 339.9,1181.1 160.27,1353.7 325,1507.4 335.85,1517.5 349.52,\
+1524.3 363.82,1528.7",
+		style=solid];
+	"running($c33)" -> "running'($c3)"	 [color=black,
+		pos="e,404.21,1088.3 139.24,1008.7 205.27,1028.6 324.29,1064.3 394.62,1085.4",
+		style=solid];
+	"running($c33)" -> "Reward Function"	 [pos="e,433.47,2677.1 156.79,1004 166.07,1008 174.61,1013.6 181,1021.4 388.43,1273.8 224.07,2173.7 325,2484.4 348.16,2555.7 397.7,2629 \
+427.29,2668.9"];
+	"reboot($c28)" -> "running'($c28)"	 [color=black,
+		pos="e,372.06,2186.4 140.73,2186.4 197.55,2186.4 292.12,2186.4 361.95,2186.4",
+		style=solid];
+	"reboot($c28)" -> "Reward Function"	 [pos="e,437.07,2676.3 140.89,2193.9 154.98,2197.9 169.59,2204 181,2213.4 286.39,2300 258.5,2365.3 325,2484.4 361.75,2550.2 406.83,2626 \
+431.89,2667.7"];
+	"running($c21)" -> "running'($c21)"	 [color=black,
+		pos="e,391.73,4995.6 149.66,5045.4 212.98,5032.4 314.2,5011.5 381.62,4997.7",
+		style=solid];
+	"running($c21)" -> "Reward Function"	 [pos="e,391.04,2713 156.61,5047.4 166.03,5043.2 174.67,5037.5 181,5029.4 493.22,4631.6 40.267,3176.3 325,2758.4 338.33,2738.8 359.92,2725.6 \
+381.49,2716.7"];
+	"running($c21)" -> "running'($c49)"	 [color=black,
+		pos="e,405.77,4584.5 153.36,5046.3 163.5,5042.2 173.22,5036.8 181,5029.4 315.41,4901.4 203.46,4777.7 325,4637.4 343.98,4615.5 371.81,\
+4599.4 396.49,4588.4",
+		style=solid];
+	"running($c21)" -> "running'($c23)"	 [color=black,
+		pos="e,373.18,4356.7 154.66,5046.9 164.55,5042.8 173.84,5037.2 181,5029.4 380.61,4812.1 116.39,4590 325,4381.4 335.49,4370.9 348.99,4364 \
+363.23,4359.4",
+		style=solid];
+	"running($c21)" -> "running'($c24)"	 [color=black,
+		pos="e,428.53,4426.4 153.76,5046.7 163.86,5042.6 173.46,5037 181,5029.4 339.34,4868.5 212.64,4738.1 325,4542.4 350.14,4498.6 392.3,4457.8 \
+420.86,4433",
+		style=solid];
+	"running($c49)" -> "running'($c43)"	 [color=black,
+		pos="e,371.83,722.6 168.62,723.17 225.28,723.01 302.39,722.8 361.72,722.63",
+		style=solid];
+	"running($c49)" -> "running'($c44)"	 [color=black,
+		pos="e,384.56,767.4 156.6,733.16 217.87,742.37 309.64,756.15 374.4,765.88",
+		style=solid];
+	"running($c49)" -> "Reward Function"	 [pos="e,433.34,2677.2 157.34,733.12 166.43,737.13 174.77,742.69 181,750.38 424.23,1051 208.34,2115.7 325,2484.4 347.62,2555.9 397.35,2629.1 \
+427.12,2668.9"];
+	"running($c49)" -> "running'($c49)"	 [color=black,
+		pos="e,426.06,4551.9 157.63,732.89 166.69,736.92 174.94,742.55 181,750.38 431.72,1074.5 166.62,4057.5 325,4435.4 344.4,4481.7 387.5,4521.7 \
+417.86,4545.6",
+		style=solid];
+	"running($c49)" -> "running'($c37)"	 [color=black,
+		pos="e,433.48,1354.5 154.56,733.84 164.33,737.74 173.62,743.08 181,750.38 333.27,901.08 225.65,1020.6 325,1210.4 352.76,1263.4 398.34,\
+1316.6 426.4,1346.9",
+		style=solid];
+	"running($c37)" -> "running'($c33)"	 [color=black,
+		pos="e,391.92,2336.2 156.31,1437.4 165.65,1441.4 174.34,1446.8 181,1454.4 431.84,1738.2 90.425,1997 325,2294.4 339.38,2312.6 361.1,2324.8 \
+382.48,2332.9",
+		style=solid];
+	"running($c37)" -> "running'($c15)"	 [color=black,
+		pos="e,390.34,1523.6 140.44,1441.6 153.66,1445.6 167.92,1450 181,1454.4 245.67,1476 259.57,1488.2 325,1507.4 342.78,1512.6 362.22,1517.4 \
+380.39,1521.4",
+		style=solid];
+	"running($c37)" -> "running'($c13)"	 [color=black,
+		pos="e,416.92,1762.8 151.82,1438.8 162.23,1442.6 172.44,1447.7 181,1454.4 279.83,1531.8 238.11,1606.8 325,1697.4 348.91,1722.3 381.79,\
+1743.4 407.97,1757.9",
+		style=solid];
+	"running($c37)" -> "Reward Function"	 [pos="e,433.82,2677 156.52,1437.2 165.83,1441.2 174.45,1446.7 181,1454.4 481.72,1805.4 173.25,2047.8 325,2484.4 349.61,2555.2 398.64,2628.7 \
+427.75,2668.7"];
+	"running($c37)" -> "running'($c37)"	 [color=black,
+		pos="e,385.01,1382.5 156.19,1417.5 217.59,1408.1 309.9,1394 374.83,1384",
+		style=solid];
+	"running($c25)" -> "running'($c10)"	 [color=black,
+		pos="e,419.55,4782.4 156.6,2466.4 166.02,2470.5 174.66,2476.3 181,2484.4 484.81,2870.7 105.19,4251.8 325,4691.4 343.62,4728.6 381.39,\
+4758.3 410.74,4777",
+		style=solid];
+	"running($c25)" -> "running'($c31)"	 [color=black,
+		pos="e,408.91,1010 156.73,2446.7 166.02,2442.7 174.58,2437.1 181,2429.4 567.09,1963.4 7.2896,1590.5 325,1075.4 342.16,1047.6 372.84,1027.5 \
+399.63,1014.4",
+		style=solid];
+	"running($c25)" -> "Reward Function"	 [pos="e,429.9,2677.9 144.87,2469.5 157.09,2473.5 169.78,2478.4 181,2484.4 278.77,2536.3 376.02,2625.2 422.6,2670.7"];
+	"running($c25)" -> "running'($c25)"	 [color=black,
+		pos="e,409.44,900.98 156.79,2446.8 166.07,2442.8 174.61,2437.2 181,2429.4 388.3,2177.2 155.47,1246.4 325,967.38 342.16,939.15 373.15,\
+918.79 400.1,905.42",
+		style=solid];
+	"running($c25)" -> "running'($c19)"	 [color=black,
+		pos="e,394.2,2932.5 153.44,2467.4 163.57,2471.5 173.27,2476.9 181,2484.4 319.41,2617.9 193.09,2752.5 325,2892.4 340.95,2909.3 363.15,\
+2921 384.48,2929.1",
+		style=solid];
+	"running($c13)" -> "running'($c7)"	 [color=black,
+		pos="e,388.94,1978.9 156.19,2014.5 218.84,2004.9 313.66,1990.4 378.75,1980.4",
+		style=solid];
+	"running($c13)" -> "running'($c13)"	 [color=black,
+		pos="e,433.43,1797.6 145.36,2011.1 157.44,2007.2 169.94,2002.3 181,1996.4 281.57,1942.7 381.22,1849.6 426.19,1804.8",
+		style=solid];
+	"running($c13)" -> "Reward Function"	 [pos="e,435.55,2676.7 154.45,2034.9 164.24,2038.8 173.55,2044.1 181,2051.4 326.4,2192.8 241.27,2299.7 325,2484.4 356.03,2552.9 402.98,\
+2627.4 429.95,2668.3"];
+	"running($c13)" -> "running'($c2)"	 [color=black,
+		pos="e,429.76,3361.9 156.63,2034.1 165.93,2038.1 174.52,2043.7 181,2051.4 521.21,2455.6 112.78,2747.5 325,3231.4 347.15,3281.9 392.36,\
+3328.2 422.16,3355.1",
+		style=solid];
+	"reboot($c3)" -> "running'($c3)"	 [color=black,
+		pos="e,388.53,1111.8 136.67,1149.6 197.45,1140.5 306.29,1124.1 378.58,1113.3",
+		style=solid];
+	"reboot($c3)" -> "Reward Function"	 [pos="e,433.57,2677.1 136.8,1159.8 153.08,1163.4 170.1,1170.3 181,1183.4 367.05,1407 233.45,2208.3 325,2484.4 348.59,2555.5 397.98,2628.9 \
+427.43,2668.8"];
+	"Current State and Actions" -> "Next State and Reward"	 [color=black,
+		pos="e,370.92,5437.4 181.29,5437.4 236.11,5437.4 305.97,5437.4 360.86,5437.4",
+		style=invis];
+	"running($c8)" -> "running'($c8)"	 [color=black,
+		pos="e,409.76,1685.5 153.87,3911.5 164.34,3907.3 174.05,3901.2 181,3892.4 476.01,3518 83.831,2163.5 325,1752.4 341.91,1723.6 373.42,1703.1 \
+400.7,1689.8",
+		style=solid];
+	"running($c8)" -> "running'($c41)"	 [color=black,
+		pos="e,384.52,3964.4 152.48,3929.5 213.74,3938.7 308.32,3953 374.55,3962.9",
+		style=solid];
+	"running($c8)" -> "Reward Function"	 [pos="e,392.35,2713.3 153,3911.4 163.68,3907.2 173.68,3901.1 181,3892.4 507.11,3502.8 25.856,3169 325,2758.4 339.06,2739.1 361.06,2725.9 \
+382.76,2717"];
+	"running($c8)" -> "running'($c4)"	 [color=black,
+		pos="e,413.38,3787.2 139.28,3906.7 152.89,3902.5 167.64,3897.6 181,3892.4 246.83,3866.9 260.55,3854.2 325,3825.4 350.97,3813.8 380.16,\
+3801.2 403.9,3791.2",
+		style=solid];
+	"running($c8)" -> "running'($c24)"	 [color=black,
+		pos="e,374.08,4404.1 151.68,3929.9 162.47,3933.9 172.85,3939.5 181,3947.4 326.4,4088.8 174.44,4244.5 325,4380.4 336.02,4390.3 349.76,\
+4397 364.09,4401.4",
+		style=solid];
+	"reboot($c31)" -> "running'($c31)"	 [color=black,
+		pos="e,384.67,1004.3 140.73,1041 201.03,1031.9 303.85,1016.5 374.49,1005.9",
+		style=solid];
+	"reboot($c31)" -> "Reward Function"	 [pos="e,433.5,2677.1 140.59,1052.6 155.71,1056.4 170.98,1063.2 181,1075.4 381.3,1318.2 227.2,2185.2 325,2484.4 348.3,2555.6 397.79,2628.9 \
+427.33,2668.9"];
+	"reboot($c43)" -> "running'($c43)"	 [color=black,
+		pos="e,384.35,712.56 140.73,676.64 200.94,685.52 303.54,700.65 374.17,711.06",
+		style=solid];
+	"reboot($c43)" -> "Reward Function"	 [pos="e,433.31,2677.2 140.75,673.52 155.87,677.29 171.11,684.13 181,696.38 431.37,1006.6 205.21,2104.2 325,2484.4 347.53,2555.9 397.29,\
+2629.1 427.09,2668.9"];
+	"running($c40)" -> "running'($c18)"	 [color=black,
+		pos="e,400.57,4915.6 141.49,4988.3 206.68,4970 320.62,4938 390.58,4918.4",
+		style=solid];
+	"running($c40)" -> "running'($c9)"	 [color=black,
+		pos="e,416.55,3868.6 155.64,4992.2 165.3,4988.1 174.26,4982.3 181,4974.4 479.14,4622.9 91.187,4344.6 325,3947.4 344.19,3914.8 379.32,\
+3889.7 407.63,3873.5",
+		style=solid];
+	"running($c40)" -> "running'($c1)"	 [color=black,
+		pos="e,421.38,5149.4 141.25,5016.4 154.33,5020.5 168.32,5025.2 181,5030.4 266.13,5064.9 361.03,5115.8 412.58,5144.5",
+		style=solid];
+	"running($c40)" -> "Reward Function"	 [pos="e,391.05,2713.1 156.6,4992.4 166.02,4988.2 174.66,4982.4 181,4974.4 485.99,4586.4 46.815,3166 325,2758.4 338.34,2738.8 359.94,2725.6 \
+381.5,2716.7"];
+	"running($c40)" -> "running'($c40)"	 [color=black,
+		pos="e,391.87,4067.5 155.47,4992 165.14,4987.9 174.16,4982.2 181,4974.4 436.89,4680.4 84.378,4416 325,4109.4 339.34,4091.1 361.04,4078.9 \
+382.43,4070.8",
+		style=solid];
+	"reboot($c15)" -> "running'($c15)"	 [color=black,
+		pos="e,372.06,1535.4 140.73,1535.4 197.55,1535.4 292.12,1535.4 361.95,1535.4",
+		style=solid];
+	"reboot($c15)" -> "Reward Function"	 [pos="e,433.95,2677 140.69,1540.1 155.63,1543.9 170.77,1550.6 181,1562.4 453.34,1875.2 185.71,2093.7 325,2484.4 350.18,2555 399,2628.5 \
+427.92,2668.7"];
+	"running($c12)" -> "Reward Function"	 [pos="e,392.18,2713.2 156.7,4072.7 165.99,4068.7 174.56,4063.1 181,4055.4 552.05,3609.6 -12.804,3229.8 325,2758.4 338.91,2739 360.87,2725.8 \
+382.59,2716.8"];
+	"running($c12)" -> "running'($c2)"	 [color=black,
+		pos="e,414.85,3395.3 155.41,4072.1 164.97,4068.2 173.96,4062.8 181,4055.4 366.42,3859.8 172.14,3688.3 325,3466.4 345.12,3437.2 378.49,\
+3414.8 405.84,3400",
+		style=solid];
+	"running($c12)" -> "running'($c5)"	 [color=black,
+		pos="e,386.35,3501.7 155.22,4072 164.81,4068 173.85,4062.7 181,4055.4 348.88,3883.5 158.99,3708 325,3534.4 338.8,3519.9 357.74,3510.6 \
+376.74,3504.5",
+		style=solid];
+	"running($c12)" -> "running'($c40)"	 [color=black,
+		pos="e,375.94,4061 165.12,4076.9 223.4,4072.5 304.87,4066.4 365.93,4061.8",
+		style=solid];
+	"running($c12)" -> "running'($c12)"	 [color=black,
+		pos="e,384.56,4126.4 156.6,4092.2 217.87,4101.4 309.64,4115.2 374.4,4124.9",
+		style=solid];
+	"reboot($c27)" -> "running'($c27)"	 [color=black,
+		pos="e,375.79,1189 140.73,1206.7 198.56,1202.3 295.49,1195.1 365.64,1189.8",
+		style=solid];
+	"reboot($c27)" -> "Reward Function"	 [pos="e,433.61,2677.1 140.5,1214.7 155.61,1218.5 170.9,1225.3 181,1237.4 359.93,1451.4 236.58,2219.8 325,2484.4 348.76,2555.5 398.09,2628.8 \
+427.48,2668.8"];
+	"reboot($c39)" -> "running'($c39)"	 [color=black,
+		pos="e,372.06,3703.4 140.73,3703.4 197.55,3703.4 292.12,3703.4 361.95,3703.4",
+		style=solid];
+	"reboot($c39)" -> "Reward Function"	 [pos="e,392.97,2713.4 140.69,3698.7 155.62,3694.9 170.77,3688.1 181,3676.4 452.29,3365 76.966,3088.6 325,2758.4 339.41,2739.2 361.6,2726 \
+383.36,2717.1"];
+	"running($c48)" -> "running'($c29)"	 [color=black,
+		pos="e,384.56,407.37 156.6,441.61 217.87,432.4 309.64,418.62 374.4,408.89",
+		style=solid];
+	"running($c48)" -> "running'($c44)"	 [color=black,
+		pos="e,375.78,771.57 151.15,462.9 161.86,466.88 172.35,472.22 181,479.38 285.71,566.17 216.71,667.11 325,749.38 337,758.5 351.4,764.76 \
+366.1,769.04",
+		style=solid];
+	"running($c48)" -> "Reward Function"	 [pos="e,433.24,2677.2 156.55,461.42 165.98,465.56 174.63,471.34 181,479.38 458.27,829.62 192.61,2057.8 325,2484.4 347.27,2556.1 397.3,\
+2629.5 427.18,2669.2"];
+	"running($c48)" -> "running'($c38)"	 [color=black,
+		pos="e,420.96,305.41 141.24,437.38 154.32,433.27 168.32,428.5 181,423.38 265.82,389.17 360.48,338.86 412.13,310.31",
+		style=solid];
+	"running($c48)" -> "running'($c48)"	 [color=black,
+		pos="e,389.59,4286.9 156.78,461.24 166.18,465.4 174.77,471.24 181,479.38 435.32,811.92 87.905,3899.4 325,4244.4 337.92,4263.2 358.82,\
+4275.5 379.91,4283.5",
+		style=solid];
+	"running($c36)" -> "running'($c50)"	 [color=black,
+		pos="e,374.08,2996.1 153.55,2522.3 163.67,2526.3 173.33,2531.9 181,2539.4 325.68,2681.5 174.44,2836.5 325,2972.4 336.02,2982.3 349.76,\
+2989 364.09,2993.4",
+		style=solid];
+	"running($c36)" -> "running'($c8)"	 [color=black,
+		pos="e,411.83,1685.9 154.82,2501 164.69,2496.9 173.93,2491.3 181,2483.4 402.08,2236.9 139.62,2026.8 325,1752.4 343.82,1724.5 375.6,1703.9 \
+402.54,1690.4",
+		style=solid];
+	"running($c36)" -> "Reward Function"	 [pos="e,422.24,2679.3 142.43,2525.1 155.24,2529.1 168.8,2534 181,2539.4 268.51,2578.4 363.18,2639.3 413.89,2673.6"];
+	"running($c36)" -> "running'($c30)"	 [color=black,
+		pos="e,399.2,2771.6 149.42,2523.6 160.51,2527.5 171.59,2532.7 181,2539.4 268.75,2601.9 239.87,2668.4 325,2734.4 344.01,2749.1 367.85,\
+2760.2 389.67,2768.2",
+		style=solid];
+	"running($c36)" -> "running'($c36)"	 [color=black,
+		pos="e,384.56,2467.4 156.6,2501.6 217.87,2492.4 309.64,2478.6 374.4,2468.9",
+		style=solid];
+	"running($c24)" -> "running'($c46)"	 [color=black,
+		pos="e,393.39,2877.9 155.12,3422.9 164.71,3419 173.79,3413.6 181,3406.4 340.42,3246 174.23,3086.9 325,2918.4 340.44,2901.1 362.41,2889.3 \
+383.69,2881.3",
+		style=solid];
+	"running($c24)" -> "Reward Function"	 [pos="e,394.25,2713.6 155.55,3423.3 165.09,3419.3 174.04,3413.9 181,3406.4 381.72,3190.2 140.46,2988.6 325,2758.4 340.2,2739.4 362.92,\
+2726.2 384.9,2717.2"];
+	"running($c24)" -> "running'($c2)"	 [color=black,
+		pos="e,388.49,3388.8 156.6,3423.6 219.12,3414.2 313.39,3400.1 378.33,3390.3",
+		style=solid];
+	"running($c24)" -> "running'($c24)"	 [color=black,
+		pos="e,372.93,4405.7 156.41,3443.3 165.73,3447.3 174.39,3452.8 181,3460.4 452.82,3772.5 41.775,4078.6 325,4380.4 335.22,4391.3 348.65,\
+4398.4 362.93,4403",
+		style=solid];
+	"running($c24)" -> "running'($c36)"	 [color=black,
+		pos="e,436.78,2475.6 156.17,3423.2 165.53,3419.3 174.25,3413.9 181,3406.4 406.21,3157.1 203.76,2977.7 325,2664.4 351.99,2594.6 402.24,\
+2522 430.44,2484",
+		style=solid];
+	"reboot($c2)" -> "Reward Function"	 [pos="e,394.76,2713.7 136.88,3375 152.78,3371.3 169.51,3364.5 181,3352.4 367.71,3155.1 153.06,2968.7 325,2758.4 340.45,2739.5 363.34,2726.3 \
+385.38,2717.3"];
+	"reboot($c2)" -> "running'($c2)"	 [color=black,
+		pos="e,378.35,3379.4 136.67,3379.4 194.54,3379.4 295.98,3379.4 367.96,3379.4",
+		style=solid];
+	"running($c7)" -> "running'($c7)"	 [color=black,
+		pos="e,421.81,1986.2 140.8,2119.2 154.02,2115.2 168.19,2110.5 181,2105.4 266.53,2071.2 361.66,2020 413.04,1991.2",
+		style=solid];
+	"running($c7)" -> "running'($c32)"	 [color=black,
+		pos="e,389.94,4205.6 154.26,2140.7 164.56,2144.8 174.11,2150.8 181,2159.4 459.92,2508 66.008,3799.7 325,4163.4 338.23,4182 359.21,4194.2 \
+380.28,4202.2",
+		style=solid];
+	"running($c7)" -> "running'($c28)"	 [color=black,
+		pos="e,384.52,2176.4 152.48,2141.5 213.74,2150.7 308.32,2165 374.55,2174.9",
+		style=solid];
+	"running($c7)" -> "Reward Function"	 [pos="e,436.32,2676.3 150.63,2142.4 161.63,2146.3 172.36,2151.8 181,2159.4 299.43,2264 252.94,2343.8 325,2484.4 359.28,2551.3 405.07,2626.4 \
+430.96,2667.8"];
+	"running($c7)" -> "running'($c42)"	 [color=black,
+		pos="e,375.78,2111 159.54,2127.3 217.97,2122.9 302.48,2116.5 365.47,2111.8",
+		style=solid];
+	"reboot($c30)" -> "Reward Function"	 [pos="e,392.85,2713.3 140.73,2773.6 203.42,2758.6 312.05,2732.6 382.71,2715.7"];
+	"reboot($c30)" -> "running'($c30)"	 [color=black,
+		pos="e,372.06,2785.4 140.73,2785.4 197.55,2785.4 292.12,2785.4 361.95,2785.4",
+		style=solid];
+	"reboot($c42)" -> "Reward Function"	 [pos="e,435.89,2676.5 140.72,2084.8 155.13,2088.7 169.96,2095.1 181,2105.4 312.8,2228.3 247.17,2321.9 325,2484.4 357.47,2552.2 403.9,2627 \
+430.39,2668.1"];
+	"reboot($c42)" -> "running'($c42)"	 [color=black,
+		pos="e,375.79,2099.7 140.73,2082.1 198.56,2086.4 295.49,2093.7 365.64,2099",
+		style=solid];
+	"reboot($c14)" -> "Reward Function"	 [pos="e,393.07,2713.5 140.62,3644.6 155.55,3640.8 170.71,3634.1 181,3622.4 438.13,3330.1 89.711,3068.5 325,2758.4 339.5,2739.3 361.71,\
+2726.1 383.46,2717.2"];
+	"reboot($c14)" -> "running'($c14)"	 [color=black,
+		pos="e,372.4,3643.1 140.73,3648.3 197.64,3647 292.43,3644.9 362.28,3643.4",
+		style=solid];
+	"reboot($c26)" -> "Reward Function"	 [pos="e,433.17,2677.2 140.87,184.42 156,188.19 171.22,195.05 181,207.38 338.52,406.01 250.9,2242 325,2484.4 346.96,2556.2 397.1,2629.5 \
+427.09,2669.3"];
+	"reboot($c26)" -> "running'($c26)"	 [color=black,
+		pos="e,375.79,159.03 140.73,176.69 198.56,172.34 295.49,165.06 365.64,159.8",
+		style=solid];
+	"running($c23)" -> "running'($c21)"	 [color=black,
+		pos="e,397.34,4969.8 153.46,4580.3 163.47,4584.2 173.12,4589.4 181,4596.4 301.14,4703.3 211.4,4814.5 325,4928.4 342.18,4945.6 365.65,\
+4957.8 387.68,4966.3",
+		style=solid];
+	"running($c23)" -> "running'($c44)"	 [color=black,
+		pos="e,407.96,792.74 156.78,4559.5 166.18,4555.4 174.77,4549.5 181,4541.4 429.93,4216.2 121.77,1213.9 325,858.38 341.16,830.11 371.66,\
+810.12 398.61,797.07",
+		style=solid];
+	"running($c23)" -> "Reward Function"	 [pos="e,391.54,2713.1 156.49,4559.3 165.93,4555.2 174.6,4549.4 181,4541.4 429.12,4230.8 98.346,3084.9 325,2758.4 338.56,2738.9 360.32,\
+2725.6 381.97,2716.7"];
+	"running($c23)" -> "running'($c49)"	 [color=black,
+		pos="e,371.83,4569.4 168.62,4569.4 225.28,4569.4 302.39,4569.4 361.72,4569.4",
+		style=solid];
+	"running($c23)" -> "running'($c23)"	 [color=black,
+		pos="e,379.47,4361.3 147.98,4556.8 159.42,4552.8 171,4547.8 181,4541.4 261.51,4489.7 242.37,4429.6 325,4381.4 338.49,4373.5 353.99,4367.8 \
+369.38,4363.8",
+		style=solid];
+	"reboot($c38)" -> "Reward Function"	 [pos="e,433.18,2677.2 140.86,238.43 155.99,242.2 171.21,249.06 181,261.38 488.89,649.02 179.94,2011.1 325,2484.4 347.01,2556.2 397.14,\
+2629.5 427.11,2669.3"];
+	"reboot($c38)" -> "running'($c38)"	 [color=black,
+		pos="e,384.67,278.42 140.73,241.78 201.03,250.84 303.85,266.28 374.49,276.89",
+		style=solid];
+	"running($c11)" -> "running'($c21)"	 [color=black,
+		pos="e,435.31,5001.7 150.14,5371.3 161.05,5367.4 171.88,5362.2 181,5355.4 273.34,5286.2 256.68,5232.4 325,5139.4 359.63,5092.3 403.07,\
+5039.8 428.84,5009.3",
+		style=solid];
+	"running($c11)" -> "running'($c50)"	 [color=black,
+		pos="e,372.37,3002.2 156.62,5373.4 166.04,5369.3 174.67,5363.5 181,5355.4 500.58,4947.6 -11.521,3422.3 325,3028.4 334.76,3017 348.04,\
+3009.6 362.34,3005",
+		style=solid];
+	"running($c11)" -> "running'($c1)"	 [color=black,
+		pos="e,430.38,5184.2 144.14,5369.9 156.52,5365.9 169.46,5361.1 181,5355.4 276.38,5308.5 375.5,5230.1 422.71,5190.7",
+		style=solid];
+	"running($c11)" -> "Reward Function"	 [pos="e,390.95,2713 156.66,5373.4 166.08,5369.3 174.7,5363.5 181,5355.4 536.06,4899.3 1.4442,3237.3 325,2758.4 338.25,2738.8 359.82,2725.5 \
+381.4,2716.7"];
+	"running($c11)" -> "running'($c11)"	 [color=black,
+		pos="e,385.01,5338.5 156.19,5373.5 217.59,5364.1 309.9,5350 374.83,5340",
+		style=solid];
+	"running($c27)" -> "running'($c27)"	 [color=black,
+		pos="e,394.2,1196.2 147.28,1251.8 211.28,1237.4 316.18,1213.8 384.41,1198.4",
+		style=solid];
+	"running($c27)" -> "running'($c44)"	 [color=black,
+		pos="e,413.29,793.63 154.19,1253.6 164.01,1249.7 173.4,1244.5 181,1237.4 312.8,1114.5 211.52,998.35 325,858.38 346.1,832.36 377.86,812.02 \
+404.22,798.23",
+		style=solid];
+	"running($c27)" -> "Reward Function"	 [pos="e,433.66,2677.1 156.64,1274.1 165.94,1278.1 174.53,1283.7 181,1291.4 352.82,1495.8 239.71,2231.3 325,2484.4 348.95,2555.4 398.21,\
+2628.8 427.54,2668.8"];
+	"running($c27)" -> "running'($c42)"	 [color=black,
+		pos="e,421.81,2088.3 156.11,1274.6 165.47,1278.5 174.22,1284 181,1291.4 396.55,1527.6 163.45,1720.4 325,1996.4 346.38,2032.9 384.5,2063.3 \
+413.23,2082.6",
+		style=solid];
+	"running($c27)" -> "running'($c19)"	 [color=black,
+		pos="e,389.5,2933.8 157.29,1274.2 166.39,1278.2 174.75,1283.7 181,1291.4 406.65,1568.3 114.21,2604 325,2892.4 338.3,2910.6 359.07,2922.6 \
+379.93,2930.5",
+		style=solid];
+	"running($c15)" -> "running'($c15)"	 [color=black,
+		pos="e,420.84,1552.4 155.57,2611.1 165.23,2607 174.22,2601.3 181,2593.4 459.04,2269.3 117.91,2016.9 325,1643.4 345.32,1606.7 383.23,1576.9 \
+412.17,1557.9",
+		style=solid];
+	"running($c15)" -> "running'($c16)"	 [color=black,
+		pos="e,372.71,1482.8 155.69,2611.2 165.34,2607.1 174.29,2601.4 181,2593.4 494.29,2221.3 -3.7391,1866.9 325,1508.4 335.09,1497.4 348.46,\
+1490.2 362.72,1485.6",
+		style=solid];
+	"running($c15)" -> "Reward Function"	 [pos="e,389.79,2686.1 148.46,2633.7 211.08,2647.3 311.77,2669.2 379.61,2683.9"];
+	"running($c15)" -> "running'($c23)"	 [color=black,
+		pos="e,372.27,4351.3 156.01,2631.3 165.62,2635.4 174.48,2641.3 181,2649.4 415.08,2940.8 78.815,4044.1 325,4325.4 334.83,4336.6 348.08,\
+4343.9 362.3,4348.5",
+		style=solid];
+	"running($c15)" -> "running'($c47)"	 [color=black,
+		pos="e,374.44,3050.7 152.83,2632.4 163.14,2636.4 173.06,2641.9 181,2649.4 311.93,2772.6 188.99,2909.8 325,3027.4 336.23,3037.1 350.08,\
+3043.6 364.44,3048",
+		style=solid];
+	"reboot($c5)" -> "Reward Function"	 [pos="e,393.76,2713.6 136.65,3483.3 152.71,3479.6 169.62,3472.8 181,3460.4 395.77,3225.2 127.82,3008.5 325,2758.4 339.92,2739.5 362.33,\
+2726.3 384.15,2717.3"];
+	"reboot($c5)" -> "running'($c5)"	 [color=black,
+		pos="e,378.35,3492.2 136.67,3488.1 194.54,3489.1 295.98,3490.8 367.96,3492",
+		style=solid];
+	"running($c39)" -> "running'($c10)"	 [color=black,
+		pos="e,409.44,4815.1 154.42,5317.8 164.21,5313.9 173.54,5308.6 181,5301.4 324.88,5162.1 199.13,5030.2 325,4874.4 344.66,4850 374.49,4831.8 \
+400.19,4819.4",
+		style=solid];
+	"running($c39)" -> "running'($c1)"	 [color=black,
+		pos="e,421.4,5183.3 142.66,5314.6 155.34,5310.7 168.78,5306.2 181,5301.4 266.22,5267.5 361.1,5216.9 412.61,5188.2",
+		style=solid];
+	"running($c39)" -> "running'($c39)"	 [color=black,
+		pos="e,380.04,3711.5 157.27,5318.6 166.38,5314.6 174.74,5309.1 181,5301.4 400.84,5032.3 108.08,4015.8 325,3744.4 336.45,3730.1 352.99,\
+3720.7 370.34,3714.6",
+		style=solid];
+	"running($c39)" -> "Reward Function"	 [pos="e,390.96,2713 157.51,5318.8 166.59,5314.8 174.87,5309.2 181,5301.4 531.24,4856.7 7.876,3227.2 325,2758.4 338.26,2738.8 359.83,2725.5 \
+381.41,2716.7"];
+	"running($c39)" -> "running'($c11)"	 [color=black,
+		pos="e,371.83,5328.4 168.62,5328.4 225.28,5328.4 302.39,5328.4 361.72,5328.4",
+		style=solid];
+	"running($c6)" -> "running'($c6)"	 [color=black,
+		pos="e,381.4,2262.2 159.54,2245.5 219.83,2250 307.89,2256.6 371.42,2261.4",
+		style=solid];
+	"running($c6)" -> "running'($c20)"	 [color=black,
+		pos="e,391.84,3192.3 153.64,2249.3 164,2253.3 173.73,2259.1 181,2267.4 443.11,2566.4 80.021,2837.2 325,3150.4 339.31,3168.7 361.01,3180.9 \
+382.39,3189",
+		style=solid];
+	"running($c6)" -> "running'($c28)"	 [color=black,
+		pos="e,384.52,2196.4 152.48,2231.2 213.74,2222 308.32,2207.8 374.55,2197.9",
+		style=solid];
+	"running($c6)" -> "Reward Function"	 [pos="e,437.1,2676.1 148.89,2251 160.26,2254.9 171.59,2260.2 181,2267.4 199.66,2281.6 373.22,2569.6 431.79,2667.3"];
+	"running($c6)" -> "running'($c37)"	 [color=black,
+		pos="e,410.28,1388.2 153.47,2231.4 163.85,2227.3 173.62,2221.6 181,2213.4 410.91,1957.8 132.77,1738.4 325,1453.4 343.41,1426.1 374.41,\
+1406 401.06,1392.6",
+		style=solid];
+	"reboot($c41)" -> "running'($c41)"	 [color=black,
+		pos="e,372.06,3974.4 140.73,3974.4 197.55,3974.4 292.12,3974.4 361.95,3974.4",
+		style=solid];
+	"reboot($c41)" -> "Reward Function"	 [pos="e,392.29,2713.2 140.93,3969.9 155.88,3966.1 170.97,3959.3 181,3947.4 523.58,3540 12.818,3189.5 325,2758.4 339.01,2739 360.99,2725.8 \
+382.69,2716.9"];
+	"running($c30)" -> "running'($c46)"	 [color=black,
+		pos="e,376.06,2871.2 164.68,2887.7 223.02,2883.1 304.81,2876.8 366.04,2872",
+		style=solid];
+	"running($c30)" -> "running'($c13)"	 [color=black,
+		pos="e,431.95,1797.4 156.41,2883.4 165.74,2879.5 174.39,2874 181,2866.4 453.87,2552.9 160.73,2324.2 325,1942.4 348.72,1887.3 395.47,1834.4 \
+424.87,1804.5",
+		style=solid];
+	"running($c30)" -> "Reward Function"	 [pos="e,408.75,2716.6 145.69,2880.4 157.63,2876.6 169.99,2872 181,2866.4 252.39,2830.3 256.41,2799.6 325,2758.4 348.57,2744.2 376.09,2731 \
+399.38,2720.7"];
+	"running($c30)" -> "running'($c30)"	 [color=black,
+		pos="e,402.78,2799.9 139.24,2879 204.82,2859.3 322.64,2823.9 393.15,2802.8",
+		style=solid];
+	"running($c30)" -> "running'($c40)"	 [color=black,
+		pos="e,391.22,4043.4 156.56,2903.2 165.87,2907.2 174.48,2912.7 181,2920.4 495.14,3289.5 31.995,3615.3 325,4001.4 338.91,4019.7 360.29,\
+4031.9 381.51,4040",
+		style=solid];
+	"reboot($c13)" -> "running'($c13)"	 [color=black,
+		pos="e,375.79,1773.7 140.73,1756.1 198.56,1760.4 295.49,1767.7 365.64,1773",
+		style=solid];
+	"reboot($c13)" -> "Reward Function"	 [pos="e,434.35,2676.8 140.84,1757.5 155.6,1761.3 170.61,1768 181,1779.4 396.55,2015.6 210.61,2185.7 325,2484.4 351.82,2554.4 400.06,2628.1 \
+428.44,2668.5"];
+	"reboot($c25)" -> "Reward Function"	 [pos="e,433.41,2677.1 140.67,889.58 155.78,893.36 171.05,900.19 181,912.38 402.82,1184.1 217.75,2150.4 325,2484.4 347.92,2555.8 397.54,\
+2629 427.22,2668.9"];
+	"reboot($c25)" -> "running'($c25)"	 [color=black,
+		pos="e,372.06,885.38 140.73,885.38 197.55,885.38 292.12,885.38 361.95,885.38",
+		style=solid];
+	"reboot($c37)" -> "Reward Function"	 [pos="e,433.7,2677 140.89,1322.9 155.84,1326.7 170.94,1333.5 181,1345.4 345.7,1540.2 242.83,2242.9 325,2484.4 349.15,2555.4 398.34,2628.8 \
+427.6,2668.8"];
+	"reboot($c37)" -> "running'($c37)"	 [color=black,
+		pos="e,384.67,1362.4 140.73,1325.8 201.03,1334.8 303.85,1350.3 374.49,1360.9",
+		style=solid];
+	"reboot($c49)" -> "Reward Function"	 [pos="e,391.6,2713.1 140.71,4456.2 155.83,4452.4 171.08,4445.6 181,4433.4 416.43,4143.3 111.19,3064.7 325,2758.4 338.61,2738.9 360.38,\
+2725.7 382.02,2716.8"];
+	"reboot($c49)" -> "running'($c49)"	 [color=black,
+		pos="e,402.72,4554.7 140.74,4475.2 153.83,4479.2 167.95,4483.4 181,4487.4 254.05,4509.5 338.19,4535.1 392.87,4551.7",
+		style=solid];
+	"running($c42)" -> "running'($c9)"	 [color=black,
+		pos="e,393.48,3841.1 155.7,2686.6 165.35,2690.7 174.29,2696.4 181,2704.4 496.65,3079.7 28.836,3407.5 325,3798.4 339.4,3817.4 361.82,3829.8 \
+383.78,3837.8",
+		style=solid];
+	"running($c42)" -> "running'($c15)"	 [color=black,
+		pos="e,420.77,1552.3 155.62,2666.2 165.28,2662 174.25,2656.3 181,2648.4 473.4,2304.7 107.78,2038.9 325,1643.4 345.17,1606.7 383.1,1576.8 \
+412.09,1557.9",
+		style=solid];
+	"running($c42)" -> "Reward Function"	 [pos="e,354.73,2693.2 165.99,2681.2 217.6,2684.5 287.08,2688.9 344.52,2692.6"];
+	"running($c42)" -> "running'($c30)"	 [color=black,
+		pos="e,403.06,2770.9 139.24,2690.9 204.91,2710.8 322.97,2746.6 393.45,2767.9",
+		style=solid];
+	"running($c42)" -> "running'($c42)"	 [color=black,
+		pos="e,394.01,2118.2 153.77,2665.7 163.87,2661.6 173.47,2656 181,2648.4 339.85,2486.8 174.57,2328.8 325,2159.4 340.62,2141.8 362.97,2129.7 \
+384.52,2121.6",
+		style=solid];
+	"running($c38)" -> "running'($c29)"	 [color=black,
+		pos="e,402.72,382.69 139.35,302.8 152.82,306.87 167.49,311.29 181,315.38 254.05,337.5 338.19,363.07 392.87,379.7",
+		style=solid];
+	"running($c38)" -> "running'($c20)"	 [color=black,
+		pos="e,389.73,3192.8 157.55,297.95 166.62,301.98 174.9,307.59 181,315.38 569.89,812.06 -35.506,2632.7 325,3150.4 338.03,3169.1 358.96,\
+3181.4 380.05,3189.4",
+		style=solid];
+	"running($c38)" -> "Reward Function"	 [pos="e,433.19,2677.2 157.45,298.03 166.53,302.05 174.84,307.64 181,315.38 481.75,693.4 183.08,2022.6 325,2484.4 347.07,2556.2 397.17,\
+2629.5 427.12,2669.2"];
+	"running($c38)" -> "running'($c25)"	 [color=black,
+		pos="e,412.06,869.37 155.12,298.92 164.71,302.81 173.79,308.13 181,315.38 340.67,476.12 189.17,623.06 325,804.38 344.94,831.01 376.42,\
+851.25 402.92,864.84",
+		style=solid];
+	"running($c38)" -> "running'($c38)"	 [color=black,
+		pos="e,371.83,288.38 168.62,288.38 225.28,288.38 302.39,288.38 361.72,288.38",
+		style=solid];
+	"running($c26)" -> "running'($c22)"	 [color=black,
+		pos="e,379.24,3553.6 156.72,406.28 166.13,410.44 174.74,416.26 181,424.38 601.67,969.74 -92.554,2972.6 325,3520.4 336.06,3534.9 352.36,\
+3544.3 369.6,3550.5",
+		style=solid];
+	"running($c26)" -> "running'($c43)"	 [color=black,
+		pos="e,433.72,704.19 148.03,408.94 159.46,412.86 171.03,417.92 181,424.38 262.11,476.97 260.02,515.82 325,587.38 359.92,625.84 401.1,\
+669.69 426.64,696.7",
+		style=solid];
+	"running($c26)" -> "running'($c44)"	 [color=black,
+		pos="e,375.2,772.3 152.51,407.76 162.85,411.74 172.86,417.12 181,424.38 298.89,529.56 202.77,649.28 325,749.38 336.55,758.84 350.62,765.28 \
+365.12,769.62",
+		style=solid];
+	"running($c26)" -> "Reward Function"	 [pos="e,433.22,2677.2 156.56,406.41 165.99,410.55 174.64,416.34 181,424.38 465.5,784.45 189.41,2046 325,2484.4 347.2,2556.2 397.26,2629.5 \
+427.16,2669.2"];
+	"running($c26)" -> "running'($c26)"	 [color=black,
+		pos="e,429.85,171.08 146.3,383.47 158.08,379.71 170.22,375.05 181,369.38 207.63,355.39 358.06,230.91 422.12,177.52",
+		style=solid];
+	"running($c14)" -> "running'($c32)"	 [color=black,
+		pos="e,375.94,4223 165.12,4238.9 223.4,4234.5 304.87,4228.4 365.93,4223.8",
+		style=solid];
+	"running($c14)" -> "Reward Function"	 [pos="e,391.73,2713.2 156.78,4234.8 166.07,4230.7 174.61,4225.2 181,4217.4 387.9,3965.7 136.86,3024.4 325,2758.4 338.73,2739 360.53,2725.8 \
+382.16,2716.9"];
+	"running($c14)" -> "running'($c14)"	 [color=black,
+		pos="e,377.91,3648.4 155.28,4234 164.86,4230.1 173.89,4224.7 181,4217.4 354.03,4038.6 150.01,3853.3 325,3676.4 336.7,3664.6 352.03,3656.6 \
+367.95,3651.3",
+		style=solid];
+	"running($c14)" -> "running'($c12)"	 [color=black,
+		pos="e,402.78,4150.9 139.24,4230 204.82,4210.3 322.64,4174.9 393.15,4153.8",
+		style=solid];
+	"reboot($c4)" -> "Reward Function"	 [pos="e,392.88,2713.3 136.55,3753.7 152.8,3750.1 169.86,3743.3 181,3730.4 466.47,3399.9 64.205,3108.7 325,2758.4 339.32,2739.1 361.49,\
+2726 383.27,2717"];
+	"reboot($c4)" -> "running'($c4)"	 [color=black,
+		pos="e,379.03,3768.6 136.67,3759.1 194.72,3761.4 296.61,3765.4 368.63,3768.2",
+		style=solid];
+	"reboot($c40)" -> "Reward Function"	 [pos="e,392.23,2713.2 140.97,4023.9 155.92,4020.1 171,4013.3 181,4001.4 537.81,3574.8 0.010224,3209.7 325,2758.4 338.96,2739 360.93,2725.8 \
+382.64,2716.9"];
+	"reboot($c40)" -> "running'($c40)"	 [color=black,
+		pos="e,375.79,4049.7 140.73,4032.1 198.56,4036.4 295.49,4043.7 365.64,4049",
+		style=solid];
+	"running($c5)" -> "running'($c31)"	 [color=black,
+		pos="e,385.14,984.31 152.48,948.71 213.93,958.12 308.91,972.65 375.17,982.78",
+		style=solid];
+	"running($c5)" -> "running'($c44)"	 [color=black,
+		pos="e,421.01,794.51 140.79,926.16 154.01,922.17 168.18,917.48 181,912.38 266,878.6 360.59,828.14 412.19,799.44",
+		style=solid];
+	"running($c5)" -> "Reward Function"	 [pos="e,433.44,2677.1 153.22,948.23 163.88,952.43 173.82,958.53 181,967.38 394.22,1230.5 220.94,2162.1 325,2484.4 348.04,2555.7 397.62,\
+2629 427.25,2668.9"];
+	"running($c5)" -> "running'($c25)"	 [color=black,
+		pos="e,384.52,895.37 152.48,930.22 213.74,921.02 308.32,906.82 374.55,896.87",
+		style=solid];
+	"running($c5)" -> "running'($c5)"	 [color=black,
+		pos="e,412.05,3477.9 153.93,948.21 164.39,952.42 174.08,958.53 181,967.38 515.29,1395.2 58.654,2933.3 325,3406.4 342.16,3436.9 374.99,\
+3459 402.83,3473.3",
+		style=solid];
+	"running($c41)" -> "running'($c43)"	 [color=black,
+		pos="e,372.79,725.29 156.28,1579.3 165.62,1575.4 174.31,1569.9 181,1562.4 424.51,1288.4 71.483,1015.1 325,750.38 335.26,739.67 348.65,\
+732.62 362.85,728.07",
+		style=solid];
+	"running($c41)" -> "running'($c8)"	 [color=black,
+		pos="e,396.86,1658.2 147.28,1602 212.13,1616.6 318.96,1640.6 387.1,1656",
+		style=solid];
+	"running($c41)" -> "running'($c41)"	 [color=black,
+		pos="e,415,3958.1 156.61,1599.4 166.03,1603.5 174.67,1609.3 181,1617.4 492.03,2013.6 86.103,3436 325,3879.4 342.76,3912.4 377.49,3937.2 \
+405.99,3953.2",
+		style=solid];
+	"running($c41)" -> "running'($c13)"	 [color=black,
+		pos="e,423.75,1761.9 142.92,1603.2 155.59,1607.2 168.97,1612 181,1617.4 228.18,1638.6 353.09,1716.9 415.08,1756.4",
+		style=solid];
+	"running($c41)" -> "Reward Function"	 [pos="e,434.03,2676.9 155.47,1599.7 165.15,1603.8 174.16,1609.5 181,1617.4 437.41,1912.1 192.04,2117.1 325,2484.4 350.52,2554.9 399.22,\
+2628.4 428.03,2668.6"];
+	"reboot($c12)" -> "Reward Function"	 [pos="e,391.81,2713.2 140.56,4132.1 155.67,4128.3 170.95,4121.5 181,4109.4 566.3,3644.4 -25.623,3250 325,2758.4 338.81,2739 360.62,2725.8 \
+382.25,2716.9"];
+	"reboot($c12)" -> "running'($c12)"	 [color=black,
+		pos="e,372.06,4136.4 140.73,4136.4 197.55,4136.4 292.12,4136.4 361.95,4136.4",
+		style=solid];
+	"reboot($c24)" -> "Reward Function"	 [pos="e,391.63,2713.1 140.69,4402.2 155.81,4398.4 171.06,4391.6 181,4379.4 409.3,4098.9 117.61,3054.7 325,2758.4 338.63,2738.9 360.41,\
+2725.7 382.06,2716.8"];
+	"reboot($c24)" -> "running'($c24)"	 [color=black,
+		pos="e,372.06,4407.9 140.73,4406.7 197.55,4407 292.12,4407.5 361.95,4407.9",
+		style=solid];
+	"reboot($c36)" -> "Reward Function"	 [pos="e,434.8,2676.8 140.71,2412.5 154.34,2416.6 168.74,2422.1 181,2429.4 289.76,2494.5 386.66,2612.9 428.76,2668.7"];
+	"reboot($c36)" -> "running'($c36)"	 [color=black,
+		pos="e,384.99,2447.3 140.73,2409.9 201.13,2419.2 304.17,2434.9 374.81,2445.7",
+		style=solid];
+	"reboot($c48)" -> "Reward Function"	 [pos="e,391.69,2713.2 140.64,4294.2 155.76,4290.4 171.02,4283.6 181,4271.4 395.03,4010.1 130.45,3034.5 325,2758.4 338.7,2738.9 360.49,\
+2725.7 382.13,2716.8"];
+	"reboot($c48)" -> "running'($c48)"	 [color=black,
+		pos="e,372.06,4298.4 140.73,4298.4 197.55,4298.4 292.12,4298.4 361.95,4298.4",
+		style=solid];
+	"reboot($c7)" -> "running'($c7)"	 [color=black,
+		pos="e,388.53,1960 136.67,1922.2 197.45,1931.3 306.29,1947.6 378.58,1958.5",
+		style=solid];
+	"reboot($c7)" -> "Reward Function"	 [pos="e,434.83,2676.6 136.74,1919.9 152.62,1923.7 169.38,1930.4 181,1942.4 354.28,2121.5 229.11,2254.3 325,2484.4 353.84,2553.6 401.37,\
+2627.6 429.07,2668.2"];
+	"running($c29)" -> "running'($c29)"	 [color=black,
+		pos="e,420.98,414.55 141.25,547.4 154.33,543.3 168.32,538.52 181,533.38 265.9,498.99 360.52,448.29 412.16,419.49",
+		style=solid];
+	"running($c29)" -> "running'($c27)"	 [color=black,
+		pos="e,393.44,1170.7 155.28,571.76 164.86,575.67 173.89,581.04 181,588.38 354.03,767.19 162.24,941.18 325,1129.4 340.32,1147.1 362.49,\
+1159.2 383.98,1167.3",
+		style=solid];
+	"running($c29)" -> "running'($c16)"	 [color=black,
+		pos="e,410.17,1464.6 156.27,571.45 165.62,575.4 174.31,580.86 181,588.38 424.25,861.97 122.06,1094.7 325,1399.4 343.25,1426.8 374.25,\
+1446.9 400.94,1460.2",
+		style=solid];
+	"running($c29)" -> "Reward Function"	 [pos="e,433.27,2677.2 157.38,571.08 166.47,575.09 174.8,580.67 181,588.38 445.64,917.79 198.94,2081.1 325,2484.4 347.37,2555.9 397.18,\
+2629.1 427.04,2669"];
+	"running($c29)" -> "running'($c42)"	 [color=black,
+		pos="e,420.42,2088.4 156.76,571.03 166.04,575.04 174.6,580.62 181,588.38 381.17,830.99 179.83,1717.4 325,1996.4 344.42,2033.7 382.45,\
+2063.8 411.67,2082.8",
+		style=solid];
+	"running($c17)" -> "running'($c17)"	 [color=black,
+		pos="e,375.63,38.933 165.12,23.709 223.3,27.917 304.6,33.796 365.63,38.21",
+		style=solid];
+	"running($c17)" -> "running'($c43)"	 [color=black,
+		pos="e,428.81,704.73 155.29,28.752 164.86,32.668 173.89,38.035 181,45.385 354.28,224.54 204.35,369.29 325,587.38 349.68,632 392.33,673.29 \
+421.09,698.16",
+		style=solid];
+	"running($c17)" -> "running'($c28)"	 [color=black,
+		pos="e,389.91,2174.7 157.43,28.045 166.51,32.061 174.83,37.645 181,45.385 470.9,408.8 55.874,1753.3 325,2132.4 338.2,2151 359.18,2163.2 \
+380.25,2171.3",
+		style=solid];
+	"running($c17)" -> "Reward Function"	 [pos="e,433.13,2677.2 157.5,27.992 166.57,32.015 174.86,37.615 181,45.385 349.24,258.44 246.19,2224.6 325,2484.4 346.81,2556.3 397.01,\
+2629.6 427.04,2669.3"];
+	"running($c17)" -> "running'($c26)"	 [color=black,
+		pos="e,413.39,137.13 140.99,32.471 154.07,36.425 168.13,40.88 181,45.385 260.34,73.16 350.69,110.49 404.17,133.2",
+		style=solid];
+	"running($c4)" -> "running'($c7)"	 [color=black,
+		pos="e,378.41,1969.4 162.1,1969.4 221.27,1969.4 305.85,1969.4 368.21,1969.4",
+		style=solid];
+	"running($c4)" -> "Reward Function"	 [pos="e,435.06,2676.5 151.46,1979.2 162.4,1983.3 172.89,1989.1 181,1997.4 339.34,2158.2 235.28,2277.3 325,2484.4 354.8,2553.2 401.99,2627.3 \
+429.37,2668.1"];
+	"running($c4)" -> "running'($c25)"	 [color=black,
+		pos="e,410.2,901.13 153.74,1960.6 164.09,1956.6 173.79,1950.7 181,1942.4 467.26,1610.8 88.531,1336.1 325,967.38 342.9,939.48 374.05,919.08 \
+400.91,905.6",
+		style=solid];
+	"running($c4)" -> "running'($c4)"	 [color=black,
+		pos="e,383.89,3764.4 153.3,1978.2 163.96,1982.4 173.88,1988.5 181,1997.4 422.56,2299 85.162,3427.4 325,3730.4 337.22,3745.8 355.35,3755.5 \
+374.07,3761.6",
+		style=solid];
+	"reboot($c11)" -> "Reward Function"	 [pos="e,390.98,2713 140.91,5270.4 156.04,5266.6 171.25,5259.7 181,5247.4 524.09,4812.4 14.307,3217.1 325,2758.4 338.27,2738.8 359.85,2725.5 \
+381.43,2716.7"];
+	"reboot($c11)" -> "running'($c11)"	 [color=black,
+		pos="e,384.67,5318.4 140.73,5281.8 201.03,5290.8 303.85,5306.3 374.49,5316.9",
+		style=solid];
+	"reboot($c23)" -> "Reward Function"	 [pos="e,391.66,2713.1 140.67,4348.2 155.78,4344.4 171.04,4337.6 181,4325.4 402.16,4054.5 124.03,3044.6 325,2758.4 338.66,2738.9 360.45,\
+2725.7 382.09,2716.8"];
+	"reboot($c23)" -> "running'($c23)"	 [color=black,
+		pos="e,372.06,4353.2 140.73,4352.5 197.55,4352.7 292.12,4352.9 361.95,4353.1",
+		style=solid];
+	"reboot($c35)" -> "Reward Function"	 [pos="e,433.29,2677.2 140.76,619.5 155.89,623.28 171.13,630.12 181,642.38 438.5,962.18 202.07,2092.6 325,2484.4 347.45,2555.9 397.24,2629.1 \
+427.07,2669"];
+	"reboot($c35)" -> "running'($c35)"	 [color=black,
+		pos="e,384.99,570.48 140.73,607.85 201.13,598.61 304.17,582.85 374.81,572.04",
+		style=solid];
+	"reboot($c47)" -> "Reward Function"	 [pos="e,399.9,2714.8 140.88,3047.9 154.97,3043.9 169.58,3037.8 181,3028.4 286.16,2942.1 226.36,2852 325,2758.4 343.39,2740.9 367.9,2727.9 \
+390.4,2718.5"];
+	"reboot($c47)" -> "running'($c47)"	 [color=black,
+		pos="e,372.06,3055.4 140.73,3055.4 197.55,3055.4 292.12,3055.4 361.95,3055.4",
+		style=solid];
+	"running($c44)" -> "running'($c43)"	 [color=black,
+		pos="e,429.26,704.47 154.45,136.94 164.24,140.83 173.56,146.14 181,153.38 326.66,295.11 221.27,412.62 325,587.38 351.03,631.23 393.35,\
+672.71 421.67,697.83",
+		style=solid];
+	"running($c44)" -> "running'($c44)"	 [color=black,
+		pos="e,373.35,773.93 155.43,136.62 164.99,140.55 173.97,145.96 181,153.38 368.23,351.39 130.54,558.47 325,749.38 335.59,759.78 349.13,\
+766.67 363.39,771.18",
+		style=solid];
+	"running($c44)" -> "Reward Function"	 [pos="e,433.15,2677.2 157.48,136.01 166.56,140.03 174.85,145.62 181,153.38 342.09,356.82 249.33,2236.2 325,2484.4 346.91,2556.2 397.07,\
+2629.5 427.07,2669.3"];
+	"running($c44)" -> "running'($c26)"	 [color=black,
+		pos="e,375.94,147.75 165.12,131.91 223.4,136.29 304.87,142.41 365.93,147",
+		style=solid];
+	"running($c44)" -> "running'($c35)"	 [color=black,
+		pos="e,431.39,542.37 152.54,137.69 162.76,141.5 172.72,146.59 181,153.38 286.39,239.96 245.99,313.21 325,424.38 354.87,466.41 396.69,\
+509.09 423.81,535.15",
+		style=solid];
+	"running($c32)" -> "running'($c45)"	 [color=black,
+		pos="e,389.27,4675.9 152.08,4720.1 214.79,4708.4 312.74,4690.2 379.28,4677.8",
+		style=solid];
+	"running($c32)" -> "running'($c22)"	 [color=black,
+		pos="e,390.25,3573.2 156.57,4721.6 165.87,4717.6 174.48,4712.1 181,4704.4 497.51,4332.1 28.5,4002.8 325,3614.4 338.74,3596.4 359.73,3584.4 \
+380.67,3576.5",
+		style=solid];
+	"running($c32)" -> "running'($c18)"	 [color=black,
+		pos="e,422.72,4884 143.21,4745.1 155.75,4749 168.99,4753.4 181,4758.4 267.55,4794 363.02,4848.4 414.03,4878.8",
+		style=solid];
+	"running($c32)" -> "running'($c32)"	 [color=black,
+		pos="e,394.66,4230.4 154.45,4720.8 164.24,4716.9 173.55,4711.6 181,4704.4 326.4,4563 187.73,4420.7 325,4271.4 341,4254 363.54,4242 385.15,\
+4233.8",
+		style=solid];
+	"running($c32)" -> "Reward Function"	 [pos="e,391.47,2713 157.4,4721.7 166.48,4717.7 174.81,4712.1 181,4704.4 452.25,4366.1 78.953,3115.4 325,2758.4 338.49,2738.8 360.24,2725.6 \
+381.89,2716.7"];
+	"running($c20)" -> "running'($c34)"	 [color=black,
+		pos="e,398.54,3137.1 143.39,3203.8 208.26,3186.9 319.18,3157.9 388.61,3139.7",
+		style=solid];
+	"running($c20)" -> "running'($c20)"	 [color=black,
+		pos="e,373.01,3207.2 167.74,3214.6 224.83,3212.6 303.05,3209.7 362.83,3207.6",
+		style=solid];
+	"running($c20)" -> "running'($c28)"	 [color=black,
+		pos="e,391.4,2198.5 156.44,3207.5 165.76,3203.5 174.41,3198 181,3190.4 460.69,2867.7 63.789,2578.2 325,2240.4 339.08,2222.2 360.49,2210 \
+381.7,2201.9",
+		style=solid];
+	"running($c20)" -> "Reward Function"	 [pos="e,396.2,2714.1 154.44,3206.8 164.23,3202.9 173.55,3197.6 181,3190.4 326.15,3049.3 190.44,2909.6 325,2758.4 341.37,2740 364.68,2726.9 \
+386.81,2717.8"];
+	"running($c20)" -> "running'($c14)"	 [color=black,
+		pos="e,395.67,3628.3 153.54,3228.3 163.54,3232.1 173.16,3237.3 181,3244.4 304.1,3355.4 207.9,3471.1 325,3588.4 341.72,3605.1 364.54,3616.9 \
+386.17,3625",
+		style=solid];
+	"reboot($c19)" -> "Reward Function"	 [pos="e,404.8,2715.7 140.53,2937.8 154.3,2933.8 168.83,2928.2 181,2920.4 262.18,2868.5 247.79,2816 325,2758.4 346.27,2742.5 372.49,2729.4 \
+395.49,2719.6"];
+	"reboot($c19)" -> "running'($c19)"	 [color=black,
+		pos="e,372.06,2945.8 140.73,2947.1 197.55,2946.8 292.12,2946.3 361.95,2945.9",
+		style=solid];
+	"running($c16)" -> "running'($c22)"	 [color=black,
+		pos="e,379.89,3553.4 157.37,1654.1 166.46,1658.1 174.79,1663.7 181,1671.4 439.43,1992.4 70.053,3196.6 325,3520.4 336.35,3534.8 352.85,\
+3544.2 370.19,3550.3",
+		style=solid];
+	"running($c16)" -> "running'($c8)"	 [color=black,
+		pos="e,381.15,1665.3 165.12,1649.7 225.05,1654 309.51,1660.2 371.08,1664.6",
+		style=solid];
+	"running($c16)" -> "running'($c16)"	 [color=black,
+		pos="e,383.56,1489.9 144.74,1631 156.97,1627 169.7,1622.2 181,1616.4 252.2,1579.9 252.32,1541.8 325,1508.4 340.09,1501.4 357,1496.2 373.42,\
+1492.2",
+		style=solid];
+	"running($c16)" -> "Reward Function"	 [pos="e,434.12,2676.9 156.28,1654.4 165.62,1658.4 174.32,1663.9 181,1671.4 424.77,1945.7 198.24,2140 325,2484.4 350.9,2554.7 399.47,2628.4 \
+428.15,2668.6"];
+	"running($c16)" -> "running'($c42)"	 [color=black,
+		pos="e,424.81,2088 153.41,1655.4 163.43,1659.2 173.09,1664.4 181,1671.4 299.43,1776 230.99,1869.4 325,1996.4 350.58,2030.9 388.93,2062.1 \
+416.6,2082.2",
+		style=solid];
+	"reboot($c6)" -> "running'($c6)"	 [color=black,
+		pos="e,381.36,2272.6 136.67,2291 195.35,2286.6 298.82,2278.8 370.96,2273.4",
+		style=solid];
+	"reboot($c6)" -> "Reward Function"	 [pos="e,437.25,2676.3 136.92,2302 151.93,2306 168.07,2312.1 181,2321.4 248.54,2369.8 382.28,2585.2 431.89,2667.4"];
+	"running($c28)" -> "running'($c28)"	 [color=black,
+		pos="e,391.25,2198.4 156.54,3315.6 165.85,3311.6 174.47,3306 181,3298.4 489.09,2937.4 37.581,2618 325,2240.4 338.94,2222.1 360.32,2209.9 \
+381.54,2201.8",
+		style=solid];
+	"running($c28)" -> "Reward Function"	 [pos="e,394.98,2713.9 155.28,3315 164.86,3311.1 173.89,3305.7 181,3298.4 353.77,3119.9 165.61,2948.9 325,2758.4 340.66,2739.7 363.6,2726.5 \
+385.62,2717.5"];
+	"running($c28)" -> "running'($c2)"	 [color=black,
+		pos="e,388.49,3370 156.6,3335.2 219.12,3344.6 313.39,3358.7 378.33,3368.5",
+		style=solid];
+	"running($c28)" -> "running'($c14)"	 [color=black,
+		pos="e,398.83,3627.6 151.75,3336.9 162.17,3340.7 172.4,3345.7 181,3352.4 278.22,3427.5 231.86,3508.2 325,3588.4 343.41,3604.2 367.24,\
+3615.9 389.22,3624.1",
+		style=solid];
+	"running($c28)" -> "running'($c19)"	 [color=black,
+		pos="e,375.2,2950.5 153.41,3314.4 163.43,3310.5 173.09,3305.4 181,3298.4 299.43,3193.8 202.77,3073.5 325,2973.4 336.55,2963.9 350.62,\
+2957.5 365.12,2953.2",
+		style=solid];
+	"reboot($c50)" -> "running'($c50)"	 [color=black,
+		pos="e,372.06,3000.6 140.73,3001.2 197.55,3001.1 292.12,3000.8 361.95,3000.6",
+		style=solid];
+	"reboot($c50)" -> "Reward Function"	 [pos="e,401.94,2715.2 140.79,2993 154.72,2989 169.27,2983.1 181,2974.4 273.69,2905.7 237.53,2833.6 325,2758.4 344.55,2741.6 369.7,2728.5 \
+392.39,2719"];
+	"reboot($c10)" -> "running'($c10)"	 [color=black,
+		pos="e,408.65,4783.8 140.86,4691.8 153.95,4695.8 168.04,4700.2 181,4704.4 257.26,4729.3 344.72,4760.6 398.92,4780.3",
+		style=solid];
+	"reboot($c10)" -> "Reward Function"	 [pos="e,391.5,2713 140.78,4673.3 155.9,4669.5 171.14,4662.7 181,4650.4 445.11,4321.7 85.378,3105.3 325,2758.4 338.51,2738.8 360.26,2725.6 \
+381.92,2716.7"];
+	"running($c3)" -> "running'($c27)"	 [color=black,
+		pos="e,394.3,1170.6 144.93,1114.4 208.69,1128.8 315.32,1152.8 384.4,1168.4",
+		style=solid];
+	"running($c3)" -> "running'($c8)"	 [color=black,
+		pos="e,423.57,1653.4 151.68,1111.9 162.47,1115.9 172.85,1121.5 181,1129.4 326.4,1270.8 211.89,1394 325,1562.4 348.74,1597.7 387.03,1628.2 \
+415.18,1647.7",
+		style=solid];
+	"running($c3)" -> "running'($c28)"	 [color=black,
+		pos="e,391.32,2174.3 153.77,1111.1 164.12,1115.2 173.8,1121 181,1129.4 474.62,1470.9 50.934,1775 325,2132.4 339,2150.6 360.4,2162.8 381.62,\
+2170.9",
+		style=solid];
+	"running($c3)" -> "running'($c3)"	 [color=black,
+		pos="e,378.41,1102.4 162.1,1102.4 221.27,1102.4 305.85,1102.4 368.21,1102.4",
+		style=solid];
+	"running($c3)" -> "Reward Function"	 [pos="e,433.53,2677.1 154.02,1110.9 164.34,1115 173.96,1120.9 181,1129.4 374.18,1362.6 230.33,2196.8 325,2484.4 348.44,2555.6 397.88,2628.9 \
+427.38,2668.9"];
+	"reboot($c22)" -> "running'($c22)"	 [color=black,
+		pos="e,374.1,3557.1 140.73,3544.1 198.1,3547.3 293.95,3552.6 363.97,3556.5",
+		style=solid];
+	"reboot($c22)" -> "Reward Function"	 [pos="e,393.62,2713.5 140.93,3536.4 155.7,3532.5 170.68,3525.8 181,3514.4 409.86,3260.2 115.14,3028.5 325,2758.4 339.85,2739.3 362.37,\
+2726.1 384.29,2717.1"];
+	"reboot($c34)" -> "running'($c34)"	 [color=black,
+		pos="e,379.78,3131.3 140.73,3157.9 199.66,3151.4 299.19,3140.3 369.61,3132.4",
+		style=solid];
+	"reboot($c34)" -> "Reward Function"	 [pos="e,397.22,2714.2 140.71,3157 155.12,3153 169.96,3146.7 181,3136.4 312.55,3013.9 202.66,2890.1 325,2758.4 341.9,2740.2 365.55,2727.1 \
+387.8,2717.9"];
+	"reboot($c46)" -> "running'($c46)"	 [color=black,
+		pos="e,375.45,2859.9 140.73,2842.9 198.47,2847.1 295.18,2854.1 365.3,2859.2",
+		style=solid];
+	"reboot($c46)" -> "Reward Function"	 [pos="e,411.7,2717.3 140.57,2825.6 153.79,2821.6 168.02,2817 181,2812.4 259.73,2784.1 348.85,2745.5 402.44,2721.5"];
+	"running($c43)" -> "running'($c34)"	 [color=black,
+		pos="e,379.75,3115.5 157.46,841.02 166.54,845.04 174.84,850.63 181,858.38 489.03,1246.2 21.181,2691.3 325,3082.4 336.25,3096.9 352.72,\
+3106.3 370.06,3112.4",
+		style=solid];
+	"running($c43)" -> "running'($c43)"	 [color=black,
+		pos="e,390.31,734.07 140.46,817.25 153.67,813.26 167.93,808.8 181,804.38 245.75,782.5 259.48,769.85 325,750.38 342.76,745.11 362.2,740.32 \
+380.37,736.25",
+		style=solid];
+	"running($c43)" -> "Reward Function"	 [pos="e,433.38,2677.1 157.3,841.15 166.4,845.15 174.75,850.71 181,858.38 409.96,1139.7 214.61,2138.8 325,2484.4 347.81,2555.8 397.47,2629 \
+427.18,2668.9"];
+	"running($c43)" -> "running'($c25)"	 [color=black,
+		pos="e,384.56,875.4 156.6,841.16 217.87,850.37 309.64,864.15 374.4,873.88",
+		style=solid];
+	"running($c43)" -> "running'($c37)"	 [color=black,
+		pos="e,434.07,1354.1 153.58,842.2 163.58,846.06 173.19,851.29 181,858.38 306.08,972.08 240.33,1064.1 325,1210.4 354.98,1262.2 399.87,\
+1315.8 427.19,1346.5",
+		style=solid];
+	"reboot($c18)" -> "running'($c18)"	 [color=black,
+		pos="e,406.21,4886.2 140.81,4800 153.89,4804 168,4808.3 181,4812.4 255.88,4836 341.97,4864.7 396.42,4882.9",
+		style=solid];
+	"reboot($c18)" -> "Reward Function"	 [pos="e,391.45,2713 140.81,4781.3 155.93,4777.5 171.16,4770.7 181,4758.4 459.4,4410.5 72.527,3125.6 325,2758.4 338.47,2738.8 360.21,2725.5 \
+381.87,2716.7"];
+	"running($c31)" -> "running'($c31)"	 [color=black,
+		pos="e,413.88,978.12 152.83,517.41 163.14,521.43 173.06,526.91 181,534.38 311.93,657.59 212.11,772.47 325,912.38 346.26,938.73 378.32,\
+959.43 404.78,973.44",
+		style=solid];
+	"running($c31)" -> "running'($c44)"	 [color=black,
+		pos="e,377.18,770.69 150.13,518.44 161.04,522.38 171.87,527.56 181,534.38 273.12,603.24 230.06,684.48 325,749.38 337.6,758 352.4,764.01 \
+367.36,768.19",
+		style=solid];
+	"running($c31)" -> "Reward Function"	 [pos="e,433.26,2677.2 156.54,516.43 165.97,520.57 174.63,526.35 181,534.38 451.05,874.79 195.8,2069.5 325,2484.4 347.34,2556.1 397.35,\
+2629.5 427.21,2669.2"];
+	"running($c31)" -> "running'($c25)"	 [color=black,
+		pos="e,415.74,868.98 151.15,517.9 161.86,521.88 172.35,527.22 181,534.38 285.71,621.17 232.83,704.39 325,804.38 348.1,829.44 380.57,850.07 \
+406.76,864.24",
+		style=solid];
+	"running($c31)" -> "running'($c35)"	 [color=black,
+		pos="e,384.56,550.4 156.6,516.16 217.87,525.37 309.64,539.15 374.4,548.88",
+		style=solid];
+}

@@ -1,0 +1,2081 @@
+digraph G {
+	graph [bb="0,0,612.96,3714.8",
+		fontname=Helvetica,
+		fontsize=16,
+		rankdir=LR,
+		ranksep=2.00,
+		ratio=auto,
+		size=600
+	];
+	node [fontsize=16,
+		label="\N"
+	];
+	{
+		graph [rank=same];
+		"robot-at($x5, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2763.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x4, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2488.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x2, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1063.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x2, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,733.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x1, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,458.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x2, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,898.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x5, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2213.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x4, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2158.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x3, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1118.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x4, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1938.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x2, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,513.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"move-south"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="107.48,1446.4",
+			shape=box,
+			style=filled,
+			width=1.2917];
+		"obstacle-at($x1, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,73.385",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x1, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,18.385",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x4, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2103.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x4, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1993.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"Current State and Actions"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="107.48,3037.4",
+			shape=plaintext,
+			style=bold,
+			width=2.5139];
+		"robot-at($x2, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,293.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x1, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,843.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x5, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2653.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x5, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2873.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x4, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2268.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x5, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2048.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x3, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1228.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x1, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,678.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x3, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1883.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x2, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,238.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x4, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2543.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"move-east"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="107.48,1392.4",
+			shape=box,
+			style=filled,
+			width=1.1389];
+		"move-north"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="107.48,1554.4",
+			shape=box,
+			style=filled,
+			width=1.2778];
+		"robot-at($x3, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1283.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x1, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,623.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x5, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2433.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x3, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1828.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x4, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2323.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x3, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1608.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x5, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2818.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x1, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,788.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x2, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,568.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x4, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2378.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x5, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1338.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x3, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1173.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x3, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1718.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x2, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1008.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"move-west"		 [color=black,
+			fillcolor=olivedrab1,
+			height=0.5,
+			pos="107.48,1500.4",
+			shape=box,
+			style=filled,
+			width=1.1944];
+		"robot-at($x1, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,128.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x1, $y5)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,183.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x5, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2928.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x2, $y4)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,348.38",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x4, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2598.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"obstacle-at($x3, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1663.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+		"robot-at($x3, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,1773.4",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x2, $y2)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,953.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"robot-at($x1, $y3)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,403.38",
+			shape=ellipse,
+			style=filled,
+			width=2.6517];
+		"obstacle-at($x5, $y1)"		 [color=black,
+			fillcolor=lightblue,
+			height=0.51069,
+			pos="107.48,2708.4",
+			shape=ellipse,
+			style=filled,
+			width=2.9856];
+	}
+	{
+		graph [rank=same];
+		"obstacle-at'($x5, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2983.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x1, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,918.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x2, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1895.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x1, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,348.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x4, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1840.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"Next State and Reward"		 [color=black,
+			fillcolor=white,
+			height=0.5,
+			pos="485.96,3037.4",
+			shape=plaintext,
+			style=bold,
+			width=2.25];
+		"obstacle-at'($x4, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2433.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x3, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1400.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x2, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1675.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x1, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1038.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x1, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3091.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x4, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2268.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x4, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3146.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x3, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1455.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x3, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3201.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x2, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1166.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x5, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2323.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x2, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,863.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x4, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2103.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x5, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3256.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x4, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2928.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x3, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2158.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x2, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3311.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x5, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2571.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x4, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1785.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x5, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3366.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x3, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1345.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x4, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2818.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x3, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2488.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x5, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2378.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x2, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,973.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"Reward Function"		 [color=black,
+			fillcolor=firebrick1,
+			height=0.72222,
+			pos="485.96,1228.4",
+			shape=diamond,
+			style=filled,
+			width=3.5278];
+		"robot-at'($x4, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1620.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x5, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3421.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x3, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2626.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x5, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,2048.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x1, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,293.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x1, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3476.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x2, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,650.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x5, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3531.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"obstacle-at'($x4, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3586.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x5, $y5)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1730.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x3, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3641.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x1, $y4)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,458.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x3, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1565.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x1, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,808.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x2, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1290.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x1, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,705.38",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x2, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,3696.4",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+		"robot-at'($x3, $y1)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1510.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"robot-at'($x2, $y2)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,1093.4",
+			shape=ellipse,
+			style=filled,
+			width=2.7106];
+		"obstacle-at'($x1, $y3)"		 [color=black,
+			fillcolor=gold1,
+			height=0.51069,
+			pos="485.96,568.38",
+			shape=ellipse,
+			style=filled,
+			width=3.0445];
+	}
+	"robot-at($x5, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,395.25,2110.2 187.4,2753.2 197.68,2749 207.28,2743.2 214.96,2735.4 407.83,2538 162.33,2325 358.96,2131.4 366.58,2123.9 375.75,\
+2118.2 385.61,2113.9",
+		style=solid];
+	"robot-at($x5, $y3)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,406.34,2582 177.19,2750.7 190.19,2746.8 203.35,2741.8 214.96,2735.4 291.92,2692.6 281.19,2640.6 358.96,2599.4 370.55,2593.2 383.44,\
+2588.4 396.42,2584.7",
+		style=solid];
+	"robot-at($x5, $y3)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,397.99,2386.4 184.56,2752.5 195.59,2748.4 206.17,2742.9 214.96,2735.4 336.25,2631.6 235.7,2507.8 358.96,2406.4 367.66,2399.2 377.8,\
+2393.8 388.48,2389.7",
+		style=solid];
+	"robot-at($x5, $y3)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,394.77,2055.2 187.54,2753.3 197.79,2749.1 207.35,2743.3 214.96,2735.4 422.45,2519 147.35,2288.7 358.96,2076.4 366.45,2068.9 375.48,\
+2063.2 385.23,2058.9",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,404.11,2278.4 182.16,2475.2 193.62,2471.4 204.96,2466.6 214.96,2460.4 297.47,2409.4 275.49,2345.8 358.96,2296.4 369.76,2290 381.87,\
+2285.1 394.2,2281.2",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,393.85,1461.7 191.98,2477 200.64,2472.9 208.59,2467.5 214.96,2460.4 507.66,2133.3 60.027,1804.8 358.96,1483.4 366.13,1475.7 374.91,\
+1469.9 384.48,1465.5",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,397.99,2111.4 188.1,2476.1 197.84,2472.2 207.12,2467.1 214.96,2460.4 336.25,2356.6 235.7,2232.8 358.96,2131.4 367.66,2124.2 377.8,\
+2118.8 388.48,2114.7",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,395.12,1792.1 190.96,2476.8 199.91,2472.7 208.2,2467.4 214.96,2460.4 419.26,2248.1 150.62,2021.7 358.96,1813.4 366.53,1805.8 375.65,\
+1800.1 385.49,1795.8",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "obstacle-at'($x3, $y3)"	 [color=black,
+		pos="e,376.04,2488.4 215.11,2488.4 262.1,2488.4 317.5,2488.4 365.84,2488.4",
+		style=solid];
+	"obstacle-at($x4, $y3)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,417.49,2391.6 169.88,2473.4 184.72,2469.4 200.48,2465 214.96,2460.4 280.1,2439.7 293.44,2425.8 358.96,2406.4 374.53,2401.8 391.37,\
+2397.5 407.53,2393.8",
+		style=solid];
+	"obstacle-at($x2, $y1)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,393.72,1044.4 207.89,1056.8 262.13,1053.2 329.15,1048.7 383.68,1045.1",
+		style=solid];
+	"obstacle-at($x2, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,402.32,1280.9 182.85,1076.6 194.1,1080.4 205.2,1085.2 214.96,1091.4 299.14,1144.8 273.57,1211.9 358.96,1263.4 369.21,1269.6 380.69,\
+1274.3 392.42,1278",
+		style=solid];
+	"obstacle-at($x2, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,396.87,1502.7 189.01,1075.4 198.51,1079.4 207.46,1084.6 214.96,1091.4 352.02,1215.9 219.53,1360.5 358.96,1482.4 367.23,1489.6 \
+376.95,1495.1 387.26,1499.2",
+		style=solid];
+	"obstacle-at($x2, $y1)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,395.76,1086.3 205.43,1071.1 260.71,1075.5 329.84,1081 385.52,1085.5",
+		style=solid];
+	"robot-at($x2, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,394.75,1448.6 187.55,743.46 197.81,747.66 207.36,753.44 214.96,761.38 424.32,980.2 145.43,1212.6 358.96,1427.4 366.44,1434.9 375.47,\
+1440.6 385.21,1444.9",
+		style=solid];
+	"robot-at($x2, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,402.75,963.68 180.24,745.39 192.42,749.31 204.5,754.5 214.96,761.38 301.71,818.46 271.13,889.99 358.96,945.38 369.35,951.94 381.08,\
+956.97 393.08,960.83",
+		style=solid];
+	"robot-at($x2, $y3)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,421.91,664.29 171.07,719.59 237.33,704.98 341.83,681.94 411.84,666.51",
+		style=solid];
+	"robot-at($x2, $y3)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,394.96,712.08 196.75,726.82 253.14,722.63 326.41,717.18 384.95,712.82",
+		style=solid];
+	"robot-at($x2, $y3)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,398.54,1085.2 184.09,744.41 195.25,748.45 205.99,753.94 214.96,761.38 330,856.87 242.11,972.13 358.96,1065.4 367.83,1072.5 378.13,\
+1077.8 388.94,1081.9",
+		style=solid];
+	"obstacle-at($x1, $y3)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,396.79,910.78 189.08,470.36 198.56,474.32 207.5,479.53 214.96,486.38 355.37,615.31 216.1,764.19 358.96,890.38 367.19,897.65 376.89,\
+903.17 387.18,907.33",
+		style=solid];
+	"obstacle-at($x1, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,396.15,966.02 189.87,470.32 199.11,474.29 207.77,479.52 214.96,486.38 369.64,633.98 201.47,800.79 358.96,945.38 366.99,952.75 \
+376.51,958.33 386.67,962.54",
+		style=solid];
+	"obstacle-at($x1, $y3)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,388.31,458.38 215.11,458.38 266.16,458.38 327.16,458.38 378.23,458.38",
+		style=solid];
+	"obstacle-at($x1, $y3)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,402.3,695.78 183.68,471.35 194.71,475.14 205.52,480.05 214.96,486.38 303.24,545.62 269.56,619.86 358.96,677.38 369.22,683.99 380.82,\
+689.05 392.71,692.92",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,391.71,913.43 210.36,903.8 263.45,906.62 328.24,910.06 381.55,912.89",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,418.25,960.09 178.41,912.32 243.64,925.31 340.75,944.66 408.12,958.08",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,395.23,1558.5 190.88,910.06 199.84,914.09 208.16,919.4 214.96,926.38 409.69,1126.2 160.42,1341.4 358.96,1537.4 366.57,1544.9 375.73,\
+1550.6 385.59,1554.9",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "obstacle-at'($x1, $y2)"	 [color=black,
+		pos="e,418.19,822.91 168.1,883.2 218.79,870.39 293.54,851.75 358.96,836.38 374.86,832.65 391.92,828.77 408.18,825.14",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,396.65,1282.8 188.15,910.58 197.89,914.5 207.15,919.64 214.96,926.38 338.26,1032.8 233.24,1159.8 358.96,1263.4 367.29,1270.2 376.95,\
+1275.5 387.15,1279.5",
+		style=solid];
+	"obstacle-at($x2, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,405.94,1082.8 180.61,911.98 192.5,915.71 204.38,920.43 214.96,926.38 292.49,970 280.61,1023.3 358.96,1065.4 370.44,1071.6 383.21,\
+1076.4 396.09,1080.1",
+		style=solid];
+	"robot-at($x5, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,397.33,1793.1 185.39,2202.6 196.19,2198.5 206.48,2193 214.96,2185.4 347.15,2067.2 224.52,1929 358.96,1813.4 367.35,1806.2 377.19,\
+1800.7 387.62,1796.6",
+		style=solid];
+	"robot-at($x5, $y4)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,408.94,2367 174.69,2226.5 188.36,2230.4 202.41,2235.3 214.96,2241.4 287.15,2276.5 286.11,2316.7 358.96,2350.4 371.48,2356.2 385.26,\
+2360.8 398.98,2364.5",
+		style=solid];
+	"robot-at($x5, $y4)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,408.94,2059.8 174.69,2200.3 188.36,2196.4 202.41,2191.5 214.96,2185.4 287.15,2150.3 286.11,2110.1 358.96,2076.4 371.48,2070.6 \
+385.26,2066 398.98,2062.3",
+		style=solid];
+	"robot-at($x5, $y4)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,396.65,1737.8 185.96,2202.8 196.62,2198.7 206.72,2193.1 214.96,2185.4 361.32,2048.7 210,1892.3 358.96,1758.4 367.13,1751 376.78,\
+1745.5 387.06,1741.3",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,394.66,1407.1 191.34,2146.8 200.16,2142.7 208.32,2137.4 214.96,2130.4 433.92,1899.1 135.6,1655.4 358.96,1428.4 366.4,1420.8 375.41,\
+1415.1 385.13,1410.8",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,408.37,2114.6 189.71,2146.5 251.14,2137.5 335.33,2125.2 398.1,2116.1",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "obstacle-at'($x3, $y4)"	 [color=black,
+		pos="e,376.04,2158.4 215.11,2158.4 262.1,2158.4 317.5,2158.4 365.84,2158.4",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,398.09,1793.6 187.74,2146.1 197.6,2142.2 207,2137.1 214.96,2130.4 333.24,2030.6 238.79,1910.9 358.96,1813.4 367.71,1806.3 377.88,\
+1800.9 388.58,1796.8",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,396.04,1627.6 189.96,2146.5 199.18,2142.6 207.82,2137.3 214.96,2130.4 375.65,1974.9 195.31,1800.7 358.96,1648.4 366.93,1641 376.42,\
+1635.3 386.57,1631.1",
+		style=solid];
+	"obstacle-at($x4, $y4)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,417.49,2061.6 169.88,2143.4 184.72,2139.4 200.48,2135 214.96,2130.4 280.1,2109.7 293.44,2095.8 358.96,2076.4 374.53,2071.8 391.37,\
+2067.5 407.53,2063.8",
+		style=solid];
+	"obstacle-at($x3, $y5)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,400.77,1391.3 185.24,1131.1 195.82,1134.9 206.08,1139.9 214.96,1146.4 311.18,1216.6 261.41,1304.1 358.96,1372.4 368.64,1379.2 \
+379.68,1384.3 391.1,1388.3",
+		style=solid];
+	"obstacle-at($x3, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,401.84,872.87 184.07,1105.5 194.99,1101.7 205.66,1096.8 214.96,1090.4 305.02,1028.7 267.73,951.35 358.96,891.38 368.98,884.8 380.32,\
+879.74 391.98,875.86",
+		style=solid];
+	"obstacle-at($x3, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,403.65,1335.5 182.83,1131.6 194.09,1135.4 205.19,1140.2 214.96,1146.4 298.93,1199.5 273.99,1265.9 358.96,1317.4 369.62,1323.8 \
+381.6,1328.8 393.82,1332.6",
+		style=solid];
+	"obstacle-at($x3, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,396.22,1612.9 189.54,1130.3 198.89,1134.2 207.67,1139.5 214.96,1146.4 366.26,1289.6 204.94,1452.2 358.96,1592.4 367.02,1599.7 \
+376.56,1605.3 386.73,1609.5",
+		style=solid];
+	"robot-at($x4, $y5)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,410.55,1797.1 173.31,1925.1 187.35,1921.1 201.9,1916.3 214.96,1910.4 285.26,1878.6 288.06,1843.8 358.96,1813.4 372.09,1807.7 386.5,\
+1803.2 400.74,1799.5",
+		style=solid];
+	"robot-at($x4, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,395.48,1352.5 186.94,1928.1 197.34,1923.9 207.1,1918.2 214.96,1910.4 390.11,1736.1 180.49,1544.3 358.96,1373.4 366.77,1365.9 376.1,\
+1360.3 386.12,1356",
+		style=solid];
+	"robot-at($x4, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,399.65,1629 183.15,1927.1 194.55,1923.1 205.62,1917.7 214.96,1910.4 319.71,1828.6 252.66,1728.1 358.96,1648.4 368.18,1641.5 378.78,\
+1636.2 389.84,1632.2",
+		style=solid];
+	"robot-at($x4, $y5)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,405.01,1740.7 178.32,1926 191.02,1922.1 203.78,1917 214.96,1910.4 295.03,1863 278,1804.3 358.96,1758.4 370.15,1752 382.65,1747.1 \
+395.31,1743.3",
+		style=solid];
+	"robot-at($x2, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,394.39,1393.9 188.12,523.29 198.23,527.52 207.59,533.36 214.96,541.38 468.43,817.53 100.22,1101.2 358.96,1372.4 366.29,1380.1 \
+375.21,1385.9 384.9,1390.2",
+		style=solid];
+	"robot-at($x2, $y4)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,398.64,855.03 184,524.51 195.17,528.54 205.94,534 214.96,541.38 327.52,633.58 244.65,745.37 358.96,835.38 367.88,842.41 378.2,\
+847.75 389.03,851.8",
+		style=solid];
+	"robot-at($x2, $y4)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,396.79,965.78 185.84,524.06 196.52,528.16 206.65,533.76 214.96,541.38 355.37,670.31 216.1,819.19 358.96,945.38 367.19,952.65 376.89,\
+958.17 387.18,962.33",
+		style=solid];
+	"robot-at($x2, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,447.08,633.31 168.01,527.62 183.42,531.69 199.9,536.39 214.96,541.38 294.62,567.82 384.52,605.81 437.87,629.25",
+		style=solid];
+	"robot-at($x2, $y4)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,408.38,469.57 184.21,502.32 246.07,493.28 333.54,480.51 398.2,471.06",
+		style=solid];
+	"move-south" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,396.08,925.67 154.02,1444.8 174.98,1441.8 198.75,1434.9 214.96,1419.4 373.97,1267.7 197.72,1095.7 358.96,946.38 366.95,938.98 \
+376.46,933.38 386.61,929.17",
+		style=solid];
+	"move-south" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,397.9,1832.4 154.12,1448.9 174.73,1452.1 198.17,1459 214.96,1473.4 339.24,1579.9 233.12,1707.7 358.96,1812.4 367.62,1819.6 377.74,\
+1825 388.41,1829.2",
+		style=solid];
+	"move-south" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,403.54,1410.3 154.27,1440.8 213.44,1433.6 317.83,1420.8 393.53,1411.6",
+		style=solid];
+	"move-south" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,397.47,1046.3 154.21,1444 174.84,1440.8 198.27,1433.9 214.96,1419.4 342.8,1308.2 229.48,1175.7 358.96,1066.4 367.42,1059.2 377.3,\
+1053.8 387.74,1049.7",
+		style=solid];
+	"move-south" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,444.04,2251.7 154.15,1447.2 175.4,1450 199.37,1457 214.96,1473.4 437.62,1707.2 178.29,1917.8 358.96,2185.4 377.45,2212.8 408.31,\
+2233.3 434.85,2247.1",
+		style=solid];
+	"move-south" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,389.02,1453.1 154.27,1447.5 209.67,1448.8 304.71,1451.1 378.72,1452.8",
+		style=solid];
+	"move-south" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,394.41,2316.9 154.06,1447 175.43,1449.7 199.53,1456.7 214.96,1473.4 467.22,1745.3 102.7,2027.3 358.96,2295.4 366.29,2303.1 375.23,\
+2308.8 384.92,2313.2",
+		style=solid];
+	"move-south" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.52,870.52 154.22,1445 175.23,1442.1 198.97,1435.1 214.96,1419.4 388.49,1248.9 182.92,1059.2 358.96,891.38 366.78,883.93 376.13,\
+878.28 386.15,874.04",
+		style=solid];
+	"move-south" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,395.26,2096.5 154.17,1447.5 175.3,1450.4 199.16,1457.4 214.96,1473.4 408.17,1669.2 162.87,1882.4 358.96,2075.4 366.59,2082.9 375.75,\
+2088.6 385.61,2092.8",
+		style=solid];
+	"move-south" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,422.24,2557.4 154.05,1446.7 175.55,1449.4 199.76,1456.4 214.96,1473.4 526.69,1821.8 77.912,2141.8 358.96,2515.4 372.31,2533.1 \
+392.54,2545.4 412.9,2553.8",
+		style=solid];
+	"move-south" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,399.07,1777 154.22,1449.5 174.61,1452.8 197.84,1459.7 214.96,1473.4 325.45,1561.8 247.17,1670.6 358.96,1757.4 368,1764.4 378.44,\
+1769.7 389.37,1773.8",
+		style=solid];
+	"move-south" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,418.96,1358.9 154.24,1435.4 173.11,1430.7 195.16,1425.1 214.96,1419.4 279.55,1400.9 294.1,1390.9 358.96,1373.4 374.99,1369.1 392.3,\
+1364.9 408.81,1361.1",
+		style=solid];
+	"move-south" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,394.32,2372 154.14,1446.9 175.53,1449.7 199.61,1456.7 214.96,1473.4 482.06,1764.4 87.574,2063.4 358.96,2350.4 366.25,2358.1 375.16,\
+2363.9 384.83,2368.3",
+		style=solid];
+	"move-south" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,407.59,984.46 153.99,1444.5 174.82,1441.4 198.48,1434.4 214.96,1419.4 356.98,1289.7 219.87,1144.2 358.96,1011.4 369.94,1000.9 \
+383.71,993.3 398.08,987.79",
+		style=solid];
+	"move-south" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,407.71,1609.3 154.09,1453.3 173.56,1457.5 196.08,1463.8 214.96,1473.4 289,1510.9 284.37,1555.9 358.96,1592.4 371.11,1598.3 384.53,\
+1603 397.96,1606.7",
+		style=solid];
+	"move-south" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,461.13,2030.5 154.19,1448.1 175.06,1451.2 198.7,1458.1 214.96,1473.4 367.67,1616.9 249.8,1743.5 358.96,1922.4 383.89,1963.2 424.71,\
+2000.7 453.11,2024",
+		style=solid];
+	"move-south" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,393.71,299.6 154.1,1446.1 175.62,1443.4 199.82,1436.4 214.96,1419.4 541.87,1051.5 26.631,684.42 358.96,321.38 366.07,313.62 374.81,\
+307.76 384.35,303.37",
+		style=solid];
+	"move-south" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,394.57,656.99 154.2,1445.6 175.47,1442.8 199.44,1435.8 214.96,1419.4 445.41,1175.6 124.92,918.76 358.96,678.38 366.36,670.78 375.34,\
+665.03 385.06,660.71",
+		style=solid];
+	"move-south" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,400.73,1721.4 154.19,1450.3 174.34,1453.8 197.38,1460.6 214.96,1473.4 312.19,1544.1 260.7,1633.1 358.96,1702.4 368.62,1709.2 379.64,\
+1714.4 391.06,1718.3",
+		style=solid];
+	"move-south" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,443.39,474.97 154.14,1445.8 175.53,1443.1 199.62,1436.1 214.96,1419.4 482.33,1128 143.76,873.14 358.96,541.38 376.88,513.76 407.57,\
+493.26 434.18,479.54",
+		style=solid];
+	"move-south" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,415.62,1552.6 154.06,1456.1 173.1,1460.7 195.32,1466.6 214.96,1473.4 281.14,1496.3 292.45,1515.5 358.96,1537.4 373.8,1542.3 389.9,\
+1546.6 405.48,1550.3",
+		style=solid];
+	"move-south" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,409.79,1302 154.01,1438.6 173.35,1434.4 195.81,1428.2 214.96,1419.4 286.02,1386.8 287.43,1349.9 358.96,1318.4 371.75,1312.7 385.78,\
+1308.2 399.7,1304.5",
+		style=solid];
+	"move-south" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,440.34,721.66 153.99,1445.4 175.21,1442.6 199.19,1435.6 214.96,1419.4 417.78,1211.1 188.88,1017.1 358.96,781.38 376.87,756.57 \
+405.6,738.34 431.11,725.96",
+		style=solid];
+	"move-south" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,412.78,1498.1 154.27,1454.2 215.88,1464.6 326.51,1483.4 402.73,1496.4",
+		style=solid];
+	"move-south" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,420.1,1107 154.18,1443.3 174.57,1439.9 197.8,1433 214.96,1419.4 324.47,1332.3 254.02,1232 358.96,1139.4 373.61,1126.5 392.18,1117.1 \
+410.54,1110.3",
+		style=solid];
+	"obstacle-at($x1, $y4)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,464.9,275.14 177.08,87.513 189.96,91.251 203.1,95.836 214.96,101.38 311.98,146.78 410.72,227.73 457.34,268.49",
+		style=solid];
+	"obstacle-at($x1, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,424.71,636.02 190,85.178 199.22,89.177 207.84,94.45 214.96,101.38 378.8,260.94 207.92,423.67 358.96,595.38 373.79,612.25 394.74,\
+624.14 415.31,632.45",
+		style=solid];
+	"obstacle-at($x1, $y4)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,449.38,441.28 186.84,85.853 196.95,89.723 206.66,94.78 214.96,101.38 322.62,187.03 266.6,273.43 358.96,375.38 381.93,400.74 414.26,\
+421.82 440.41,436.4",
+		style=solid];
+	"obstacle-at($x1, $y4)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,395.34,698.43 190.79,85.153 199.76,89.167 208.11,94.45 214.96,101.38 400.41,289.11 169.93,493.26 358.96,677.38 366.62,684.85 375.81,\
+690.5 385.69,694.76",
+		style=solid];
+	"robot-at($x1, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,394.47,856.87 188.05,28.348 198.17,32.569 207.56,38.391 214.96,46.385 457.18,307.91 111.76,578.57 358.96,835.38 366.32,843.03 \
+375.27,848.81 384.97,853.14",
+		style=solid];
+	"robot-at($x1, $y5)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,470.43,274.97 176.82,31.108 189.93,34.986 203.21,39.981 214.96,46.385 323.02,105.28 422.14,216.48 463.98,267.1",
+		style=solid];
+	"robot-at($x1, $y5)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,447.96,441.33 184.56,29.28 195.59,33.339 206.17,38.867 214.96,46.385 336.25,150.15 256.08,253.35 358.96,375.38 380.78,401.27 412.69,\
+422.18 438.94,436.53",
+		style=solid];
+	"robot-at($x4, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,395.12,1407.1 187.51,2093.3 197.77,2089.1 207.34,2083.3 214.96,2075.4 419.26,1863.1 150.62,1636.7 358.96,1428.4 366.53,1420.8 \
+375.65,1415.1 385.49,1410.8",
+		style=solid];
+	"robot-at($x4, $y4)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,388.11,2103.4 203,2103.4 256.21,2103.4 322.83,2103.4 377.96,2103.4",
+		style=solid];
+	"robot-at($x4, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,399.65,1794 183.15,2092.1 194.55,2088.1 205.62,2082.7 214.96,2075.4 319.71,1993.6 252.66,1893.1 358.96,1813.4 368.18,1806.5 378.78,\
+1801.2 389.84,1797.2",
+		style=solid];
+	"robot-at($x4, $y4)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,396.65,1627.8 185.96,2092.8 196.62,2088.7 206.72,2083.1 214.96,2075.4 361.32,1938.7 210,1782.3 358.96,1648.4 367.13,1641 376.78,\
+1635.5 387.06,1631.3",
+		style=solid];
+	"robot-at($x4, $y4)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,408.38,2059.6 184.21,2092.3 246.07,2083.3 333.54,2070.5 398.2,2061.1",
+		style=solid];
+	"obstacle-at($x4, $y5)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,405.01,1795.7 181.4,1980 193.08,1976.3 204.68,1971.5 214.96,1965.4 295.03,1918 278,1859.3 358.96,1813.4 370.15,1807 382.65,1802.1 \
+395.31,1798.3",
+		style=solid];
+	"obstacle-at($x4, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,395.29,1352.3 190.83,1981.7 199.8,1977.6 208.13,1972.3 214.96,1965.4 404.65,1772.1 165.59,1562.9 358.96,1373.4 366.6,1365.9 375.77,\
+1360.2 385.64,1356",
+		style=solid];
+	"obstacle-at($x4, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,398.09,1628.6 187.74,1981.1 197.6,1977.2 207,1972.1 214.96,1965.4 333.24,1865.6 238.79,1745.9 358.96,1648.4 367.71,1641.3 377.88,\
+1635.9 388.58,1631.8",
+		style=solid];
+	"obstacle-at($x4, $y5)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,401.71,1739.7 184.46,1980.5 195.26,1976.7 205.8,1971.8 214.96,1965.4 306.82,1901.2 265.89,1820.8 358.96,1758.4 368.92,1751.7 380.22,\
+1746.6 391.87,1742.7",
+		style=solid];
+	"Current State and Actions" -> "Next State and Reward"	 [color=black,
+		pos="e,404.91,3037.4 198.18,3037.4 257.6,3037.4 335.26,3037.4 394.77,3037.4",
+		style=invis];
+	"robot-at($x2, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.9,856.29 186.86,303.77 197.27,307.92 207.06,313.61 214.96,321.38 384.05,487.79 186.7,672.26 358.96,835.38 366.87,842.88 376.32,\
+848.53 386.44,852.78",
+		style=solid];
+	"robot-at($x2, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,393.83,1339.1 188.59,303.21 198.57,307.46 207.77,313.33 214.96,321.38 512.77,655.09 54.787,989.47 358.96,1317.4 366.12,1325.1 \
+374.9,1330.9 384.45,1335.3",
+		style=solid];
+	"robot-at($x2, $y5)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,388.11,293.38 203,293.38 256.21,293.38 322.83,293.38 377.96,293.38",
+		style=solid];
+	"robot-at($x2, $y5)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,429.42,635.27 183.55,304.64 194.84,308.65 205.76,314.07 214.96,321.38 322.62,407.03 258.23,501.69 358.96,595.38 376.16,611.39 \
+398.77,623.21 420.07,631.71",
+		style=solid];
+	"obstacle-at($x1, $y1)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,418.25,905.09 178.41,857.32 243.64,870.31 340.75,889.66 408.12,903.08",
+		style=solid];
+	"obstacle-at($x1, $y1)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,420.27,1024.7 179.58,857.05 191.77,860.79 204.02,865.5 214.96,871.38 290.62,912.11 284.04,958.31 358.96,1000.4 374.84,1009.3 393.06,\
+1016.4 410.61,1021.8",
+		style=solid];
+	"obstacle-at($x1, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,395.92,1283.1 189.02,855.42 198.51,859.38 207.47,864.57 214.96,871.38 352.28,996.25 218.8,1141.7 358.96,1263.4 366.96,1270.3 376.32,\
+1275.6 386.25,1279.7",
+		style=solid];
+	"robot-at($x5, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,394.54,1847 188,2643.4 198.13,2639.2 207.53,2633.4 214.96,2625.4 448.61,2375 120.54,2114.2 358.96,1868.4 366.35,1860.8 375.32,\
+1855 385.03,1850.7",
+		style=solid];
+	"robot-at($x5, $y1)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,399.18,2331.9 183.55,2642.1 194.84,2638.1 205.76,2632.7 214.96,2625.4 322.62,2539.7 249.68,2434.9 358.96,2351.4 368.05,2344.4 \
+378.52,2339.1 389.47,2335.1",
+		style=solid];
+	"robot-at($x5, $y1)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,421.43,2585.2 171.49,2639.7 237.63,2625.3 341.52,2602.6 411.37,2587.4",
+		style=solid];
+	"robot-at($x5, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,395.44,2275.4 186.98,2863.1 197.37,2859 207.12,2853.2 214.96,2845.4 393.28,2667 177.25,2471.3 358.96,2296.4 366.75,2288.9 376.07,\
+2283.2 386.08,2279",
+		style=solid];
+	"robot-at($x5, $y2)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,395.98,2330.6 186.52,2863 197.04,2858.9 206.95,2853.2 214.96,2845.4 378.8,2685.8 192.08,2507.8 358.96,2351.4 366.91,2343.9 376.38,\
+2338.3 386.52,2334.1",
+		style=solid];
+	"robot-at($x5, $y2)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,400.17,2580.2 182.71,2862 194.23,2858 205.44,2852.6 214.96,2845.4 315.88,2768.8 256.59,2674 358.96,2599.4 368.44,2592.5 379.31,\
+2587.2 390.6,2583.2",
+		style=solid];
+	"robot-at($x5, $y2)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,396.26,2385.9 186.02,2862.9 196.67,2858.8 206.75,2853.1 214.96,2845.4 364.43,2704.6 206.81,2544.3 358.96,2406.4 367.03,2399.1 \
+376.58,2393.5 386.76,2389.3",
+		style=solid];
+	"robot-at($x4, $y3)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,388.11,2268.4 203,2268.4 256.21,2268.4 322.83,2268.4 377.96,2268.4",
+		style=solid];
+	"robot-at($x4, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,394.54,1462 188,2258.4 198.13,2254.2 207.53,2248.4 214.96,2240.4 448.61,1990 120.54,1729.2 358.96,1483.4 366.35,1475.8 375.32,\
+1470 385.03,1465.7",
+		style=solid];
+	"robot-at($x4, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,408.94,2114.8 174.69,2255.3 188.36,2251.4 202.41,2246.5 214.96,2240.4 287.15,2205.3 286.11,2165.1 358.96,2131.4 371.48,2125.6 \
+385.26,2121 398.98,2117.3",
+		style=solid];
+	"robot-at($x4, $y3)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,396.65,1792.8 185.96,2257.8 196.62,2253.7 206.72,2248.1 214.96,2240.4 361.32,2103.7 210,1947.3 358.96,1813.4 367.13,1806 376.78,\
+1800.5 387.06,1796.3",
+		style=solid];
+	"robot-at($x4, $y3)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,417.49,2365.2 167.37,2282.7 182.94,2286.8 199.66,2291.5 214.96,2296.4 280.1,2317.1 293.44,2330.9 358.96,2350.4 374.53,2355 391.37,\
+2359.3 407.53,2363",
+		style=solid];
+	"obstacle-at($x5, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,397.33,1628.1 188.91,2036.2 198.42,2032.3 207.41,2027.1 214.96,2020.4 347.15,1902.2 224.52,1764 358.96,1648.4 367.35,1641.2 377.19,\
+1635.7 387.62,1631.6",
+		style=solid];
+	"obstacle-at($x5, $y5)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,388.31,2048.4 215.11,2048.4 266.16,2048.4 327.16,2048.4 378.23,2048.4",
+		style=solid];
+	"obstacle-at($x5, $y5)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,399.65,1739 186.45,2035.9 196.68,2032 206.52,2027 214.96,2020.4 319.71,1938.6 252.66,1838.1 358.96,1758.4 368.18,1751.5 378.78,\
+1746.2 389.84,1742.2",
+		style=solid];
+	"robot-at($x3, $y5)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,408.11,1389.2 175.39,1241.4 188.88,1245.3 202.68,1250.2 214.96,1256.4 288.32,1293.4 284.9,1336.8 358.96,1372.4 371.23,1378.3 384.77,\
+1383 398.29,1386.7",
+		style=solid];
+	"robot-at($x3, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,398.5,871.55 184.13,1217.4 195.28,1213.4 206.01,1207.9 214.96,1200.4 331.24,1103.3 240.83,986.26 358.96,891.38 367.81,884.28 378.09,\
+878.88 388.89,874.81",
+		style=solid];
+	"robot-at($x3, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,416.02,1332.4 168.63,1242.6 183.87,1246.6 200.13,1251.3 214.96,1256.4 280.74,1278.8 292.76,1296.2 358.96,1317.4 373.93,1322.2 \
+390.15,1326.4 405.82,1330.1",
+		style=solid];
+	"robot-at($x3, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,397.93,1612.4 184.61,1239.2 195.64,1243.3 206.2,1248.8 214.96,1256.4 338.01,1362.5 233.89,1488.7 358.96,1592.4 367.63,1599.6 377.76,\
+1605 388.43,1609.1",
+		style=solid];
+	"obstacle-at($x1, $y2)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,402.75,908.68 183.58,691.5 194.62,695.28 205.46,700.13 214.96,706.38 301.71,763.46 271.13,834.99 358.96,890.38 369.35,896.94 381.08,\
+901.97 393.08,905.83",
+		style=solid];
+	"obstacle-at($x1, $y2)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,410.24,1026.7 187.29,690.74 197.27,694.63 206.83,699.72 214.96,706.38 327.52,798.58 248.07,906.19 358.96,1000.4 370.89,1010.5 \
+385.45,1017.9 400.39,1023.4",
+		style=solid];
+	"obstacle-at($x1, $y2)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,394.53,698.9 206.9,685.44 261.56,689.36 329.42,694.23 384.42,698.17",
+		style=solid];
+	"obstacle-at($x1, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,397.42,1085.5 188.56,690.52 198.18,694.45 207.29,699.62 214.96,706.38 343.84,820.16 227.92,954.11 358.96,1065.4 367.4,1072.5 377.27,\
+1078 387.7,1082.1",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "obstacle-at'($x2, $y2)"	 [color=black,
+		pos="e,378.04,1892 213.35,1886.7 261.39,1888.3 318.5,1890.1 367.93,1891.7",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,449.38,2251.3 186.84,1895.9 196.95,1899.7 206.66,1904.8 214.96,1911.4 322.62,1997 266.6,2083.4 358.96,2185.4 381.93,2210.7 414.26,\
+2231.8 440.41,2246.4",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,397.33,1463.1 188.91,1871.2 198.42,1867.3 207.41,1862.1 214.96,1855.4 347.15,1737.2 224.52,1599 358.96,1483.4 367.35,1476.2 377.19,\
+1470.7 387.62,1466.6",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,399.65,1574 186.45,1870.9 196.68,1867 206.52,1862 214.96,1855.4 319.71,1773.6 252.66,1673.1 358.96,1593.4 368.18,1586.5 378.78,\
+1581.2 389.84,1577.2",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,398.09,1518.6 187.74,1871.1 197.6,1867.2 207,1862.1 214.96,1855.4 333.24,1755.6 238.79,1635.9 358.96,1538.4 367.71,1531.3 377.88,\
+1525.9 388.58,1521.8",
+		style=solid];
+	"obstacle-at($x3, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,413.27,1105.8 191.36,1871.8 200.18,1867.7 208.34,1862.4 214.96,1855.4 437.65,1619.2 147.47,1385.6 358.96,1139.4 370.74,1125.7 \
+386.96,1116 403.84,1109.3",
+		style=solid];
+	"obstacle-at($x2, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.37,856.41 190.77,250.17 199.75,254.18 208.1,259.46 214.96,266.38 398.56,451.69 171.83,653.64 358.96,835.38 366.63,842.84 375.83,\
+848.49 385.71,852.74",
+		style=solid];
+	"obstacle-at($x2, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,393.77,1339.1 192.31,249.82 200.86,253.91 208.69,259.3 214.96,266.38 527.58,619.31 39.61,970.54 358.96,1317.4 366.09,1325.1 374.85,\
+1331 384.4,1335.4",
+		style=solid];
+	"obstacle-at($x2, $y5)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,408.37,282.2 189.71,250.25 251.14,259.23 335.33,271.53 398.1,280.7",
+		style=solid];
+	"obstacle-at($x2, $y5)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,427.84,635.57 188.1,250.64 197.84,254.55 207.12,259.67 214.96,266.38 336.25,370.15 246.04,482.58 358.96,595.38 375.29,611.7 397.26,\
+623.53 418.28,631.95",
+		style=solid];
+	"robot-at($x4, $y2)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,395.12,1847.1 187.51,2533.3 197.77,2529.1 207.34,2523.3 214.96,2515.4 419.26,2303.1 150.62,2076.7 358.96,1868.4 366.53,1860.8 \
+375.65,1855.1 385.49,1850.8",
+		style=solid];
+	"robot-at($x4, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,401.2,2277.5 181.84,2531.7 193.59,2527.8 205.1,2522.5 214.96,2515.4 309.56,2447.4 263.08,2362.5 358.96,2296.4 368.76,2289.6 379.92,\
+2284.5 391.45,2280.5",
+		style=solid];
+	"robot-at($x4, $y2)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,396.92,2111.1 185.46,2532.7 196.25,2528.6 206.52,2523 214.96,2515.4 350.23,2393.2 221.37,2250.9 358.96,2131.4 367.25,2124.2 376.98,\
+2118.7 387.3,2114.6",
+		style=solid];
+	"robot-at($x4, $y2)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,394.96,2564.7 196.75,2549.9 253.14,2554.1 326.41,2559.6 384.95,2563.9",
+		style=solid];
+	"robot-at($x4, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,394.25,1571.7 188.51,2533.5 198.5,2529.2 207.72,2523.4 214.96,2515.4 492.87,2207.5 75.185,1895.8 358.96,1593.4 366.22,1585.6 375.11,\
+1579.8 384.77,1575.4",
+		style=solid];
+	"move-east" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,396.69,925.88 148.51,1391.3 170.59,1388.6 197.07,1381.9 214.96,1365.4 359.84,1232 212.12,1077.6 358.96,946.38 367.15,939.07 376.82,\
+933.53 387.1,929.35",
+		style=solid];
+	"move-east" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,396.86,1832.7 148.64,1393.7 170.63,1396.4 196.98,1403.2 214.96,1419.4 353.09,1544 219,1689.8 358.96,1812.4 367.22,1819.6 376.94,\
+1825.1 387.25,1829.3",
+		style=solid];
+	"move-east" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,388.66,1398.3 148.77,1393.2 203.14,1394.4 302,1396.5 378.49,1398.1",
+		style=solid];
+	"move-east" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,398.59,1046.7 148.57,1390.3 170.27,1387.4 196.35,1380.6 214.96,1365.4 329.17,1272 243.38,1158 358.96,1066.4 367.86,1059.3 378.17,\
+1054 388.98,1049.9",
+		style=solid];
+	"move-east" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,443.61,2251.7 148.66,1392.5 171.21,1394.7 198.12,1401.5 214.96,1419.4 452.13,1671.9 167.08,1897 358.96,2185.4 377.2,2212.8 407.9,\
+2233.3 434.43,2247.1",
+		style=solid];
+	"move-east" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,412.52,1443.3 148.77,1399.1 209.07,1409.2 324.1,1428.5 402.65,1441.6",
+		style=solid];
+	"move-east" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,394.32,2317 148.55,1392.3 171.21,1394.5 198.26,1401.2 214.96,1419.4 481.79,1710 87.849,2008.7 358.96,2295.4 366.25,2303.1 375.16,\
+2308.9 384.84,2313.3",
+		style=solid];
+	"move-east" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,396.08,870.67 148.74,1391.5 170.89,1388.9 197.37,1382.2 214.96,1365.4 374.23,1213.4 197.45,1041 358.96,891.38 366.95,883.98 376.45,\
+878.38 386.6,874.16",
+		style=solid];
+	"move-east" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,395.1,2096.7 148.72,1392.7 171.15,1395 197.91,1401.8 214.96,1419.4 422.6,1633.8 148.16,1864 358.96,2075.4 366.52,2083 375.63,2088.7 \
+385.47,2093",
+		style=solid];
+	"move-east" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,422.17,2557.4 148.5,1392.1 171.29,1394.2 198.49,1400.9 214.96,1419.4 541.33,1786.6 64.928,2121.8 358.96,2515.4 372.25,2533.2 392.46,\
+2545.4 412.83,2553.8",
+		style=solid];
+	"move-east" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,397.91,1777.4 148.59,1394.1 170.42,1396.9 196.64,1403.7 214.96,1419.4 338.98,1525.6 233.38,1653 358.96,1757.4 367.62,1764.6 377.75,\
+1770 388.42,1774.1",
+		style=solid];
+	"move-east" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,404.2,1355.5 148.77,1387.4 206.86,1380.1 315.74,1366.5 393.87,1356.8",
+		style=solid];
+	"move-east" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,394.24,2372.1 148.61,1392.3 171.29,1394.4 198.34,1401.1 214.96,1419.4 496.65,1729.2 72.705,2044.8 358.96,2350.4 366.22,2358.1 \
+375.1,2364 384.76,2368.3",
+		style=solid];
+	"move-east" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,408.66,984.7 148.69,1390.8 170.55,1388 196.77,1381.2 214.96,1365.4 343.06,1253.8 233.38,1125.7 358.96,1011.4 370.32,1001 384.41,\
+993.5 399.01,988.02",
+		style=solid];
+	"move-east" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,403.28,1610.5 148.51,1396.5 169.55,1400.1 195.04,1406.8 214.96,1419.4 299.59,1472.7 273.55,1540.3 358.96,1592.4 369.53,1598.8 \
+381.4,1603.8 393.52,1607.6",
+		style=solid];
+	"move-east" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,460.64,2030.4 148.58,1393.1 170.82,1395.6 197.44,1402.4 214.96,1419.4 381.88,1581.3 240.98,1722 358.96,1922.4 383.17,1963.5 423.96,\
+2000.8 452.55,2024",
+		style=solid];
+	"move-east" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,393.77,299.65 148.72,1392.6 171.44,1390.5 198.49,1383.8 214.96,1365.4 527.24,1016.3 41.542,665.82 358.96,321.38 366.1,313.64 374.86,\
+307.8 384.4,303.42",
+		style=solid];
+	"move-east" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,394.7,657.12 148.52,1392.2 171.03,1389.9 197.93,1383.1 214.96,1365.4 430.91,1140.2 139.7,900.31 358.96,678.38 366.42,670.83 375.43,\
+665.12 385.17,660.82",
+		style=solid];
+	"move-east" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,399.08,1722 148.7,1394.6 170.31,1397.7 196.26,1404.4 214.96,1419.4 325.21,1507.5 247.42,1615.9 358.96,1702.4 368,1709.4 378.45,\
+1714.7 389.38,1718.8",
+		style=solid];
+	"move-east" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,443.49,475.03 148.48,1392.4 171.12,1390.2 198.17,1383.5 214.96,1365.4 467.76,1092.8 155.02,852.22 358.96,541.38 377.02,513.86 \
+407.72,493.36 434.29,479.61",
+		style=solid];
+	"move-east" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,408.07,1554.3 148.64,1398.3 169.24,1402.3 194.27,1408.9 214.96,1419.4 288.83,1456.7 284.55,1501.2 358.96,1537.4 371.2,1543.3 384.73,\
+1548 398.25,1551.8",
+		style=solid];
+	"move-east" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,418.94,1303.8 148.6,1382.9 168.62,1378 193.16,1371.7 214.96,1365.4 279.63,1346.7 294.02,1336.2 358.96,1318.4 374.98,1314 392.29,\
+1309.8 408.79,1306.1",
+		style=solid];
+	"move-east" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,440.53,721.8 148.56,1391.9 170.93,1389.5 197.69,1382.8 214.96,1365.4 403.37,1175.7 200.41,996.62 358.96,781.38 377.11,756.75 405.86,\
+738.53 431.32,726.11",
+		style=solid];
+	"move-east" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,415.65,1497.5 148.63,1400.9 168.77,1405.6 193.4,1412 214.96,1419.4 281.04,1442 292.55,1460.7 358.96,1482.4 373.81,1487.2 389.92,\
+1491.5 405.5,1495.2",
+		style=solid];
+	"move-east" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,422.49,1107.4 148.67,1389.3 170.01,1386.1 195.72,1379.3 214.96,1365.4 311.48,1295.6 266.11,1214 358.96,1139.4 374.65,1126.8 394.1,\
+1117.4 412.98,1110.6",
+		style=solid];
+	"move-north" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,395.32,925.32 153.58,1553.3 174.82,1550.4 198.96,1543.5 214.96,1527.4 402.57,1338.8 168.58,1132.2 358.96,946.38 366.62,938.91 \
+375.8,933.25 385.67,928.99",
+		style=solid];
+	"move-north" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,400.7,1831.4 153.69,1558.2 173.96,1561.7 197.25,1568.4 214.96,1581.4 312.66,1652.7 260.22,1742.5 358.96,1812.4 368.61,1819.2 379.62,\
+1824.4 391.04,1828.4",
+		style=solid];
+	"move-north" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,410.17,1412.1 153.71,1546.6 173.1,1542.4 195.68,1536.1 214.96,1527.4 285.71,1495.3 287.75,1459.4 358.96,1428.4 371.98,1422.7 386.28,\
+1418.1 400.42,1414.5",
+		style=solid];
+	"move-north" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,396.14,1045.7 153.7,1552.8 174.72,1549.8 198.62,1542.9 214.96,1527.4 370.82,1379.8 200.93,1211.7 358.96,1066.4 366.98,1059 376.5,\
+1053.4 386.66,1049.2",
+		style=solid];
+	"move-north" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,444.65,2251.6 153.64,1555.4 174.9,1558.3 199.03,1565.2 214.96,1581.4 408.7,1777.9 200.6,1959.4 358.96,2185.4 377.99,2212.5 409,\
+2233.1 435.5,2247",
+		style=solid];
+	"move-north" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,419.66,1468.9 153.68,1543.4 172.66,1538.7 194.94,1533 214.96,1527.4 279.41,1509.4 294.25,1500.4 358.96,1483.4 375.35,1479.1 393.06,\
+1474.9 409.88,1471.1",
+		style=solid];
+	"move-north" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,394.63,2316.7 153.61,1555.1 175,1557.9 199.25,1564.9 214.96,1581.4 438.15,1815.9 132.31,2064.2 358.96,2295.4 366.39,2303 375.39,\
+2308.7 385.11,2313",
+		style=solid];
+	"move-north" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.15,870.14 153.72,1553.4 175,1550.6 199.12,1543.6 214.96,1527.4 417.25,1319.8 153.62,1095.9 358.96,891.38 366.54,883.84 375.68,\
+878.13 385.52,873.84",
+		style=solid];
+	"move-north" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,395.98,2096.2 153.56,1555.8 174.68,1558.7 198.7,1565.7 214.96,1581.4 379.5,1740.2 192.08,1919 358.96,2075.4 366.91,2082.8 376.38,\
+2088.5 386.52,2092.7",
+		style=solid];
+	"move-north" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,422.73,2557.4 153.67,1554.8 175.21,1557.5 199.57,1564.4 214.96,1581.4 497.46,1892.2 103.85,2181.7 358.96,2515.4 372.51,2533.1 \
+392.91,2545.4 413.36,2553.8",
+		style=solid];
+	"move-north" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,403.22,1775.5 153.49,1559.3 173.5,1563.1 196.62,1569.7 214.96,1581.4 300.23,1635.6 272.9,1704.4 358.96,1757.4 369.5,1763.9 381.36,\
+1768.9 393.47,1772.7",
+		style=solid];
+	"move-north" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,404.64,1355.7 153.67,1548.8 173.49,1544.9 196.41,1538.3 214.96,1527.4 295.64,1479.7 277.59,1419.8 358.96,1373.4 369.94,1367.1 \
+382.2,1362.3 394.64,1358.5",
+		style=solid];
+	"move-north" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,394.51,2371.8 153.71,1555.1 175.13,1557.8 199.36,1564.8 214.96,1581.4 452.94,1834.9 117.25,2100.4 358.96,2350.4 366.34,2358 375.3,\
+2363.8 385,2368.1",
+		style=solid];
+	"move-north" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,406.32,984.05 153.64,1553 174.78,1550.1 198.79,1543.2 214.96,1527.4 385.31,1361 192.36,1181.5 358.96,1011.4 369.35,1000.8 382.59,\
+993.1 396.56,987.56",
+		style=solid];
+	"move-north" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,413.86,1607.9 153.52,1562.3 215.25,1573.1 327.2,1592.7 403.77,1606.2",
+		style=solid];
+	"move-north" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,462.28,2030.5 153.6,1556.8 174.34,1560 198.04,1566.8 214.96,1581.4 339.75,1688.6 267.09,1785.9 358.96,1922.4 385.85,1962.3 426.61,\
+2000.3 454.44,2023.9",
+		style=solid];
+	"move-north" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,393.61,299.5 153.65,1554.2 175.32,1551.6 199.8,1544.7 214.96,1527.4 571.17,1121.8 -3.2211,721.66 358.96,321.38 366.02,313.58 374.74,\
+307.69 384.26,303.29",
+		style=solid];
+	"move-north" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,394.36,656.79 153.56,1553.9 175.07,1551.2 199.44,1544.2 214.96,1527.4 474.5,1246.1 95.275,955.78 358.96,678.38 366.27,670.69 375.19,\
+664.89 384.87,660.54",
+		style=solid];
+	"move-north" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,407.67,1719.3 153.61,1561.2 173.19,1565.3 195.95,1571.6 214.96,1581.4 289.35,1619.5 284.01,1665.4 358.96,1702.4 371.09,1708.4 \
+384.5,1713.1 397.91,1716.8",
+		style=solid];
+	"move-north" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,442.92,475.01 153.73,1554 175.28,1551.4 199.64,1544.4 214.96,1527.4 511.53,1198.5 121.22,915.03 358.96,541.38 376.57,513.71 407.1,\
+493.25 433.7,479.57",
+		style=solid];
+	"move-north" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,389.38,1562.6 153.52,1555.7 208.88,1557.3 304.63,1560.1 379.03,1562.3",
+		style=solid];
+	"move-north" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,401.35,1299.7 153.68,1550.2 173.84,1546.6 197.04,1539.9 214.96,1527.4 307.55,1463 265.42,1381.4 358.96,1318.4 368.83,1311.7 380.03,\
+1306.6 391.59,1302.7",
+		style=solid];
+	"move-north" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,439.74,721.59 153.67,1553.7 175.08,1550.9 199.32,1544 214.96,1527.4 446.75,1281.8 165.69,1058.3 358.96,781.38 376.41,756.38 404.97,\
+738.18 430.5,725.86",
+		style=solid];
+	"move-north" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,402.46,1520 153.52,1549.1 212.26,1542.3 316.48,1530.1 392.41,1521.2",
+		style=solid];
+	"move-north" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,417.08,1106.5 153.62,1552.4 174.49,1549.3 198.29,1542.4 214.96,1527.4 351.8,1404.5 228.55,1269.1 358.96,1139.4 372.26,1126.2 389.68,\
+1116.7 407.29,1109.9",
+		style=solid];
+	"robot-at($x3, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,416.02,1387.4 168.63,1297.6 183.87,1301.6 200.13,1306.3 214.96,1311.4 280.74,1333.8 292.76,1351.2 358.96,1372.4 373.93,1377.2 \
+390.15,1381.4 405.82,1385.1",
+		style=solid];
+	"robot-at($x3, $y4)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,408.11,1444.2 175.39,1296.4 188.88,1300.3 202.68,1305.2 214.96,1311.4 288.32,1348.4 284.9,1391.8 358.96,1427.4 371.23,1433.3 384.77,\
+1438 398.29,1441.7",
+		style=solid];
+	"robot-at($x3, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,396.22,1777.9 186.05,1293.8 196.7,1298 206.77,1303.6 214.96,1311.4 366.26,1454.6 204.94,1617.2 358.96,1757.4 367.02,1764.7 376.56,\
+1770.3 386.73,1774.5",
+		style=solid];
+	"robot-at($x3, $y4)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,411.78,1333.3 180.62,1295.3 243.78,1305.7 335.55,1320.8 401.79,1331.7",
+		style=solid];
+	"robot-at($x3, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,395.34,657.33 187.06,1273.2 197.44,1269 207.17,1263.3 214.96,1255.4 400.68,1067.3 169.66,862.84 358.96,678.38 366.62,670.92 375.81,\
+665.26 385.69,661",
+		style=solid];
+	"robot-at($x1, $y2)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,400.26,909.47 182.35,634.82 193.98,638.8 205.32,644.17 214.96,651.38 314.22,725.73 258.29,817.97 358.96,890.38 368.48,897.23 379.38,\
+902.45 390.69,906.42",
+		style=solid];
+	"robot-at($x1, $y2)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,408.7,1027 184.97,634.22 195.89,638.29 206.33,643.84 214.96,651.38 341.3,761.81 234.62,887.71 358.96,1000.4 370.35,1010.7 384.45,\
+1018.2 399.06,1023.7",
+		style=solid];
+	"robot-at($x1, $y2)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,421.43,691.55 171.49,637.11 237.63,651.52 341.52,674.14 411.37,689.36",
+		style=solid];
+	"robot-at($x1, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,396.72,1085.9 185.89,634 196.56,638.11 206.68,643.73 214.96,651.38 357.95,783.69 213.45,935.85 358.96,1065.4 367.16,1072.7 376.84,\
+1078.2 387.13,1082.4",
+		style=solid];
+	"obstacle-at($x5, $y4)" -> "obstacle-at'($x4, $y4)"	 [color=black,
+		pos="e,376.04,2433.4 215.11,2433.4 262.1,2433.4 317.5,2433.4 365.84,2433.4",
+		style=solid];
+	"obstacle-at($x5, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,395.29,1792.3 190.83,2421.7 199.8,2417.6 208.13,2412.3 214.96,2405.4 404.65,2212.1 165.59,2002.9 358.96,1813.4 366.6,1805.9 375.77,\
+1800.2 385.64,1796",
+		style=solid];
+	"obstacle-at($x5, $y4)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,408.37,2389.6 189.71,2421.5 251.14,2412.5 335.33,2400.2 398.1,2391.1",
+		style=solid];
+	"obstacle-at($x5, $y4)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,397.99,2056.4 188.1,2421.1 197.84,2417.2 207.12,2412.1 214.96,2405.4 336.25,2301.6 235.7,2177.8 358.96,2076.4 367.66,2069.2 377.8,\
+2063.8 388.48,2059.7",
+		style=solid];
+	"obstacle-at($x5, $y4)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,395.12,1737.1 190.96,2421.8 199.91,2417.7 208.2,2412.4 214.96,2405.4 419.26,2193.1 150.62,1966.7 358.96,1758.4 366.53,1750.8 375.65,\
+1745.1 385.49,1740.8",
+		style=solid];
+	"obstacle-at($x3, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,389.66,1837.3 213.35,1831.7 265.16,1833.4 327.53,1835.4 379.43,1837",
+		style=solid];
+	"obstacle-at($x3, $y1)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,401.71,1574.7 184.46,1815.5 195.26,1811.7 205.8,1806.8 214.96,1800.4 306.82,1736.2 265.89,1655.8 358.96,1593.4 368.92,1586.7 380.22,\
+1581.6 391.87,1577.7",
+		style=solid];
+	"obstacle-at($x3, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,396.04,1297.6 189.96,1816.5 199.18,1812.6 207.82,1807.3 214.96,1800.4 375.65,1644.9 195.31,1470.7 358.96,1318.4 366.93,1311 376.42,\
+1305.3 386.57,1301.1",
+		style=solid];
+	"obstacle-at($x3, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,399.65,1519 186.45,1815.9 196.68,1812 206.52,1807 214.96,1800.4 319.71,1718.6 252.66,1618.1 358.96,1538.4 368.18,1531.5 378.78,\
+1526.2 389.84,1522.2",
+		style=solid];
+	"robot-at($x4, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,396.65,1847.8 185.96,2312.8 196.62,2308.7 206.72,2303.1 214.96,2295.4 361.32,2158.7 210,2002.3 358.96,1868.4 367.13,1861 376.78,\
+1855.5 387.06,1851.3",
+		style=solid];
+	"robot-at($x4, $y1)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,408.38,2279.6 184.21,2312.3 246.07,2303.3 333.54,2290.5 398.2,2281.1",
+		style=solid];
+	"robot-at($x4, $y1)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,388.11,2323.4 203,2323.4 256.21,2323.4 322.83,2323.4 377.96,2323.4",
+		style=solid];
+	"robot-at($x4, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,394.54,1517 188,2313.4 198.13,2309.2 207.53,2303.4 214.96,2295.4 448.61,2045 120.54,1784.2 358.96,1538.4 366.35,1530.8 375.32,\
+1525 385.03,1520.7",
+		style=solid];
+	"robot-at($x3, $y3)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,404.66,1410.7 179.73,1596.3 191.97,1592.6 204.2,1587.7 214.96,1581.4 295.44,1534 277.79,1474.6 358.96,1428.4 369.95,1422.1 382.21,\
+1417.3 394.66,1413.5",
+		style=solid];
+	"robot-at($x3, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,410.19,1467.1 175.02,1595.3 188.54,1591.6 202.44,1587 214.96,1581.4 285.55,1549.6 287.9,1514.1 358.96,1483.4 372,1477.7 386.3,\
+1473.2 400.44,1469.5",
+		style=solid];
+	"robot-at($x3, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,396.26,2095.9 186.02,1618.9 196.67,1623 206.75,1628.7 214.96,1636.4 364.43,1777.2 206.81,1937.5 358.96,2075.4 367.03,2082.7 376.58,\
+2088.2 386.76,2092.4",
+		style=solid];
+	"robot-at($x3, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,405.76,983.94 188.08,1598.5 198.07,1594.5 207.41,1588.9 214.96,1581.4 399.64,1396.5 178.45,1200.3 358.96,1011.4 369.16,1000.7 \
+382.23,993.01 396.08,987.45",
+		style=solid];
+	"robot-at($x3, $y3)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,402.13,1574.8 190.17,1599.1 249.58,1592.3 330.1,1583.1 391.98,1576",
+		style=solid];
+	"obstacle-at($x5, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,394.77,2110.2 191.25,2806.7 200.09,2802.7 208.28,2797.4 214.96,2790.4 422.45,2574 147.35,2343.7 358.96,2131.4 366.45,2123.9 375.48,\
+2118.2 385.23,2113.9",
+		style=solid];
+	"obstacle-at($x5, $y3)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,402.3,2581 183.68,2805.4 194.71,2801.6 205.52,2796.7 214.96,2790.4 303.24,2731.2 269.56,2656.9 358.96,2599.4 369.22,2592.8 380.82,\
+2587.7 392.71,2583.8",
+		style=solid];
+	"obstacle-at($x5, $y3)" -> "obstacle-at'($x4, $y3)"	 [color=black,
+		pos="e,376.04,2818.4 215.11,2818.4 262.1,2818.4 317.5,2818.4 365.84,2818.4",
+		style=solid];
+	"obstacle-at($x5, $y3)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,396.92,2386.1 188.98,2806.3 198.47,2802.4 207.44,2797.2 214.96,2790.4 350.23,2668.2 221.37,2525.9 358.96,2406.4 367.25,2399.2 \
+376.98,2393.7 387.3,2389.6",
+		style=solid];
+	"obstacle-at($x5, $y3)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,394.63,2055.1 191.36,2806.8 200.18,2802.7 208.34,2797.4 214.96,2790.4 437.12,2554.9 132.31,2307.5 358.96,2076.4 366.39,2068.8 \
+375.39,2063.1 385.11,2058.8",
+		style=solid];
+	"robot-at($x1, $y1)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,413.74,905.89 170.58,802.28 185.32,806.25 200.86,810.98 214.96,816.38 282.15,842.13 291.29,865.94 358.96,890.38 373.22,895.54 \
+388.75,899.92 403.88,903.59",
+		style=solid];
+	"robot-at($x1, $y1)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,415.49,1025.6 180.24,800.39 192.42,804.31 204.5,809.5 214.96,816.38 301.71,873.46 273.24,941.76 358.96,1000.4 372.99,1010 389.51,\
+1017.2 405.88,1022.6",
+		style=solid];
+	"robot-at($x1, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,395.28,1283.4 186.05,798.83 196.7,802.96 206.77,808.63 214.96,816.38 366.52,959.9 204.14,1123.4 358.96,1263.4 366.76,1270.4 375.94,\
+1275.8 385.73,1279.9",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,394.39,1448.9 191.81,579.92 200.5,583.99 208.5,589.34 214.96,596.38 468.43,872.53 100.22,1156.2 358.96,1427.4 366.29,1435.1 375.21,\
+1440.9 384.9,1445.2",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,397.5,965.44 188.5,580.59 198.13,584.51 207.26,589.65 214.96,596.38 341.3,706.81 230.52,837.41 358.96,945.38 367.43,952.51 377.32,\
+957.92 387.77,962.02",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,421.54,636.57 174.49,582.76 240.82,597.21 342.82,619.43 411.64,634.41",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,412.92,693.19 174.1,582.82 187.81,586.62 202.03,591.15 214.96,596.38 283.02,623.95 290.38,651.14 358.96,677.38 372.95,682.74 388.23,\
+687.21 403.17,690.89",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,396.1,1086.1 189.91,580.27 199.14,584.26 207.79,589.5 214.96,596.38 372.25,747.39 198.79,917.43 358.96,1065.4 366.96,1072.8 376.47,\
+1078.4 386.62,1082.6",
+		style=solid];
+	"obstacle-at($x2, $y3)" -> "obstacle-at'($x1, $y3)"	 [color=black,
+		pos="e,376.04,568.38 215.11,568.38 262.1,568.38 317.5,568.38 365.84,568.38",
+		style=solid];
+	"obstacle-at($x4, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,396.04,1847.6 189.96,2366.5 199.18,2362.6 207.82,2357.3 214.96,2350.4 375.65,2194.9 195.31,2020.7 358.96,1868.4 366.93,1861 376.42,\
+1855.3 386.57,1851.1",
+		style=solid];
+	"obstacle-at($x4, $y1)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,417.49,2281.6 169.88,2363.4 184.72,2359.4 200.48,2355 214.96,2350.4 280.1,2329.7 293.44,2315.8 358.96,2296.4 374.53,2291.8 391.37,\
+2287.5 407.53,2283.8",
+		style=solid];
+	"obstacle-at($x4, $y1)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,408.37,2334.6 189.71,2366.5 251.14,2357.5 335.33,2345.2 398.1,2336.1",
+		style=solid];
+	"obstacle-at($x4, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,394.43,1516.9 191.78,2366.8 200.48,2362.8 208.48,2357.4 214.96,2350.4 463.34,2080.9 105.44,1803.1 358.96,1538.4 366.3,1530.7 375.24,\
+1524.9 384.93,1520.6",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,397.38,926.2 185.07,1327.7 195.97,1323.6 206.38,1318 214.96,1310.4 345.11,1194.9 226.61,1059.3 358.96,946.38 367.38,939.2 377.24,\
+933.75 387.67,929.62",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,396.21,1833 187.38,1348.6 197.53,1352.6 207.1,1358 214.96,1365.4 367.15,1508.2 204.67,1671.8 358.96,1812.4 367.01,1819.7 376.55,\
+1825.3 386.72,1829.5",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,411.78,1388.3 180.62,1350.3 243.78,1360.7 335.55,1375.8 401.79,1386.7",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,400.2,1047.2 182.69,1326.9 194.21,1322.9 205.43,1317.6 214.96,1310.4 315.4,1234.4 257.08,1140.4 358.96,1066.4 368.45,1059.5 379.33,\
+1054.2 390.63,1050.3",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,443.5,2251.7 189.13,1348 198.84,1352.1 207.82,1357.7 214.96,1365.4 466.68,1636.6 155.85,1876.1 358.96,2185.4 377.03,2212.9 407.73,\
+2233.4 434.3,2247.2",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,416,1442.5 170.34,1352.3 185.09,1356.1 200.69,1360.5 214.96,1365.4 280.94,1387.8 292.66,1406 358.96,1427.4 373.92,1432.2 390.13,\
+1436.5 405.8,1440.2",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,394.24,2317.1 189.54,1347.9 199.13,1352.1 207.97,1357.7 214.96,1365.4 496.38,1674.8 72.981,1990.2 358.96,2295.4 366.22,2303.1 \
+375.1,2309 384.76,2313.3",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,396.69,870.88 185.92,1327.8 196.59,1323.7 206.7,1318.1 214.96,1310.4 359.25,1176.4 212.12,1022.6 358.96,891.38 367.15,884.07 376.82,\
+878.53 387.1,874.35",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,394.64,2096.7 188.95,1348.1 198.68,1352.2 207.72,1357.8 214.96,1365.4 437.08,1598.5 133.41,1845.6 358.96,2075.4 366.4,2083 375.39,\
+2088.7 385.12,2093",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,422.11,2557.5 189.75,1347.8 199.3,1351.9 208.08,1357.6 214.96,1365.4 555.97,1751.4 51.935,2101.8 358.96,2515.4 372.2,2533.2 392.4,\
+2545.5 412.76,2553.9",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,396.86,1777.7 186.84,1348.8 197.13,1352.7 206.89,1358.1 214.96,1365.4 352.83,1489.6 219.26,1635.2 358.96,1757.4 367.22,1764.6 \
+376.94,1770.1 387.25,1774.3",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,388.53,1343.6 202.51,1340.1 255.92,1341.1 322.97,1342.4 378.33,1343.4",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,393.84,2372.1 189.6,1347.9 199.18,1352 208,1357.7 214.96,1365.4 511.26,1693.9 57.821,2026.3 358.96,2350.4 366.13,2358.1 374.91,\
+2363.9 384.47,2368.3",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,410.18,985 184.05,1327.3 195.21,1323.3 205.96,1317.8 214.96,1310.4 328.76,1216.5 246.86,1107.2 358.96,1011.4 370.85,1001.2 385.4,\
+993.77 400.34,988.31",
+		style=solid];
+	"robot-at($x5, $y5)" -> "Reward Function"	 [pos="e,430.23,1243 166.4,1323.8 182.2,1319.7 199.28,1315 214.96,1310.4 279.54,1291.4 294.51,1282.8 358.96,1263.4 378.85,1257.4 400.63,\
+1251.2 420.4,1245.7"];
+	"robot-at($x5, $y5)" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,400.76,1611.3 183.31,1349.6 194.56,1353.5 205.54,1358.6 214.96,1365.4 311.72,1435.5 261.17,1523.7 358.96,1592.4 368.63,1599.2 \
+379.67,1604.4 391.09,1608.3",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,460.44,2030.5 188.04,1348.3 198.04,1352.3 207.39,1357.9 214.96,1365.4 396.18,1545.8 232.09,1700.4 358.96,1922.4 382.64,1963.8 \
+423.54,2001.1 452.3,2024.1",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,393.84,299.71 188.58,1328.5 198.56,1324.3 207.77,1318.4 214.96,1310.4 510.89,979.13 56.718,646.89 358.96,321.38 366.12,313.67 \
+374.9,307.84 384.46,303.47",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,395.16,657.16 187.47,1328.2 197.74,1324 207.32,1318.3 214.96,1310.4 415.27,1103.3 154.71,881.55 358.96,678.38 366.55,670.84 375.68,\
+665.14 385.53,660.85",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,397.92,1722.4 185.96,1349 196.49,1352.9 206.56,1358.2 214.96,1365.4 338.73,1471.3 233.63,1598.4 358.96,1702.4 367.63,1709.6 377.75,\
+1715 388.42,1719.1",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,443.6,475.11 188.02,1328.4 198.14,1324.2 207.54,1318.4 214.96,1310.4 451.82,1055.8 166.46,830.95 358.96,541.38 377.19,513.97 407.89,\
+493.47 434.42,479.7",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,403.63,1555.5 180.88,1350.2 192.8,1354 204.63,1358.9 214.96,1365.4 299.37,1418.4 273.77,1485.6 358.96,1537.4 369.61,1543.9 381.58,\
+1548.8 393.8,1552.7",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,404.52,1300.6 187.4,1328.3 247.88,1320.6 331.4,1310 394.56,1301.9",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,441.05,721.83 186.91,1328.1 197.32,1323.9 207.09,1318.2 214.96,1310.4 388,1138.8 212.1,975.82 358.96,781.38 377.47,756.88 406.39,\
+738.62 431.85,726.16",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,408.09,1499.2 176.82,1351 189.85,1354.7 203.12,1359.4 214.96,1365.4 288.65,1402.4 284.73,1446.5 358.96,1482.4 371.22,1488.3 384.75,\
+1493 398.27,1496.7",
+		style=solid];
+	"robot-at($x5, $y5)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,425.76,1108 179.48,1326.2 191.87,1322.3 204.22,1317.2 214.96,1310.4 298.93,1257.3 277.55,1196.3 358.96,1139.4 376.1,1127.4 396.71,\
+1118.2 416.26,1111.2",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,403.65,1390.5 182.83,1186.6 194.09,1190.4 205.19,1195.2 214.96,1201.4 298.93,1254.5 273.99,1320.9 358.96,1372.4 369.62,1378.8 \
+381.6,1383.8 393.82,1387.6",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,400.77,1446.3 185.24,1186.1 195.82,1189.9 206.08,1194.9 214.96,1201.4 311.18,1271.6 261.41,1359.1 358.96,1427.4 368.64,1434.2 \
+379.68,1439.3 391.1,1443.3",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "obstacle-at'($x2, $y4)"	 [color=black,
+		pos="e,376.94,1168.4 214.35,1171.4 261.76,1170.5 317.86,1169.5 366.65,1168.6",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,395.41,1778.4 190.47,1185.1 199.55,1189.1 208.01,1194.4 214.96,1201.4 395.12,1382.2 175.35,1580 358.96,1757.4 366.66,1764.8 375.86,\
+1770.5 385.75,1774.7",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,408.11,1334.2 178.49,1187.3 190.98,1191 203.61,1195.7 214.96,1201.4 288.32,1238.4 284.9,1281.8 358.96,1317.4 371.23,1323.3 384.77,\
+1328 398.29,1331.7",
+		style=solid];
+	"obstacle-at($x3, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,396.11,657.7 189.9,1161.5 199.13,1157.5 207.79,1152.3 214.96,1145.4 371.73,995.06 199.33,825.67 358.96,678.38 366.97,671 376.48,\
+665.41 386.63,661.19",
+		style=solid];
+	"robot-at($x3, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,446.28,2251.5 186.02,1728.9 196.67,1733 206.75,1738.7 214.96,1746.4 364.43,1887.2 234.26,2022.2 358.96,2185.4 379.31,2212 410.78,\
+2232.7 437.18,2246.8",
+		style=solid];
+	"robot-at($x3, $y2)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,401.71,1464.7 181.13,1706.7 193.08,1702.7 204.86,1697.4 214.96,1690.4 306.82,1626.2 265.89,1545.8 358.96,1483.4 368.92,1476.7 \
+380.22,1471.6 391.87,1467.7",
+		style=solid];
+	"robot-at($x3, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,410.55,1577.1 173.31,1705.1 187.35,1701.1 201.9,1696.3 214.96,1690.4 285.26,1658.6 288.06,1623.8 358.96,1593.4 372.09,1587.7 386.5,\
+1583.2 400.74,1579.5",
+		style=solid];
+	"robot-at($x3, $y2)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,405.01,1520.7 178.32,1706 191.02,1702.1 203.78,1697 214.96,1690.4 295.03,1643 278,1584.3 358.96,1538.4 370.15,1532 382.65,1527.1 \
+395.31,1523.3",
+		style=solid];
+	"robot-at($x3, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,414.82,1106 186.98,1708.1 197.38,1704 207.13,1698.2 214.96,1690.4 393.8,1511.3 188.63,1326.6 358.96,1139.4 371.32,1125.8 388.03,\
+1116.2 405.24,1109.5",
+		style=solid];
+	"robot-at($x2, $y1)" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,395.72,1031.3 196.27,1015.4 252.96,1019.9 326.84,1025.8 385.67,1030.5",
+		style=solid];
+	"robot-at($x2, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,399.46,1281.7 181.94,1019.9 193.67,1023.9 205.16,1029.2 214.96,1036.4 311.41,1106.9 260.92,1195.1 358.96,1263.4 368.26,1269.9 \
+378.81,1274.8 389.76,1278.6",
+		style=solid];
+	"robot-at($x2, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,396.22,1502.9 186.05,1018.8 196.7,1023 206.77,1028.6 214.96,1036.4 366.26,1179.6 204.94,1342.2 358.96,1482.4 367.02,1489.7 376.56,\
+1495.3 386.73,1499.5",
+		style=solid];
+	"robot-at($x2, $y1)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,421.82,1079.4 169.71,1022.4 220.41,1034 294.35,1050.9 358.96,1065.4 376.05,1069.2 394.45,1073.3 411.76,1077.2",
+		style=solid];
+	"move-west" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,395.52,925.52 150.49,1499.5 172.37,1496.9 198.02,1490 214.96,1473.4 388.22,1303.3 183.19,1113.9 358.96,946.38 366.78,938.93 376.13,\
+933.29 386.15,929.04",
+		style=solid];
+	"move-west" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,399.06,1832 150.54,1502.9 171.77,1506 196.81,1512.8 214.96,1527.4 325.7,1616.1 246.92,1725.3 358.96,1812.4 367.99,1819.4 378.43,\
+1824.7 389.36,1828.8",
+		style=solid];
+	"move-west" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,419.31,1413.9 150.6,1490.3 170.23,1485.4 193.86,1479.4 214.96,1473.4 279.48,1455.1 294.18,1445.7 358.96,1428.4 375.1,1424.1 392.52,\
+1419.9 409.11,1416.2",
+		style=solid];
+	"move-west" -> "robot-at'($x1, $y1)"	 [color=black,
+		pos="e,396.77,1046 150.54,1498.9 172.17,1496.1 197.56,1489.3 214.96,1473.4 356.72,1344.1 215.3,1193.6 358.96,1066.4 367.18,1059.1 376.87,\
+1053.6 387.17,1049.4",
+		style=solid];
+	"move-west" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,444.19,2251.6 150.57,1500.9 172.61,1503.4 198.38,1510.3 214.96,1527.4 423.13,1742.5 189.46,1938.6 358.96,2185.4 377.67,2212.6 \
+408.53,2233.2 435.02,2247",
+		style=solid];
+	"move-west" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,403.23,1465.2 150.57,1495.4 208.87,1488.4 315.75,1475.6 393.01,1466.4",
+		style=solid];
+	"move-west" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,394.51,2316.8 150.51,1500.7 172.67,1503.1 198.58,1509.9 214.96,1527.4 452.67,1780.6 117.52,2045.8 358.96,2295.4 366.34,2303 375.3,\
+2308.8 385.01,2313.1",
+		style=solid];
+	"move-west" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.32,870.32 150.65,1499.7 172.58,1497.1 198.22,1490.2 214.96,1473.4 402.84,1284.4 168.3,1077.5 358.96,891.38 366.62,883.91 375.8,\
+878.25 385.67,873.99",
+		style=solid];
+	"move-west" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,395.44,2096.3 150.56,1501.2 172.45,1503.8 198.1,1510.7 214.96,1527.4 393.79,1704.7 177.52,1900.8 358.96,2075.4 366.75,2082.9 376.07,\
+2088.5 386.08,2092.8",
+		style=solid];
+	"move-west" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,422.32,2557.3 150.52,1500.4 172.83,1502.7 198.87,1509.5 214.96,1527.4 512.07,1857 90.885,2161.8 358.96,2515.4 372.38,2533.1 392.62,\
+2545.3 412.98,2553.7",
+		style=solid];
+	"move-west" -> "robot-at'($x4, $y4)"	 [color=black,
+		pos="e,400.71,1776.4 150.53,1503.7 171.5,1507 196.31,1513.8 214.96,1527.4 312.42,1598.4 260.46,1687.8 358.96,1757.4 368.61,1764.2 379.63,\
+1769.4 391.05,1773.4",
+		style=solid];
+	"move-west" -> "robot-at'($x3, $y5)"	 [color=black,
+		pos="e,410.14,1357 150.61,1493.3 170.67,1489.1 194.66,1482.6 214.96,1473.4 285.86,1441.1 287.59,1404.6 358.96,1373.4 371.97,1367.7 386.26,\
+1363.1 400.4,1359.4",
+		style=solid];
+	"move-west" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,394.41,2371.9 150.59,1500.6 172.78,1503 198.68,1509.8 214.96,1527.4 467.49,1799.6 102.42,2081.9 358.96,2350.4 366.29,2358.1 375.22,\
+2363.9 384.91,2368.2",
+		style=solid];
+	"move-west" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,406.92,984.22 150.52,1499.2 172.28,1496.5 197.79,1489.7 214.96,1473.4 371.08,1325.4 206.18,1162.8 358.96,1011.4 369.68,1000.8 \
+383.25,993.1 397.49,987.56",
+		style=solid];
+	"move-west" -> "robot-at'($x4, $y5)"	 [color=black,
+		pos="e,415.27,1607.6 150.7,1509.3 170.46,1513.9 194.17,1520.1 214.96,1527.4 281.25,1550.5 292.34,1570.2 358.96,1592.4 373.7,1597.3 389.69,\
+1601.6 405.18,1605.3",
+		style=solid];
+	"move-west" -> "robot-at'($x5, $y4)"	 [color=black,
+		pos="e,461.43,2030.3 150.48,1501.9 172.09,1504.8 197.48,1511.6 214.96,1527.4 353.61,1652.7 258.52,1764.8 358.96,1922.4 384.69,1962.7 \
+425.34,2000.3 453.49,2023.8",
+		style=solid];
+	"move-west" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,393.66,299.55 150.66,1500.5 173.01,1498.2 199.05,1491.4 214.96,1473.4 556.51,1086.6 11.709,703.03 358.96,321.38 366.05,313.6 374.77,\
+307.73 384.31,303.33",
+		style=solid];
+	"move-west" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,394.46,656.89 150.55,1500.1 172.72,1497.7 198.63,1490.9 214.96,1473.4 459.94,1210.9 110.11,937.26 358.96,678.38 366.32,670.73 \
+375.26,664.95 384.96,660.62",
+		style=solid];
+	"move-west" -> "robot-at'($x5, $y5)"	 [color=black,
+		pos="e,403.24,1720.5 150.6,1504.8 171.24,1508.5 195.72,1515.2 214.96,1527.4 300.01,1581.3 273.12,1649.7 358.96,1702.4 369.51,1708.9 381.37,\
+1713.8 393.49,1717.7",
+		style=solid];
+	"move-west" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,443,475.06 150.73,1500.3 172.95,1497.9 198.86,1491.1 214.96,1473.4 496.92,1163.3 132.5,894.08 358.96,541.38 376.69,513.78 407.22,\
+493.32 433.79,479.62",
+		style=solid];
+	"move-west" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,413.3,1553 150.57,1507.7 211.45,1518.2 325.27,1537.8 403.05,1551.2",
+		style=solid];
+	"move-west" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,404.62,1300.6 150.55,1495.4 171.06,1491.6 195.44,1485 214.96,1473.4 295.84,1425.4 277.38,1365.1 358.96,1318.4 369.93,1312.1 382.18,\
+1307.2 394.62,1303.4",
+		style=solid];
+	"move-west" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,439.87,721.69 150.64,1499.9 172.7,1497.4 198.47,1490.6 214.96,1473.4 432.25,1246.5 177.3,1037.7 358.96,781.38 376.59,756.51 405.17,\
+738.31 430.65,725.97",
+		style=solid];
+	"move-west" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,389.28,1507.8 150.57,1501.5 205.48,1503 303.46,1505.6 379.22,1507.6",
+		style=solid];
+	"move-west" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,418.2,1106.7 150.65,1498.4 172.04,1495.4 197.18,1488.5 214.96,1473.4 337.97,1368.5 241.44,1250.4 358.96,1139.4 372.74,1126.4 390.51,\
+1117 408.32,1110.2",
+		style=solid];
+	"robot-at($x1, $y4)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,455.54,275.82 170.28,142.26 185.11,146.24 200.76,150.98 214.96,156.38 300.94,189.08 395.53,241.09 446.79,270.73",
+		style=solid];
+	"robot-at($x1, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,425.35,635.84 186.02,138.87 196.67,143 206.75,148.65 214.96,156.38 364.43,297.17 220.79,443.48 358.96,595.38 374.14,612.07 395.29,\
+623.94 415.93,632.26",
+		style=solid];
+	"robot-at($x1, $y4)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,451.24,441.18 181.84,140.06 193.59,144.01 205.1,149.3 214.96,156.38 309.56,224.37 276.62,292.98 358.96,375.38 383.47,399.92 416.33,\
+421.27 442.34,436.18",
+		style=solid];
+	"robot-at($x1, $y4)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,395.55,698.22 186.88,138.74 197.29,142.9 207.07,148.59 214.96,156.38 385.89,325.19 184.81,511.9 358.96,677.38 366.8,684.83 376.15,\
+690.46 386.18,694.7",
+		style=solid];
+	"obstacle-at($x1, $y5)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,395.19,856.59 190.91,195.03 199.86,199.07 208.17,204.39 214.96,211.38 413.14,415.67 156.89,634.95 358.96,835.38 366.56,842.92 \
+375.7,848.62 385.55,852.9",
+		style=solid];
+	"obstacle-at($x1, $y5)" -> "robot-at'($x1, $y5)"	 [color=black,
+		pos="e,434.87,277.55 168,198.61 183.34,202.65 199.79,207.09 214.96,211.38 287.51,231.93 370.42,257.41 425.01,274.47",
+		style=solid];
+	"obstacle-at($x1, $y5)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,453.55,440.9 182.16,196.61 193.62,200.38 204.96,205.2 214.96,211.38 297.47,262.39 285.8,311.69 358.96,375.38 385.56,398.54 419.03,\
+420.3 444.78,435.72",
+		style=solid];
+	"obstacle-at($x5, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,395.25,2275.2 190.86,2916.7 199.82,2912.7 208.15,2907.4 214.96,2900.4 407.83,2703 162.33,2490 358.96,2296.4 366.58,2288.9 375.75,\
+2283.2 385.61,2278.9",
+		style=solid];
+	"obstacle-at($x5, $y2)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,395.44,2330.4 190.45,2916.7 199.53,2912.6 208,2907.3 214.96,2900.4 393.28,2722 177.25,2526.3 358.96,2351.4 366.75,2343.9 376.07,\
+2338.2 386.08,2334",
+		style=solid];
+	"obstacle-at($x5, $y2)" -> "obstacle-at'($x4, $y2)"	 [color=black,
+		pos="e,376.04,2928.4 215.11,2928.4 262.1,2928.4 317.5,2928.4 365.84,2928.4",
+		style=solid];
+	"obstacle-at($x5, $y2)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,398.57,2579.7 187.62,2916 197.5,2912.1 206.93,2907 214.96,2900.4 329.25,2805.9 242.87,2691.7 358.96,2599.4 367.85,2592.3 378.15,\
+2587 388.96,2582.9",
+		style=solid];
+	"obstacle-at($x5, $y2)" -> "robot-at'($x5, $y3)"	 [color=black,
+		pos="e,395.98,2385.6 190,2916.6 199.22,2912.6 207.84,2907.3 214.96,2900.4 378.8,2740.8 192.08,2562.8 358.96,2406.4 366.91,2398.9 376.38,\
+2393.3 386.52,2389.1",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "obstacle-at'($x1, $y4)"	 [color=black,
+		pos="e,376.04,348.38 215.11,348.38 262.1,348.38 317.5,348.38 365.84,348.38",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,393.83,1394.1 192,359.75 200.66,363.84 208.6,369.25 214.96,376.38 512.77,710.09 54.787,1044.5 358.96,1372.4 366.12,1380.1 374.9,\
+1385.9 384.45,1390.3",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "robot-at'($x2, $y5)"	 [color=black,
+		pos="e,396.15,856.02 189.87,360.32 199.11,364.29 207.77,369.52 214.96,376.38 369.64,523.98 201.47,690.79 358.96,835.38 366.99,842.75 \
+376.51,848.33 386.67,852.54",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,395.37,966.41 190.77,360.17 199.75,364.18 208.1,369.46 214.96,376.38 398.56,561.69 171.83,763.64 358.96,945.38 366.63,952.84 375.83,\
+958.49 385.71,962.74",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "robot-at'($x2, $y4)"	 [color=black,
+		pos="e,432.12,635.04 185.16,361.21 195.75,365.03 206.04,369.97 214.96,376.38 309.56,444.37 269.89,520.31 358.96,595.38 377.4,610.93 400.92,\
+622.77 422.62,631.41",
+		style=solid];
+	"obstacle-at($x2, $y4)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,434.87,442.55 168,363.61 183.34,367.65 199.79,372.09 214.96,376.38 287.51,396.93 370.42,422.41 425.01,439.47",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,394.66,1847.1 191.34,2586.8 200.16,2582.7 208.32,2577.4 214.96,2570.4 433.92,2339.1 135.6,2095.4 358.96,1868.4 366.4,1860.8 375.41,\
+1855.1 385.13,1850.8",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "robot-at'($x4, $y2)"	 [color=black,
+		pos="e,399.18,2276.9 186.84,2585.9 196.95,2582 206.66,2577 214.96,2570.4 322.62,2484.7 249.68,2379.9 358.96,2296.4 368.05,2289.4 378.52,\
+2284.1 389.47,2280.1",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,396.26,2110.9 189.51,2586.5 198.87,2582.5 207.66,2577.3 214.96,2570.4 364.43,2429.6 206.81,2269.3 358.96,2131.4 367.03,2124.1 \
+376.58,2118.5 386.76,2114.3",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,394.53,2577.9 206.9,2591.3 261.56,2587.4 329.42,2582.5 384.42,2578.6",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "obstacle-at'($x3, $y2)"	 [color=black,
+		pos="e,385.55,2619 206.41,2605.7 258.2,2609.5 321.93,2614.3 375.36,2618.2",
+		style=solid];
+	"obstacle-at($x4, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,393.85,1571.7 191.98,2587 200.64,2582.9 208.59,2577.5 214.96,2570.4 507.66,2243.3 60.027,1914.8 358.96,1593.4 366.13,1585.7 374.91,\
+1579.9 384.48,1575.5",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "robot-at'($x3, $y4)"	 [color=black,
+		pos="e,401.71,1409.7 184.46,1650.5 195.26,1646.7 205.8,1641.8 214.96,1635.4 306.82,1571.2 265.89,1490.8 358.96,1428.4 368.92,1421.7 380.22,\
+1416.6 391.87,1412.7",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "obstacle-at'($x2, $y3)"	 [color=black,
+		pos="e,378.04,1672 213.35,1666.7 261.39,1668.3 318.5,1670.1 367.93,1671.7",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "robot-at'($x3, $y3)"	 [color=black,
+		pos="e,405.01,1465.7 181.4,1650 193.08,1646.3 204.68,1641.5 214.96,1635.4 295.03,1588 278,1529.3 358.96,1483.4 370.15,1477 382.65,1472.1 \
+395.31,1468.3",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "robot-at'($x4, $y3)"	 [color=black,
+		pos="e,396.92,2095.6 188.98,1675.5 198.47,1679.4 207.44,1684.6 214.96,1691.4 350.23,1813.6 221.37,1955.8 358.96,2075.4 367.25,2082.6 \
+376.98,2088.1 387.3,2092.2",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,405.24,983.86 190.91,1651.7 199.86,1647.7 208.17,1642.4 214.96,1635.4 413.14,1431.1 164.46,1219.2 358.96,1011.4 368.98,1000.7 \
+381.9,992.95 395.63,987.38",
+		style=solid];
+	"obstacle-at($x3, $y3)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,420.02,1579 167.69,1648.1 183.1,1644.1 199.67,1639.6 214.96,1635.4 279.2,1617.6 294.39,1610 358.96,1593.4 375.47,1589.1 393.3,\
+1585 410.19,1581.2",
+		style=solid];
+	"robot-at($x3, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,414.45,1827.8 178.41,1785.8 242.43,1797.2 337.14,1814.1 404.33,1826",
+		style=solid];
+	"robot-at($x3, $y1)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,405.01,1575.7 178.32,1761 191.02,1757.1 203.78,1752 214.96,1745.4 295.03,1698 278,1639.3 358.96,1593.4 370.15,1587 382.65,1582.1 \
+395.31,1578.3",
+		style=solid];
+	"robot-at($x3, $y1)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,396.65,1297.8 185.96,1762.8 196.62,1758.7 206.72,1753.1 214.96,1745.4 361.32,1608.7 210,1452.3 358.96,1318.4 367.13,1311 376.78,\
+1305.5 387.06,1301.3",
+		style=solid];
+	"robot-at($x3, $y1)" -> "robot-at'($x3, $y1)"	 [color=black,
+		pos="e,401.71,1519.7 181.13,1761.7 193.08,1757.7 204.86,1752.4 214.96,1745.4 306.82,1681.2 265.89,1600.8 358.96,1538.4 368.92,1531.7 \
+380.22,1526.6 391.87,1522.7",
+		style=solid];
+	"robot-at($x2, $y2)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,398.24,926.45 193.91,945.44 251.64,940.08 327.98,932.98 387.99,927.4",
+		style=solid];
+	"robot-at($x2, $y2)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,391.72,968.43 199.62,958.23 254.53,961.14 324.63,964.87 381.61,967.89",
+		style=solid];
+	"robot-at($x2, $y2)" -> "robot-at'($x3, $y2)"	 [color=black,
+		pos="e,395.41,1558.4 187,963.63 197.39,967.8 207.14,973.53 214.96,981.38 395.12,1162.2 175.35,1360 358.96,1537.4 366.66,1544.8 375.86,\
+1550.5 385.75,1554.7",
+		style=solid];
+	"robot-at($x2, $y2)" -> "robot-at'($x2, $y1)"	 [color=black,
+		pos="e,397.81,1282.3 183.62,964.55 194.9,968.57 205.8,974.01 214.96,981.38 324.57,1069.6 247.35,1177.7 358.96,1263.4 367.65,1270.1 377.64,\
+1275.2 388.1,1279.1",
+		style=solid];
+	"robot-at($x2, $y2)" -> "robot-at'($x2, $y2)"	 [color=black,
+		pos="e,412.18,1081.2 171.91,967.05 186.31,970.98 201.36,975.75 214.96,981.38 283.42,1009.7 289.97,1038.4 358.96,1065.4 372.61,1070.7 \
+387.51,1075.2 402.13,1078.8",
+		style=solid];
+	"robot-at($x1, $y3)" -> "robot-at'($x1, $y2)"	 [color=black,
+		pos="e,396.15,911.02 186.38,413.88 196.92,418.01 206.87,423.67 214.96,431.38 369.64,578.98 201.47,745.79 358.96,890.38 366.99,897.75 \
+376.51,903.33 386.67,907.54",
+		style=solid];
+	"robot-at($x1, $y3)" -> "robot-at'($x2, $y3)"	 [color=black,
+		pos="e,395.9,966.29 186.86,413.77 197.27,417.92 207.06,423.61 214.96,431.38 384.05,597.79 186.7,782.26 358.96,945.38 366.87,952.88 376.32,\
+958.53 386.44,962.78",
+		style=solid];
+	"robot-at($x1, $y3)" -> "robot-at'($x1, $y4)"	 [color=black,
+		pos="e,408.38,447.2 184.21,414.45 246.07,423.49 333.54,436.26 398.2,445.71",
+		style=solid];
+	"robot-at($x1, $y3)" -> "robot-at'($x1, $y3)"	 [color=black,
+		pos="e,400.17,696.6 182.71,414.81 194.23,418.8 205.44,424.16 214.96,431.38 315.88,507.97 256.59,602.75 358.96,677.38 368.44,684.29 379.31,\
+689.55 390.6,693.54",
+		style=solid];
+	"obstacle-at($x5, $y1)" -> "robot-at'($x4, $y1)"	 [color=black,
+		pos="e,394.43,1846.9 191.78,2696.8 200.48,2692.8 208.48,2687.4 214.96,2680.4 463.34,2410.9 105.44,2133.1 358.96,1868.4 366.3,1860.7 375.24,\
+1854.9 384.93,1850.6",
+		style=solid];
+	"obstacle-at($x5, $y1)" -> "robot-at'($x5, $y1)"	 [color=black,
+		pos="e,397.99,2331.4 188.1,2696.1 197.84,2692.2 207.12,2687.1 214.96,2680.4 336.25,2576.6 235.7,2452.8 358.96,2351.4 367.66,2344.2 377.8,\
+2338.8 388.48,2334.7",
+		style=solid];
+	"obstacle-at($x5, $y1)" -> "robot-at'($x5, $y2)"	 [color=black,
+		pos="e,412.92,2583.6 174.1,2693.9 187.81,2690.1 202.03,2685.6 214.96,2680.4 283.02,2652.8 290.38,2625.6 358.96,2599.4 372.95,2594 388.23,\
+2589.6 403.17,2585.9",
+		style=solid];
+}

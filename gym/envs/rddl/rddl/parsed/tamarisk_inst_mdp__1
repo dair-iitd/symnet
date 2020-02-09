@@ -701,7 +701,7 @@ NONE
 16 18
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28574032 2
+36172016 2
 9 2
 16 27
 
@@ -735,7 +735,7 @@ NONE
 16 72
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28635232 2
+36233216 2
 11 2
 16 243
 
@@ -752,7 +752,7 @@ NONE
 16 144
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28629504 2
+36227488 2
 12 2
 16 729
 
@@ -769,7 +769,7 @@ NONE
 16 288
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28584672 2
+36182656 2
 13 2
 16 2187
 
@@ -786,7 +786,7 @@ NONE
 16 576
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28712736 2
+36310720 2
 14 2
 16 6561
 
@@ -803,7 +803,7 @@ NONE
 16 1152
 ## kleene state fluent hash keys (first line is the number of keys)
 3
-28713312 2
+36311296 2
 15 2
 16 19683
 
@@ -823,7 +823,7 @@ NONE
 16 2304
 ## kleene state fluent hash keys (first line is the number of keys)
 6
--863601800 28673968
+-1193075848 36271952
 8 6
 9 6
 10 6
@@ -846,7 +846,7 @@ NONE
 16 4608
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-28636256 28703712
+36234240 36301696
 8 18
 9 18
 10 18
@@ -925,7 +925,7 @@ NONE
 16 36864
 ## kleene state fluent hash keys (first line is the number of keys)
 8
-28673968 28712016
+36271952 36310000
 10 486
 11 486
 12 54
@@ -977,7 +977,7 @@ NONE
 16 147456
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-28703712 140302833056632
+36301696 140641805998968
 12 486
 13 486
 14 54

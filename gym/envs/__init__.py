@@ -508,7 +508,7 @@ register(
 
 # RDDL domains
 
-for i in range(1, 11):
+for i in range(1, 1001):
     register(
         id='RDDL-academic_advising{}-v1'.format(i),
         entry_point='gym.envs.rddl:RDDLEnv',

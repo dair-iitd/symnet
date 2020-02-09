@@ -853,7 +853,7 @@ out-of-fuel(x1, y2)
 0 false
 1 true
 ## formula
-or($s(1) $s(37))
+or($s(1) $s(37) $a(1))
 ## hash index
 1
 ## caching type 
@@ -932,7 +932,7 @@ NONE
 68 0
 69 0
 70 0
-71 0
+71 1
 72 0
 
 ## index
@@ -1681,7 +1681,7 @@ out-of-fuel(x3, y3)
 0 false
 1 true
 ## formula
-or($s(10) $s(46))
+or($s(10) $s(46) $a(10))
 ## hash index
 10
 ## caching type 
@@ -1751,7 +1751,7 @@ NONE
 59 0
 60 0
 61 0
-62 0
+62 1
 63 0
 64 0
 65 0
@@ -2141,7 +2141,7 @@ out-of-fuel(x4, y4)
 0 false
 1 true
 ## formula
-or($s(15) $s(51))
+or($s(15) $s(51) $a(15))
 ## hash index
 15
 ## caching type 
@@ -2206,7 +2206,7 @@ NONE
 54 0
 55 0
 56 0
-57 0
+57 1
 58 0
 59 0
 60 0
@@ -2417,7 +2417,7 @@ out-of-fuel(x5, y3)
 0 false
 1 true
 ## formula
-or($s(18) $s(54))
+or($s(18) $s(54) $a(18))
 ## hash index
 18
 ## caching type 
@@ -2479,7 +2479,7 @@ NONE
 51 0
 52 0
 53 0
-54 0
+54 1
 55 0
 56 0
 57 0
@@ -2509,7 +2509,7 @@ out-of-fuel(x5, y4)
 0 false
 1 true
 ## formula
-or($s(19) $s(55))
+or($s(19) $s(55) $a(19))
 ## hash index
 19
 ## caching type 
@@ -2570,7 +2570,7 @@ NONE
 50 0
 51 0
 52 0
-53 0
+53 1
 54 0
 55 0
 56 0
@@ -3245,7 +3245,7 @@ out-of-fuel(x7, y4)
 0 false
 1 true
 ## formula
-or($s(27) $s(63))
+or($s(27) $s(63) $a(27))
 ## hash index
 27
 ## caching type 
@@ -3298,7 +3298,7 @@ NONE
 42 0
 43 0
 44 0
-45 0
+45 1
 46 0
 47 0
 48 0
@@ -3521,7 +3521,7 @@ out-of-fuel(x8, y3)
 0 false
 1 true
 ## formula
-or($s(30) $s(66))
+or($s(30) $s(66) $a(30))
 ## hash index
 30
 ## caching type 
@@ -3571,7 +3571,7 @@ NONE
 39 0
 40 0
 41 0
-42 0
+42 1
 43 0
 44 0
 45 0
@@ -3613,7 +3613,7 @@ out-of-fuel(x8, y4)
 0 false
 1 true
 ## formula
-or($s(31) $s(67))
+or($s(31) $s(67) $a(31))
 ## hash index
 31
 ## caching type 
@@ -3662,7 +3662,7 @@ NONE
 38 0
 39 0
 40 0
-41 0
+41 1
 42 0
 43 0
 44 0
@@ -3797,7 +3797,7 @@ out-of-fuel(x9, y2)
 0 false
 1 true
 ## formula
-or($s(33) $s(69))
+or($s(33) $s(69) $a(33))
 ## hash index
 33
 ## caching type 
@@ -3844,7 +3844,7 @@ NONE
 36 0
 37 0
 38 0
-39 0
+39 1
 40 0
 41 0
 42 0
@@ -3889,7 +3889,7 @@ out-of-fuel(x9, y3)
 0 false
 1 true
 ## formula
-or($s(34) $s(70))
+or($s(34) $s(70) $a(34))
 ## hash index
 34
 ## caching type 
@@ -3935,7 +3935,7 @@ NONE
 35 0
 36 0
 37 0
-38 0
+38 1
 39 0
 40 0
 41 0
@@ -4168,7 +4168,7 @@ burning(x1, y2)
 0 false
 1 true
 ## formula
-switch( ($a(37) : $c(0)) (and(~($s(1)) ~($s(37)) ~(or($s(36) $s(38) $s(40) $s(41) $s(42)))) : $c(0)) (and(~($s(1)) ~($s(37))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(36) $s(38) $s(40) $s(41) $s(42)))) $c(1))))) ($c(1) : $s(37)) )
+switch( ($a(37) : $c(0)) (and(~($s(1)) ~($s(37))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(36) $s(38) $s(40) $s(41) $s(42)))) $c(1))))) ($c(1) : $s(37)) )
 ## hash index
 37
 ## caching type 
@@ -4996,7 +4996,7 @@ burning(x3, y3)
 0 false
 1 true
 ## formula
-switch( ($a(46) : $c(0)) (and(~($s(10)) ~($s(46)) ~(or($s(41) $s(42) $s(43) $s(45) $s(47) $s(49) $s(50) $s(51)))) : $c(0)) (and(~($s(10)) ~($s(46))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(41) $s(42) $s(43) $s(45) $s(47) $s(49) $s(50) $s(51)))) $c(1))))) ($c(1) : $s(46)) )
+switch( ($a(46) : $c(0)) (and(~($s(10)) ~($s(46))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(41) $s(42) $s(43) $s(45) $s(47) $s(49) $s(50) $s(51)))) $c(1))))) ($c(1) : $s(46)) )
 ## hash index
 46
 ## caching type 
@@ -5456,7 +5456,7 @@ burning(x4, y4)
 0 false
 1 true
 ## formula
-switch( ($a(51) : $c(0)) (and(~($s(15)) ~($s(51)) ~(or($s(46) $s(50) $s(54) $s(55)))) : $c(0)) (and(~($s(15)) ~($s(51))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(46) $s(50) $s(54) $s(55)))) $c(1))))) ($c(1) : $s(51)) )
+switch( ($a(51) : $c(0)) (and(~($s(15)) ~($s(51))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(46) $s(50) $s(54) $s(55)))) $c(1))))) ($c(1) : $s(51)) )
 ## hash index
 51
 ## caching type 
@@ -5732,7 +5732,7 @@ burning(x5, y3)
 0 false
 1 true
 ## formula
-switch( ($a(54) : $c(0)) (and(~($s(18)) ~($s(54)) ~(or($s(49) $s(50) $s(51) $s(53) $s(55) $s(57) $s(58) $s(59)))) : $c(0)) (and(~($s(18)) ~($s(54))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(49) $s(50) $s(51) $s(53) $s(55) $s(57) $s(58) $s(59)))) $c(1))))) ($c(1) : $s(54)) )
+switch( ($a(54) : $c(0)) (and(~($s(18)) ~($s(54))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(49) $s(50) $s(51) $s(53) $s(55) $s(57) $s(58) $s(59)))) $c(1))))) ($c(1) : $s(54)) )
 ## hash index
 54
 ## caching type 
@@ -5824,7 +5824,7 @@ burning(x5, y4)
 0 false
 1 true
 ## formula
-switch( ($a(55) : $c(0)) (and(~($s(19)) ~($s(55)) ~(or($s(50) $s(51) $s(54) $s(58) $s(59)))) : $c(0)) (and(~($s(19)) ~($s(55))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(50) $s(51) $s(54) $s(58) $s(59)))) $c(1))))) ($c(1) : $s(55)) )
+switch( ($a(55) : $c(0)) (and(~($s(19)) ~($s(55))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(50) $s(51) $s(54) $s(58) $s(59)))) $c(1))))) ($c(1) : $s(55)) )
 ## hash index
 55
 ## caching type 
@@ -6560,7 +6560,7 @@ burning(x7, y4)
 0 false
 1 true
 ## formula
-switch( ($a(63) : $c(0)) (and(~($s(27)) ~($s(63)) ~(or($s(58) $s(59) $s(62) $s(66) $s(67)))) : $c(0)) (and(~($s(27)) ~($s(63))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(58) $s(59) $s(62) $s(66) $s(67)))) $c(1))))) ($c(1) : $s(63)) )
+switch( ($a(63) : $c(0)) (and(~($s(27)) ~($s(63))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(58) $s(59) $s(62) $s(66) $s(67)))) $c(1))))) ($c(1) : $s(63)) )
 ## hash index
 63
 ## caching type 
@@ -6836,7 +6836,7 @@ burning(x8, y3)
 0 false
 1 true
 ## formula
-switch( ($a(66) : $c(0)) (and(~($s(30)) ~($s(66)) ~(or($s(61) $s(62) $s(63) $s(67) $s(69) $s(70)))) : $c(0)) (and(~($s(30)) ~($s(66))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(61) $s(62) $s(63) $s(67) $s(69) $s(70)))) $c(1))))) ($c(1) : $s(66)) )
+switch( ($a(66) : $c(0)) (and(~($s(30)) ~($s(66))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(61) $s(62) $s(63) $s(67) $s(69) $s(70)))) $c(1))))) ($c(1) : $s(66)) )
 ## hash index
 66
 ## caching type 
@@ -6928,7 +6928,7 @@ burning(x8, y4)
 0 false
 1 true
 ## formula
-switch( ($a(67) : $c(0)) (and(~($s(31)) ~($s(67)) ~(or($s(63) $s(66) $s(70) $s(71)))) : $c(0)) (and(~($s(31)) ~($s(67))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(63) $s(66) $s(70) $s(71)))) $c(1))))) ($c(1) : $s(67)) )
+switch( ($a(67) : $c(0)) (and(~($s(31)) ~($s(67))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(63) $s(66) $s(70) $s(71)))) $c(1))))) ($c(1) : $s(67)) )
 ## hash index
 67
 ## caching type 
@@ -7112,7 +7112,7 @@ burning(x9, y2)
 0 false
 1 true
 ## formula
-switch( ($a(69) : $c(0)) (and(~($s(33)) ~($s(69)) ~(or($s(64) $s(65) $s(66) $s(68) $s(70)))) : $c(0)) (and(~($s(33)) ~($s(69))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(64) $s(65) $s(66) $s(68) $s(70)))) $c(1))))) ($c(1) : $s(69)) )
+switch( ($a(69) : $c(0)) (and(~($s(33)) ~($s(69))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(64) $s(65) $s(66) $s(68) $s(70)))) $c(1))))) ($c(1) : $s(69)) )
 ## hash index
 69
 ## caching type 
@@ -7204,7 +7204,7 @@ burning(x9, y3)
 0 false
 1 true
 ## formula
-switch( ($a(70) : $c(0)) (and(~($s(34)) ~($s(70)) ~(or($s(65) $s(66) $s(67) $s(69) $s(71)))) : $c(0)) (and(~($s(34)) ~($s(70))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(65) $s(66) $s(67) $s(69) $s(71)))) $c(1))))) ($c(1) : $s(70)) )
+switch( ($a(70) : $c(0)) (and(~($s(34)) ~($s(70))) : Bernoulli(/($c(1) +(exp(-($c(4.5) +($s(65) $s(66) $s(67) $s(69) $s(71)))) $c(1))))) ($c(1) : $s(70)) )
 ## hash index
 70
 ## caching type 
@@ -7382,9 +7382,9 @@ NONE
 
 #####REWARD#####
 ## formula
-+(*($a(0) $c(-5)) *($a(1) $c(-5)) *($a(2) $c(-5)) *($a(3) $c(-5)) *($a(4) $c(-5)) *($a(5) $c(-5)) *($a(6) $c(-5)) *($a(7) $c(-5)) *($a(8) $c(-5)) *($a(9) $c(-5)) *($a(10) $c(-5)) *($a(11) $c(-5)) *($a(12) $c(-5)) *($a(13) $c(-5)) *($a(14) $c(-5)) *($a(15) $c(-5)) *($a(16) $c(-5)) *($a(17) $c(-5)) *($a(18) $c(-5)) *($a(19) $c(-5)) *($a(20) $c(-5)) *($a(21) $c(-5)) *($a(22) $c(-5)) *($a(23) $c(-5)) *($a(24) $c(-5)) *($a(25) $c(-5)) *($a(26) $c(-5)) *($a(27) $c(-5)) *($a(28) $c(-5)) *($a(29) $c(-5)) *($a(30) $c(-5)) *($a(31) $c(-5)) *($a(32) $c(-5)) *($a(33) $c(-5)) *($a(34) $c(-5)) *($a(35) $c(-5)) *($a(36) $c(-10)) *($a(37) $c(-10)) *($a(38) $c(-10)) *($a(39) $c(-10)) *($a(40) $c(-10)) *($a(41) $c(-10)) *($a(42) $c(-10)) *($a(43) $c(-10)) *($a(44) $c(-10)) *($a(45) $c(-10)) *($a(46) $c(-10)) *($a(47) $c(-10)) *($a(48) $c(-10)) *($a(49) $c(-10)) *($a(50) $c(-10)) *($a(51) $c(-10)) *($a(52) $c(-10)) *($a(53) $c(-10)) *($a(54) $c(-10)) *($a(55) $c(-10)) *($a(56) $c(-10)) *($a(57) $c(-10)) *($a(58) $c(-10)) *($a(59) $c(-10)) *($a(60) $c(-10)) *($a(61) $c(-10)) *($a(62) $c(-10)) *($a(63) $c(-10)) *($a(64) $c(-10)) *($a(65) $c(-10)) *($a(66) $c(-10)) *($a(67) $c(-10)) *($a(68) $c(-10)) *($a(69) $c(-10)) *($a(70) $c(-10)) *($a(71) $c(-10)) *(or($s(37) $s(1)) $c(-100)) *(or($s(46) $s(10)) $c(-100)) *(or($s(51) $s(15)) $c(-100)) *(or($s(54) $s(18)) $c(-100)) *(or($s(55) $s(19)) $c(-100)) *(or($s(63) $s(27)) $c(-100)) *(or($s(66) $s(30)) $c(-100)) *(or($s(67) $s(31)) $c(-100)) *(or($s(69) $s(33)) $c(-100)) *(or($s(70) $s(34)) $c(-100)) *($s(36) $c(-5)) *($s(38) $c(-5)) *($s(39) $c(-5)) *($s(40) $c(-5)) *($s(41) $c(-5)) *($s(42) $c(-5)) *($s(43) $c(-5)) *($s(44) $c(-5)) *($s(45) $c(-5)) *($s(47) $c(-5)) *($s(48) $c(-5)) *($s(49) $c(-5)) *($s(50) $c(-5)) *($s(52) $c(-5)) *($s(53) $c(-5)) *($s(56) $c(-5)) *($s(57) $c(-5)) *($s(58) $c(-5)) *($s(59) $c(-5)) *($s(60) $c(-5)) *($s(61) $c(-5)) *($s(62) $c(-5)) *($s(64) $c(-5)) *($s(65) $c(-5)) *($s(68) $c(-5)) *($s(71) $c(-5)))
++(*($a(0) $c(-5)) *($a(1) $c(-5)) *($a(2) $c(-5)) *($a(3) $c(-5)) *($a(4) $c(-5)) *($a(5) $c(-5)) *($a(6) $c(-5)) *($a(7) $c(-5)) *($a(8) $c(-5)) *($a(9) $c(-5)) *($a(10) $c(-5)) *($a(11) $c(-5)) *($a(12) $c(-5)) *($a(13) $c(-5)) *($a(14) $c(-5)) *($a(15) $c(-5)) *($a(16) $c(-5)) *($a(17) $c(-5)) *($a(18) $c(-5)) *($a(19) $c(-5)) *($a(20) $c(-5)) *($a(21) $c(-5)) *($a(22) $c(-5)) *($a(23) $c(-5)) *($a(24) $c(-5)) *($a(25) $c(-5)) *($a(26) $c(-5)) *($a(27) $c(-5)) *($a(28) $c(-5)) *($a(29) $c(-5)) *($a(30) $c(-5)) *($a(31) $c(-5)) *($a(32) $c(-5)) *($a(33) $c(-5)) *($a(34) $c(-5)) *($a(35) $c(-5)) *($a(36) $c(-10)) *($a(37) $c(-10)) *($a(38) $c(-10)) *($a(39) $c(-10)) *($a(40) $c(-10)) *($a(41) $c(-10)) *($a(42) $c(-10)) *($a(43) $c(-10)) *($a(44) $c(-10)) *($a(45) $c(-10)) *($a(46) $c(-10)) *($a(47) $c(-10)) *($a(48) $c(-10)) *($a(49) $c(-10)) *($a(50) $c(-10)) *($a(51) $c(-10)) *($a(52) $c(-10)) *($a(53) $c(-10)) *($a(54) $c(-10)) *($a(55) $c(-10)) *($a(56) $c(-10)) *($a(57) $c(-10)) *($a(58) $c(-10)) *($a(59) $c(-10)) *($a(60) $c(-10)) *($a(61) $c(-10)) *($a(62) $c(-10)) *($a(63) $c(-10)) *($a(64) $c(-10)) *($a(65) $c(-10)) *($a(66) $c(-10)) *($a(67) $c(-10)) *($a(68) $c(-10)) *($a(69) $c(-10)) *($a(70) $c(-10)) *($a(71) $c(-10)) *($s(36) $c(-5)) *($s(37) $c(-5)) *($s(38) $c(-5)) *($s(39) $c(-5)) *($s(40) $c(-5)) *($s(41) $c(-5)) *($s(42) $c(-5)) *($s(43) $c(-5)) *($s(44) $c(-5)) *($s(45) $c(-5)) *($s(46) $c(-5)) *($s(47) $c(-5)) *($s(48) $c(-5)) *($s(49) $c(-5)) *($s(50) $c(-5)) *($s(51) $c(-5)) *($s(52) $c(-5)) *($s(53) $c(-5)) *($s(54) $c(-5)) *($s(55) $c(-5)) *($s(56) $c(-5)) *($s(57) $c(-5)) *($s(58) $c(-5)) *($s(59) $c(-5)) *($s(60) $c(-5)) *($s(61) $c(-5)) *($s(62) $c(-5)) *($s(63) $c(-5)) *($s(64) $c(-5)) *($s(65) $c(-5)) *($s(66) $c(-5)) *($s(67) $c(-5)) *($s(68) $c(-5)) *($s(69) $c(-5)) *($s(70) $c(-5)) *($s(71) $c(-5)))
 ## min
--1140
+-190
 ## max
 -0
 ## independent from actions
@@ -8075,10 +8075,9 @@ NONE
 1
 
 ## state fluent hash keys (first line is the number of keys)
-3
-1 1
+2
+1 2
 37 2
-72 73
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8166,10 +8165,9 @@ NONE
 10
 
 ## state fluent hash keys (first line is the number of keys)
-3
-10 1
+2
+10 2
 46 2
-72 146
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8217,10 +8215,9 @@ NONE
 15
 
 ## state fluent hash keys (first line is the number of keys)
-3
-15 1
+2
+15 2
 51 2
-72 292
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8248,10 +8245,9 @@ NONE
 18
 
 ## state fluent hash keys (first line is the number of keys)
-3
-18 1
+2
+18 2
 54 2
-72 584
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8259,10 +8255,9 @@ NONE
 19
 
 ## state fluent hash keys (first line is the number of keys)
-3
-19 1
+2
+19 2
 55 2
-72 1168
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8340,10 +8335,9 @@ NONE
 27
 
 ## state fluent hash keys (first line is the number of keys)
-3
-27 1
+2
+27 2
 63 2
-72 2336
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8371,10 +8365,9 @@ NONE
 30
 
 ## state fluent hash keys (first line is the number of keys)
-3
-30 1
+2
+30 2
 66 2
-72 4672
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8382,10 +8375,9 @@ NONE
 31
 
 ## state fluent hash keys (first line is the number of keys)
-3
-31 1
+2
+31 2
 67 2
-72 9344
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8403,10 +8395,9 @@ NONE
 33
 
 ## state fluent hash keys (first line is the number of keys)
-3
-33 1
+2
+33 2
 69 2
-72 18688
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8414,10 +8405,9 @@ NONE
 34
 
 ## state fluent hash keys (first line is the number of keys)
-3
-34 1
+2
+34 2
 70 2
-72 37376
 ## kleene state fluent hash keys (first line is the number of keys)
 0
 
@@ -8443,10 +8433,10 @@ NONE
 37 4
 40 4
 41 4
-72 74752
+72 73
 ## kleene state fluent hash keys (first line is the number of keys)
 5
-19572704 17629120
+33940816 32527760
 36 6
 37 6
 40 6
@@ -8457,16 +8447,16 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 7
-1 2
+1 4
 36 8
 37 8
 38 4
 41 8
 42 4
-72 149504
+72 146
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-17599408 17966800
+1 6
 36 18
 37 18
 38 6
@@ -8485,7 +8475,7 @@ NONE
 41 16
 42 8
 43 4
-72 299008
+72 292
 ## kleene state fluent hash keys (first line is the number of keys)
 7
 2 6
@@ -8506,10 +8496,10 @@ NONE
 39 8
 42 16
 43 8
-72 598016
+72 584
 ## kleene state fluent hash keys (first line is the number of keys)
 5
-17966800 18092992
+32527760 32338320
 38 54
 39 18
 42 54
@@ -8527,7 +8517,7 @@ NONE
 41 32
 44 4
 45 4
-72 1196032
+72 1168
 ## kleene state fluent hash keys (first line is the number of keys)
 7
 4 6
@@ -8551,7 +8541,7 @@ NONE
 42 32
 44 8
 46 4
-72 2392064
+72 2336
 ## kleene state fluent hash keys (first line is the number of keys)
 8
 5 6
@@ -8577,10 +8567,10 @@ NONE
 45 8
 46 8
 47 4
-72 4784128
+72 4672
 ## kleene state fluent hash keys (first line is the number of keys)
 9
-17629120 17761088
+32189936 32322048
 37 1458
 38 486
 39 54
@@ -8602,7 +8592,7 @@ NONE
 43 32
 46 16
 47 8
-72 9568256
+72 9344
 ## kleene state fluent hash keys (first line is the number of keys)
 7
 7 6
@@ -8625,10 +8615,10 @@ NONE
 45 16
 48 4
 49 4
-72 19136512
+72 18688
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-18349552 18497168
+32322048 32653984
 40 54
 41 1458
 44 54
@@ -8650,10 +8640,10 @@ NONE
 46 32
 49 8
 50 4
-72 38273024
+72 37376
 ## kleene state fluent hash keys (first line is the number of keys)
 9
-17761088 18101056
+32338320 32662048
 40 162
 41 4374
 42 4374
@@ -8668,7 +8658,7 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 10
-10 2
+10 4
 42 512
 43 64
 45 64
@@ -8677,10 +8667,10 @@ NONE
 49 16
 50 8
 51 4
-72 76546048
+72 74752
 ## kleene state fluent hash keys (first line is the number of keys)
 9
-18092992 17573584
+32653984 32160224
 42 13122
 43 486
 45 486
@@ -8701,10 +8691,10 @@ NONE
 46 128
 47 32
 50 16
-72 153092096
+72 149504
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-18101056 17976128
+32662048 32536848
 42 39366
 43 1458
 46 1458
@@ -8723,10 +8713,10 @@ NONE
 49 32
 52 4
 53 4
-72 306184192
+72 299008
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-17573584 18233152
+32160224 32794064
 44 486
 45 1458
 48 18
@@ -8749,10 +8739,10 @@ NONE
 52 8
 53 8
 54 4
-72 612368384
+72 598016
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-17976128 18349552
+32536848 32910464
 44 1458
 45 4374
 46 4374
@@ -8778,10 +8768,10 @@ NONE
 53 16
 54 8
 55 4
-72 1224736768
+72 1196032
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-18233152 17777360
+32794064 32134688
 45 13122
 46 13122
 47 486
@@ -8797,17 +8787,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-15 2
+15 4
 46 1024
 47 128
 50 128
 51 16
 54 16
 55 8
-72 2449473536
+72 2392064
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-15 3
+32910464 32595056
 46 39366
 47 1458
 50 1458
@@ -8826,10 +8816,10 @@ NONE
 53 32
 56 4
 57 4
-72 4898947072
+72 4784128
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-17976544 18616864
+32134688 33057936
 48 162
 52 54
 53 162
@@ -8851,10 +8841,10 @@ NONE
 56 8
 57 8
 58 4
-72 9797894144
+72 9568256
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-17777360 18571056
+32595056 33131968
 48 486
 49 4374
 50 4374
@@ -8870,7 +8860,7 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 10
-18 2
+18 4
 49 512
 51 32
 53 128
@@ -8879,10 +8869,10 @@ NONE
 57 16
 58 8
 59 4
-72 19595788288
+72 19136512
 ## kleene state fluent hash keys (first line is the number of keys)
 9
-18497168 18364928
+33057936 32925840
 49 13122
 51 162
 53 1458
@@ -8897,17 +8887,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-19 2
+19 4
 50 512
 51 64
 54 128
 55 32
 58 16
 59 8
-72 39191576576
+72 38273024
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-18571056 18102000
+33131968 32337584
 50 13122
 51 486
 54 1458
@@ -8926,10 +8916,10 @@ NONE
 56 16
 57 32
 60 4
-72 78383153152
+72 76546048
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-18364928 18733552
+32925840 33294272
 52 486
 53 4374
 56 54
@@ -8951,10 +8941,10 @@ NONE
 60 8
 61 4
 62 4
-72 156766306304
+72 153092096
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-18380464 18748928
+32941376 33309648
 52 1458
 53 13122
 54 4374
@@ -8980,10 +8970,10 @@ NONE
 61 8
 62 8
 63 4
-72 313532612608
+72 306184192
 ## kleene state fluent hash keys (first line is the number of keys)
 10
-18102000 17976544
+32337584 32537232
 53 39366
 54 13122
 55 486
@@ -9006,10 +8996,10 @@ NONE
 59 32
 62 16
 63 8
-72 627065225216
+72 612368384
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-18733552 18380464
+23 6
 54 39366
 55 1458
 58 1458
@@ -9029,10 +9019,10 @@ NONE
 61 16
 64 4
 65 4
-72 1254130450432
+72 1224736768
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-24 6
+32537232 33177584
 56 486
 57 4374
 60 54
@@ -9053,7 +9043,7 @@ NONE
 62 32
 65 8
 66 4
-72 2508260900864
+72 2449473536
 ## kleene state fluent hash keys (first line is the number of keys)
 8
 25 6
@@ -9078,7 +9068,7 @@ NONE
 62 64
 63 16
 66 8
-72 5016521801728
+72 4898947072
 ## kleene state fluent hash keys (first line is the number of keys)
 8
 26 6
@@ -9095,17 +9085,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-27 2
+27 4
 58 512
 59 128
 62 128
 63 32
 66 16
 67 4
-72 10033043603456
+72 9797894144
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-18616864 18783328
+33177584 33343872
 58 13122
 59 1458
 62 1458
@@ -9124,10 +9114,10 @@ NONE
 65 16
 68 4
 69 4
-72 20066087206912
+72 19595788288
 ## kleene state fluent hash keys (first line is the number of keys)
 6
-18821456 18841920
+33344688 33402640
 60 486
 64 18
 65 54
@@ -9147,10 +9137,10 @@ NONE
 68 8
 69 8
 70 4
-72 40132174413824
+72 39191576576
 ## kleene state fluent hash keys (first line is the number of keys)
 8
-18748928 18813232
+33309648 33373952
 60 1458
 61 1458
 62 4374
@@ -9164,7 +9154,7 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 9
-30 2
+30 4
 61 256
 62 512
 63 64
@@ -9172,10 +9162,10 @@ NONE
 67 8
 69 16
 70 8
-72 80264348827648
+72 78383153152
 ## kleene state fluent hash keys (first line is the number of keys)
 8
-18783328 18821456
+33343872 33382176
 61 4374
 62 13122
 63 486
@@ -9189,17 +9179,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-31 2
+31 4
 62 1024
 63 128
 66 64
 67 16
 70 16
 71 4
-72 160528697655296
+72 156766306304
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-18813232 18826240
+33373952 33344688
 62 39366
 63 1458
 66 486
@@ -9217,10 +9207,10 @@ NONE
 65 64
 68 16
 69 32
-72 321057395310592
+72 313532612608
 ## kleene state fluent hash keys (first line is the number of keys)
 5
-18826240 139702596561784
+33382176 33386960
 64 54
 65 486
 68 54
@@ -9231,17 +9221,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-33 2
+33 4
 64 32
 65 128
 66 128
 68 32
 69 64
 70 32
-72 642114790621184
+72 627065225216
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-33 3
+33 6
 64 162
 65 1458
 66 1458
@@ -9254,17 +9244,17 @@ NONE
 
 ## state fluent hash keys (first line is the number of keys)
 8
-34 2
+34 4
 65 256
 66 256
 67 32
 69 128
 70 64
 71 8
-72 1284229581242368
+72 1254130450432
 ## kleene state fluent hash keys (first line is the number of keys)
 7
-34 3
+33386960 140364394752888
 65 4374
 66 4374
 67 162
@@ -9281,7 +9271,7 @@ NONE
 67 64
 70 128
 71 16
-72 2568459162484736
+72 2508260900864
 ## kleene state fluent hash keys (first line is the number of keys)
 4
 0 6
