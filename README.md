@@ -1,3 +1,6 @@
+### The code for successor version of SymNet (published in [UAI 2022](https://openreview.net/forum?id=BWgudIo9g9)), is available at [SymNet 2.0](https://github.com/dair-iitd/symnet2)
+
+<hr/>
 # SymNet
 Public code for symnet for ICML submission
 
